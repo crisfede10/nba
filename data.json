@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T18:56:40.917639Z",
+ "updated": "2026-11-14T21:31:51.603836Z",
  "finished": [
   {
    "date": "2026-11-14T03:30Z",
@@ -256,9 +256,10 @@
    "awayName": "Brooklyn Nets",
    "hs": 0,
    "as": 0,
-   "pHome": 73.5,
+   "pHome": 66.3,
    "why": [
-    "Back-to-back: MEM"
+    "Back-to-back: MEM",
+    "Ty Jerome (Out, MEM)"
    ]
   },
   {
@@ -299,10 +300,8 @@
    "awayName": "Los Angeles Lakers",
    "hs": 0,
    "as": 0,
-   "pHome": 36.4,
-   "why": [
-    "Luka Doncic (Day-To-Day, LAL)"
-   ]
+   "pHome": 31.8,
+   "why": []
   },
   {
    "date": "2026-11-15T21:30Z",
@@ -436,9 +435,10 @@
    "awayName": "Memphis Grizzlies",
    "hs": 0,
    "as": 0,
-   "pHome": 22.7,
+   "pHome": 29.3,
    "why": [
-    "Back-to-back: WSH"
+    "Back-to-back: WSH",
+    "Ty Jerome (Out, MEM)"
    ]
   },
   {
@@ -1378,6 +1378,20 @@
    "date": "2026-08-26T20:04Z"
   },
   {
+   "player": "Collin Sexton",
+   "team": "Los Angeles Lakers",
+   "status": "Day-To-Day",
+   "note": "Sexton (head) was a full participant in Saturday's practice, Dave McMenamin of ESPN.com reports.",
+   "date": "2026-11-14T20:25Z"
+  },
+  {
+   "player": "Austin Reaves",
+   "team": "Los Angeles Lakers",
+   "status": "Day-To-Day",
+   "note": "Reaves (heel) didn't participate in Saturday's practice, Dave McMenamin of ESPN.com reports.",
+   "date": "2026-11-14T20:15Z"
+  },
+  {
    "player": "Quentin Grimes",
    "team": "Los Angeles Lakers",
    "status": "Day-To-Day",
@@ -1385,39 +1399,32 @@
    "date": "2026-11-13T21:26Z"
   },
   {
-   "player": "Austin Reaves",
-   "team": "Los Angeles Lakers",
-   "status": "Day-To-Day",
-   "note": "Reaves (heel) won't undergo imaging and is considered day-to-day ahead of Sunday's game against the Suns, Jovan Buha of The Athletic reports.",
-   "date": "2026-11-13T20:40Z"
-  },
-  {
-   "player": "Luka Doncic",
-   "team": "Los Angeles Lakers",
-   "status": "Day-To-Day",
-   "note": "Head coach JJ Redick said Friday that Doncic (ankle) is \"fine,\" per Law Murray of The Athletic.",
-   "date": "2026-11-13T20:40Z"
-  },
-  {
-   "player": "Collin Sexton",
-   "team": "Los Angeles Lakers",
-   "status": "Day-To-Day",
-   "note": "Sexton did not return to Wednesday's 123-112 win over the Bucks and required stitches to close a cut on his forehead, Thuc Nhi Nguyen of the Los Angeles Times reports.",
-   "date": "2026-11-12T04:40Z"
-  },
-  {
    "player": "Quinten Post",
    "team": "Memphis Grizzlies",
+   "status": "Out",
+   "note": "Post (concussion) has been ruled out for Saturday's game against the Nets.",
+   "date": "2026-11-14T19:47Z"
+  },
+  {
+   "player": "Jerami Grant",
+   "team": "Memphis Grizzlies",
    "status": "Day-To-Day",
-   "note": "Post (concussion) has been ruled out for Friday's game against New Orleans.",
-   "date": "2026-11-14T15:02Z"
+   "note": "Grant (head) is questionable for Saturday's game against the Nets.",
+   "date": "2026-11-14T19:46Z"
   },
   {
    "player": "Zach Edey",
    "team": "Memphis Grizzlies",
    "status": "Day-To-Day",
-   "note": "Edey won't play in Friday's game against the Pelicans due to left ankle injury management.",
-   "date": "2026-11-14T15:02Z"
+   "note": "Edey (ankle) is listed as questionable for Saturday's game against Brooklyn.",
+   "date": "2026-11-14T19:45Z"
+  },
+  {
+   "player": "Ty Jerome",
+   "team": "Memphis Grizzlies",
+   "status": "Out",
+   "note": "Jerome (hip) has been ruled out for Saturday's game against the Nets.",
+   "date": "2026-11-14T19:44Z"
   },
   {
    "player": "Scotty Pippen Jr.",
@@ -1749,11 +1756,25 @@
    "date": "2026-10-27T19:25Z"
   },
   {
+   "player": "Alex Sarr",
+   "team": "Washington Wizards",
+   "status": "Day-To-Day",
+   "note": "Sarr provided 30 points (12-14 FG, 4-6 3Pt, 2-4 FT), nine rebounds, two assists, one block and two steals over 44 minutes during Thursday's 144-140 double-overtime loss to the Pistons.",
+   "date": "2026-11-14T21:23Z"
+  },
+  {
+   "player": "Tre Johnson",
+   "team": "Washington Wizards",
+   "status": "Day-To-Day",
+   "note": "Johnson is listed as questionable for Sunday's game against the Rockets due to lower-back soreness.",
+   "date": "2026-11-14T21:09Z"
+  },
+  {
    "player": "Bub Carrington",
    "team": "Washington Wizards",
    "status": "Day-To-Day",
-   "note": "Carrington (chest) has been ruled out for the remainder of Thursday's game against the Pistons.",
-   "date": "2026-11-13T03:26Z"
+   "note": "Carrington (chest) is listed as questionable for Sunday's game against Houston.",
+   "date": "2026-11-14T21:05Z"
   },
   {
    "player": "Tristan Vukcevic",
@@ -1784,5 +1805,36 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "changes": []
+ "changes": [
+  {
+   "player": "Quinten Post",
+   "team": "Memphis Grizzlies",
+   "from": "Day-To-Day",
+   "to": "Out"
+  },
+  {
+   "player": "Jerami Grant",
+   "team": "Memphis Grizzlies",
+   "from": "nuovo",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Ty Jerome",
+   "team": "Memphis Grizzlies",
+   "from": "nuovo",
+   "to": "Out"
+  },
+  {
+   "player": "Alex Sarr",
+   "team": "Washington Wizards",
+   "from": "nuovo",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Tre Johnson",
+   "team": "Washington Wizards",
+   "from": "nuovo",
+   "to": "Day-To-Day"
+  }
+ ]
 }
