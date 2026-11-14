@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T18:42:50.114829Z",
+ "updated": "2026-11-14T18:56:40.917639Z",
  "finished": [
   {
    "date": "2026-11-14T03:30Z",
@@ -211,7 +211,11 @@
    "homeName": "New Orleans Pelicans",
    "awayName": "Denver Nuggets",
    "hs": 0,
-   "as": 0
+   "as": 0,
+   "pHome": 25.5,
+   "why": [
+    "Back-to-back: NO"
+   ]
   },
   {
    "date": "2026-11-15T00:30Z",
@@ -221,7 +225,12 @@
    "homeName": "Cleveland Cavaliers",
    "awayName": "Dallas Mavericks",
    "hs": 0,
-   "as": 0
+   "as": 0,
+   "pHome": 39.0,
+   "why": [
+    "Back-to-back: CLE",
+    "Donovan Mitchell (Day-To-Day, CLE)"
+   ]
   },
   {
    "date": "2026-11-15T01:00Z",
@@ -231,7 +240,12 @@
    "homeName": "Miami Heat",
    "awayName": "Detroit Pistons",
    "hs": 0,
-   "as": 0
+   "as": 0,
+   "pHome": 32.6,
+   "why": [
+    "Back-to-back: MIA",
+    "Giannis Antetokounmpo (Day-To-Day, MIA)"
+   ]
   },
   {
    "date": "2026-11-15T01:00Z",
@@ -241,7 +255,11 @@
    "homeName": "Memphis Grizzlies",
    "awayName": "Brooklyn Nets",
    "hs": 0,
-   "as": 0
+   "as": 0,
+   "pHome": 73.5,
+   "why": [
+    "Back-to-back: MEM"
+   ]
   },
   {
    "date": "2026-11-15T01:00Z",
@@ -251,7 +269,14 @@
    "homeName": "Minnesota Timberwolves",
    "awayName": "Chicago Bulls",
    "hs": 0,
-   "as": 0
+   "as": 0,
+   "pHome": 92.7,
+   "why": [
+    "Back-to-back: CHI",
+    "Jalen Smith (Day-To-Day, CHI)",
+    "Norman Powell (Day-To-Day, CHI)",
+    "Caleb Wilson (Out, CHI)"
+   ]
   },
   {
    "date": "2026-11-15T18:00Z",
@@ -261,7 +286,9 @@
    "homeName": "Philadelphia 76ers",
    "awayName": "Indiana Pacers",
    "hs": 0,
-   "as": 0
+   "as": 0,
+   "pHome": 74.1,
+   "why": []
   },
   {
    "date": "2026-11-15T21:00Z",
@@ -271,7 +298,11 @@
    "homeName": "Phoenix Suns",
    "awayName": "Los Angeles Lakers",
    "hs": 0,
-   "as": 0
+   "as": 0,
+   "pHome": 36.4,
+   "why": [
+    "Luka Doncic (Day-To-Day, LAL)"
+   ]
   },
   {
    "date": "2026-11-15T21:30Z",
@@ -281,7 +312,11 @@
    "homeName": "LA Clippers",
    "awayName": "Charlotte Hornets",
    "hs": 0,
-   "as": 0
+   "as": 0,
+   "pHome": 64.8,
+   "why": [
+    "Brandon Miller (Day-To-Day, CHA)"
+   ]
   },
   {
    "date": "2026-11-15T22:00Z",
@@ -291,7 +326,11 @@
    "homeName": "Utah Jazz",
    "awayName": "San Antonio Spurs",
    "hs": 0,
-   "as": 0
+   "as": 0,
+   "pHome": 10.0,
+   "why": [
+    "Lauri Markkanen (Out, UTAH)"
+   ]
   },
   {
    "date": "2026-11-15T23:00Z",
@@ -301,7 +340,12 @@
    "homeName": "Boston Celtics",
    "awayName": "Dallas Mavericks",
    "hs": 0,
-   "as": 0
+   "as": 0,
+   "pHome": 82.2,
+   "why": [
+    "Paul George (Day-To-Day, BOS)",
+    "Back-to-back: DAL"
+   ]
   },
   {
    "date": "2026-11-15T23:00Z",
@@ -311,7 +355,9 @@
    "homeName": "Toronto Raptors",
    "awayName": "New York Knicks",
    "hs": 0,
-   "as": 0
+   "as": 0,
+   "pHome": 41.0,
+   "why": []
   },
   {
    "date": "2026-11-16T00:00Z",
@@ -321,7 +367,9 @@
    "homeName": "Washington Wizards",
    "awayName": "Houston Rockets",
    "hs": 0,
-   "as": 0
+   "as": 0,
+   "pHome": 22.3,
+   "why": []
   },
   {
    "date": "2026-11-16T01:00Z",
@@ -331,7 +379,9 @@
    "homeName": "Milwaukee Bucks",
    "awayName": "Atlanta Hawks",
    "hs": 0,
-   "as": 0
+   "as": 0,
+   "pHome": 21.3,
+   "why": []
   },
   {
    "date": "2026-11-16T02:00Z",
@@ -341,7 +391,9 @@
    "homeName": "Sacramento Kings",
    "awayName": "Oklahoma City Thunder",
    "hs": 0,
-   "as": 0
+   "as": 0,
+   "pHome": 19.4,
+   "why": []
   },
   {
    "date": "2026-11-17T00:00Z",
@@ -351,7 +403,12 @@
    "homeName": "Boston Celtics",
    "awayName": "Orlando Magic",
    "hs": 0,
-   "as": 0
+   "as": 0,
+   "pHome": 80.4,
+   "why": [
+    "Back-to-back: BOS",
+    "Paul George (Day-To-Day, BOS)"
+   ]
   },
   {
    "date": "2026-11-17T00:00Z",
@@ -361,7 +418,14 @@
    "homeName": "Cleveland Cavaliers",
    "awayName": "Chicago Bulls",
    "hs": 0,
-   "as": 0
+   "as": 0,
+   "pHome": 78.2,
+   "why": [
+    "Donovan Mitchell (Day-To-Day, CLE)",
+    "Jalen Smith (Day-To-Day, CHI)",
+    "Norman Powell (Day-To-Day, CHI)",
+    "Caleb Wilson (Out, CHI)"
+   ]
   },
   {
    "date": "2026-11-17T00:00Z",
@@ -371,7 +435,11 @@
    "homeName": "Washington Wizards",
    "awayName": "Memphis Grizzlies",
    "hs": 0,
-   "as": 0
+   "as": 0,
+   "pHome": 22.7,
+   "why": [
+    "Back-to-back: WSH"
+   ]
   },
   {
    "date": "2026-11-17T00:30Z",
@@ -381,7 +449,9 @@
    "homeName": "Brooklyn Nets",
    "awayName": "Philadelphia 76ers",
    "hs": 0,
-   "as": 0
+   "as": 0,
+   "pHome": 33.0,
+   "why": []
   },
   {
    "date": "2026-11-17T00:30Z",
@@ -391,7 +461,12 @@
    "homeName": "Miami Heat",
    "awayName": "Houston Rockets",
    "hs": 0,
-   "as": 0
+   "as": 0,
+   "pHome": 44.7,
+   "why": [
+    "Giannis Antetokounmpo (Day-To-Day, MIA)",
+    "Back-to-back: HOU"
+   ]
   },
   {
    "date": "2026-11-17T01:00Z",
@@ -401,7 +476,9 @@
    "homeName": "Minnesota Timberwolves",
    "awayName": "Portland Trail Blazers",
    "hs": 0,
-   "as": 0
+   "as": 0,
+   "pHome": 67.3,
+   "why": []
   }
  ],
  "defense": [
@@ -1080,15 +1157,15 @@
    "player": "Peyton Watson",
    "team": "Cleveland Cavaliers",
    "status": "Day-To-Day",
-   "note": "Watson supplied seven points (2-12 FG, 2-5 3Pt, 1-2 FT), five rebounds, four assists and four blocks over 30 minutes in Wednesday's 115-107 win over the Knicks.",
-   "date": "2026-11-14T18:32Z"
+   "note": "Watson (hamstring) is listed as questionable for Saturday's game against the Mavericks.",
+   "date": "2026-11-14T18:38Z"
   },
   {
    "player": "Evan Mobley",
    "team": "Cleveland Cavaliers",
    "status": "Out",
-   "note": "Mobley (toe) is out for Friday's game against the Heat.",
-   "date": "2026-11-14T18:32Z"
+   "note": "Mobley (toe) has been ruled out for Saturday's meeting with Dallas.",
+   "date": "2026-11-14T18:33Z"
   },
   {
    "player": "Jarrett Allen",
@@ -1129,8 +1206,8 @@
    "player": "Max Christie",
    "team": "Dallas Mavericks",
    "status": "Day-To-Day",
-   "note": "Christie is questionable for Saturday's game against the Cavaliers due to a sprained left ankle.",
-   "date": "2026-11-13T22:06Z"
+   "note": "Christie (ankle) has been downgraded to doubtful for Saturday's game against the Cavaliers",
+   "date": "2026-11-14T18:23Z"
   },
   {
    "player": "Morez Johnson Jr.",
