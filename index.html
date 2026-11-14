@@ -1,0 +1,45 @@
+<!DOCTYPE html><html lang="it"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>NBA Notte per Notte</title>
+<style>
+:root{--bg:#0b0d12;--c:#151922;--c2:#1d2330;--tx:#eef1f6;--mu:#8b94a5;--ac:#ff6b1a;--ac2:#ffb84d;--ok:#22c55e;--bad:#ef4444;--wn:#f59e0b;padding-top:env(safe-area-inset-top,0)}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(900px 400px at 80% -10%,#3a1c0a55,transparent),var(--bg);color:var(--tx);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;padding-bottom:env(safe-area-inset-bottom,0)}
+main{max-width:820px;margin:auto;padding:14px}
+header{display:flex;justify-content:space-between;align-items:end}h1{margin:0;font-size:22px;background:linear-gradient(90deg,var(--ac),var(--ac2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.mu{color:var(--mu);font-size:12px}
+nav{display:flex;gap:6px;overflow-x:auto;margin:12px 0;position:sticky;top:0;padding:6px 0;background:var(--bg);z-index:5}
+nav button{flex:none;border:0;background:var(--c);color:var(--tx);padding:9px 14px;border-radius:22px;font-size:14px;transition:.2s}
+nav button.on{background:linear-gradient(90deg,var(--ac),var(--ac2));color:#111;font-weight:700;transform:scale(1.04)}
+input{width:100%;padding:10px 14px;border-radius:12px;border:1px solid #2a3040;background:var(--c);color:var(--tx);font-size:15px;margin-bottom:8px}
+.card{background:var(--c);border-radius:14px;padding:12px;margin:8px 0;animation:in .35s both}
+@keyframes in{from{opacity:0;transform:translateY(8px)}}
+.row{display:flex;justify-content:space-between;align-items:center;gap:8px}.b{font-weight:650}
+.tag{font-size:11px;font-weight:700;padding:3px 9px;border-radius:10px;color:#fff}
+.Out{background:var(--bad)}.Day-To-Day,.Questionable,.Doubtful{background:var(--wn)}.ok{background:var(--ok)}.neu{background:#475569}
+.bar{height:8px;border-radius:5px;background:var(--c2);overflow:hidden;margin-top:6px}.bar i{display:block;height:100%;border-radius:5px;background:linear-gradient(90deg,var(--ac),var(--ac2));transition:width 1s}
+.spark{display:flex;gap:3px;align-items:end;height:34px;margin-top:6px}.spark i{flex:1;background:linear-gradient(var(--ac2),var(--ac));border-radius:3px 3px 0 0;min-height:3px}
+table{width:100%;border-collapse:collapse}td{padding:7px 4px;border-bottom:1px solid #232938}
+.new{border-left:4px solid var(--ac)}
+</style></head><body><main>
+<header><h1>🏀 NBA notte per notte</h1><span class="mu" id="up"></span></header>
+<nav id="nav"></nav><div id="v"><div class="card">Caricamento…</div></div>
+</main><script>
+let D=null,tab="inf";
+const tabs={inf:"Infortuni",cal:"Calendario",cla:"Classifiche",dif:"Difese",hot:"In forma"};
+const fmt=d=>new Date(d).toLocaleString("it-IT",{weekday:"short",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"});
+const esc=s=>String(s??"").replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
+const q=()=>(document.getElementById("q")?.value||"").toLowerCase();
+const V={
+inf(){let l=D.injuries.filter(x=>(x.player+x.team).toLowerCase().includes(q()));
+ const ch=D.changes.length?`<h3>🔔 Novità dall’ultimo aggiornamento</h3>`+D.changes.map(c=>`<div class="card new"><span class="b">${esc(c.player)}</span> <span class="mu">${esc(c.team)}</span><br>${esc(c.from)} → <b>${esc(c.to)}</b></div>`).join(""):"";
+ return `<input id="q" placeholder="Cerca giocatore o squadra" oninput="draw(true)" value="${esc(q())}">`+ch+`<h3>Tutti (${l.length})</h3>`+l.map(x=>`<div class="card"><div class="row"><span class="b">${esc(x.player)} <span class="mu">${esc(x.team)}</span></span><span class="tag ${esc(x.status).replace(/\s/g,"-")}">${esc(x.status)}</span></div><div class="mu">${esc(x.note)}</div></div>`).join("")},
+cal(){return `<h3>Prossime</h3>`+D.upcoming.map(g=>`<div class="card"><div class="row"><span class="b">${g.away} @ ${g.home}</span><span class="mu">${fmt(g.date)}</span></div><div class="mu">${esc(g.awayName)} – ${esc(g.homeName)}</div></div>`).join("")+`<h3>Risultati</h3>`+D.finished.map(g=>`<div class="card row"><span class="${g.as>g.hs?"b":""}">${g.away} ${g.as}</span><span class="mu">${fmt(g.date)}</span><span class="${g.hs>g.as?"b":""}">${g.home} ${g.hs}</span></div>`).join("")},
+cla(){return D.standings.map(c=>`<h3>${esc(c.conf)}</h3><div class="card"><table>`+c.rows.map((r,i)=>{const p=r.w/Math.max(1,r.w+r.l);return `<tr><td>${i+1}</td><td>${esc(r.team)}<div class="bar"><i style="width:${p*100}%"></i></div></td><td>${r.w}-${r.l}</td></tr>`}).join("")+`</table></div>`).join("")},
+dif(){const n=D.defense.length,mx=Math.max(...D.defense.map(x=>x.allowed));return `<h3>Punti subiti a partita (ultime due settimane)</h3><div class="mu">1 = difesa migliore · rosso = debole</div>`+D.defense.map(x=>`<div class="card"><div class="row"><span class="b">${x.rank}. ${x.team}</span><span>${x.allowed} <span class="mu">(${x.games} gare)</span></span></div><div class="bar"><i style="width:${x.allowed/mx*100}%;${x.rank>n*2/3?"background:var(--bad)":x.rank<=n/3?"background:var(--ok)":""}"></i></div></div>`).join("")},
+hot(){const n=D.defense.length;return `<h3>Giocatori in forma</h3><div class="mu">Miglior marcatore della squadra in almeno 2 delle ultime partite.</div>`+D.hot.map(h=>{const o=h.next,weak=o&&o.rank>n*2/3,m=Math.max(...h.last,1);return `<div class="card"><div class="row"><span class="b">${esc(h.player)} <span class="mu">${h.team}</span></span><span class="b">${h.avg} PPG</span></div><div class="spark">${h.last.map(p=>`<i style="height:${p/m*100}%" title="${p}"></i>`).join("")}</div>${o?`<div class="row" style="margin-top:8px"><span class="mu">Prossima: ${o.home?"vs":"@"} ${o.team} · ${fmt(o.date)}</span><span class="tag ${weak?"ok":"neu"}">${weak?"Difesa debole 🔥":"Difesa "+o.rank+"ª"}</span></div>`:""}</div>`}).join("")}};
+function draw(keep){const y=scrollY;document.getElementById("v").innerHTML=D?V[tab]():"";if(keep){const i=document.getElementById("q");if(i){i.focus();i.setSelectionRange(99,99)}scrollTo(0,y)}[...nav.children].forEach(b=>b.classList.toggle("on",b.dataset.k==tab))}
+const nav=document.getElementById("nav");
+for(const k in tabs){const b=document.createElement("button");b.textContent=tabs[k];b.dataset.k=k;b.onclick=()=>{tab=k;draw()};nav.appendChild(b)}
+async function load(){try{D=await (await fetch("data.json?"+Date.now())).json();document.getElementById("up").textContent="Aggiornato "+fmt(D.updated);draw(!!document.getElementById("q"))}catch(e){document.getElementById("v").innerHTML='<div class="card">Dati non disponibili: esegui prima update.py</div>'}}
+load();setInterval(load,600000);
+</script></body></html>
