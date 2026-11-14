@@ -71,6 +71,46 @@ for conf in get("https://site.api.espn.com/apis/v2/sports/basketball/nba/standin
     rows.sort(key=lambda r: -(r["w"] / max(1, r["w"] + r["l"])))
     standings.append({"conf": conf.get("name"), "rows": rows})
 
+# ---- probabilità di vittoria: record + forma + back-to-back + infortuni ----
+import math
+def add_probabilities(upcoming, finished, standings, injuries, perf, games_played):
+    wp, n2a = {}, {}
+    for c in standings:
+        for r in c["rows"]:
+            wp[r["abbr"]] = (r["w"] + 5) / (r["w"] + r["l"] + 10)   # record con regressione verso 50%
+            n2a[r["team"]] = r["abbr"]
+    pd = lambda s: dt.datetime.fromisoformat(s.replace("Z", "+00:00"))
+    allg = sorted(finished + upcoming, key=lambda g: g["date"])
+    margins = defaultdict(list)                       # margine punti, ultime partite
+    for g in finished:
+        margins[g["home"]].append(g["hs"] - g["as"]); margins[g["away"]].append(g["as"] - g["hs"])
+    form = {t: sum(m[-5:]) / len(m[-5:]) for t, m in margins.items()}
+    tops = defaultdict(int)                           # quante volte è stato il miglior marcatore
+    for p in perf: tops[(p["player"], p["team"])] += 1
+    W = {"out": 1.0, "doubtful": 0.75}
+    miss = defaultdict(list)                          # assenze pesate per squadra
+    for i in injuries:
+        t = n2a.get(i["team"]); 
+        if not t: continue
+        share = tops.get((i["player"], t), 0) / max(1, games_played.get(t, 1))
+        if share < 0.15: continue                     # conta solo chi segna davvero
+        w = W.get((i["status"] or "").lower(), 0.4)
+        miss[t].append((i["player"], i["status"], min(0.7, share * 0.6) * w))
+    for g in upcoming:
+        h, a = g["home"], g["away"]
+        if h not in wp or a not in wp: continue
+        lo = math.log(wp[h] / (1 - wp[h])) - math.log(wp[a] / (1 - wp[a])) + 0.32
+        why = []
+        if h in form and a in form:
+            lo += max(-0.5, min(0.5, 0.03 * (form[h] - form[a])))
+        for t, sign in ((h, -1), (a, 1)):
+            prev = next((x for x in reversed(allg) if t in (x["home"], x["away"]) and x["date"] < g["date"]), None)
+            if prev and (pd(g["date"]) - pd(prev["date"])).total_seconds() < 30 * 3600:
+                lo += sign * 0.25; why.append("Back-to-back: " + t)
+            for name, st, imp in miss.get(t, []):
+                lo += sign * imp; why.append(f"{name} ({st}, {t})")
+        g["pHome"] = round(100 / (1 + math.exp(-lo)), 1); g["why"] = why
+
 # infortuni + novita rispetto all'ultimo aggiornamento
 injuries = []
 for t in get(B + "/injuries").get("injuries", []):
@@ -86,6 +126,8 @@ for x in injuries:
     prev = old.get((x["player"], x["team"]))
     if old and prev != x["status"]:
         changes.append({"player": x["player"], "team": x["team"], "from": prev or "nuovo", "to": x["status"]})
+
+add_probabilities(upcoming, finished, standings, injuries, perf, {k: len(v) for k, v in al.items()})
 
 out = {"updated": dt.datetime.utcnow().isoformat() + "Z", "finished": finished[-20:][::-1],
        "upcoming": upcoming[:20], "defense": defense, "hot": hot,
