@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T15:35:15.016932Z",
+ "updated": "2026-11-15T18:39:02.259185Z",
  "finished": [
   {
    "date": "2026-11-15T01:00Z",
@@ -205,16 +205,16 @@
  "upcoming": [
   {
    "date": "2026-11-15T18:00Z",
-   "state": "pre",
+   "state": "in",
    "home": "PHI",
    "away": "IND",
    "homeName": "Philadelphia 76ers",
    "awayName": "Indiana Pacers",
-   "hs": 0,
-   "as": 0,
-   "pHome": 75.4,
+   "hs": 29,
+   "as": 35,
+   "pHome": 77.2,
    "why": [
-    "Andrew Nembhard (Day-To-Day, IND)"
+    "Andrew Nembhard (Out, IND)"
    ]
   },
   {
@@ -264,9 +264,10 @@
    "awayName": "Dallas Mavericks",
    "hs": 0,
    "as": 0,
-   "pHome": 85.1,
+   "pHome": 86.0,
    "why": [
-    "Back-to-back: DAL"
+    "Back-to-back: DAL",
+    "Kyrie Irving (Day-To-Day, DAL)"
    ]
   },
   {
@@ -371,9 +372,9 @@
    "awayName": "Philadelphia 76ers",
    "hs": 0,
    "as": 0,
-   "pHome": 22.3,
+   "pHome": 27.1,
    "why": [
-    "Michael Porter Jr. (Out, BKN)"
+    "Michael Porter Jr. (Day-To-Day, BKN)"
    ]
   },
   {
@@ -1034,6 +1035,13 @@
  ],
  "injuries": [
   {
+   "player": "Jock Landale",
+   "team": "Atlanta Hawks",
+   "status": "Day-To-Day",
+   "note": "Landale (hip) is listed as questionable for Sunday's game against Milwakee.",
+   "date": "2026-11-15T17:55Z"
+  },
+  {
    "player": "Kingston Flemings",
    "team": "Atlanta Hawks",
    "status": "Out",
@@ -1071,9 +1079,9 @@
   {
    "player": "Michael Porter Jr.",
    "team": "Brooklyn Nets",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Porter (personal) is out for Saturday's game against the Grizzlies, Brian Lewis of the New York Post reports.",
-   "date": "2026-11-15T00:15Z"
+   "date": "2026-11-15T15:29Z"
   },
   {
    "player": "Kon Knueppel",
@@ -1167,18 +1175,32 @@
    "date": "2026-10-20T15:11Z"
   },
   {
-   "player": "Daniel Gafford",
+   "player": "Santi Aldama",
    "team": "Dallas Mavericks",
    "status": "Day-To-Day",
-   "note": "Gafford (face) won't return to Saturday's game against the Cavaliers, Grant Afseth of DallasHoopsJournal.com reports.",
-   "date": "2026-11-15T15:22Z"
+   "note": "Aldama (ankle) is listed as questionable for Sunday's game in Boston.",
+   "date": "2026-11-15T18:19Z"
   },
   {
    "player": "Max Christie",
    "team": "Dallas Mavericks",
    "status": "Day-To-Day",
-   "note": "Christie (ankle) has been ruled out for Saturday's game against Cleveland.",
-   "date": "2026-11-15T15:22Z"
+   "note": "Christie (ankle) is doubtful to play Sunday's game against the Celtics.",
+   "date": "2026-11-15T18:18Z"
+  },
+  {
+   "player": "Kyrie Irving",
+   "team": "Dallas Mavericks",
+   "status": "Day-To-Day",
+   "note": "Irving (knee) is questionable to play in Sunday's game against the Celtics.",
+   "date": "2026-11-15T18:14Z"
+  },
+  {
+   "player": "Daniel Gafford",
+   "team": "Dallas Mavericks",
+   "status": "Day-To-Day",
+   "note": "Gafford (shoulder) is probable to play in Sunday's game against the Celtics.",
+   "date": "2026-11-15T18:09Z"
   },
   {
    "player": "Dereck Lively II",
@@ -1212,8 +1234,8 @@
    "player": "Duncan Robinson",
    "team": "Detroit Pistons",
    "status": "Day-To-Day",
-   "note": "Robinson (thigh) is questionable to return to Saturday's game against Miami.",
-   "date": "2026-11-15T02:40Z"
+   "note": "Robinson (thigh) did not return to Saturday's 137-117 win over the Pistons. He finished with 10 points (3-8 FG, 2-6 3Pt, 2-2 FT), one rebound and one assist across 17 minutes.",
+   "date": "2026-11-15T15:58Z"
   },
   {
    "player": "Ugonna Onyenso",
@@ -1279,13 +1301,6 @@
    "date": "2026-11-14T21:54Z"
   },
   {
-   "player": "Steven Adams",
-   "team": "Houston Rockets",
-   "status": "Out",
-   "note": "Adams (calf) has been upgraded to probable for Sunday's game against the Wizards.",
-   "date": "2026-11-14T21:52Z"
-  },
-  {
    "player": "Fred VanVleet",
    "team": "Houston Rockets",
    "status": "Out",
@@ -1302,23 +1317,9 @@
   {
    "player": "Andrew Nembhard",
    "team": "Indiana Pacers",
-   "status": "Day-To-Day",
-   "note": "Nembhard is questionable for Sunday's game against the 76ers due to left hip soreness.",
-   "date": "2026-11-15T01:14Z"
-  },
-  {
-   "player": "T.J. McConnell",
-   "team": "Indiana Pacers",
-   "status": "Day-To-Day",
-   "note": "McConnell (hamstring) is listed as probable for Sunday's game against the 76ers.",
-   "date": "2026-11-14T21:23Z"
-  },
-  {
-   "player": "Aaron Nesmith",
-   "team": "Indiana Pacers",
-   "status": "Day-To-Day",
-   "note": "Nesmith (hand) is listed as questionable for Sunday's game against Philadelphia.",
-   "date": "2026-11-14T21:21Z"
+   "status": "Out",
+   "note": "Nembhard (hip) has been ruled out for Sunday's game against the 76ers, Tony East of Forbes.com reports.",
+   "date": "2026-11-15T16:44Z"
   },
   {
    "player": "Tyrese Haliburton",
@@ -1442,9 +1443,16 @@
   {
    "player": "Pelle Larsson",
    "team": "Miami Heat",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Larsson (illness) has been ruled out for Saturday's game against the Pistons.",
-   "date": "2026-11-14T23:26Z"
+   "date": "2026-11-15T15:26Z"
+  },
+  {
+   "player": "Ryan Rollins",
+   "team": "Milwaukee Bucks",
+   "status": "Day-To-Day",
+   "note": "Rollins (illness) is questionable to play in Sunday's game against the Hawks.",
+   "date": "2026-11-15T17:23Z"
   },
   {
    "player": "Ousmane Dieng",
@@ -1456,9 +1464,9 @@
   {
    "player": "Jaylen Clark",
    "team": "Minnesota Timberwolves",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Clark (hamstring) has been ruled out for the remainder of Saturday's game against the Bulls, Sarah Todd of The Deseret News reports.",
-   "date": "2026-11-15T02:08Z"
+   "date": "2026-11-15T15:31Z"
   },
   {
    "player": "Anthony Edwards",
@@ -1475,11 +1483,18 @@
    "date": "2026-10-05T20:53Z"
   },
   {
+   "player": "Bryce McGowens",
+   "team": "New Orleans Pelicans",
+   "status": "Day-To-Day",
+   "note": "McGowens (elbow) has been ruled out for Saturday's game against the Nuggets.",
+   "date": "2026-11-15T15:24Z"
+  },
+  {
    "player": "Bennedict Mathurin",
    "team": "New Orleans Pelicans",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Mathurin is out for Saturday's game against the Nuggets due to left plantar fasciitis.",
-   "date": "2026-11-14T23:06Z"
+   "date": "2026-11-15T15:24Z"
   },
   {
    "player": "Trendon Watford",
@@ -1487,13 +1502,6 @@
    "status": "Out",
    "note": "Watford (ankle) has been ruled out for Saturday's game against Denver.",
    "date": "2026-11-14T17:58Z"
-  },
-  {
-   "player": "Bryce McGowens",
-   "team": "New Orleans Pelicans",
-   "status": "Out",
-   "note": "McGowens (elbow) has been ruled out for Saturday's game against the Nuggets.",
-   "date": "2026-11-14T17:55Z"
   },
   {
    "player": "Trey Murphy III",
@@ -1552,18 +1560,18 @@
    "date": "2026-10-28T23:41Z"
   },
   {
+   "player": "Jonathan Isaac",
+   "team": "Orlando Magic",
+   "status": "Out",
+   "note": "Isaac (knee) has been ruled out for Monday's game against the Celtics.",
+   "date": "2026-11-15T18:22Z"
+  },
+  {
    "player": "Noah Penda",
    "team": "Orlando Magic",
    "status": "Out",
    "note": "Penda (hamstring) is making progress but remains without a timetable to return to game action, Jason Beede of the Orlando Sentinel reports.",
    "date": "2026-11-14T17:33Z"
-  },
-  {
-   "player": "Jonathan Isaac",
-   "team": "Orlando Magic",
-   "status": "Out",
-   "note": "Isaac (knee) is out for Tuesday's game against Sacramento.",
-   "date": "2026-11-09T23:10Z"
   },
   {
    "player": "Paolo Banchero",
@@ -1676,6 +1684,13 @@
    "status": "Out",
    "note": "Simmons underwent successful surgery Tuesday to repair a torn right Achilles tendon, James Ham of ESPN 1320 Sacramento reports.",
    "date": "2026-10-21T04:22Z"
+  },
+  {
+   "player": "De'Aaron Fox",
+   "team": "San Antonio Spurs",
+   "status": "Day-To-Day",
+   "note": "Fox (hip) is listed as questionable for Sunday's game against Utah.",
+   "date": "2026-11-15T18:27Z"
   },
   {
    "player": "Tobias Harris",
@@ -1806,87 +1821,69 @@
  ],
  "changes": [
   {
-   "player": "Jalen Smith",
-   "team": "Chicago Bulls",
+   "player": "Jock Landale",
+   "team": "Atlanta Hawks",
+   "from": "nuovo",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Michael Porter Jr.",
+   "team": "Brooklyn Nets",
    "from": "Out",
    "to": "Day-To-Day"
   },
   {
-   "player": "Nic Claxton",
-   "team": "Chicago Bulls",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Tobe Awaka",
-   "team": "Chicago Bulls",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Jarrett Allen",
-   "team": "Cleveland Cavaliers",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Peyton Watson",
-   "team": "Cleveland Cavaliers",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Evan Mobley",
-   "team": "Cleveland Cavaliers",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Donovan Mitchell",
-   "team": "Cleveland Cavaliers",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "James Harden",
-   "team": "Cleveland Cavaliers",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Daniel Gafford",
+   "player": "Santi Aldama",
    "team": "Dallas Mavericks",
-   "from": "Out",
+   "from": "nuovo",
    "to": "Day-To-Day"
   },
   {
-   "player": "Max Christie",
+   "player": "Kyrie Irving",
    "team": "Dallas Mavericks",
+   "from": "nuovo",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Andrew Nembhard",
+   "team": "Indiana Pacers",
+   "from": "Day-To-Day",
+   "to": "Out"
+  },
+  {
+   "player": "Pelle Larsson",
+   "team": "Miami Heat",
    "from": "Out",
    "to": "Day-To-Day"
   },
   {
-   "player": "Zach Edey",
-   "team": "Memphis Grizzlies",
+   "player": "Ryan Rollins",
+   "team": "Milwaukee Bucks",
+   "from": "nuovo",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Jaylen Clark",
+   "team": "Minnesota Timberwolves",
    "from": "Out",
    "to": "Day-To-Day"
   },
   {
-   "player": "Ty Jerome",
-   "team": "Memphis Grizzlies",
+   "player": "Bryce McGowens",
+   "team": "New Orleans Pelicans",
    "from": "Out",
    "to": "Day-To-Day"
   },
   {
-   "player": "GG Jackson",
-   "team": "Memphis Grizzlies",
+   "player": "Bennedict Mathurin",
+   "team": "New Orleans Pelicans",
    "from": "Out",
    "to": "Day-To-Day"
   },
   {
-   "player": "Jerami Grant",
-   "team": "Memphis Grizzlies",
-   "from": "Out",
+   "player": "De'Aaron Fox",
+   "team": "San Antonio Spurs",
+   "from": "nuovo",
    "to": "Day-To-Day"
   }
  ]
