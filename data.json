@@ -1,6 +1,16 @@
 {
- "updated": "2026-11-15T18:39:02.259185Z",
+ "updated": "2026-11-15T21:33:28.598529Z",
  "finished": [
+  {
+   "date": "2026-11-15T18:00Z",
+   "state": "post",
+   "home": "PHI",
+   "away": "IND",
+   "homeName": "Philadelphia 76ers",
+   "awayName": "Indiana Pacers",
+   "hs": 131,
+   "as": 124
+  },
   {
    "date": "2026-11-15T01:00Z",
    "state": "post",
@@ -190,42 +200,18 @@
    "awayName": "Oklahoma City Thunder",
    "hs": 118,
    "as": 108
-  },
-  {
-   "date": "2026-11-12T02:30Z",
-   "state": "post",
-   "home": "HOU",
-   "away": "GS",
-   "homeName": "Houston Rockets",
-   "awayName": "Golden State Warriors",
-   "hs": 115,
-   "as": 108
   }
  ],
  "upcoming": [
   {
-   "date": "2026-11-15T18:00Z",
-   "state": "in",
-   "home": "PHI",
-   "away": "IND",
-   "homeName": "Philadelphia 76ers",
-   "awayName": "Indiana Pacers",
-   "hs": 29,
-   "as": 35,
-   "pHome": 77.2,
-   "why": [
-    "Andrew Nembhard (Out, IND)"
-   ]
-  },
-  {
    "date": "2026-11-15T21:00Z",
-   "state": "pre",
+   "state": "in",
    "home": "PHX",
    "away": "LAL",
    "homeName": "Phoenix Suns",
    "awayName": "Los Angeles Lakers",
-   "hs": 0,
-   "as": 0,
+   "hs": 14,
+   "as": 25,
    "pHome": 31.8,
    "why": []
   },
@@ -264,10 +250,10 @@
    "awayName": "Dallas Mavericks",
    "hs": 0,
    "as": 0,
-   "pHome": 86.0,
+   "pHome": 87.2,
    "why": [
     "Back-to-back: DAL",
-    "Kyrie Irving (Day-To-Day, DAL)"
+    "Kyrie Irving (Out, DAL)"
    ]
   },
   {
@@ -372,7 +358,7 @@
    "awayName": "Philadelphia 76ers",
    "hs": 0,
    "as": 0,
-   "pHome": 27.1,
+   "pHome": 25.7,
    "why": [
     "Michael Porter Jr. (Day-To-Day, BKN)"
    ]
@@ -471,6 +457,20 @@
    "why": [
     "Duncan Robinson (Day-To-Day, DET)"
    ]
+  },
+  {
+   "date": "2026-11-18T03:30Z",
+   "state": "pre",
+   "home": "LAC",
+   "away": "UTAH",
+   "homeName": "LA Clippers",
+   "awayName": "Utah Jazz",
+   "hs": 0,
+   "as": 0,
+   "pHome": 78.5,
+   "why": [
+    "Lauri Markkanen (Out, UTAH)"
+   ]
   }
  ],
  "defense": [
@@ -505,27 +505,27 @@
    "rank": 5
   },
   {
-   "team": "IND",
-   "allowed": 107.6,
-   "games": 7,
-   "rank": 6
-  },
-  {
    "team": "OKC",
    "allowed": 107.7,
    "games": 7,
-   "rank": 7
+   "rank": 6
   },
   {
    "team": "ORL",
    "allowed": 108.7,
    "games": 7,
-   "rank": 8
+   "rank": 7
   },
   {
    "team": "GS",
    "allowed": 109.9,
    "games": 7,
+   "rank": 8
+  },
+  {
+   "team": "IND",
+   "allowed": 110.5,
+   "games": 8,
    "rank": 9
   },
   {
@@ -571,27 +571,27 @@
    "rank": 16
   },
   {
-   "team": "PHI",
-   "allowed": 114.7,
-   "games": 6,
-   "rank": 17
-  },
-  {
    "team": "LAL",
    "allowed": 115.0,
    "games": 7,
-   "rank": 18
+   "rank": 17
   },
   {
    "team": "MIL",
    "allowed": 115.1,
    "games": 7,
-   "rank": 19
+   "rank": 18
   },
   {
    "team": "CLE",
    "allowed": 115.8,
    "games": 8,
+   "rank": 19
+  },
+  {
+   "team": "PHI",
+   "allowed": 116.0,
+   "games": 7,
    "rank": 20
   },
   {
@@ -854,7 +854,7 @@
     {
      "team": "Philadelphia 76ers",
      "abbr": "PHI",
-     "w": 10,
+     "w": 11,
      "l": 3
     },
     {
@@ -903,7 +903,7 @@
      "team": "Indiana Pacers",
      "abbr": "IND",
      "w": 5,
-     "l": 8
+     "l": 9
     },
     {
      "team": "Charlotte Hornets",
@@ -1175,6 +1175,13 @@
    "date": "2026-10-20T15:11Z"
   },
   {
+   "player": "Kyrie Irving",
+   "team": "Dallas Mavericks",
+   "status": "Out",
+   "note": "Irving (knee) is questionable to play in Sunday's game against the Celtics.",
+   "date": "2026-11-15T21:17Z"
+  },
+  {
    "player": "Santi Aldama",
    "team": "Dallas Mavericks",
    "status": "Day-To-Day",
@@ -1187,13 +1194,6 @@
    "status": "Day-To-Day",
    "note": "Christie (ankle) is doubtful to play Sunday's game against the Celtics.",
    "date": "2026-11-15T18:18Z"
-  },
-  {
-   "player": "Kyrie Irving",
-   "team": "Dallas Mavericks",
-   "status": "Day-To-Day",
-   "note": "Irving (knee) is questionable to play in Sunday's game against the Celtics.",
-   "date": "2026-11-15T18:14Z"
   },
   {
    "player": "Daniel Gafford",
@@ -1317,9 +1317,9 @@
   {
    "player": "Andrew Nembhard",
    "team": "Indiana Pacers",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Nembhard (hip) has been ruled out for Sunday's game against the 76ers, Tony East of Forbes.com reports.",
-   "date": "2026-11-15T16:44Z"
+   "date": "2026-11-15T20:57Z"
   },
   {
    "player": "Tyrese Haliburton",
@@ -1369,20 +1369,6 @@
    "status": "Out",
    "note": "Miller underwent surgery Wednesday to repair a torn left rotator cuff and will be re-evaluated in six months, per Law Murray of The Athletic.",
    "date": "2026-08-26T20:04Z"
-  },
-  {
-   "player": "Adou Thiero",
-   "team": "Los Angeles Lakers",
-   "status": "Day-To-Day",
-   "note": "Thiero (ankle) is questionable for Sunday's game against the Suns.",
-   "date": "2026-11-15T00:40Z"
-  },
-  {
-   "player": "Collin Sexton",
-   "team": "Los Angeles Lakers",
-   "status": "Day-To-Day",
-   "note": "Sexton (head) is questionable for Sunday's game against the Suns, Daniel Starkand of LakersNation.com reports.",
-   "date": "2026-11-15T00:27Z"
   },
   {
    "player": "Austin Reaves",
@@ -1448,18 +1434,18 @@
    "date": "2026-11-15T15:26Z"
   },
   {
+   "player": "Ousmane Dieng",
+   "team": "Milwaukee Bucks",
+   "status": "Out",
+   "note": "Dieng (finger) is listed as out for Sunday's game versus the Hawks.",
+   "date": "2026-11-15T20:13Z"
+  },
+  {
    "player": "Ryan Rollins",
    "team": "Milwaukee Bucks",
    "status": "Day-To-Day",
    "note": "Rollins (illness) is questionable to play in Sunday's game against the Hawks.",
    "date": "2026-11-15T17:23Z"
-  },
-  {
-   "player": "Ousmane Dieng",
-   "team": "Milwaukee Bucks",
-   "status": "Out",
-   "note": "Dieng (finger) has been ruled out for Sunday's game against the Hawks.",
-   "date": "2026-11-14T22:40Z"
   },
   {
    "player": "Jaylen Clark",
@@ -1590,9 +1576,9 @@
   {
    "player": "Joel Embiid",
    "team": "Philadelphia 76ers",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Embiid (right foot injury management) has been ruled out for Sunday's game against the Pacers.",
-   "date": "2026-11-14T22:05Z"
+   "date": "2026-11-15T20:58Z"
   },
   {
    "player": "Dominick Barlow",
@@ -1665,13 +1651,6 @@
    "date": "2026-11-15T01:00Z"
   },
   {
-   "player": "Keegan Murray",
-   "team": "Sacramento Kings",
-   "status": "Day-To-Day",
-   "note": "Murray (illness) is questionable for Sunday's game against the Thunder.",
-   "date": "2026-11-15T01:00Z"
-  },
-  {
    "player": "Precious Achiuwa",
    "team": "Sacramento Kings",
    "status": "Day-To-Day",
@@ -1688,9 +1667,9 @@
   {
    "player": "De'Aaron Fox",
    "team": "San Antonio Spurs",
-   "status": "Day-To-Day",
-   "note": "Fox (hip) is listed as questionable for Sunday's game against Utah.",
-   "date": "2026-11-15T18:27Z"
+   "status": "Out",
+   "note": "Fox (hip) has been ruled out for Sunday's game against the Jazz.",
+   "date": "2026-11-15T20:33Z"
   },
   {
    "player": "Tobias Harris",
@@ -1770,25 +1749,11 @@
    "date": "2026-10-27T19:25Z"
   },
   {
-   "player": "Alex Sarr",
-   "team": "Washington Wizards",
-   "status": "Day-To-Day",
-   "note": "Sarr (illness) is listed as questionable for Sunday's game against Houston.",
-   "date": "2026-11-14T21:24Z"
-  },
-  {
    "player": "Tre Johnson",
    "team": "Washington Wizards",
    "status": "Day-To-Day",
    "note": "Johnson is listed as questionable for Sunday's game against the Rockets due to lower-back soreness.",
    "date": "2026-11-14T21:09Z"
-  },
-  {
-   "player": "Bub Carrington",
-   "team": "Washington Wizards",
-   "status": "Day-To-Day",
-   "note": "Carrington (chest) is listed as questionable for Sunday's game against Houston.",
-   "date": "2026-11-14T21:05Z"
   },
   {
    "player": "Tristan Vukcevic",
@@ -1821,70 +1786,28 @@
  ],
  "changes": [
   {
-   "player": "Jock Landale",
-   "team": "Atlanta Hawks",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Michael Porter Jr.",
-   "team": "Brooklyn Nets",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Santi Aldama",
-   "team": "Dallas Mavericks",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
    "player": "Kyrie Irving",
    "team": "Dallas Mavericks",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Andrew Nembhard",
-   "team": "Indiana Pacers",
    "from": "Day-To-Day",
    "to": "Out"
   },
   {
-   "player": "Pelle Larsson",
-   "team": "Miami Heat",
+   "player": "Andrew Nembhard",
+   "team": "Indiana Pacers",
    "from": "Out",
    "to": "Day-To-Day"
   },
   {
-   "player": "Ryan Rollins",
-   "team": "Milwaukee Bucks",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Jaylen Clark",
-   "team": "Minnesota Timberwolves",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Bryce McGowens",
-   "team": "New Orleans Pelicans",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Bennedict Mathurin",
-   "team": "New Orleans Pelicans",
+   "player": "Joel Embiid",
+   "team": "Philadelphia 76ers",
    "from": "Out",
    "to": "Day-To-Day"
   },
   {
    "player": "De'Aaron Fox",
    "team": "San Antonio Spurs",
-   "from": "nuovo",
-   "to": "Day-To-Day"
+   "from": "Day-To-Day",
+   "to": "Out"
   }
  ]
 }
