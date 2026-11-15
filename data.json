@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T12:43:04.349151Z",
+ "updated": "2026-11-15T15:35:15.016932Z",
  "finished": [
   {
    "date": "2026-11-15T01:00Z",
@@ -340,10 +340,10 @@
    "awayName": "Chicago Bulls",
    "hs": 0,
    "as": 0,
-   "pHome": 67.5,
+   "pHome": 71.0,
    "why": [
-    "Donovan Mitchell (Out, CLE)",
-    "Jalen Smith (Out, CHI)",
+    "Donovan Mitchell (Day-To-Day, CLE)",
+    "Jalen Smith (Day-To-Day, CHI)",
     "Caleb Wilson (Out, CHI)"
    ]
   },
@@ -356,10 +356,10 @@
    "awayName": "Memphis Grizzlies",
    "hs": 0,
    "as": 0,
-   "pHome": 27.5,
+   "pHome": 23.6,
    "why": [
     "Back-to-back: WSH",
-    "Ty Jerome (Out, MEM)"
+    "Ty Jerome (Day-To-Day, MEM)"
    ]
   },
   {
@@ -1092,23 +1092,23 @@
   {
    "player": "Jalen Smith",
    "team": "Chicago Bulls",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Smith (finger) has been ruled out for Saturday's game against Minnesota, K.C. Johnson of Chicago Sports Network reports.",
-   "date": "2026-11-14T23:40Z"
+   "date": "2026-11-15T15:30Z"
   },
   {
    "player": "Nic Claxton",
    "team": "Chicago Bulls",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Claxton (hamstring) is out for Saturday's game against the Timberwolves, K.C. Johnson of Chicago Sports Network reports.",
-   "date": "2026-11-14T23:39Z"
+   "date": "2026-11-15T15:30Z"
   },
   {
    "player": "Tobe Awaka",
    "team": "Chicago Bulls",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Awaka has been ruled out for Saturday's game against the Timberwolves.",
-   "date": "2026-11-14T18:10Z"
+   "date": "2026-11-15T15:30Z"
   },
   {
    "player": "Caleb Wilson",
@@ -1118,39 +1118,39 @@
    "date": "2026-11-12T21:35Z"
   },
   {
-   "player": "Peyton Watson",
-   "team": "Cleveland Cavaliers",
-   "status": "Out",
-   "note": "Watson (hamstring) has been ruled out for Saturday's game against the Mavericks.",
-   "date": "2026-11-14T22:59Z"
-  },
-  {
-   "player": "James Harden",
-   "team": "Cleveland Cavaliers",
-   "status": "Out",
-   "note": "Harden (calf) has been ruled out for Saturday's game against Dallas.",
-   "date": "2026-11-14T22:57Z"
-  },
-  {
-   "player": "Donovan Mitchell",
-   "team": "Cleveland Cavaliers",
-   "status": "Out",
-   "note": "Mitchell (knee) has been ruled out for Saturday's game against the Mavericks.",
-   "date": "2026-11-14T22:56Z"
-  },
-  {
    "player": "Jarrett Allen",
    "team": "Cleveland Cavaliers",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Allen (knee) has been ruled out for Saturday's game against the Mavericks.",
-   "date": "2026-11-14T22:52Z"
+   "date": "2026-11-15T15:26Z"
+  },
+  {
+   "player": "Peyton Watson",
+   "team": "Cleveland Cavaliers",
+   "status": "Day-To-Day",
+   "note": "Watson (hamstring) has been ruled out for Saturday's game against the Mavericks.",
+   "date": "2026-11-15T15:25Z"
   },
   {
    "player": "Evan Mobley",
    "team": "Cleveland Cavaliers",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Mobley (toe) has been ruled out for Saturday's meeting with Dallas.",
-   "date": "2026-11-14T18:33Z"
+   "date": "2026-11-15T15:25Z"
+  },
+  {
+   "player": "Donovan Mitchell",
+   "team": "Cleveland Cavaliers",
+   "status": "Day-To-Day",
+   "note": "Mitchell (knee) has been ruled out for Saturday's game against the Mavericks.",
+   "date": "2026-11-15T15:25Z"
+  },
+  {
+   "player": "James Harden",
+   "team": "Cleveland Cavaliers",
+   "status": "Day-To-Day",
+   "note": "Harden (calf) has been ruled out for Saturday's game against Dallas.",
+   "date": "2026-11-15T15:25Z"
   },
   {
    "player": "Sam Merrill",
@@ -1169,16 +1169,16 @@
   {
    "player": "Daniel Gafford",
    "team": "Dallas Mavericks",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Gafford (face) won't return to Saturday's game against the Cavaliers, Grant Afseth of DallasHoopsJournal.com reports.",
-   "date": "2026-11-15T02:31Z"
+   "date": "2026-11-15T15:22Z"
   },
   {
    "player": "Max Christie",
    "team": "Dallas Mavericks",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Christie (ankle) has been ruled out for Saturday's game against Cleveland.",
-   "date": "2026-11-14T23:02Z"
+   "date": "2026-11-15T15:22Z"
   },
   {
    "player": "Dereck Lively II",
@@ -1391,25 +1391,32 @@
    "date": "2026-11-15T00:17Z"
   },
   {
-   "player": "GG Jackson",
-   "team": "Memphis Grizzlies",
-   "status": "Out",
-   "note": "According to Grizzlies head coach Tuomas Iisalo, Jackson suffered a \"relatively serious\" foot injury in Saturday's 129-110 win over Brooklyn, Michael Wallace of the Grizzlies' official site reports.",
-   "date": "2026-11-15T04:09Z"
-  },
-  {
    "player": "Zach Edey",
    "team": "Memphis Grizzlies",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Edey (ankle) is listed as out for Saturday's game against the Nets.",
-   "date": "2026-11-15T00:43Z"
+   "date": "2026-11-15T15:29Z"
+  },
+  {
+   "player": "Ty Jerome",
+   "team": "Memphis Grizzlies",
+   "status": "Day-To-Day",
+   "note": "Jerome (hip) has been ruled out for Saturday's game against the Nets.",
+   "date": "2026-11-15T15:28Z"
+  },
+  {
+   "player": "GG Jackson",
+   "team": "Memphis Grizzlies",
+   "status": "Day-To-Day",
+   "note": "According to Grizzlies head coach Tuomas Iisalo, Jackson suffered a \"relatively serious\" foot injury in Saturday's 129-110 win over Brooklyn, Michael Wallace of the Grizzlies' official site reports.",
+   "date": "2026-11-15T15:28Z"
   },
   {
    "player": "Jerami Grant",
    "team": "Memphis Grizzlies",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Grant (head) is out for Saturday's game against the Nets.",
-   "date": "2026-11-15T00:35Z"
+   "date": "2026-11-15T15:28Z"
   },
   {
    "player": "Quinten Post",
@@ -1417,13 +1424,6 @@
    "status": "Out",
    "note": "Post (concussion) has been ruled out for Saturday's game against the Nets.",
    "date": "2026-11-14T19:47Z"
-  },
-  {
-   "player": "Ty Jerome",
-   "team": "Memphis Grizzlies",
-   "status": "Out",
-   "note": "Jerome (hip) has been ruled out for Saturday's game against the Nets.",
-   "date": "2026-11-14T19:44Z"
   },
   {
    "player": "Scotty Pippen Jr.",
@@ -1804,5 +1804,90 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "changes": []
+ "changes": [
+  {
+   "player": "Jalen Smith",
+   "team": "Chicago Bulls",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Nic Claxton",
+   "team": "Chicago Bulls",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Tobe Awaka",
+   "team": "Chicago Bulls",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Jarrett Allen",
+   "team": "Cleveland Cavaliers",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Peyton Watson",
+   "team": "Cleveland Cavaliers",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Evan Mobley",
+   "team": "Cleveland Cavaliers",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Donovan Mitchell",
+   "team": "Cleveland Cavaliers",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "James Harden",
+   "team": "Cleveland Cavaliers",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Daniel Gafford",
+   "team": "Dallas Mavericks",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Max Christie",
+   "team": "Dallas Mavericks",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Zach Edey",
+   "team": "Memphis Grizzlies",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Ty Jerome",
+   "team": "Memphis Grizzlies",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "GG Jackson",
+   "team": "Memphis Grizzlies",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Jerami Grant",
+   "team": "Memphis Grizzlies",
+   "from": "Out",
+   "to": "Day-To-Day"
+  }
+ ]
 }
