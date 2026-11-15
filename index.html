@@ -1,45 +1,99 @@
 <!DOCTYPE html><html lang="it"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>NBA Notte per Notte</title>
+<title>NBA notte per notte</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#0b0d12;--c:#151922;--c2:#1d2330;--tx:#eef1f6;--mu:#8b94a5;--ac:#ff6b1a;--ac2:#ffb84d;--ok:#22c55e;--bad:#ef4444;--wn:#f59e0b;padding-top:env(safe-area-inset-top,0)}
-*{box-sizing:border-box}body{margin:0;background:radial-gradient(900px 400px at 80% -10%,#3a1c0a55,transparent),var(--bg);color:var(--tx);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;padding-bottom:env(safe-area-inset-bottom,0)}
-main{max-width:820px;margin:auto;padding:14px}
-header{display:flex;justify-content:space-between;align-items:end}h1{margin:0;font-size:22px;background:linear-gradient(90deg,var(--ac),var(--ac2));-webkit-background-clip:text;background-clip:text;color:transparent}
-.mu{color:var(--mu);font-size:12px}
-nav{display:flex;gap:6px;overflow-x:auto;margin:12px 0;position:sticky;top:0;padding:6px 0;background:var(--bg);z-index:5}
-nav button{flex:none;border:0;background:var(--c);color:var(--tx);padding:9px 14px;border-radius:22px;font-size:14px;transition:.2s}
-nav button.on{background:linear-gradient(90deg,var(--ac),var(--ac2));color:#111;font-weight:700;transform:scale(1.04)}
-input{width:100%;padding:10px 14px;border-radius:12px;border:1px solid #2a3040;background:var(--c);color:var(--tx);font-size:15px;margin-bottom:8px}
-.card{background:var(--c);border-radius:14px;padding:12px;margin:8px 0;animation:in .35s both}
-@keyframes in{from{opacity:0;transform:translateY(8px)}}
-.row{display:flex;justify-content:space-between;align-items:center;gap:8px}.b{font-weight:650}
-.tag{font-size:11px;font-weight:700;padding:3px 9px;border-radius:10px;color:#fff}
-.Out{background:var(--bad)}.Day-To-Day,.Questionable,.Doubtful{background:var(--wn)}.ok{background:var(--ok)}.neu{background:#475569}
-.bar{height:8px;border-radius:5px;background:var(--c2);overflow:hidden;margin-top:6px}.bar i{display:block;height:100%;border-radius:5px;background:linear-gradient(90deg,var(--ac),var(--ac2));transition:width 1s}
-.spark{display:flex;gap:3px;align-items:end;height:34px;margin-top:6px}.spark i{flex:1;background:linear-gradient(var(--ac2),var(--ac));border-radius:3px 3px 0 0;min-height:3px}
-table{width:100%;border-collapse:collapse}td{padding:7px 4px;border-bottom:1px solid #232938}
-.new{border-left:4px solid var(--ac)}
-</style></head><body><main>
-<header><h1>🏀 NBA notte per notte</h1><span class="mu" id="up"></span></header>
-<nav id="nav"></nav><div id="v"><div class="card">Caricamento…</div></div>
-</main><script>
-let D=null,tab="inf";
-const tabs={inf:"Infortuni",cal:"Calendario",cla:"Classifiche",dif:"Difese",hot:"In forma"};
-const fmt=d=>new Date(d).toLocaleString("it-IT",{weekday:"short",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"});
-const esc=s=>String(s??"").replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c]));
-const q=()=>(document.getElementById("q")?.value||"").toLowerCase();
-const V={
-inf(){let l=D.injuries.filter(x=>(x.player+x.team).toLowerCase().includes(q()));
- const ch=D.changes.length?`<h3>🔔 Novità dall’ultimo aggiornamento</h3>`+D.changes.map(c=>`<div class="card new"><span class="b">${esc(c.player)}</span> <span class="mu">${esc(c.team)}</span><br>${esc(c.from)} → <b>${esc(c.to)}</b></div>`).join(""):"";
- return `<input id="q" placeholder="Cerca giocatore o squadra" oninput="draw(true)" value="${esc(q())}">`+ch+`<h3>Tutti (${l.length})</h3>`+l.map(x=>`<div class="card"><div class="row"><span class="b">${esc(x.player)} <span class="mu">${esc(x.team)}</span></span><span class="tag ${esc(x.status).replace(/\s/g,"-")}">${esc(x.status)}</span></div><div class="mu">${esc(x.note)}</div></div>`).join("")},
-cal(){return `<h3>Prossime</h3>`+D.upcoming.map(g=>`<div class="card"><div class="row"><span class="b">${g.away} @ ${g.home}</span><span class="mu">${fmt(g.date)}</span></div><div class="mu">${esc(g.awayName)} – ${esc(g.homeName)}</div>${g.pHome!=null?`<div class="row" style="margin-top:8px"><b>${g.away} ${(100-g.pHome).toFixed(0)}%</b><b>${g.home} ${g.pHome.toFixed(0)}%</b></div><div class="bar"><i style="width:${100-g.pHome}%"></i></div>${g.why&&g.why.length?`<div class="mu" style="margin-top:6px">⚠ ${g.why.map(esc).join(" · ")}</div>`:""}`:""}</div>`).join("")+`<h3>Risultati</h3>`+D.finished.map(g=>`<div class="card row"><span class="${g.as>g.hs?"b":""}">${g.away} ${g.as}</span><span class="mu">${fmt(g.date)}</span><span class="${g.hs>g.as?"b":""}">${g.home} ${g.hs}</span></div>`).join("")},
-cla(){return D.standings.map(c=>`<h3>${esc(c.conf)}</h3><div class="card"><table>`+c.rows.map((r,i)=>{const p=r.w/Math.max(1,r.w+r.l);return `<tr><td>${i+1}</td><td>${esc(r.team)}<div class="bar"><i style="width:${p*100}%"></i></div></td><td>${r.w}-${r.l}</td></tr>`}).join("")+`</table></div>`).join("")},
-dif(){const n=D.defense.length,mx=Math.max(...D.defense.map(x=>x.allowed));return `<h3>Punti subiti a partita (ultime due settimane)</h3><div class="mu">1 = difesa migliore · rosso = debole</div>`+D.defense.map(x=>`<div class="card"><div class="row"><span class="b">${x.rank}. ${x.team}</span><span>${x.allowed} <span class="mu">(${x.games} gare)</span></span></div><div class="bar"><i style="width:${x.allowed/mx*100}%;${x.rank>n*2/3?"background:var(--bad)":x.rank<=n/3?"background:var(--ok)":""}"></i></div></div>`).join("")},
-hot(){const n=D.defense.length;return `<h3>Giocatori in forma</h3><div class="mu">Miglior marcatore della squadra in almeno 2 delle ultime partite.</div>`+D.hot.map(h=>{const o=h.next,weak=o&&o.rank>n*2/3,m=Math.max(...h.last,1);return `<div class="card"><div class="row"><span class="b">${esc(h.player)} <span class="mu">${h.team}</span></span><span class="b">${h.avg} PPG</span></div><div class="spark">${h.last.map(p=>`<i style="height:${p/m*100}%" title="${p}"></i>`).join("")}</div>${o?`<div class="row" style="margin-top:8px"><span class="mu">Prossima: ${o.home?"vs":"@"} ${o.team} · ${fmt(o.date)}</span><span class="tag ${weak?"ok":"neu"}">${weak?"Difesa debole 🔥":"Difesa "+o.rank+"ª"}</span></div>`:""}</div>`}).join("")}};
-function draw(keep){const y=scrollY;document.getElementById("v").innerHTML=D?V[tab]():"";if(keep){const i=document.getElementById("q");if(i){i.focus();i.setSelectionRange(99,99)}scrollTo(0,y)}[...nav.children].forEach(b=>b.classList.toggle("on",b.dataset.k==tab))}
-const nav=document.getElementById("nav");
-for(const k in tabs){const b=document.createElement("button");b.textContent=tabs[k];b.dataset.k=k;b.onclick=()=>{tab=k;draw()};nav.appendChild(b)}
-async function load(){try{D=await (await fetch("data.json?"+Date.now())).json();document.getElementById("up").textContent="Aggiornato "+fmt(D.updated);draw(!!document.getElementById("q"))}catch(e){document.getElementById("v").innerHTML='<div class="card">Dati non disponibili: esegui prima update.py</div>'}}
-load();setInterval(load,600000);
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:#fff3df;font:400 16px/1.5 Poppins,system-ui,sans-serif;color:#2a0a0a;overflow-x:hidden}
+.pill{position:fixed;top:calc(env(safe-area-inset-top,0px) + 12px);left:50%;transform:translateX(-50%);z-index:50;display:flex;gap:2px;padding:5px;border-radius:30px;background:#fffffff0;backdrop-filter:blur(10px);box-shadow:0 6px 24px #0003;max-width:calc(100vw - 20px);overflow-x:auto;scrollbar-width:none}
+.pill a{color:#1b1b1b;text-decoration:none;font:600 13px Poppins;padding:8px 13px;border-radius:24px;white-space:nowrap;transition:background .25s,color .25s}
+.pill a:hover,.pill a.on{background:#c8102e;color:#fff}
+.hero{position:relative;min-height:100svh;background:#c8102e;color:#fff3df;border-bottom-left-radius:min(46vw,300px);overflow:hidden;padding:110px 22px 40px;display:flex;flex-direction:column;justify-content:space-between}
+h1{margin:0;font:800 clamp(68px,21vw,200px)/.86 Poppins;letter-spacing:-.05em;position:relative;z-index:1}
+.ballw{position:absolute;right:4vw;top:34%;width:clamp(150px,34vw,340px);z-index:2;animation:fl 5s ease-in-out infinite}
+@keyframes fl{50%{translate:0 -16px}}
+#ball{width:100%;display:block;transform:translate3d(var(--x,0),var(--y,0),0) rotate(var(--r,0deg));filter:drop-shadow(0 30px 30px #0006);will-change:transform}
+.cap{position:relative;z-index:3;max-width:330px;font-size:15px}.cap b{font-size:34px;font-weight:800;display:block;line-height:1}
+.stats{display:flex;gap:26px;margin-top:10px}
+.s{position:relative;padding:96px 20px;background:var(--b);color:var(--f);overflow:hidden}
+.in{max-width:960px;margin:auto;position:relative;z-index:1}
+.dark{--b:#060d1f;--f:#f4f6fb;--m:#8d9ab3;--l:#1d2a48;--c:#0f1a33}
+.dark::before{content:"";position:absolute;right:-20%;top:-10%;width:90vw;height:90vw;max-width:800px;max-height:800px;background:radial-gradient(circle,#2f7dff66,transparent 62%);animation:gl 8s ease-in-out infinite alternate}
+@keyframes gl{to{transform:translate(-6%,8%) scale(1.15)}}
+.lav{--b:#e6defc;--f:#14102b;--m:#5f5a7a;--l:#cdc2f2;--c:#f7f3ff}
+.org{--b:#ff6a13;--f:#1b0b02;--m:#53250a;--l:#ff9650;--c:#ffe8d6}
+.cream{--b:#fff3df;--f:#2a0a0a;--m:#7b5e57;--l:#ecd9bd;--c:#fff}
+h2{margin:0 0 8px;font:800 clamp(42px,11.5vw,104px)/.9 Poppins;letter-spacing:-.045em;max-width:12ch}
+.lead{color:var(--m);max-width:460px;margin:0 0 30px}
+.rv{opacity:0;transform:translateY(34px);transition:opacity .9s,transform .9s cubic-bezier(.2,.8,.2,1)}.rv.on{opacity:1;transform:none}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(290px,1fr))}
+.g{background:var(--c);border-radius:26px;padding:20px;display:flex;gap:16px;align-items:center}
+.g time{font:600 13px Poppins;color:var(--m)}.g .tm{font:700 17px/1.25 Poppins;margin-top:6px}.g .tm span{display:flex;align-items:center;gap:8px}
+.dot{width:11px;height:11px;border-radius:50%;flex:none}
+.why{font-size:12px;color:var(--m);margin-top:8px}
+.ring{position:relative;width:104px;height:104px;flex:none}.ring svg{width:100%}.arc{transition:stroke-dasharray 1.6s cubic-bezier(.2,.8,.2,1)}
+.ring b{position:absolute;inset:0;display:grid;place-content:center;text-align:center;font:800 22px/1 Poppins}.ring small{font:600 11px Poppins;color:var(--m)}
+.flt{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.flt button,.flt input{border:0;background:var(--c);color:var(--f);border-radius:30px;padding:11px 18px;font:500 14px Poppins}
+.flt input{flex:1;min-width:150px}.flt button{cursor:pointer;transition:transform .2s}.flt button:active{transform:scale(.95)}.flt .on{background:var(--f);color:var(--b)}
+.th{font:700 20px Poppins;margin:26px 0 6px;display:flex;align-items:center;gap:10px}
+.inj{display:flex;justify-content:space-between;gap:12px;padding:12px 0;border-bottom:1px solid var(--l)}.inj small{display:block;color:var(--m);font-size:13px}
+.chip{font:600 12px Poppins;padding:5px 12px;border-radius:20px;color:#fff;white-space:nowrap;height:fit-content}
+.Out{background:#e5242b}.dub{background:#d98a00}.okc{background:#15803d}.neu{background:#64748b}
+.new{background:var(--c);border-left:6px solid #c8102e;border-radius:16px;padding:12px 16px;margin:8px 0}
+.hot{background:var(--c);border-radius:26px;padding:20px}.hot .top{display:flex;justify-content:space-between;align-items:flex-start}
+.big{font:800 52px/1 Poppins;letter-spacing:-.04em}.big small{font:600 13px Poppins;letter-spacing:0;margin-left:4px;color:var(--m)}
+.sp{width:100%;height:52px;margin:12px 0 2px}.vals{display:flex;justify-content:space-between;font-size:12px;color:var(--m)}
+.nx{display:flex;justify-content:space-between;gap:8px;align-items:center;margin-top:12px;font-size:13px;color:var(--m)}
+.row{display:flex;align-items:center;gap:14px;padding:12px 16px;background:var(--c);border-radius:18px;margin:6px 0}
+.row .n{width:24px;font:700 15px Poppins;color:var(--m)}.row .t{flex:1;font-weight:600}.row .v{font:800 20px Poppins}
+.mini{height:7px;border-radius:4px;background:var(--l);margin-top:7px;overflow:hidden}.mini i{display:block;height:100%;border-radius:4px;width:0;transition:width 1.3s cubic-bezier(.2,.8,.2,1)}
+.two{display:grid;gap:0 30px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}.two h3{font:700 22px Poppins;margin:26px 0 8px}
+.empty{color:var(--m);padding:30px 0}
+footer{padding:30px 20px calc(30px + env(safe-area-inset-bottom,0px));background:#060d1f;color:#8d9ab3;font-size:13px;text-align:center}
+:focus-visible{outline:3px solid #ffb703;outline-offset:3px}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.rv{opacity:1;transform:none}}
+</style></head><body>
+<nav class="pill"><a href="#top">Home</a><a href="#cal">Partite</a><a href="#inf">Infortuni</a><a href="#hot">In forma</a><a href="#dif">Difese</a><a href="#cla">Classifiche</a></nav>
+<header class="hero" id="top"><h1>Stanotte<br>in NBA</h1>
+<div class="ballw"><svg id="ball" viewBox="0 0 100 100" aria-hidden="true"><defs><radialGradient id="bg" cx="35%" cy="30%"><stop offset="0" stop-color="#ffb870"/><stop offset=".55" stop-color="#f26a1b"/><stop offset="1" stop-color="#8f3407"/></radialGradient></defs><circle cx="50" cy="50" r="48" fill="url(#bg)"/><g fill="none" stroke="#1a0b02" stroke-width="1.6" stroke-linecap="round"><path d="M50 2v96M2 50h96"/><path d="M14 14C34 32 34 68 14 86M86 14C66 32 66 68 86 86"/></g></svg></div>
+<div class="cap"><b id="cn">…</b><span id="ct">Infortuni, probabilità di vittoria e giocatori in forma, aggiornati ogni 3 ore.</span></div></header>
+<section class="s dark" id="cal"><div class="in"><h2 class="rv">Le partite</h2><p class="lead rv">Chi è favorito, e perché. L’anello mostra la squadra con più probabilità.</p><div class="grid" id="gc"></div></div></section>
+<section class="s lav" id="inf"><div class="in"><h2 class="rv">Chi non gioca</h2><p class="lead rv">Infortuni e dubbi, squadra per squadra.</p><div id="ic"></div></div></section>
+<section class="s org" id="hot"><div class="in"><h2 class="rv">In forma</h2><p class="lead rv">Migliori marcatori delle ultime partite e difesa che li aspetta.</p><div class="grid" id="hc"></div></div></section>
+<section class="s cream" id="dif"><div class="in"><h2 class="rv">Difese</h2><p class="lead rv">Punti subiti a partita nelle ultime due settimane. In cima le migliori.</p><div id="dc"></div></div></section>
+<section class="s dark" id="cla"><div class="in"><h2 class="rv">Classifiche</h2><div class="two" id="cc"></div></div></section>
+<footer id="up">Caricamento dati…</footer>
+<script>
+const COL={ATL:"#e03a3e",BOS:"#007a33",BKN:"#777",CHA:"#1d8fb0",CHI:"#ce1141",CLE:"#860038",DAL:"#0064b1",DEN:"#fec524",DET:"#c8102e",GS:"#1d428a",GSW:"#1d428a",HOU:"#ce1141",IND:"#fdbb30",LAC:"#c8102e",LAL:"#552583",MEM:"#5d76a9",MIA:"#98002e",MIL:"#00471b",MIN:"#236192",NO:"#85714d",NOP:"#85714d",NY:"#f58426",NYK:"#f58426",OKC:"#007ac1",ORL:"#0077c0",PHI:"#006bb6",PHX:"#e56020",POR:"#e03a3e",SAC:"#5a2d81",SA:"#8a8d8f",SAS:"#8a8d8f",TOR:"#ce1141",UTAH:"#f9a01b",UTA:"#f9a01b",WSH:"#e31837",WAS:"#e31837"};
+const col=a=>COL[a]||"#64748b",$=s=>document.querySelector(s);
+const e=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const day=d=>new Date(d).toLocaleDateString("it-IT",{weekday:"short",day:"numeric",month:"short"});
+const hm=d=>new Date(d).toLocaleTimeString("it-IT",{hour:"2-digit",minute:"2-digit"});
+let D=null,flt="all",qs="",n2a={};
+const ring=g=>{if(g.pHome==null)return"";const h=g.pHome,a=100-h;return`<div class="ring"><svg viewBox="0 0 100 100"><circle r="42" cx="50" cy="50" fill="none" stroke="${col(g.away)}" stroke-width="11"/><circle class="arc" r="42" cx="50" cy="50" fill="none" stroke="${col(g.home)}" stroke-width="11" stroke-linecap="round" stroke-dasharray="0 264" data-d="${h*2.64}" transform="rotate(-90 50 50)"/></svg><b>${Math.max(h,a).toFixed(0)}%<small>${h>=a?g.home:g.away}</small></b></div>`};
+const sp=(v,c)=>{const m=Math.max(...v,1),n=v.length,p=v.map((y,i)=>`${n>1?i*100/(n-1):50},${30-y/m*26}`).join(" ");return`<svg class="sp" viewBox="0 0 100 32" preserveAspectRatio="none"><polyline points="${p}" fill="none" stroke="${c}" stroke-width="3.5" vector-effect="non-scaling-stroke" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="vals">${v.map(x=>`<span>${x}</span>`).join("")}</div>`};
+const st=s=>s=="Out"?["Out","Out"]:s=="Doubtful"?["Improbabile","dub"]:s=="Questionable"?["Incerto","dub"]:s=="Day-To-Day"?["Dubbio","dub"]:[s||"?","neu"];
+function cal(){$("#gc").innerHTML=(D.upcoming||[]).map(g=>`<article class="g"><div style="flex:1"><time>${day(g.date)}, ${hm(g.date)}</time><div class="tm"><span><i class="dot" style="background:${col(g.away)}"></i>${e(g.awayName)}</span><span><i class="dot" style="background:${col(g.home)}"></i>${e(g.homeName)}</span></div>${g.why?.length?`<div class="why">${g.why.map(e).join(", ")}</div>`:""}</div>${ring(g)}</article>`).join("")||'<div class="empty">Nessuna partita in programma.</div>'}
+function inj(){const l=(D.injuries||[]).filter(x=>(flt=="all"||(flt=="out")==(x.status=="Out"))&&(x.player+x.team).toLowerCase().includes(qs)),by={};l.forEach(x=>(by[x.team]??=[]).push(x));
+ const ch=(D.changes||[]).length?D.changes.map(c=>`<div class="new"><b>${e(c.player)}</b> ${e(c.team)}<br>${e(c.from)} diventa <b>${e(c.to)}</b></div>`).join(""):"";
+ $("#ic").innerHTML=`<div class="flt"><input id="q" placeholder="Cerca giocatore o squadra" value="${e(qs)}">${[["all","Tutti"],["out","Solo out"],["dub","Dubbi"]].map(([k,t])=>`<button data-f="${k}" class="${flt==k?"on":""}">${t}</button>`).join("")}</div>`+ch+(Object.entries(by).map(([t,a])=>`<div class="th"><i class="dot" style="background:${col(n2a[t])}"></i>${e(t)}</div>`+a.map(x=>{const[s,c]=st(x.status);return`<div class="inj"><div><b>${e(x.player)}</b><small>${e(x.note)}</small></div><span class="chip ${c}">${s}</span></div>`}).join("")).join("")||'<div class="empty">Nessun giocatore trovato.</div>');
+ const q=$("#q");q.oninput=()=>{qs=q.value.toLowerCase();const p=q.selectionStart;inj();const n=$("#q");n.focus();n.setSelectionRange(p,p)};
+ document.querySelectorAll("[data-f]").forEach(b=>b.onclick=()=>{flt=b.dataset.f;inj()})}
+function hot(){const n=(D.defense||[]).length;$("#hc").innerHTML=(D.hot||[]).map(h=>{const o=h.next,w=o&&o.rank>n*2/3;return`<article class="hot"><div class="top"><div><b>${e(h.player)}</b><div style="font-size:13px;color:var(--m)"><i class="dot" style="background:${col(h.team)};display:inline-block"></i> ${e(h.team)}</div></div><div class="big">${h.avg}<small>punti</small></div></div>${sp(h.last,col(h.team))}${o?`<div class="nx"><span>${o.home?"In casa contro":"In trasferta a"} ${e(o.team)}, ${hm(o.date)}</span><span class="chip ${w?"okc":"neu"}">${w?"Difesa debole":"Difesa "+o.rank+"ª"}</span></div>`:""}</article>`}).join("")||'<div class="empty">Nessun giocatore in evidenza.</div>'}
+function dif(){const d=D.defense||[],n=d.length,mx=Math.max(...d.map(x=>x.allowed),1),mn=Math.min(...d.map(x=>x.allowed),mx);$("#dc").innerHTML=d.map(x=>{const k=n>1?(x.rank-1)/(n-1):0;return`<div class="row"><span class="n">${x.rank}</span><div class="t">${e(x.team)}<div class="mini"><i data-w="${(x.allowed-mn*.9)/(mx-mn*.9)*100}" style="background:hsl(${130*(1-k)} 70% 42%)"></i></div></div><span class="v">${x.allowed}</span></div>`}).join("")}
+function cla(){$("#cc").innerHTML=(D.standings||[]).map(c=>`<div><h3>${e(c.conf)}</h3>`+c.rows.map((r,i)=>{const p=r.w/Math.max(1,r.w+r.l);return`<div class="row"><span class="n">${i+1}</span><div class="t">${e(r.team)}<div class="mini"><i data-w="${p*100}" style="background:${col(r.abbr)}"></i></div></div><span class="v">${r.w}-${r.l}</span></div>`}).join("")+`</div>`).join("")}
+const io=new IntersectionObserver(es=>es.forEach(x=>{if(!x.isIntersecting)return;const t=x.target;t.classList.add("on");if(t.dataset.d)t.setAttribute("stroke-dasharray",t.dataset.d+" 264");if(t.dataset.w)t.style.width=Math.max(4,Math.min(100,t.dataset.w))+"%";io.unobserve(t)}),{threshold:.15});
+const watch=()=>document.querySelectorAll(".rv:not(.on),.arc,.mini i").forEach(x=>io.observe(x));
+async function load(){try{D=await(await fetch("data.json?"+Date.now())).json()}catch(x){$("#up").textContent="Dati non ancora disponibili: avvia “Aggiorna dati NBA” da GitHub Actions.";watch();return}
+ (D.standings||[]).forEach(c=>c.rows.forEach(r=>n2a[r.team]=r.abbr));
+ $("#cn").textContent=(D.upcoming||[]).length+" partite in arrivo";$("#ct").textContent=(D.injuries||[]).length+" giocatori nella lista infortuni. Probabilità di vittoria e giocatori in forma, aggiornati ogni 3 ore.";
+ cal();inj();hot();dif();cla();$("#up").textContent="Aggiornato "+new Date(D.updated).toLocaleString("it-IT",{weekday:"long",day:"numeric",month:"long",hour:"2-digit",minute:"2-digit"});watch()}
+const ball=$("#ball");let px=0;
+function mv(){const p=Math.min(1,scrollY/innerHeight);ball.style.setProperty("--x",(-p*58+px*14)+"vw");ball.style.setProperty("--y",(p*46)+"vh");ball.style.setProperty("--r",(scrollY*.45)+"deg")}
+addEventListener("scroll",mv,{passive:true});addEventListener("pointermove",ev=>{px=ev.clientX/innerWidth-.5;mv()});mv();
+const links=[...document.querySelectorAll(".pill a")],secs=links.map(a=>$(a.getAttribute("href")));
+addEventListener("scroll",()=>{let k=0;secs.forEach((s,i)=>{if(s.getBoundingClientRect().top<innerHeight*.4)k=i});links.forEach((a,i)=>a.classList.toggle("on",i==k))},{passive:true});
+load();setInterval(()=>{if(document.activeElement!==$("#q"))load()},600000);
 </script></body></html>
