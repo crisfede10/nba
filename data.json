@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T03:48:27.018513Z",
+ "updated": "2026-11-15T06:55:49.177526Z",
  "finished": [
   {
    "date": "2026-11-15T01:00Z",
@@ -1394,8 +1394,8 @@
    "player": "GG Jackson",
    "team": "Memphis Grizzlies",
    "status": "Out",
-   "note": "Jackson (foot) has been ruled out for the remainder of Saturday's game against the Nets.",
-   "date": "2026-11-15T01:56Z"
+   "note": "According to Grizzlies head coach Tuomas Iisalo, Jackson suffered a \"relatively serious\" foot injury in Saturday's 129-110 win over Brooklyn, Michael Wallace of the Grizzlies' official site reports.",
+   "date": "2026-11-15T04:09Z"
   },
   {
    "player": "Zach Edey",
@@ -1804,36 +1804,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "changes": [
-  {
-   "player": "Daniel Gafford",
-   "team": "Dallas Mavericks",
-   "from": "nuovo",
-   "to": "Out"
-  },
-  {
-   "player": "Duncan Robinson",
-   "team": "Detroit Pistons",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Andrew Nembhard",
-   "team": "Indiana Pacers",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "GG Jackson",
-   "team": "Memphis Grizzlies",
-   "from": "nuovo",
-   "to": "Out"
-  },
-  {
-   "player": "Jaylen Clark",
-   "team": "Minnesota Timberwolves",
-   "from": "nuovo",
-   "to": "Out"
-  }
- ]
+ "changes": []
 }
