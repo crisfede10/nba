@@ -10,11 +10,11 @@ body{margin:0;background:#fff3df;font:400 16px/1.5 Poppins,system-ui,sans-serif;
 .pill a{color:#1b1b1b;text-decoration:none;font:600 13px Poppins;padding:8px 13px;border-radius:24px;white-space:nowrap;transition:background .25s,color .25s}
 .pill a:hover,.pill a.on{background:#c8102e;color:#fff}
 .hero{position:relative;min-height:100svh;background:#c8102e;color:#fff3df;border-bottom-left-radius:min(46vw,300px);overflow:hidden;padding:110px 22px 40px;display:flex;flex-direction:column;justify-content:space-between}
-h1{margin:0;font:800 clamp(68px,21vw,200px)/.86 Poppins;letter-spacing:-.05em;position:relative;z-index:1}
-.ballw{position:absolute;right:4vw;top:34%;width:clamp(150px,34vw,340px);z-index:2;animation:fl 5s ease-in-out infinite}
+h1{margin:0;font:800 clamp(52px,17vw,190px)/.9 Poppins;letter-spacing:-.05em;position:relative;z-index:1}
+.ballw{position:absolute;right:4vw;top:46%;width:clamp(140px,34vw,320px);z-index:2;animation:fl 5s ease-in-out infinite}
 @keyframes fl{50%{translate:0 -16px}}
 #ball{width:100%;display:block;transform:translate3d(var(--x,0),var(--y,0),0) rotate(var(--r,0deg));filter:drop-shadow(0 30px 30px #0006);will-change:transform}
-.cap{position:relative;z-index:3;max-width:330px;font-size:15px}.cap b{font-size:34px;font-weight:800;display:block;line-height:1}
+.cap{position:relative;z-index:3;max-width:min(330px,100%);font-size:15px}.cap b{font-size:34px;font-weight:800;display:block;line-height:1}
 .stats{display:flex;gap:26px;margin-top:10px}
 .s{position:relative;padding:96px 20px;background:var(--b);color:var(--f);overflow:hidden}
 .in{max-width:960px;margin:auto;position:relative;z-index:1}
@@ -30,7 +30,7 @@ h2{margin:0 0 8px;font:800 clamp(42px,11.5vw,104px)/.9 Poppins;letter-spacing:-.
 .grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(290px,1fr))}
 .g{background:var(--c);border-radius:26px;padding:20px;display:flex;gap:16px;align-items:center}
 .g time{font:600 13px Poppins;color:var(--m)}.g .tm{font:700 17px/1.25 Poppins;margin-top:6px}.g .tm span{display:flex;align-items:center;gap:8px}
-.dot{width:11px;height:11px;border-radius:50%;flex:none}
+.tm .pc{margin-left:auto;font-weight:800}.dot{width:11px;height:11px;border-radius:50%;flex:none}
 .why{font-size:12px;color:var(--m);margin-top:8px}
 .ring{position:relative;width:104px;height:104px;flex:none}.ring svg{width:100%}.arc{transition:stroke-dasharray 1.6s cubic-bezier(.2,.8,.2,1)}
 .ring b{position:absolute;inset:0;display:grid;place-content:center;text-align:center;font:800 22px/1 Poppins}.ring small{font:600 11px Poppins;color:var(--m)}
@@ -57,7 +57,7 @@ footer{padding:30px 20px calc(30px + env(safe-area-inset-bottom,0px));background
 </style></head><body>
 <nav class="pill"><a href="#top">Home</a><a href="#cal">Partite</a><a href="#inf">Infortuni</a><a href="#hot">In forma</a><a href="#dif">Difese</a><a href="#cla">Classifiche</a></nav>
 <header class="hero" id="top"><h1>Stanotte<br>in NBA</h1>
-<div class="ballw"><svg id="ball" viewBox="0 0 100 100" aria-hidden="true"><defs><radialGradient id="bg" cx="35%" cy="30%"><stop offset="0" stop-color="#ffb870"/><stop offset=".55" stop-color="#f26a1b"/><stop offset="1" stop-color="#8f3407"/></radialGradient></defs><circle cx="50" cy="50" r="48" fill="url(#bg)"/><g fill="none" stroke="#1a0b02" stroke-width="1.6" stroke-linecap="round"><path d="M50 2v96M2 50h96"/><path d="M14 14C34 32 34 68 14 86M86 14C66 32 66 68 86 86"/></g></svg></div>
+<div class="ballw"><svg id="ball" viewBox="0 0 100 100" aria-hidden="true"><defs><radialGradient id="bg" cx="35%" cy="30%"><stop offset="0" stop-color="#ffb870"/><stop offset=".55" stop-color="#f26a1b"/><stop offset="1" stop-color="#8f3407"/></radialGradient></defs><circle cx="50" cy="50" r="48" fill="url(#bg)" stroke="#fff3df" stroke-width="1.8"/><g fill="none" stroke="#1a0b02" stroke-width="1.6" stroke-linecap="round"><path d="M50 2v96M2 50h96"/><path d="M14 14C34 32 34 68 14 86M86 14C66 32 66 68 86 86"/></g></svg></div>
 <div class="cap"><b id="cn">…</b><span id="ct">Infortuni, probabilità di vittoria e giocatori in forma, aggiornati ogni 3 ore.</span></div></header>
 <section class="s dark" id="cal"><div class="in"><h2 class="rv">Le partite</h2><p class="lead rv">Chi è favorito, e perché. L’anello mostra la squadra con più probabilità.</p><div class="grid" id="gc"></div></div></section>
 <section class="s lav" id="inf"><div class="in"><h2 class="rv">Chi non gioca</h2><p class="lead rv">Infortuni e dubbi, squadra per squadra.</p><div id="ic"></div></div></section>
@@ -66,16 +66,16 @@ footer{padding:30px 20px calc(30px + env(safe-area-inset-bottom,0px));background
 <section class="s dark" id="cla"><div class="in"><h2 class="rv">Classifiche</h2><div class="two" id="cc"></div></div></section>
 <footer id="up">Caricamento dati…</footer>
 <script>
-const COL={ATL:"#e03a3e",BOS:"#007a33",BKN:"#777",CHA:"#1d8fb0",CHI:"#ce1141",CLE:"#860038",DAL:"#0064b1",DEN:"#fec524",DET:"#c8102e",GS:"#1d428a",GSW:"#1d428a",HOU:"#ce1141",IND:"#fdbb30",LAC:"#c8102e",LAL:"#552583",MEM:"#5d76a9",MIA:"#98002e",MIL:"#00471b",MIN:"#236192",NO:"#85714d",NOP:"#85714d",NY:"#f58426",NYK:"#f58426",OKC:"#007ac1",ORL:"#0077c0",PHI:"#006bb6",PHX:"#e56020",POR:"#e03a3e",SAC:"#5a2d81",SA:"#8a8d8f",SAS:"#8a8d8f",TOR:"#ce1141",UTAH:"#f9a01b",UTA:"#f9a01b",WSH:"#e31837",WAS:"#e31837"};
+const COL={ATL:"#e03a3e",BOS:"#1d9a52",BKN:"#9aa3ad",CHA:"#1d8fb0",CHI:"#ce1141",CLE:"#b02356",DAL:"#0064b1",DEN:"#fec524",DET:"#c8102e",GS:"#2a62c4",GSW:"#2a62c4",HOU:"#ce1141",IND:"#fdbb30",LAC:"#c8102e",LAL:"#552583",MEM:"#5d76a9",MIA:"#98002e",MIL:"#2e9d57",MIN:"#236192",NO:"#85714d",NOP:"#85714d",NY:"#f58426",NYK:"#f58426",OKC:"#007ac1",ORL:"#0077c0",PHI:"#006bb6",PHX:"#e56020",POR:"#e03a3e",SAC:"#5a2d81",SA:"#b0b5ba",SAS:"#b0b5ba",TOR:"#ce1141",UTAH:"#f9a01b",UTA:"#f9a01b",WSH:"#e31837",WAS:"#e31837"};
 const col=a=>COL[a]||"#64748b",$=s=>document.querySelector(s);
 const e=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const day=d=>new Date(d).toLocaleDateString("it-IT",{weekday:"short",day:"numeric",month:"short"});
 const hm=d=>new Date(d).toLocaleTimeString("it-IT",{hour:"2-digit",minute:"2-digit"});
 let D=null,flt="all",qs="",n2a={};
-const ring=g=>{if(g.pHome==null)return"";const h=g.pHome,a=100-h;return`<div class="ring"><svg viewBox="0 0 100 100"><circle r="42" cx="50" cy="50" fill="none" stroke="${col(g.away)}" stroke-width="11"/><circle class="arc" r="42" cx="50" cy="50" fill="none" stroke="${col(g.home)}" stroke-width="11" stroke-linecap="round" stroke-dasharray="0 264" data-d="${h*2.64}" transform="rotate(-90 50 50)"/></svg><b>${Math.max(h,a).toFixed(0)}%<small>${h>=a?g.home:g.away}</small></b></div>`};
+const ring=g=>{if(g.pHome==null)return"";const C=263.9,h=g.pHome,a=100-h,gp=3,hl=Math.max(0,h/100*C-gp),al=Math.max(0,a/100*C-gp);return`<div class="ring"><svg viewBox="0 0 100 100"><g transform="rotate(-90 50 50)" fill="none" stroke-width="11"><circle class="arc" r="42" cx="50" cy="50" stroke="${col(g.home)}" stroke-dasharray="0 264" data-d="${hl.toFixed(1)} ${(C-hl).toFixed(1)}"/><circle class="arc" r="42" cx="50" cy="50" stroke="${col(g.away)}" stroke-dasharray="0 264" stroke-dashoffset="${(-h/100*C).toFixed(1)}" data-d="${al.toFixed(1)} ${(C-al).toFixed(1)}"/></g></svg><b>${Math.max(h,a).toFixed(0)}%<small>${h>=a?g.home:g.away}</small></b></div>`};
 const sp=(v,c)=>{const m=Math.max(...v,1),n=v.length,p=v.map((y,i)=>`${n>1?i*100/(n-1):50},${30-y/m*26}`).join(" ");return`<svg class="sp" viewBox="0 0 100 32" preserveAspectRatio="none"><polyline points="${p}" fill="none" stroke="${c}" stroke-width="3.5" vector-effect="non-scaling-stroke" stroke-linecap="round" stroke-linejoin="round"/></svg><div class="vals">${v.map(x=>`<span>${x}</span>`).join("")}</div>`};
 const st=s=>s=="Out"?["Out","Out"]:s=="Doubtful"?["Improbabile","dub"]:s=="Questionable"?["Incerto","dub"]:s=="Day-To-Day"?["Dubbio","dub"]:[s||"?","neu"];
-function cal(){$("#gc").innerHTML=(D.upcoming||[]).map(g=>`<article class="g"><div style="flex:1"><time>${day(g.date)}, ${hm(g.date)}</time><div class="tm"><span><i class="dot" style="background:${col(g.away)}"></i>${e(g.awayName)}</span><span><i class="dot" style="background:${col(g.home)}"></i>${e(g.homeName)}</span></div>${g.why?.length?`<div class="why">${g.why.map(e).join(", ")}</div>`:""}</div>${ring(g)}</article>`).join("")||'<div class="empty">Nessuna partita in programma.</div>'}
+function cal(){$("#gc").innerHTML=(D.upcoming||[]).map(g=>`<article class="g"><div style="flex:1"><time>${day(g.date)}, ${hm(g.date)}</time><div class="tm"><span><i class="dot" style="background:${col(g.away)}"></i>${e(g.awayName)}${g.pHome!=null?`<b class="pc">${(100-g.pHome).toFixed(0)}%</b>`:""}</span><span><i class="dot" style="background:${col(g.home)}"></i>${e(g.homeName)}${g.pHome!=null?`<b class="pc">${g.pHome.toFixed(0)}%</b>`:""}</span></div>${g.why?.length?`<div class="why">${g.why.map(e).join(", ")}</div>`:""}</div>${ring(g)}</article>`).join("")||'<div class="empty">Nessuna partita in programma.</div>'}
 function inj(){const l=(D.injuries||[]).filter(x=>(flt=="all"||(flt=="out")==(x.status=="Out"))&&(x.player+x.team).toLowerCase().includes(qs)),by={};l.forEach(x=>(by[x.team]??=[]).push(x));
  const ch=(D.changes||[]).length?D.changes.map(c=>`<div class="new"><b>${e(c.player)}</b> ${e(c.team)}<br>${e(c.from)} diventa <b>${e(c.to)}</b></div>`).join(""):"";
  $("#ic").innerHTML=`<div class="flt"><input id="q" placeholder="Cerca giocatore o squadra" value="${e(qs)}">${[["all","Tutti"],["out","Solo out"],["dub","Dubbi"]].map(([k,t])=>`<button data-f="${k}" class="${flt==k?"on":""}">${t}</button>`).join("")}</div>`+ch+(Object.entries(by).map(([t,a])=>`<div class="th"><i class="dot" style="background:${col(n2a[t])}"></i>${e(t)}</div>`+a.map(x=>{const[s,c]=st(x.status);return`<div class="inj"><div><b>${e(x.player)}</b><small>${e(x.note)}</small></div><span class="chip ${c}">${s}</span></div>`}).join("")).join("")||'<div class="empty">Nessun giocatore trovato.</div>');
@@ -84,14 +84,14 @@ function inj(){const l=(D.injuries||[]).filter(x=>(flt=="all"||(flt=="out")==(x.
 function hot(){const n=(D.defense||[]).length;$("#hc").innerHTML=(D.hot||[]).map(h=>{const o=h.next,w=o&&o.rank>n*2/3;return`<article class="hot"><div class="top"><div><b>${e(h.player)}</b><div style="font-size:13px;color:var(--m)"><i class="dot" style="background:${col(h.team)};display:inline-block"></i> ${e(h.team)}</div></div><div class="big">${h.avg}<small>punti</small></div></div>${sp(h.last,col(h.team))}${o?`<div class="nx"><span>${o.home?"In casa contro":"In trasferta a"} ${e(o.team)}, ${hm(o.date)}</span><span class="chip ${w?"okc":"neu"}">${w?"Difesa debole":"Difesa "+o.rank+"ª"}</span></div>`:""}</article>`}).join("")||'<div class="empty">Nessun giocatore in evidenza.</div>'}
 function dif(){const d=D.defense||[],n=d.length,mx=Math.max(...d.map(x=>x.allowed),1),mn=Math.min(...d.map(x=>x.allowed),mx);$("#dc").innerHTML=d.map(x=>{const k=n>1?(x.rank-1)/(n-1):0;return`<div class="row"><span class="n">${x.rank}</span><div class="t">${e(x.team)}<div class="mini"><i data-w="${(x.allowed-mn*.9)/(mx-mn*.9)*100}" style="background:hsl(${130*(1-k)} 70% 42%)"></i></div></div><span class="v">${x.allowed}</span></div>`}).join("")}
 function cla(){$("#cc").innerHTML=(D.standings||[]).map(c=>`<div><h3>${e(c.conf)}</h3>`+c.rows.map((r,i)=>{const p=r.w/Math.max(1,r.w+r.l);return`<div class="row"><span class="n">${i+1}</span><div class="t">${e(r.team)}<div class="mini"><i data-w="${p*100}" style="background:${col(r.abbr)}"></i></div></div><span class="v">${r.w}-${r.l}</span></div>`}).join("")+`</div>`).join("")}
-const io=new IntersectionObserver(es=>es.forEach(x=>{if(!x.isIntersecting)return;const t=x.target;t.classList.add("on");if(t.dataset.d)t.setAttribute("stroke-dasharray",t.dataset.d+" 264");if(t.dataset.w)t.style.width=Math.max(4,Math.min(100,t.dataset.w))+"%";io.unobserve(t)}),{threshold:.15});
+const io=new IntersectionObserver(es=>es.forEach(x=>{if(!x.isIntersecting)return;const t=x.target;t.classList.add("on");if(t.dataset.d)t.setAttribute("stroke-dasharray",t.dataset.d);if(t.dataset.w)t.style.width=Math.max(4,Math.min(100,t.dataset.w))+"%";io.unobserve(t)}),{threshold:.15});
 const watch=()=>document.querySelectorAll(".rv:not(.on),.arc,.mini i").forEach(x=>io.observe(x));
 async function load(){try{D=await(await fetch("data.json?"+Date.now())).json()}catch(x){$("#up").textContent="Dati non ancora disponibili: avvia “Aggiorna dati NBA” da GitHub Actions.";watch();return}
  (D.standings||[]).forEach(c=>c.rows.forEach(r=>n2a[r.team]=r.abbr));
  $("#cn").textContent=(D.upcoming||[]).length+" partite in arrivo";$("#ct").textContent=(D.injuries||[]).length+" giocatori nella lista infortuni. Probabilità di vittoria e giocatori in forma, aggiornati ogni 3 ore.";
  cal();inj();hot();dif();cla();$("#up").textContent="Aggiornato "+new Date(D.updated).toLocaleString("it-IT",{weekday:"long",day:"numeric",month:"long",hour:"2-digit",minute:"2-digit"});watch()}
 const ball=$("#ball");let px=0;
-function mv(){const p=Math.min(1,scrollY/innerHeight);ball.style.setProperty("--x",(-p*58+px*14)+"vw");ball.style.setProperty("--y",(p*46)+"vh");ball.style.setProperty("--r",(scrollY*.45)+"deg")}
+function mv(){const p=Math.min(1,scrollY/innerHeight);ball.style.setProperty("--x",(-p*12+px*6)+"vw");ball.style.setProperty("--y",(p*32)+"vh");ball.style.setProperty("--r",(scrollY*.45)+"deg")}
 addEventListener("scroll",mv,{passive:true});addEventListener("pointermove",ev=>{px=ev.clientX/innerWidth-.5;mv()});mv();
 const links=[...document.querySelectorAll(".pill a")],secs=links.map(a=>$(a.getAttribute("href")));
 addEventListener("scroll",()=>{let k=0;secs.forEach((s,i)=>{if(s.getBoundingClientRect().top<innerHeight*.4)k=i});links.forEach((a,i)=>a.classList.toggle("on",i==k))},{passive:true});
