@@ -1,6 +1,16 @@
 {
- "updated": "2026-11-16T04:04:13.835729Z",
+ "updated": "2026-11-16T08:35:09.640728Z",
  "finished": [
+  {
+   "date": "2026-11-16T02:00Z",
+   "state": "post",
+   "home": "SAC",
+   "away": "OKC",
+   "homeName": "Sacramento Kings",
+   "awayName": "Oklahoma City Thunder",
+   "hs": 103,
+   "as": 125
+  },
   {
    "date": "2026-11-16T01:00Z",
    "state": "post",
@@ -190,34 +200,9 @@
    "awayName": "Atlanta Hawks",
    "hs": 125,
    "as": 117
-  },
-  {
-   "date": "2026-11-14T01:00Z",
-   "state": "post",
-   "home": "MIA",
-   "away": "CLE",
-   "homeName": "Miami Heat",
-   "awayName": "Cleveland Cavaliers",
-   "hs": 133,
-   "as": 121
   }
  ],
  "upcoming": [
-  {
-   "date": "2026-11-16T02:00Z",
-   "state": "in",
-   "home": "SAC",
-   "away": "OKC",
-   "homeName": "Sacramento Kings",
-   "awayName": "Oklahoma City Thunder",
-   "hs": 86,
-   "as": 113,
-   "pHome": 16.5,
-   "why": [
-    "De'Andre Hunter (Out, SAC)",
-    "Zach LaVine (Out, SAC)"
-   ]
-  },
   {
    "date": "2026-11-17T00:00Z",
    "state": "pre",
@@ -473,6 +458,21 @@
    "why": [
     "Back-to-back: TOR"
    ]
+  },
+  {
+   "date": "2026-11-19T01:00Z",
+   "state": "pre",
+   "home": "NO",
+   "away": "DET",
+   "homeName": "New Orleans Pelicans",
+   "awayName": "Detroit Pistons",
+   "hs": 0,
+   "as": 0,
+   "pHome": 31.7,
+   "why": [
+    "Back-to-back: DET",
+    "Duncan Robinson (Day-To-Day, DET)"
+   ]
   }
  ],
  "defense": [
@@ -502,8 +502,8 @@
   },
   {
    "team": "OKC",
-   "allowed": 107.7,
-   "games": 7,
+   "allowed": 107.1,
+   "games": 8,
    "rank": 5
   },
   {
@@ -537,44 +537,44 @@
    "rank": 10
   },
   {
-   "team": "SAC",
-   "allowed": 113.5,
-   "games": 6,
-   "rank": 11
-  },
-  {
    "team": "POR",
    "allowed": 113.7,
    "games": 7,
-   "rank": 12
+   "rank": 11
   },
   {
    "team": "CHA",
    "allowed": 113.8,
    "games": 6,
-   "rank": 13
+   "rank": 12
   },
   {
    "team": "PHX",
    "allowed": 113.8,
    "games": 8,
-   "rank": 14
+   "rank": 13
   },
   {
    "team": "LAL",
    "allowed": 114.7,
    "games": 7,
-   "rank": 15
+   "rank": 14
   },
   {
    "team": "MIL",
    "allowed": 114.9,
    "games": 8,
-   "rank": 16
+   "rank": 15
   },
   {
    "team": "TOR",
    "allowed": 114.9,
+   "games": 7,
+   "rank": 16
+  },
+  {
+   "team": "SAC",
+   "allowed": 115.1,
    "games": 7,
    "rank": 17
   },
@@ -673,7 +673,7 @@
    "next": {
     "team": "CHA",
     "date": "2026-11-18T04:00Z",
-    "rank": 13,
+    "rank": 12,
     "allowed": 113.8,
     "home": true
    }
@@ -736,21 +736,21 @@
   {
    "player": "Shai Gilgeous-Alexander",
    "team": "OKC",
-   "avg": 35.3,
-   "games": 6,
+   "avg": 35.6,
+   "games": 7,
    "last": [
-    42,
     30,
     26,
     31,
-    40
+    40,
+    37
    ],
    "next": {
-    "team": "SAC",
-    "date": "2026-11-16T02:00Z",
-    "rank": 11,
-    "allowed": 113.5,
-    "home": false
+    "team": "ATL",
+    "date": "2026-11-19T01:00Z",
+    "rank": 22,
+    "allowed": 116.7,
+    "home": true
    }
   },
   {
@@ -783,7 +783,7 @@
    "next": {
     "team": "PHX",
     "date": "2026-11-17T02:00Z",
-    "rank": 14,
+    "rank": 13,
     "allowed": 113.8,
     "home": true
    }
@@ -979,6 +979,12 @@
      "l": 4
     },
     {
+     "team": "Oklahoma City Thunder",
+     "abbr": "OKC",
+     "w": 9,
+     "l": 5
+    },
+    {
      "team": "Denver Nuggets",
      "abbr": "DEN",
      "w": 7,
@@ -987,12 +993,6 @@
     {
      "team": "Golden State Warriors",
      "abbr": "GS",
-     "w": 8,
-     "l": 5
-    },
-    {
-     "team": "Oklahoma City Thunder",
-     "abbr": "OKC",
      "w": 8,
      "l": 5
     },
@@ -1024,7 +1024,7 @@
      "team": "Sacramento Kings",
      "abbr": "SAC",
      "w": 1,
-     "l": 11
+     "l": 12
     },
     {
      "team": "Utah Jazz",
@@ -1751,18 +1751,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "changes": [
-  {
-   "player": "De'Andre Hunter",
-   "team": "Sacramento Kings",
-   "from": "Day-To-Day",
-   "to": "Out"
-  },
-  {
-   "player": "Zach LaVine",
-   "team": "Sacramento Kings",
-   "from": "nuovo",
-   "to": "Out"
-  }
- ]
+ "changes": []
 }
