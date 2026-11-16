@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T10:36:45.810276Z",
+ "updated": "2026-11-16T14:57:42.836162Z",
  "finished": [
   {
    "date": "2026-11-16T02:00Z",
@@ -1039,16 +1039,16 @@
   {
    "player": "Jock Landale",
    "team": "Atlanta Hawks",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Landale (hip) is out for Sunday's game against Bucks, Brad Rowland of the Locked On Podcast Network reports.",
-   "date": "2026-11-15T23:22Z"
+   "date": "2026-11-16T14:47Z"
   },
   {
    "player": "Kingston Flemings",
    "team": "Atlanta Hawks",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Flemings (back) has been ruled out for Sunday's game against the Bucks.",
-   "date": "2026-11-14T23:08Z"
+   "date": "2026-11-16T14:47Z"
   },
   {
    "player": "Mouhamed Gueye",
@@ -1142,25 +1142,25 @@
    "date": "2026-10-20T15:11Z"
   },
   {
-   "player": "Santi Aldama",
-   "team": "Dallas Mavericks",
-   "status": "Out",
-   "note": "Aldama (ankle) is out for Sunday's game against the Celtics.",
-   "date": "2026-11-15T22:27Z"
-  },
-  {
    "player": "Max Christie",
    "team": "Dallas Mavericks",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Christie (ankle) has been ruled out for Sunday's game against the Celtics.",
-   "date": "2026-11-15T21:24Z"
+   "date": "2026-11-16T14:45Z"
+  },
+  {
+   "player": "Santi Aldama",
+   "team": "Dallas Mavericks",
+   "status": "Day-To-Day",
+   "note": "Aldama (ankle) is out for Sunday's game against the Celtics.",
+   "date": "2026-11-16T14:45Z"
   },
   {
    "player": "Kyrie Irving",
    "team": "Dallas Mavericks",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Irving (knee) has been ruled out for Sunday's game against the Celtics.",
-   "date": "2026-11-15T21:20Z"
+   "date": "2026-11-16T14:44Z"
   },
   {
    "player": "Dereck Lively II",
@@ -1261,18 +1261,18 @@
    "date": "2026-10-16T16:11Z"
   },
   {
+   "player": "Fred VanVleet",
+   "team": "Houston Rockets",
+   "status": "Day-To-Day",
+   "note": "VanVleet (right knee injury management) has been ruled out for Sunday's game against the Wizards.",
+   "date": "2026-11-16T14:46Z"
+  },
+  {
    "player": "Clint Capela",
    "team": "Houston Rockets",
    "status": "Out",
    "note": "Capela (ankle) has been ruled out for Sunday's game at Washington.",
    "date": "2026-11-14T21:54Z"
-  },
-  {
-   "player": "Fred VanVleet",
-   "team": "Houston Rockets",
-   "status": "Out",
-   "note": "VanVleet (right knee injury management) has been ruled out for Sunday's game against the Wizards.",
-   "date": "2026-11-14T21:52Z"
   },
   {
    "player": "Marcus Smart",
@@ -1340,9 +1340,9 @@
   {
    "player": "Austin Reaves",
    "team": "Los Angeles Lakers",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Reaves (heel) has been ruled out for Sunday's game against the Suns, Daniel Starkand of LakersNation.com reports.",
-   "date": "2026-11-15T00:17Z"
+   "date": "2026-11-16T14:42Z"
   },
   {
    "player": "GG Jackson",
@@ -1401,18 +1401,18 @@
    "date": "2026-11-15T22:47Z"
   },
   {
+   "player": "Ryan Rollins",
+   "team": "Milwaukee Bucks",
+   "status": "Day-To-Day",
+   "note": "Rollins (illness) is out for Sunday's game against the Hawks.",
+   "date": "2026-11-16T14:47Z"
+  },
+  {
    "player": "Ousmane Dieng",
    "team": "Milwaukee Bucks",
    "status": "Out",
    "note": "Dieng will undergo a procedure to repair a fractured left finger Monday, Justin Garcia of the Milwaukee Bucks Radio Network reports.",
    "date": "2026-11-15T23:46Z"
-  },
-  {
-   "player": "Ryan Rollins",
-   "team": "Milwaukee Bucks",
-   "status": "Out",
-   "note": "Rollins (illness) is out for Sunday's game against the Hawks.",
-   "date": "2026-11-15T23:19Z"
   },
   {
    "player": "Jaylen Clark",
@@ -1604,25 +1604,25 @@
    "date": "2026-08-24T20:23Z"
   },
   {
-   "player": "De'Andre Hunter",
-   "team": "Sacramento Kings",
-   "status": "Out",
-   "note": "Hunter (hip) is out for Sunday's game against the Thunder.",
-   "date": "2026-11-16T01:18Z"
-  },
-  {
    "player": "Zach LaVine",
    "team": "Sacramento Kings",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "LaVine is out for Sunday's game against Oklahoma City due to illness, Brandon Rahbar of DailyThunder.com reports.",
-   "date": "2026-11-16T01:06Z"
+   "date": "2026-11-16T14:48Z"
+  },
+  {
+   "player": "De'Andre Hunter",
+   "team": "Sacramento Kings",
+   "status": "Day-To-Day",
+   "note": "Hunter (hip) is out for Sunday's game against the Thunder.",
+   "date": "2026-11-16T14:48Z"
   },
   {
    "player": "Precious Achiuwa",
    "team": "Sacramento Kings",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Achiuwa (ankle) has been ruled out for Sunday's game against the Thunder, Brenden Nunes of KHTK Sactown Sports 1140 reports.",
-   "date": "2026-11-16T00:24Z"
+   "date": "2026-11-16T14:48Z"
   },
   {
    "player": "Maxime Raynaud",
@@ -1718,9 +1718,9 @@
   {
    "player": "Tre Johnson",
    "team": "Washington Wizards",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Johnson (back) won't play in Sunday's game against Houston, Josh Robbins of The Athletic reports.",
-   "date": "2026-11-15T22:31Z"
+   "date": "2026-11-16T14:47Z"
   },
   {
    "player": "Tristan Vukcevic",
@@ -1751,5 +1751,78 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "changes": []
+ "changes": [
+  {
+   "player": "Jock Landale",
+   "team": "Atlanta Hawks",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Kingston Flemings",
+   "team": "Atlanta Hawks",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Max Christie",
+   "team": "Dallas Mavericks",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Santi Aldama",
+   "team": "Dallas Mavericks",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Kyrie Irving",
+   "team": "Dallas Mavericks",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Fred VanVleet",
+   "team": "Houston Rockets",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Austin Reaves",
+   "team": "Los Angeles Lakers",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Ryan Rollins",
+   "team": "Milwaukee Bucks",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Zach LaVine",
+   "team": "Sacramento Kings",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "De'Andre Hunter",
+   "team": "Sacramento Kings",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Precious Achiuwa",
+   "team": "Sacramento Kings",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Tre Johnson",
+   "team": "Washington Wizards",
+   "from": "Out",
+   "to": "Day-To-Day"
+  }
+ ]
 }
