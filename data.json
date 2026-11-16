@@ -1,6 +1,36 @@
 {
- "updated": "2026-11-16T01:11:36.228505Z",
+ "updated": "2026-11-16T04:04:13.835729Z",
  "finished": [
+  {
+   "date": "2026-11-16T01:00Z",
+   "state": "post",
+   "home": "MIL",
+   "away": "ATL",
+   "homeName": "Milwaukee Bucks",
+   "awayName": "Atlanta Hawks",
+   "hs": 106,
+   "as": 113
+  },
+  {
+   "date": "2026-11-16T00:00Z",
+   "state": "post",
+   "home": "WSH",
+   "away": "HOU",
+   "homeName": "Washington Wizards",
+   "awayName": "Houston Rockets",
+   "hs": 119,
+   "as": 147
+  },
+  {
+   "date": "2026-11-15T23:00Z",
+   "state": "post",
+   "home": "TOR",
+   "away": "NY",
+   "homeName": "Toronto Raptors",
+   "awayName": "New York Knicks",
+   "hs": 108,
+   "as": 112
+  },
   {
    "date": "2026-11-15T23:00Z",
    "state": "post",
@@ -170,87 +200,22 @@
    "awayName": "Cleveland Cavaliers",
    "hs": 133,
    "as": 121
-  },
-  {
-   "date": "2026-11-14T00:00Z",
-   "state": "post",
-   "home": "ORL",
-   "away": "MIL",
-   "homeName": "Orlando Magic",
-   "awayName": "Milwaukee Bucks",
-   "hs": 107,
-   "as": 99
-  },
-  {
-   "date": "2026-11-14T00:00Z",
-   "state": "post",
-   "home": "IND",
-   "away": "NY",
-   "homeName": "Indiana Pacers",
-   "awayName": "New York Knicks",
-   "hs": 106,
-   "as": 104
-  },
-  {
-   "date": "2026-11-13T02:00Z",
-   "state": "post",
-   "home": "PHX",
-   "away": "CHA",
-   "homeName": "Phoenix Suns",
-   "awayName": "Charlotte Hornets",
-   "hs": 101,
-   "as": 96
   }
  ],
  "upcoming": [
   {
-   "date": "2026-11-15T23:00Z",
-   "state": "in",
-   "home": "TOR",
-   "away": "NY",
-   "homeName": "Toronto Raptors",
-   "awayName": "New York Knicks",
-   "hs": 84,
-   "as": 75,
-   "pHome": 41.0,
-   "why": []
-  },
-  {
-   "date": "2026-11-16T00:00Z",
-   "state": "in",
-   "home": "WSH",
-   "away": "HOU",
-   "homeName": "Washington Wizards",
-   "awayName": "Houston Rockets",
-   "hs": 54,
-   "as": 73,
-   "pHome": 22.3,
-   "why": []
-  },
-  {
-   "date": "2026-11-16T01:00Z",
-   "state": "in",
-   "home": "MIL",
-   "away": "ATL",
-   "homeName": "Milwaukee Bucks",
-   "awayName": "Atlanta Hawks",
-   "hs": 3,
-   "as": 0,
-   "pHome": 21.3,
-   "why": []
-  },
-  {
    "date": "2026-11-16T02:00Z",
-   "state": "pre",
+   "state": "in",
    "home": "SAC",
    "away": "OKC",
    "homeName": "Sacramento Kings",
    "awayName": "Oklahoma City Thunder",
-   "hs": 0,
-   "as": 0,
-   "pHome": 18.8,
+   "hs": 86,
+   "as": 113,
+   "pHome": 16.5,
    "why": [
-    "De'Andre Hunter (Day-To-Day, SAC)"
+    "De'Andre Hunter (Out, SAC)",
+    "Zach LaVine (Out, SAC)"
    ]
   },
   {
@@ -291,7 +256,7 @@
    "awayName": "Memphis Grizzlies",
    "hs": 0,
    "as": 0,
-   "pHome": 27.5,
+   "pHome": 26.1,
    "why": [
     "Back-to-back: WSH",
     "Ty Jerome (Out, MEM)"
@@ -318,7 +283,7 @@
    "awayName": "Houston Rockets",
    "hs": 0,
    "as": 0,
-   "pHome": 52.7,
+   "pHome": 45.4,
    "why": [
     "Back-to-back: HOU"
    ]
@@ -372,7 +337,7 @@
    "awayName": "New York Knicks",
    "hs": 0,
    "as": 0,
-   "pHome": 41.0,
+   "pHome": 40.4,
    "why": []
   },
   {
@@ -453,7 +418,7 @@
    "awayName": "Houston Rockets",
    "hs": 0,
    "as": 0,
-   "pHome": 32.0,
+   "pHome": 26.0,
    "why": []
   },
   {
@@ -465,8 +430,49 @@
    "awayName": "Milwaukee Bucks",
    "hs": 0,
    "as": 0,
-   "pHome": 87.5,
+   "pHome": 88.1,
    "why": []
+  },
+  {
+   "date": "2026-11-19T00:00Z",
+   "state": "pre",
+   "home": "ORL",
+   "away": "PHI",
+   "homeName": "Orlando Magic",
+   "awayName": "Philadelphia 76ers",
+   "hs": 0,
+   "as": 0,
+   "pHome": 41.0,
+   "why": []
+  },
+  {
+   "date": "2026-11-19T00:30Z",
+   "state": "pre",
+   "home": "BKN",
+   "away": "CHI",
+   "homeName": "Brooklyn Nets",
+   "awayName": "Chicago Bulls",
+   "hs": 0,
+   "as": 0,
+   "pHome": 62.3,
+   "why": [
+    "Jalen Smith (Day-To-Day, CHI)",
+    "Caleb Wilson (Out, CHI)"
+   ]
+  },
+  {
+   "date": "2026-11-19T00:30Z",
+   "state": "pre",
+   "home": "TOR",
+   "away": "WSH",
+   "homeName": "Toronto Raptors",
+   "awayName": "Washington Wizards",
+   "hs": 0,
+   "as": 0,
+   "pHome": 68.1,
+   "why": [
+    "Back-to-back: TOR"
+   ]
   }
  ],
  "defense": [
@@ -478,8 +484,8 @@
   },
   {
    "team": "NY",
-   "allowed": 99.7,
-   "games": 6,
+   "allowed": 100.9,
+   "games": 7,
    "rank": 2
   },
   {
@@ -495,14 +501,14 @@
    "rank": 4
   },
   {
-   "team": "HOU",
-   "allowed": 106.3,
-   "games": 6,
+   "team": "OKC",
+   "allowed": 107.7,
+   "games": 7,
    "rank": 5
   },
   {
-   "team": "OKC",
-   "allowed": 107.7,
+   "team": "HOU",
+   "allowed": 108.1,
    "games": 7,
    "rank": 6
   },
@@ -562,14 +568,14 @@
   },
   {
    "team": "MIL",
-   "allowed": 115.1,
-   "games": 7,
+   "allowed": 114.9,
+   "games": 8,
    "rank": 16
   },
   {
    "team": "TOR",
-   "allowed": 115.3,
-   "games": 6,
+   "allowed": 114.9,
+   "games": 7,
    "rank": 17
   },
   {
@@ -597,27 +603,27 @@
    "rank": 21
   },
   {
+   "team": "ATL",
+   "allowed": 116.7,
+   "games": 7,
+   "rank": 22
+  },
+  {
    "team": "BKN",
    "allowed": 116.8,
    "games": 6,
-   "rank": 22
+   "rank": 23
   },
   {
    "team": "UTAH",
    "allowed": 117.4,
    "games": 8,
-   "rank": 23
+   "rank": 24
   },
   {
    "team": "MIA",
    "allowed": 118.4,
    "games": 7,
-   "rank": 24
-  },
-  {
-   "team": "ATL",
-   "allowed": 118.5,
-   "games": 6,
    "rank": 25
   },
   {
@@ -633,15 +639,15 @@
    "rank": 27
   },
   {
-   "team": "WSH",
-   "allowed": 121.0,
-   "games": 7,
-   "rank": 28
-  },
-  {
    "team": "CHI",
    "allowed": 122.5,
    "games": 6,
+   "rank": 28
+  },
+  {
+   "team": "WSH",
+   "allowed": 124.2,
+   "games": 8,
    "rank": 29
   },
   {
@@ -722,8 +728,8 @@
    "next": {
     "team": "HOU",
     "date": "2026-11-17T00:30Z",
-    "rank": 5,
-    "allowed": 106.3,
+    "rank": 6,
+    "allowed": 108.1,
     "home": true
    }
   },
@@ -757,10 +763,10 @@
     43
    ],
    "next": {
-    "team": "WSH",
-    "date": "2026-11-16T00:00Z",
-    "rank": 28,
-    "allowed": 121.0,
+    "team": "MIA",
+    "date": "2026-11-17T00:30Z",
+    "rank": 25,
+    "allowed": 118.4,
     "home": false
    }
   },
@@ -810,10 +816,10 @@
     44
    ],
    "next": {
-    "team": "HOU",
-    "date": "2026-11-16T00:00Z",
-    "rank": 5,
-    "allowed": 106.3,
+    "team": "MEM",
+    "date": "2026-11-17T00:00Z",
+    "rank": 21,
+    "allowed": 116.6,
     "home": true
    }
   },
@@ -860,14 +866,20 @@
      "l": 4
     },
     {
+     "team": "Atlanta Hawks",
+     "abbr": "ATL",
+     "w": 8,
+     "l": 6
+    },
+    {
      "team": "Miami Heat",
      "abbr": "MIA",
      "w": 7,
      "l": 6
     },
     {
-     "team": "Atlanta Hawks",
-     "abbr": "ATL",
+     "team": "New York Knicks",
+     "abbr": "NY",
      "w": 7,
      "l": 6
     },
@@ -878,22 +890,16 @@
      "l": 7
     },
     {
-     "team": "New York Knicks",
-     "abbr": "NY",
-     "w": 6,
-     "l": 6
+     "team": "Orlando Magic",
+     "abbr": "ORL",
+     "w": 5,
+     "l": 7
     },
     {
      "team": "Toronto Raptors",
      "abbr": "TOR",
      "w": 5,
-     "l": 7
-    },
-    {
-     "team": "Orlando Magic",
-     "abbr": "ORL",
-     "w": 5,
-     "l": 7
+     "l": 8
     },
     {
      "team": "Indiana Pacers",
@@ -911,7 +917,7 @@
      "team": "Washington Wizards",
      "abbr": "WSH",
      "w": 4,
-     "l": 9
+     "l": 10
     },
     {
      "team": "Brooklyn Nets",
@@ -929,7 +935,7 @@
      "team": "Milwaukee Bucks",
      "abbr": "MIL",
      "w": 1,
-     "l": 12
+     "l": 13
     }
    ]
   },
@@ -951,7 +957,7 @@
     {
      "team": "Houston Rockets",
      "abbr": "HOU",
-     "w": 10,
+     "w": 11,
      "l": 3
     },
     {
@@ -1050,13 +1056,6 @@
    "status": "Out",
    "note": "Gueye (foot) is ready to begin on-court activities and will be re-evaluated in four weeks, Brad Rowland of the Locked On Podcast Network reports.",
    "date": "2026-11-13T00:06Z"
-  },
-  {
-   "player": "Keshon Gilbert",
-   "team": "Atlanta Hawks",
-   "status": "Out",
-   "note": "Gilbert (knee) has been ruled out for Friday's game against the Bulls.",
-   "date": "2026-11-12T23:10Z"
   },
   {
    "player": "Asa Newell",
@@ -1605,18 +1604,25 @@
    "date": "2026-08-24T20:23Z"
   },
   {
+   "player": "De'Andre Hunter",
+   "team": "Sacramento Kings",
+   "status": "Out",
+   "note": "Hunter (hip) is out for Sunday's game against the Thunder.",
+   "date": "2026-11-16T01:18Z"
+  },
+  {
+   "player": "Zach LaVine",
+   "team": "Sacramento Kings",
+   "status": "Out",
+   "note": "LaVine is out for Sunday's game against Oklahoma City due to illness, Brandon Rahbar of DailyThunder.com reports.",
+   "date": "2026-11-16T01:06Z"
+  },
+  {
    "player": "Precious Achiuwa",
    "team": "Sacramento Kings",
    "status": "Out",
    "note": "Achiuwa (ankle) has been ruled out for Sunday's game against the Thunder, Brenden Nunes of KHTK Sactown Sports 1140 reports.",
    "date": "2026-11-16T00:24Z"
-  },
-  {
-   "player": "De'Andre Hunter",
-   "team": "Sacramento Kings",
-   "status": "Day-To-Day",
-   "note": "Hunter is questionable for Sunday's game against the Thunder due to left hip soreness.",
-   "date": "2026-11-16T00:18Z"
   },
   {
    "player": "Maxime Raynaud",
@@ -1747,111 +1753,15 @@
  ],
  "changes": [
   {
-   "player": "Jock Landale",
-   "team": "Atlanta Hawks",
-   "from": "Day-To-Day",
-   "to": "Out"
-  },
-  {
-   "player": "Tobe Awaka",
-   "team": "Chicago Bulls",
-   "from": "Day-To-Day",
-   "to": "Out"
-  },
-  {
-   "player": "Jaylon Tyson",
-   "team": "Cleveland Cavaliers",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Evan Mobley",
-   "team": "Cleveland Cavaliers",
-   "from": "Day-To-Day",
-   "to": "Out"
-  },
-  {
-   "player": "Santi Aldama",
-   "team": "Dallas Mavericks",
-   "from": "Day-To-Day",
-   "to": "Out"
-  },
-  {
-   "player": "Max Christie",
-   "team": "Dallas Mavericks",
-   "from": "Day-To-Day",
-   "to": "Out"
-  },
-  {
-   "player": "Gui Santos",
-   "team": "Golden State Warriors",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "GG Jackson",
-   "team": "Memphis Grizzlies",
-   "from": "Day-To-Day",
-   "to": "Out"
-  },
-  {
-   "player": "Isaiah Stewart",
-   "team": "Memphis Grizzlies",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Ty Jerome",
-   "team": "Memphis Grizzlies",
-   "from": "Day-To-Day",
-   "to": "Out"
-  },
-  {
-   "player": "Ryan Rollins",
-   "team": "Milwaukee Bucks",
-   "from": "Day-To-Day",
-   "to": "Out"
-  },
-  {
-   "player": "Jaylen Clark",
-   "team": "Minnesota Timberwolves",
-   "from": "Day-To-Day",
-   "to": "Out"
-  },
-  {
-   "player": "Bryce McGowens",
-   "team": "New Orleans Pelicans",
-   "from": "Day-To-Day",
-   "to": "Out"
-  },
-  {
-   "player": "Bennedict Mathurin",
-   "team": "New Orleans Pelicans",
-   "from": "Day-To-Day",
-   "to": "Out"
-  },
-  {
-   "player": "Chris Youngblood",
-   "team": "Portland Trail Blazers",
-   "from": "Day-To-Day",
-   "to": "Out"
-  },
-  {
-   "player": "Precious Achiuwa",
-   "team": "Sacramento Kings",
-   "from": "Day-To-Day",
-   "to": "Out"
-  },
-  {
    "player": "De'Andre Hunter",
    "team": "Sacramento Kings",
-   "from": "nuovo",
-   "to": "Day-To-Day"
+   "from": "Day-To-Day",
+   "to": "Out"
   },
   {
-   "player": "Tre Johnson",
-   "team": "Washington Wizards",
-   "from": "Day-To-Day",
+   "player": "Zach LaVine",
+   "team": "Sacramento Kings",
+   "from": "nuovo",
    "to": "Out"
   }
  ]
