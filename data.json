@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T18:50:21.772103Z",
+ "updated": "2026-11-16T21:44:12.644336Z",
  "finished": [
   {
    "date": "2026-11-16T02:00Z",
@@ -1590,6 +1590,13 @@
    "date": "2026-10-06T19:17Z"
   },
   {
+   "player": "Ryan Dunn",
+   "team": "Phoenix Suns",
+   "status": "Day-To-Day",
+   "note": "Dunn (thumb) is listed as questionable for Monday's game against Denver.",
+   "date": "2026-11-16T20:18Z"
+  },
+  {
    "player": "Mark Williams",
    "team": "Phoenix Suns",
    "status": "Out",
@@ -1660,18 +1667,18 @@
    "date": "2026-10-21T04:22Z"
   },
   {
+   "player": "Tobias Harris",
+   "team": "San Antonio Spurs",
+   "status": "Out",
+   "note": "Harris (calf) is likely to be sidelined until early December, per Jeff Garcia of KENS 5 San Antonio.",
+   "date": "2026-11-16T19:26Z"
+  },
+  {
    "player": "De'Aaron Fox",
    "team": "San Antonio Spurs",
    "status": "Day-To-Day",
    "note": "Fox (hip) has been ruled out for Sunday's game against the Jazz.",
    "date": "2026-11-16T14:44Z"
-  },
-  {
-   "player": "Tobias Harris",
-   "team": "San Antonio Spurs",
-   "status": "Out",
-   "note": "Harris (calf) is out for Wednesday's game against Chicago, Jared Weiss of The Athletic reports.",
-   "date": "2026-11-10T22:46Z"
   },
   {
    "player": "Jayden Quaintance",
@@ -1774,40 +1781,10 @@
  ],
  "changes": [
   {
-   "player": "Neemias Queta",
-   "team": "Boston Celtics",
+   "player": "Ryan Dunn",
+   "team": "Phoenix Suns",
    "from": "nuovo",
    "to": "Day-To-Day"
-  },
-  {
-   "player": "Amen Thompson",
-   "team": "Houston Rockets",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Steven Adams",
-   "team": "Houston Rockets",
-   "from": "nuovo",
-   "to": "Out"
-  },
-  {
-   "player": "Isaiah Stewart",
-   "team": "Memphis Grizzlies",
-   "from": "Day-To-Day",
-   "to": "Out"
-  },
-  {
-   "player": "Nikola Jovic",
-   "team": "Miami Heat",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "LeBron James",
-   "team": "Philadelphia 76ers",
-   "from": "nuovo",
-   "to": "Out"
   }
  ]
 }
