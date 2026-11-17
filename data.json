@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T18:54:26.584274Z",
+ "updated": "2026-11-17T21:49:47.564694Z",
  "finished": [
   {
    "date": "2026-11-17T02:00Z",
@@ -226,10 +226,11 @@
    "awayName": "Portland Trail Blazers",
    "hs": 0,
    "as": 0,
-   "pHome": 65.8,
+   "pHome": 69.5,
    "why": [
     "Back-to-back: MIN",
-    "Back-to-back: POR"
+    "Back-to-back: POR",
+    "Deni Avdija (Day-To-Day, POR)"
    ]
   },
   {
@@ -337,10 +338,8 @@
    "awayName": "Chicago Bulls",
    "hs": 0,
    "as": 0,
-   "pHome": 53.9,
-   "why": [
-    "Jalen Smith (Day-To-Day, CHI)"
-   ]
+   "pHome": 52.9,
+   "why": []
   },
   {
    "date": "2026-11-19T00:30Z",
@@ -381,8 +380,10 @@
    "awayName": "Atlanta Hawks",
    "hs": 0,
    "as": 0,
-   "pHome": 66.3,
-   "why": []
+   "pHome": 68.5,
+   "why": [
+    "CJ McCollum (Out, ATL)"
+   ]
   },
   {
    "date": "2026-11-19T01:00Z",
@@ -468,9 +469,10 @@
    "awayName": "Portland Trail Blazers",
    "hs": 0,
    "as": 0,
-   "pHome": 12.2,
+   "pHome": 14.2,
    "why": [
-    "Back-to-back: MIL"
+    "Back-to-back: MIL",
+    "Deni Avdija (Day-To-Day, POR)"
    ]
   },
   {
@@ -1046,6 +1048,20 @@
  ],
  "injuries": [
   {
+   "player": "Asa Newell",
+   "team": "Atlanta Hawks",
+   "status": "Out",
+   "note": "Newell underwent surgery Tuesday for a plantar plate tear in his left great toe, and he will be re-evaluated in approximately four months, Brad Rowland of the Locked On Podcast Network reports.",
+   "date": "2026-11-17T21:16Z"
+  },
+  {
+   "player": "CJ McCollum",
+   "team": "Atlanta Hawks",
+   "status": "Out",
+   "note": "McCollum (calf) will miss at least four weeks, per Brad Rowland of the Locked On Podcast Network.",
+   "date": "2026-11-17T21:08Z"
+  },
+  {
    "player": "Kingston Flemings",
    "team": "Atlanta Hawks",
    "status": "Day-To-Day",
@@ -1065,13 +1081,6 @@
    "status": "Out",
    "note": "Gueye (foot) is ready to begin on-court activities and will be re-evaluated in four weeks, Brad Rowland of the Locked On Podcast Network reports.",
    "date": "2026-11-13T00:06Z"
-  },
-  {
-   "player": "Asa Newell",
-   "team": "Atlanta Hawks",
-   "status": "Out",
-   "note": "Newell (toe) has been ruled out for Friday's game against Chicago.",
-   "date": "2026-11-12T23:08Z"
   },
   {
    "player": "Henri Veesaar",
@@ -1102,25 +1111,18 @@
    "date": "2026-11-08T22:26Z"
   },
   {
-   "player": "Jalen Smith",
-   "team": "Chicago Bulls",
-   "status": "Day-To-Day",
-   "note": "Smith (undisclosed) exited in the fourth quarter of Monday's 126-115 loss to the Cavaliers and did not return.",
-   "date": "2026-11-17T02:58Z"
-  },
-  {
    "player": "Patrick Williams",
    "team": "Chicago Bulls",
    "status": "Day-To-Day",
-   "note": "Williams (finger) has been ruled out for the remainder of Monday's game against Cleveland.",
-   "date": "2026-11-17T02:12Z"
+   "note": "Williams (finger) is listed as probable for Wednesday's game against Brooklyn.",
+   "date": "2026-11-17T21:04Z"
   },
   {
    "player": "Tobe Awaka",
    "team": "Chicago Bulls",
    "status": "Out",
-   "note": "Awaka (back) has been ruled out for Monday's game against the Cavaliers.",
-   "date": "2026-11-15T21:30Z"
+   "note": "Awaka (back) has been ruled out for Wednesday's game against the Nets.",
+   "date": "2026-11-17T20:53Z"
   },
   {
    "player": "Caleb Wilson",
@@ -1284,32 +1286,18 @@
    "date": "2026-10-16T16:11Z"
   },
   {
-   "player": "Amen Thompson",
-   "team": "Houston Rockets",
-   "status": "Day-To-Day",
-   "note": "Thompson (knee) is out for Monday's game against the Heat.",
-   "date": "2026-11-17T03:39Z"
-  },
-  {
-   "player": "Marcus Smart",
-   "team": "Houston Rockets",
-   "status": "Day-To-Day",
-   "note": "Smart has been suspended three games for throwing a punch during Wednesday's matchup against Golden State, Shams Charania of ESPN reports.",
-   "date": "2026-11-17T03:39Z"
-  },
-  {
-   "player": "Steven Adams",
-   "team": "Houston Rockets",
-   "status": "Day-To-Day",
-   "note": "Adams (calf) is out for Monday's game against the Heat.",
-   "date": "2026-11-17T03:38Z"
-  },
-  {
    "player": "Clint Capela",
    "team": "Houston Rockets",
    "status": "Out",
-   "note": "Capela (ankle) is out for Monday's game against the Heat.",
-   "date": "2026-11-16T18:09Z"
+   "note": "Capela (ankle) has been ruled out for Wednesday's game against Indiana.",
+   "date": "2026-11-17T20:58Z"
+  },
+  {
+   "player": "Amen Thompson",
+   "team": "Houston Rockets",
+   "status": "Day-To-Day",
+   "note": "Thompson (knee) is questionable for Wednesday's game against the Pacers.",
+   "date": "2026-11-17T20:49Z"
   },
   {
    "player": "Julian Phillips",
@@ -1424,25 +1412,25 @@
    "date": "2026-11-07T17:24Z"
   },
   {
+   "player": "Myron Gardner",
+   "team": "Miami Heat",
+   "status": "Day-To-Day",
+   "note": "Gardner (hamstring) is questionable for Wednesday's game against the Bucks, per Ira Winderman of the South Florida Sun Sentinel.",
+   "date": "2026-11-17T21:35Z"
+  },
+  {
    "player": "Nikola Jovic",
    "team": "Miami Heat",
    "status": "Day-To-Day",
-   "note": "Jovic (illness) is out for Monday's game against Houston.",
-   "date": "2026-11-17T03:40Z"
+   "note": "Jovic (illness) is listed as probable for Wednesday's game against Milwaukee, Ira Winderman of the South Florida Sun Sentinel reports.",
+   "date": "2026-11-17T21:34Z"
   },
   {
    "player": "Bam Adebayo",
    "team": "Miami Heat",
    "status": "Day-To-Day",
-   "note": "Coach Erik Spoelstra stated after Monday's 128-110 win over Houston that the team held Adebayo (hip) out of the second half in an effort to be proactive, and the injury isn't expected to be a long-term issue, Anthony Chiang of the Miami Herald reports.",
-   "date": "2026-11-17T03:34Z"
-  },
-  {
-   "player": "Pelle Larsson",
-   "team": "Miami Heat",
-   "status": "Out",
-   "note": "Larsson won't play in Monday's game against the Rockets due to an illness, Ira Winderman of the South Florida Sun Sentinel reports.",
-   "date": "2026-11-16T22:49Z"
+   "note": "Adebayo (hip) is probable for Wednesday's game against the Bucks, per Ira Winderman of the South Florida Sun Sentinel.",
+   "date": "2026-11-17T21:32Z"
   },
   {
    "player": "Ryan Rollins",
@@ -1459,11 +1447,18 @@
    "date": "2026-11-15T23:46Z"
   },
   {
+   "player": "Zyon Pullin",
+   "team": "Minnesota Timberwolves",
+   "status": "Out",
+   "note": "Pullin (quadriceps) has been ruled out for Tuesday's game against Portland.",
+   "date": "2026-11-17T19:05Z"
+  },
+  {
    "player": "Jonathan Kuminga",
    "team": "Minnesota Timberwolves",
-   "status": "Day-To-Day",
-   "note": "Kuminga (shoulder) exited in the fourth quarter of Monday's 106-98 win over Portland and did not return. He closed with 13 points (5-12 FG, 1-2 3Pt, 2-2 FT), nine rebounds and one assist across 29 minutes.",
-   "date": "2026-11-17T03:32Z"
+   "status": "Out",
+   "note": "Kuminga (shoulder) is out for Tuesday's game against Portland.",
+   "date": "2026-11-17T19:03Z"
   },
   {
    "player": "Jaylen Clark",
@@ -1489,30 +1484,30 @@
   {
    "player": "Bennedict Mathurin",
    "team": "New Orleans Pelicans",
-   "status": "Day-To-Day",
-   "note": "Mathurin (foot) has been ruled out for Monday's game against the Warriors.",
-   "date": "2026-11-17T03:48Z"
+   "status": "Out",
+   "note": "Mathurin (foot) has been ruled out for Wednesday's game against Detroit.",
+   "date": "2026-11-17T20:59Z"
   },
   {
    "player": "Bryce McGowens",
    "team": "New Orleans Pelicans",
    "status": "Out",
-   "note": "McGowens (elbow) has been ruled out for Monday's game against the Warriors.",
-   "date": "2026-11-15T23:10Z"
-  },
-  {
-   "player": "Trey Murphy III",
-   "team": "New Orleans Pelicans",
-   "status": "Out",
-   "note": "Murphy (knees) has been ruled out for Monday's game against Golden State.",
-   "date": "2026-11-15T22:57Z"
+   "note": "McGowens (elbow) has been ruled out for Wednesday's game against Detroit.",
+   "date": "2026-11-17T20:57Z"
   },
   {
    "player": "Trendon Watford",
    "team": "New Orleans Pelicans",
    "status": "Out",
-   "note": "Watford (ankle) has been ruled out for Monday's game against Golden State.",
-   "date": "2026-11-15T22:52Z"
+   "note": "Watford (ankle) has been ruled out for Wednesday's game against Detroit.",
+   "date": "2026-11-17T20:55Z"
+  },
+  {
+   "player": "Trey Murphy III",
+   "team": "New Orleans Pelicans",
+   "status": "Out",
+   "note": "Murphy (knee) has been ruled out for Wednesday's game against Detroit.",
+   "date": "2026-11-17T20:51Z"
   },
   {
    "player": "Dejounte Murray",
@@ -1557,6 +1552,13 @@
    "date": "2026-10-28T23:41Z"
   },
   {
+   "player": "Izaiyah Nelson",
+   "team": "Orlando Magic",
+   "status": "Out",
+   "note": "Nelson (ankle) has been ruled out for Wednesday's game against the 76ers.",
+   "date": "2026-11-17T21:22Z"
+  },
+  {
    "player": "Jonathan Isaac",
    "team": "Orlando Magic",
    "status": "Out",
@@ -1576,13 +1578,6 @@
    "status": "Out",
    "note": "Banchero is expected to be sidelined for the next four-to-six weeks due to a right high-ankle sprain, Shams Charania of ESPN reports.",
    "date": "2026-10-24T16:47Z"
-  },
-  {
-   "player": "Izaiyah Nelson",
-   "team": "Orlando Magic",
-   "status": "Out",
-   "note": "Team president Jeff Weltman said Monday that Nelson (ankle) remains about a month away from returning to the court after offseason surgery, per Philip Rossman-Reich of OrlandoMagicDaily.com.",
-   "date": "2026-09-28T21:33Z"
   },
   {
    "player": "Jaylen Brown",
@@ -1627,11 +1622,18 @@
    "date": "2026-09-11T16:03Z"
   },
   {
+   "player": "Deni Avdija",
+   "team": "Portland Trail Blazers",
+   "status": "Day-To-Day",
+   "note": "Avdija (foot) is questionable for Tuesday's game against the Timberwolves.",
+   "date": "2026-11-17T19:20Z"
+  },
+  {
    "player": "Chris Youngblood",
    "team": "Portland Trail Blazers",
    "status": "Out",
-   "note": "Youngblood (foot) is out for Monday's game against the Timberwolves.",
-   "date": "2026-11-15T23:02Z"
+   "note": "Youngblood (heel) has been ruled out for Tuesday's game at Minnesota.",
+   "date": "2026-11-17T19:19Z"
   },
   {
    "player": "Vit Krejci",
@@ -1797,14 +1799,38 @@
  ],
  "changes": [
   {
-   "player": "Scottie Barnes",
-   "team": "Toronto Raptors",
+   "player": "CJ McCollum",
+   "team": "Atlanta Hawks",
+   "from": "nuovo",
+   "to": "Out"
+  },
+  {
+   "player": "Myron Gardner",
+   "team": "Miami Heat",
    "from": "nuovo",
    "to": "Day-To-Day"
   },
   {
-   "player": "Felix Okpara",
-   "team": "Washington Wizards",
+   "player": "Zyon Pullin",
+   "team": "Minnesota Timberwolves",
+   "from": "nuovo",
+   "to": "Out"
+  },
+  {
+   "player": "Jonathan Kuminga",
+   "team": "Minnesota Timberwolves",
+   "from": "Day-To-Day",
+   "to": "Out"
+  },
+  {
+   "player": "Bennedict Mathurin",
+   "team": "New Orleans Pelicans",
+   "from": "Day-To-Day",
+   "to": "Out"
+  },
+  {
+   "player": "Deni Avdija",
+   "team": "Portland Trail Blazers",
    "from": "nuovo",
    "to": "Day-To-Day"
   }
