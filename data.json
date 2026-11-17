@@ -1,6 +1,16 @@
 {
- "updated": "2026-11-17T03:50:19.555057Z",
+ "updated": "2026-11-17T07:08:03.015850Z",
  "finished": [
+  {
+   "date": "2026-11-17T02:00Z",
+   "state": "post",
+   "home": "DEN",
+   "away": "PHX",
+   "homeName": "Denver Nuggets",
+   "awayName": "Phoenix Suns",
+   "hs": 105,
+   "as": 117
+  },
   {
    "date": "2026-11-17T01:00Z",
    "state": "post",
@@ -190,33 +200,9 @@
    "awayName": "Detroit Pistons",
    "hs": 137,
    "as": 117
-  },
-  {
-   "date": "2026-11-15T00:30Z",
-   "state": "post",
-   "home": "CLE",
-   "away": "DAL",
-   "homeName": "Cleveland Cavaliers",
-   "awayName": "Dallas Mavericks",
-   "hs": 127,
-   "as": 117
   }
  ],
  "upcoming": [
-  {
-   "date": "2026-11-17T02:00Z",
-   "state": "in",
-   "home": "DEN",
-   "away": "PHX",
-   "homeName": "Denver Nuggets",
-   "awayName": "Phoenix Suns",
-   "hs": 77,
-   "as": 83,
-   "pHome": 77.9,
-   "why": [
-    "Back-to-back: PHX"
-   ]
-  },
   {
    "date": "2026-11-18T00:30Z",
    "state": "pre",
@@ -335,8 +321,10 @@
    "awayName": "Philadelphia 76ers",
    "hs": 0,
    "as": 0,
-   "pHome": 40.0,
-   "why": []
+   "pHome": 43.3,
+   "why": [
+    "Jaylen Brown (Day-To-Day, PHI)"
+   ]
   },
   {
    "date": "2026-11-19T00:30Z",
@@ -417,7 +405,7 @@
    "awayName": "Boston Celtics",
    "hs": 0,
    "as": 0,
-   "pHome": 41.9,
+   "pHome": 35.1,
    "why": []
   },
   {
@@ -445,7 +433,7 @@
    "awayName": "Phoenix Suns",
    "hs": 0,
    "as": 0,
-   "pHome": 27.3,
+   "pHome": 24.4,
    "why": [
     "Zach LaVine (Day-To-Day, SAC)",
     "De'Andre Hunter (Day-To-Day, SAC)"
@@ -481,6 +469,18 @@
    "why": [
     "Back-to-back: MIL"
    ]
+  },
+  {
+   "date": "2026-11-20T01:00Z",
+   "state": "pre",
+   "home": "MIN",
+   "away": "NY",
+   "homeName": "Minnesota Timberwolves",
+   "awayName": "New York Knicks",
+   "hs": 0,
+   "as": 0,
+   "pHome": 70.2,
+   "why": []
   }
  ],
  "defense": [
@@ -521,14 +521,14 @@
    "rank": 6
   },
   {
-   "team": "DEN",
-   "allowed": 109.4,
-   "games": 5,
+   "team": "GS",
+   "allowed": 109.8,
+   "games": 6,
    "rank": 7
   },
   {
-   "team": "GS",
-   "allowed": 109.8,
+   "team": "DEN",
+   "allowed": 110.7,
    "games": 6,
    "rank": 8
   },
@@ -539,26 +539,26 @@
    "rank": 9
   },
   {
+   "team": "PHX",
+   "allowed": 112.4,
+   "games": 8,
+   "rank": 10
+  },
+  {
    "team": "IND",
    "allowed": 113.0,
    "games": 6,
-   "rank": 10
+   "rank": 11
   },
   {
    "team": "HOU",
    "allowed": 113.1,
    "games": 7,
-   "rank": 11
+   "rank": 12
   },
   {
    "team": "POR",
    "allowed": 113.1,
-   "games": 7,
-   "rank": 12
-  },
-  {
-   "team": "PHX",
-   "allowed": 113.4,
    "games": 7,
    "rank": 13
   },
@@ -791,7 +791,7 @@
    "next": {
     "team": "GS",
     "date": "2026-11-19T01:00Z",
-    "rank": 8,
+    "rank": 7,
     "allowed": 109.8,
     "home": true
    }
@@ -806,10 +806,10 @@
     30
    ],
    "next": {
-    "team": "PHX",
-    "date": "2026-11-17T02:00Z",
-    "rank": 13,
-    "allowed": 113.4,
+    "team": "BOS",
+    "date": "2026-11-19T02:30Z",
+    "rank": 1,
+    "allowed": 97.4,
     "home": true
    }
   },
@@ -825,7 +825,7 @@
    "next": {
     "team": "IND",
     "date": "2026-11-19T00:00Z",
-    "rank": 10,
+    "rank": 11,
     "allowed": 113.0,
     "home": false
    }
@@ -994,7 +994,7 @@
      "team": "Denver Nuggets",
      "abbr": "DEN",
      "w": 7,
-     "l": 4
+     "l": 5
     },
     {
      "team": "Golden State Warriors",
@@ -1011,7 +1011,7 @@
     {
      "team": "Phoenix Suns",
      "abbr": "PHX",
-     "w": 5,
+     "w": 6,
      "l": 7
     },
     {
@@ -1127,18 +1127,18 @@
    "date": "2026-11-12T21:35Z"
   },
   {
+   "player": "Jaylon Tyson",
+   "team": "Cleveland Cavaliers",
+   "status": "Day-To-Day",
+   "note": "Tyson (ankle) has been ruled out for Monday's game against Chicago.",
+   "date": "2026-11-17T03:37Z"
+  },
+  {
    "player": "Peyton Watson",
    "team": "Cleveland Cavaliers",
    "status": "Day-To-Day",
    "note": "Watson left Monday's 126-115 win over Chicago due to a head injury and did not return.",
    "date": "2026-11-17T02:58Z"
-  },
-  {
-   "player": "Jaylon Tyson",
-   "team": "Cleveland Cavaliers",
-   "status": "Out",
-   "note": "Tyson (ankle) has been ruled out for Monday's game against Chicago.",
-   "date": "2026-11-16T22:39Z"
   },
   {
    "player": "Evan Mobley",
@@ -1484,18 +1484,18 @@
    "date": "2026-10-05T20:53Z"
   },
   {
+   "player": "Bennedict Mathurin",
+   "team": "New Orleans Pelicans",
+   "status": "Day-To-Day",
+   "note": "Mathurin (foot) has been ruled out for Monday's game against the Warriors.",
+   "date": "2026-11-17T03:48Z"
+  },
+  {
    "player": "Bryce McGowens",
    "team": "New Orleans Pelicans",
    "status": "Out",
    "note": "McGowens (elbow) has been ruled out for Monday's game against the Warriors.",
    "date": "2026-11-15T23:10Z"
-  },
-  {
-   "player": "Bennedict Mathurin",
-   "team": "New Orleans Pelicans",
-   "status": "Out",
-   "note": "Mathurin (foot) has been ruled out for Monday's game against the Warriors.",
-   "date": "2026-11-15T23:06Z"
   },
   {
    "player": "Trey Murphy III",
@@ -1580,6 +1580,13 @@
    "status": "Out",
    "note": "Team president Jeff Weltman said Monday that Nelson (ankle) remains about a month away from returning to the court after offseason surgery, per Philip Rossman-Reich of OrlandoMagicDaily.com.",
    "date": "2026-09-28T21:33Z"
+  },
+  {
+   "player": "Jaylen Brown",
+   "team": "Philadelphia 76ers",
+   "status": "Day-To-Day",
+   "note": "Brown (hamstring/head) will undergo further evaluation Tuesday and could receive an MRI, Kris Rhim of ESPN reports.",
+   "date": "2026-11-17T04:56Z"
   },
   {
    "player": "LeBron James",
@@ -1773,100 +1780,22 @@
  ],
  "changes": [
   {
-   "player": "Neemias Queta",
-   "team": "Boston Celtics",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Jalen Smith",
-   "team": "Chicago Bulls",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Patrick Williams",
-   "team": "Chicago Bulls",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Peyton Watson",
+   "player": "Jaylon Tyson",
    "team": "Cleveland Cavaliers",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Amen Thompson",
-   "team": "Houston Rockets",
    "from": "Out",
    "to": "Day-To-Day"
   },
   {
-   "player": "Marcus Smart",
-   "team": "Houston Rockets",
-   "from": "Suspension",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Steven Adams",
-   "team": "Houston Rockets",
+   "player": "Bennedict Mathurin",
+   "team": "New Orleans Pelicans",
    "from": "Out",
    "to": "Day-To-Day"
   },
   {
-   "player": "Austin Reaves",
-   "team": "Los Angeles Lakers",
-   "from": "Day-To-Day",
-   "to": "Out"
-  },
-  {
-   "player": "Walker Kessler",
-   "team": "Los Angeles Lakers",
-   "from": "nuovo",
-   "to": "Out"
-  },
-  {
-   "player": "Isaiah Stewart",
-   "team": "Memphis Grizzlies",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Ty Jerome",
-   "team": "Memphis Grizzlies",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Nikola Jovic",
-   "team": "Miami Heat",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Bam Adebayo",
-   "team": "Miami Heat",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Jonathan Kuminga",
-   "team": "Minnesota Timberwolves",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "LeBron James",
+   "player": "Jaylen Brown",
    "team": "Philadelphia 76ers",
-   "from": "Out",
+   "from": "nuovo",
    "to": "Day-To-Day"
-  },
-  {
-   "player": "Jaxson Hayes",
-   "team": "Utah Jazz",
-   "from": "Day-To-Day",
-   "to": "Out"
   }
  ]
 }
