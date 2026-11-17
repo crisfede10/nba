@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T07:08:03.015850Z",
+ "updated": "2026-11-17T09:57:48.402547Z",
  "finished": [
   {
    "date": "2026-11-17T02:00Z",
@@ -1778,24 +1778,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "changes": [
-  {
-   "player": "Jaylon Tyson",
-   "team": "Cleveland Cavaliers",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Bennedict Mathurin",
-   "team": "New Orleans Pelicans",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Jaylen Brown",
-   "team": "Philadelphia 76ers",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  }
- ]
+ "changes": []
 }
