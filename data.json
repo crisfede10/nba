@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T18:50:55.679622Z",
+ "updated": "2026-11-18T21:49:34.377671Z",
  "finished": [
   {
    "date": "2026-11-18T04:00Z",
@@ -293,9 +293,10 @@
    "awayName": "Detroit Pistons",
    "hs": 0,
    "as": 0,
-   "pHome": 33.7,
+   "pHome": 36.4,
    "why": [
     "Back-to-back: DET",
+    "Cade Cunningham (Day-To-Day, DET)",
     "Duncan Robinson (Out, DET)"
    ]
   },
@@ -363,10 +364,8 @@
    "awayName": "Phoenix Suns",
    "hs": 0,
    "as": 0,
-   "pHome": 25.2,
-   "why": [
-    "De'Andre Hunter (Day-To-Day, SAC)"
-   ]
+   "pHome": 26.0,
+   "why": []
   },
   {
    "date": "2026-11-20T01:00Z",
@@ -474,8 +473,9 @@
    "awayName": "Toronto Raptors",
    "hs": 0,
    "as": 0,
-   "pHome": 79.9,
+   "pHome": 78.0,
    "why": [
+    "Cade Cunningham (Day-To-Day, DET)",
     "Duncan Robinson (Out, DET)",
     "RJ Barrett (Day-To-Day, TOR)"
    ]
@@ -1217,25 +1217,32 @@
    "date": "2026-10-17T00:52Z"
   },
   {
-   "player": "Taurean Prince",
+   "player": "Cade Cunningham",
    "team": "Detroit Pistons",
    "status": "Day-To-Day",
-   "note": "Prince (knee) has been ruled out for Tuesday's game against the Spurs.",
-   "date": "2026-11-18T15:05Z"
-  },
-  {
-   "player": "Ronald Holland II",
-   "team": "Detroit Pistons",
-   "status": "Day-To-Day",
-   "note": "Holland is out for Tuesday's game against San Antonio due to a left knee contusion.",
-   "date": "2026-11-18T15:05Z"
+   "note": "Cunningham is questionable for Wednesday's game against the Pelicans due to right knee soreness",
+   "date": "2026-11-18T19:09Z"
   },
   {
    "player": "Isaiah Joe",
    "team": "Detroit Pistons",
    "status": "Out",
-   "note": "Joe (hip) is out for Tuesday's game against the Spurs.",
-   "date": "2026-11-17T18:33Z"
+   "note": "Joe (hip) is listed as questionable for Wednesday's game against the Pelicans.",
+   "date": "2026-11-18T19:08Z"
+  },
+  {
+   "player": "Taurean Prince",
+   "team": "Detroit Pistons",
+   "status": "Out",
+   "note": "Prince (knee) is out for Wednesday's game against the Pelicans.",
+   "date": "2026-11-18T19:05Z"
+  },
+  {
+   "player": "Ronald Holland II",
+   "team": "Detroit Pistons",
+   "status": "Out",
+   "note": "Holland (knee) is out for Wednesday's game against the Pelicans.",
+   "date": "2026-11-18T19:04Z"
   },
   {
    "player": "Duncan Robinson",
@@ -1380,16 +1387,9 @@
   {
    "player": "Austin Reaves",
    "team": "Los Angeles Lakers",
-   "status": "Day-To-Day",
-   "note": "Reaves (heel) is out for Tuesday's game against the Hornets, Dave McMenamin of ESPN.com reports.",
-   "date": "2026-11-18T15:02Z"
-  },
-  {
-   "player": "Walker Kessler",
-   "team": "Los Angeles Lakers",
-   "status": "Day-To-Day",
-   "note": "Head coach JJ Redick said he expects Walker (leg) to be available for Wednesday's game against the Jazz, Thuc Nhi Nguyen of the Los Angeles Times reports.",
-   "date": "2026-11-18T15:02Z"
+   "status": "Out",
+   "note": "Reaves (heel) is out for Wednesday's game against the Jazz.",
+   "date": "2026-11-18T21:03Z"
   },
   {
    "player": "GG Jackson",
@@ -1665,20 +1665,6 @@
    "date": "2026-11-18T05:54Z"
   },
   {
-   "player": "De'Andre Hunter",
-   "team": "Sacramento Kings",
-   "status": "Day-To-Day",
-   "note": "Hunter (hip) is questionable for Wednesday's game against the Suns, James Ham of ESPN 1320 Sacramento reports.",
-   "date": "2026-11-18T00:33Z"
-  },
-  {
-   "player": "Precious Achiuwa",
-   "team": "Sacramento Kings",
-   "status": "Day-To-Day",
-   "note": "Achiuwa (ankle) is questionable for Wednesday's game against the Suns, James Ham of ESPN 1320 Sacramento reports.",
-   "date": "2026-11-18T00:29Z"
-  },
-  {
    "player": "Ben Simmons",
    "team": "Sacramento Kings",
    "status": "Out",
@@ -1735,18 +1721,11 @@
    "date": "2026-11-14T21:59Z"
   },
   {
-   "player": "Kevin McCullar Jr.",
-   "team": "Toronto Raptors",
-   "status": "Day-To-Day",
-   "note": "McCullar signed a two-way contract with the Raptors on Thursday, Michael Scotto of HoopsHype.com reports.",
-   "date": "2026-11-13T15:37Z"
-  },
-  {
    "player": "Jaxson Hayes",
    "team": "Utah Jazz",
    "status": "Day-To-Day",
-   "note": "Hayes (knee) has been ruled out for Tuesday's game against the Clippers.",
-   "date": "2026-11-18T14:59Z"
+   "note": "Hayes (knee) is questionable for Wednesday's game against the Lakers.",
+   "date": "2026-11-18T21:05Z"
   },
   {
    "player": "Lauri Markkanen",
@@ -1807,39 +1786,27 @@
  ],
  "changes": [
   {
-   "player": "Jaylon Tyson",
-   "team": "Cleveland Cavaliers",
-   "from": "Day-To-Day",
-   "to": "Out"
-  },
-  {
-   "player": "Myron Gardner",
-   "team": "Miami Heat",
-   "from": "Day-To-Day",
-   "to": "Out"
-  },
-  {
-   "player": "Ryan Rollins",
-   "team": "Milwaukee Bucks",
-   "from": "nuovo",
-   "to": "Out"
-  },
-  {
-   "player": "Dean Wade",
-   "team": "Philadelphia 76ers",
+   "player": "Cade Cunningham",
+   "team": "Detroit Pistons",
    "from": "nuovo",
    "to": "Day-To-Day"
   },
   {
-   "player": "RJ Barrett",
-   "team": "Toronto Raptors",
-   "from": "nuovo",
-   "to": "Day-To-Day"
+   "player": "Taurean Prince",
+   "team": "Detroit Pistons",
+   "from": "Day-To-Day",
+   "to": "Out"
   },
   {
-   "player": "Scottie Barnes",
-   "team": "Toronto Raptors",
-   "from": "nuovo",
+   "player": "Ronald Holland II",
+   "team": "Detroit Pistons",
+   "from": "Day-To-Day",
+   "to": "Out"
+  },
+  {
+   "player": "Austin Reaves",
+   "team": "Los Angeles Lakers",
+   "from": "Day-To-Day",
    "to": "Out"
   }
  ]
