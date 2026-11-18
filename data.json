@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T07:07:27.100503Z",
+ "updated": "2026-11-18T09:56:38.461386Z",
  "finished": [
   {
    "date": "2026-11-18T04:00Z",
@@ -1798,18 +1798,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "changes": [
-  {
-   "player": "Draymond Green",
-   "team": "Golden State Warriors",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Dylan Harper",
-   "team": "San Antonio Spurs",
-   "from": "Out",
-   "to": "Day-To-Day"
-  }
- ]
+ "changes": []
 }
