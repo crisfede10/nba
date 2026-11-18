@@ -1,6 +1,26 @@
 {
- "updated": "2026-11-18T03:51:48.203200Z",
+ "updated": "2026-11-18T07:07:27.100503Z",
  "finished": [
+  {
+   "date": "2026-11-18T04:00Z",
+   "state": "post",
+   "home": "LAL",
+   "away": "CHA",
+   "homeName": "Los Angeles Lakers",
+   "awayName": "Charlotte Hornets",
+   "hs": 118,
+   "as": 114
+  },
+  {
+   "date": "2026-11-18T03:30Z",
+   "state": "post",
+   "home": "LAC",
+   "away": "UTAH",
+   "homeName": "LA Clippers",
+   "awayName": "Utah Jazz",
+   "hs": 107,
+   "as": 132
+  },
   {
    "date": "2026-11-18T01:00Z",
    "state": "post",
@@ -180,56 +200,9 @@
    "awayName": "Charlotte Hornets",
    "hs": 113,
    "as": 105
-  },
-  {
-   "date": "2026-11-15T21:00Z",
-   "state": "post",
-   "home": "PHX",
-   "away": "LAL",
-   "homeName": "Phoenix Suns",
-   "awayName": "Los Angeles Lakers",
-   "hs": 123,
-   "as": 131
-  },
-  {
-   "date": "2026-11-15T18:00Z",
-   "state": "post",
-   "home": "PHI",
-   "away": "IND",
-   "homeName": "Philadelphia 76ers",
-   "awayName": "Indiana Pacers",
-   "hs": 131,
-   "as": 124
   }
  ],
  "upcoming": [
-  {
-   "date": "2026-11-18T03:30Z",
-   "state": "in",
-   "home": "LAC",
-   "away": "UTAH",
-   "homeName": "LA Clippers",
-   "awayName": "Utah Jazz",
-   "hs": 12,
-   "as": 11,
-   "pHome": 79.6,
-   "why": []
-  },
-  {
-   "date": "2026-11-18T04:00Z",
-   "state": "pre",
-   "home": "LAL",
-   "away": "CHA",
-   "homeName": "Los Angeles Lakers",
-   "awayName": "Charlotte Hornets",
-   "hs": 0,
-   "as": 0,
-   "pHome": 89.7,
-   "why": [
-    "Austin Reaves (Out, LAL)",
-    "Grayson Allen (Out, CHA)"
-   ]
-  },
   {
    "date": "2026-11-19T00:00Z",
    "state": "pre",
@@ -376,10 +349,9 @@
    "awayName": "Utah Jazz",
    "hs": 0,
    "as": 0,
-   "pHome": 93.7,
+   "pHome": 92.4,
    "why": [
     "Back-to-back: LAL",
-    "Austin Reaves (Out, LAL)",
     "Back-to-back: UTAH"
    ]
   },
@@ -450,7 +422,7 @@
    "awayName": "LA Clippers",
    "hs": 0,
    "as": 0,
-   "pHome": 86.1,
+   "pHome": 88.2,
    "why": []
   },
   {
@@ -462,7 +434,7 @@
    "awayName": "Charlotte Hornets",
    "hs": 0,
    "as": 0,
-   "pHome": 77.6,
+   "pHome": 77.8,
    "why": [
     "CJ McCollum (Out, ATL)",
     "Grayson Allen (Out, CHA)"
@@ -479,6 +451,34 @@
    "as": 0,
    "pHome": 34.5,
    "why": []
+  },
+  {
+   "date": "2026-11-21T00:30Z",
+   "state": "pre",
+   "home": "CLE",
+   "away": "IND",
+   "homeName": "Cleveland Cavaliers",
+   "awayName": "Indiana Pacers",
+   "hs": 0,
+   "as": 0,
+   "pHome": 70.0,
+   "why": [
+    "Andrew Nembhard (Day-To-Day, IND)"
+   ]
+  },
+  {
+   "date": "2026-11-21T00:30Z",
+   "state": "pre",
+   "home": "DET",
+   "away": "TOR",
+   "homeName": "Detroit Pistons",
+   "awayName": "Toronto Raptors",
+   "hs": 0,
+   "as": 0,
+   "pHome": 78.3,
+   "why": [
+    "Duncan Robinson (Out, DET)"
+   ]
   }
  ],
  "defense": [
@@ -531,21 +531,21 @@
    "rank": 8
   },
   {
-   "team": "CHA",
-   "allowed": 111.8,
-   "games": 5,
-   "rank": 9
-  },
-  {
    "team": "POR",
    "allowed": 112.2,
    "games": 8,
-   "rank": 10
+   "rank": 9
   },
   {
    "team": "PHX",
    "allowed": 112.4,
    "games": 8,
+   "rank": 10
+  },
+  {
+   "team": "CHA",
+   "allowed": 112.8,
+   "games": 6,
    "rank": 11
   },
   {
@@ -569,7 +569,7 @@
   {
    "team": "LAL",
    "allowed": 114.3,
-   "games": 6,
+   "games": 7,
    "rank": 15
   },
   {
@@ -597,14 +597,14 @@
    "rank": 19
   },
   {
-   "team": "DAL",
-   "allowed": 116.9,
-   "games": 7,
+   "team": "UTAH",
+   "allowed": 115.9,
+   "games": 8,
    "rank": 20
   },
   {
-   "team": "UTAH",
-   "allowed": 117.1,
+   "team": "DAL",
+   "allowed": 116.9,
    "games": 7,
    "rank": 21
   },
@@ -615,26 +615,26 @@
    "rank": 22
   },
   {
-   "team": "LAC",
-   "allowed": 118.0,
-   "games": 5,
-   "rank": 23
-  },
-  {
    "team": "PHI",
    "allowed": 118.3,
    "games": 7,
-   "rank": 24
+   "rank": 23
   },
   {
    "team": "ATL",
    "allowed": 118.8,
    "games": 6,
-   "rank": 25
+   "rank": 24
   },
   {
    "team": "DET",
    "allowed": 119.0,
+   "games": 6,
+   "rank": 25
+  },
+  {
+   "team": "LAC",
+   "allowed": 120.3,
    "games": 6,
    "rank": 26
   },
@@ -677,10 +677,10 @@
     43
    ],
    "next": {
-    "team": "CHA",
-    "date": "2026-11-18T04:00Z",
-    "rank": 9,
-    "allowed": 111.8,
+    "team": "UTAH",
+    "date": "2026-11-19T03:00Z",
+    "rank": 20,
+    "allowed": 115.9,
     "home": true
    }
   },
@@ -734,8 +734,8 @@
    "next": {
     "team": "LAC",
     "date": "2026-11-20T01:00Z",
-    "rank": 23,
-    "allowed": 118.0,
+    "rank": 26,
+    "allowed": 120.3,
     "home": true
    }
   },
@@ -754,7 +754,7 @@
    "next": {
     "team": "ATL",
     "date": "2026-11-19T01:00Z",
-    "rank": 25,
+    "rank": 24,
     "allowed": 118.8,
     "home": true
    }
@@ -773,7 +773,7 @@
    "next": {
     "team": "PHI",
     "date": "2026-11-19T00:00Z",
-    "rank": 24,
+    "rank": 23,
     "allowed": 118.3,
     "home": true
    }
@@ -842,7 +842,7 @@
    "next": {
     "team": "DAL",
     "date": "2026-11-19T01:00Z",
-    "rank": 20,
+    "rank": 21,
     "allowed": 116.9,
     "home": false
    }
@@ -916,7 +916,7 @@
      "team": "Charlotte Hornets",
      "abbr": "CHA",
      "w": 4,
-     "l": 9
+     "l": 10
     },
     {
      "team": "Washington Wizards",
@@ -950,7 +950,7 @@
     {
      "team": "Los Angeles Lakers",
      "abbr": "LAL",
-     "w": 12,
+     "w": 13,
      "l": 2
     },
     {
@@ -1023,19 +1023,19 @@
      "team": "LA Clippers",
      "abbr": "LAC",
      "w": 4,
-     "l": 8
+     "l": 9
+    },
+    {
+     "team": "Utah Jazz",
+     "abbr": "UTAH",
+     "w": 2,
+     "l": 13
     },
     {
      "team": "Sacramento Kings",
      "abbr": "SAC",
      "w": 1,
      "l": 12
-    },
-    {
-     "team": "Utah Jazz",
-     "abbr": "UTAH",
-     "w": 1,
-     "l": 13
     }
    ]
   }
@@ -1250,6 +1250,13 @@
    "status": "Out",
    "note": "Duren (hamstring) has begun on-court activity and will be re-evaluated in two weeks, Hunter Patterson of The Athletic reports.",
    "date": "2026-11-08T16:05Z"
+  },
+  {
+   "player": "Draymond Green",
+   "team": "Golden State Warriors",
+   "status": "Day-To-Day",
+   "note": "Green is questionable for Wednesday's game in Dallas due to inflammation in his right elbow.",
+   "date": "2026-11-18T05:49Z"
   },
   {
    "player": "Al Horford",
@@ -1658,6 +1665,13 @@
    "date": "2026-08-24T20:23Z"
   },
   {
+   "player": "Maxime Raynaud",
+   "team": "Sacramento Kings",
+   "status": "Out",
+   "note": "Raynaud (knee) will remain on the inactive list for Wednesday's game against the Suns.",
+   "date": "2026-11-18T05:54Z"
+  },
+  {
    "player": "De'Andre Hunter",
    "team": "Sacramento Kings",
    "status": "Day-To-Day",
@@ -1672,13 +1686,6 @@
    "date": "2026-11-18T00:29Z"
   },
   {
-   "player": "Maxime Raynaud",
-   "team": "Sacramento Kings",
-   "status": "Out",
-   "note": "Raynaud (knee) has been ruled out for Sunday's game against the Thunder.",
-   "date": "2026-11-15T01:00Z"
-  },
-  {
    "player": "Ben Simmons",
    "team": "Sacramento Kings",
    "status": "Out",
@@ -1688,9 +1695,9 @@
   {
    "player": "Dylan Harper",
    "team": "San Antonio Spurs",
-   "status": "Out",
-   "note": "Harper recorded 31 points (12-23 FG, 2-7 3Pt, 5-5 FT), nine rebounds, four assists and one steal across 34 minutes during Sunday's 110-102 win over the Jazz.",
-   "date": "2026-11-18T03:45Z"
+   "status": "Day-To-Day",
+   "note": "Harper left Tuesday's game against the Spurs due to an undisclosed injury after an awkward fall, Chris Mannix reports.",
+   "date": "2026-11-18T05:07Z"
   },
   {
    "player": "Tobias Harris",
@@ -1793,16 +1800,16 @@
  ],
  "changes": [
   {
-   "player": "Grayson Allen",
-   "team": "Charlotte Hornets",
+   "player": "Draymond Green",
+   "team": "Golden State Warriors",
    "from": "nuovo",
-   "to": "Out"
+   "to": "Day-To-Day"
   },
   {
    "player": "Dylan Harper",
    "team": "San Antonio Spurs",
-   "from": "nuovo",
-   "to": "Out"
+   "from": "Out",
+   "to": "Day-To-Day"
   }
  ]
 }
