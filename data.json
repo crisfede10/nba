@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T15:54:42.627135Z",
+ "updated": "2026-11-19T18:55:12.100284Z",
  "finished": [
   {
    "date": "2026-11-19T03:00Z",
@@ -1184,6 +1184,13 @@
    "date": "2026-10-17T00:52Z"
   },
   {
+   "player": "Ugonna Onyenso",
+   "team": "Detroit Pistons",
+   "status": "Day-To-Day",
+   "note": "Onyenso agreed to a two-way contract with the Pistons on Thursday.",
+   "date": "2026-11-19T16:15Z"
+  },
+  {
    "player": "Taurean Prince",
    "team": "Detroit Pistons",
    "status": "Day-To-Day",
@@ -1399,13 +1406,6 @@
    "status": "Out",
    "note": "Dieng will undergo a procedure to repair a fractured left finger Monday, Justin Garcia of the Milwaukee Bucks Radio Network reports.",
    "date": "2026-11-15T23:46Z"
-  },
-  {
-   "player": "Zyon Pullin",
-   "team": "Minnesota Timberwolves",
-   "status": "Day-To-Day",
-   "note": "Pullin (quadriceps) is listed as questionable for Thursday's game against the Knicks.",
-   "date": "2026-11-18T23:11Z"
   },
   {
    "player": "Jonathan Kuminga",
@@ -1649,8 +1649,8 @@
    "player": "Dylan Harper",
    "team": "San Antonio Spurs",
    "status": "Out",
-   "note": "Harper (hip) won't play in Thursday's game against the Clippers, Jeff McDonald of the San Antonio Express-News reports.",
-   "date": "2026-11-18T23:05Z"
+   "note": "Harper (hip) will undergo further testing Thursday, but his return date remains uncertain and he won't be available to face the Clippers, Jeff McDonald of the San Antonio Express-News reports.",
+   "date": "2026-11-19T17:40Z"
   },
   {
    "player": "Tobias Harris",
@@ -1760,123 +1760,9 @@
  ],
  "changes": [
   {
-   "player": "Jock Landale",
-   "team": "Atlanta Hawks",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Kingston Flemings",
-   "team": "Atlanta Hawks",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Grant Nelson",
-   "team": "Brooklyn Nets",
+   "player": "Ugonna Onyenso",
+   "team": "Detroit Pistons",
    "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Jaylon Tyson",
-   "team": "Cleveland Cavaliers",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Peyton Watson",
-   "team": "Cleveland Cavaliers",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Tobi Lawal",
-   "team": "Dallas Mavericks",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Taurean Prince",
-   "team": "Detroit Pistons",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Ronald Holland II",
-   "team": "Detroit Pistons",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Cade Cunningham",
-   "team": "Detroit Pistons",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Draymond Green",
-   "team": "Golden State Warriors",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Al Horford",
-   "team": "Golden State Warriors",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Andrew Nembhard",
-   "team": "Indiana Pacers",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Isaiah Stewart",
-   "team": "Memphis Grizzlies",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Myron Gardner",
-   "team": "Miami Heat",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Ryan Rollins",
-   "team": "Milwaukee Bucks",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Alex Caruso",
-   "team": "Oklahoma City Thunder",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Dean Wade",
-   "team": "Philadelphia 76ers",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Tyrese Maxey",
-   "team": "Philadelphia 76ers",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "RJ Barrett",
-   "team": "Toronto Raptors",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Scottie Barnes",
-   "team": "Toronto Raptors",
-   "from": "Out",
    "to": "Day-To-Day"
   }
  ]
