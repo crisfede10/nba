@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T21:49:34.377671Z",
+ "updated": "2026-11-19T01:00:33.183546Z",
  "finished": [
   {
    "date": "2026-11-18T04:00Z",
@@ -205,83 +205,83 @@
  "upcoming": [
   {
    "date": "2026-11-19T00:00Z",
-   "state": "pre",
+   "state": "in",
    "home": "CLE",
    "away": "MEM",
    "homeName": "Cleveland Cavaliers",
    "awayName": "Memphis Grizzlies",
-   "hs": 0,
-   "as": 0,
-   "pHome": 42.9,
+   "hs": 52,
+   "as": 45,
+   "pHome": 44.0,
    "why": [
     "Ty Jerome (Out, MEM)"
    ]
   },
   {
    "date": "2026-11-19T00:00Z",
-   "state": "pre",
+   "state": "in",
    "home": "IND",
    "away": "HOU",
    "homeName": "Indiana Pacers",
    "awayName": "Houston Rockets",
-   "hs": 0,
-   "as": 0,
-   "pHome": 29.4,
-   "why": [
-    "Andrew Nembhard (Day-To-Day, IND)"
-   ]
+   "hs": 41,
+   "as": 57,
+   "pHome": 30.2,
+   "why": []
   },
   {
    "date": "2026-11-19T00:00Z",
-   "state": "pre",
+   "state": "in",
    "home": "MIA",
    "away": "MIL",
    "homeName": "Miami Heat",
    "awayName": "Milwaukee Bucks",
-   "hs": 0,
-   "as": 0,
+   "hs": 44,
+   "as": 28,
    "pHome": 89.0,
    "why": []
   },
   {
    "date": "2026-11-19T00:00Z",
-   "state": "pre",
+   "state": "in",
    "home": "ORL",
    "away": "PHI",
    "homeName": "Orlando Magic",
    "awayName": "Philadelphia 76ers",
-   "hs": 0,
-   "as": 0,
-   "pHome": 48.4,
+   "hs": 60,
+   "as": 51,
+   "pHome": 52.3,
    "why": [
+    "Tyrese Maxey (Out, PHI)",
     "Jaylen Brown (Out, PHI)"
    ]
   },
   {
    "date": "2026-11-19T00:30Z",
-   "state": "pre",
+   "state": "in",
    "home": "BKN",
    "away": "CHI",
    "homeName": "Brooklyn Nets",
    "awayName": "Chicago Bulls",
-   "hs": 0,
-   "as": 0,
+   "hs": 21,
+   "as": 29,
    "pHome": 52.9,
    "why": []
   },
   {
    "date": "2026-11-19T00:30Z",
-   "state": "pre",
+   "state": "in",
    "home": "TOR",
    "away": "WSH",
    "homeName": "Toronto Raptors",
    "awayName": "Washington Wizards",
-   "hs": 0,
-   "as": 0,
-   "pHome": 59.1,
+   "hs": 17,
+   "as": 22,
+   "pHome": 54.3,
    "why": [
     "Back-to-back: TOR",
-    "RJ Barrett (Day-To-Day, TOR)"
+    "RJ Barrett (Out, TOR)",
+    "Scottie Barnes (Out, TOR)"
    ]
   },
   {
@@ -293,11 +293,10 @@
    "awayName": "Detroit Pistons",
    "hs": 0,
    "as": 0,
-   "pHome": 36.4,
+   "pHome": 39.7,
    "why": [
     "Back-to-back: DET",
-    "Cade Cunningham (Day-To-Day, DET)",
-    "Duncan Robinson (Out, DET)"
+    "Cade Cunningham (Out, DET)"
    ]
   },
   {
@@ -309,7 +308,7 @@
    "awayName": "Atlanta Hawks",
    "hs": 0,
    "as": 0,
-   "pHome": 68.5,
+   "pHome": 68.9,
    "why": [
     "CJ McCollum (Out, ATL)"
    ]
@@ -349,9 +348,10 @@
    "awayName": "Utah Jazz",
    "hs": 0,
    "as": 0,
-   "pHome": 92.4,
+   "pHome": 91.7,
    "why": [
     "Back-to-back: LAL",
+    "Austin Reaves (Out, LAL)",
     "Back-to-back: UTAH"
    ]
   },
@@ -376,7 +376,7 @@
    "awayName": "Golden State Warriors",
    "hs": 0,
    "as": 0,
-   "pHome": 77.0,
+   "pHome": 76.2,
    "why": [
     "Back-to-back: MEM",
     "Ty Jerome (Out, MEM)",
@@ -393,7 +393,7 @@
    "awayName": "Portland Trail Blazers",
    "hs": 0,
    "as": 0,
-   "pHome": 15.3,
+   "pHome": 15.5,
    "why": [
     "Back-to-back: MIL",
     "Deni Avdija (Day-To-Day, POR)"
@@ -432,7 +432,7 @@
    "awayName": "Charlotte Hornets",
    "hs": 0,
    "as": 0,
-   "pHome": 76.8,
+   "pHome": 76.6,
    "why": [
     "CJ McCollum (Out, ATL)",
     "Grayson Allen (Day-To-Day, CHA)"
@@ -459,10 +459,8 @@
    "awayName": "Indiana Pacers",
    "hs": 0,
    "as": 0,
-   "pHome": 70.0,
-   "why": [
-    "Andrew Nembhard (Day-To-Day, IND)"
-   ]
+   "pHome": 69.2,
+   "why": []
   },
   {
    "date": "2026-11-21T00:30Z",
@@ -473,43 +471,43 @@
    "awayName": "Toronto Raptors",
    "hs": 0,
    "as": 0,
-   "pHome": 78.0,
+   "pHome": 78.9,
    "why": [
-    "Cade Cunningham (Day-To-Day, DET)",
-    "Duncan Robinson (Out, DET)",
-    "RJ Barrett (Day-To-Day, TOR)"
+    "Cade Cunningham (Out, DET)",
+    "RJ Barrett (Out, TOR)",
+    "Scottie Barnes (Out, TOR)"
    ]
   }
  ],
  "defense": [
   {
    "team": "BOS",
-   "allowed": 97.4,
-   "games": 7,
+   "allowed": 96.7,
+   "games": 6,
    "rank": 1
   },
   {
    "team": "NY",
-   "allowed": 102.6,
-   "games": 7,
+   "allowed": 102.2,
+   "games": 6,
    "rank": 2
   },
   {
    "team": "SA",
-   "allowed": 103.8,
-   "games": 8,
+   "allowed": 102.7,
+   "games": 7,
    "rank": 3
   },
   {
    "team": "MIN",
-   "allowed": 104.3,
-   "games": 7,
+   "allowed": 103.8,
+   "games": 6,
    "rank": 4
   },
   {
    "team": "OKC",
-   "allowed": 106.4,
-   "games": 7,
+   "allowed": 104.8,
+   "games": 6,
    "rank": 5
   },
   {
@@ -519,147 +517,147 @@
    "rank": 6
   },
   {
-   "team": "GS",
-   "allowed": 109.8,
-   "games": 6,
+   "team": "PHX",
+   "allowed": 109.6,
+   "games": 7,
    "rank": 7
   },
   {
-   "team": "DEN",
-   "allowed": 110.7,
+   "team": "GS",
+   "allowed": 109.8,
    "games": 6,
    "rank": 8
   },
   {
-   "team": "POR",
-   "allowed": 112.2,
-   "games": 8,
+   "team": "DEN",
+   "allowed": 111.0,
+   "games": 5,
    "rank": 9
   },
   {
-   "team": "PHX",
-   "allowed": 112.4,
-   "games": 8,
+   "team": "POR",
+   "allowed": 111.3,
+   "games": 7,
    "rank": 10
   },
   {
-   "team": "CHA",
-   "allowed": 112.8,
+   "team": "TOR",
+   "allowed": 111.5,
    "games": 6,
    "rank": 11
   },
   {
-   "team": "IND",
-   "allowed": 113.0,
+   "team": "HOU",
+   "allowed": 112.5,
    "games": 6,
    "rank": 12
   },
   {
-   "team": "HOU",
-   "allowed": 113.1,
-   "games": 7,
+   "team": "CHA",
+   "allowed": 112.6,
+   "games": 5,
    "rank": 13
   },
   {
-   "team": "TOR",
-   "allowed": 113.9,
-   "games": 7,
+   "team": "MIA",
+   "allowed": 114.2,
+   "games": 6,
    "rank": 14
   },
   {
-   "team": "LAL",
+   "team": "CLE",
    "allowed": 114.3,
    "games": 7,
    "rank": 15
   },
   {
-   "team": "MEM",
-   "allowed": 114.4,
-   "games": 7,
+   "team": "IND",
+   "allowed": 115.0,
+   "games": 5,
    "rank": 16
   },
   {
-   "team": "MIA",
-   "allowed": 114.4,
+   "team": "UTAH",
+   "allowed": 115.3,
    "games": 7,
    "rank": 17
   },
   {
-   "team": "MIL",
-   "allowed": 115.3,
-   "games": 7,
+   "team": "MEM",
+   "allowed": 115.7,
+   "games": 6,
    "rank": 18
   },
   {
-   "team": "CLE",
-   "allowed": 115.5,
-   "games": 8,
+   "team": "LAL",
+   "allowed": 116.2,
+   "games": 6,
    "rank": 19
   },
   {
-   "team": "UTAH",
-   "allowed": 115.9,
-   "games": 8,
+   "team": "MIL",
+   "allowed": 116.3,
+   "games": 6,
    "rank": 20
   },
   {
    "team": "DAL",
-   "allowed": 116.9,
-   "games": 7,
+   "allowed": 117.7,
+   "games": 6,
    "rank": 21
   },
   {
    "team": "SAC",
-   "allowed": 117.7,
-   "games": 6,
+   "allowed": 118.0,
+   "games": 5,
    "rank": 22
   },
   {
-   "team": "PHI",
-   "allowed": 118.3,
-   "games": 7,
+   "team": "CHI",
+   "allowed": 120.0,
+   "games": 5,
    "rank": 23
   },
   {
-   "team": "ATL",
-   "allowed": 118.8,
+   "team": "PHI",
+   "allowed": 120.3,
    "games": 6,
    "rank": 24
   },
   {
    "team": "DET",
-   "allowed": 119.0,
-   "games": 6,
+   "allowed": 120.4,
+   "games": 5,
    "rank": 25
   },
   {
    "team": "LAC",
-   "allowed": 120.3,
-   "games": 6,
+   "allowed": 121.0,
+   "games": 5,
    "rank": 26
   },
   {
-   "team": "BKN",
-   "allowed": 122.2,
-   "games": 6,
+   "team": "ATL",
+   "allowed": 121.6,
+   "games": 5,
    "rank": 27
   },
   {
-   "team": "CHI",
-   "allowed": 122.5,
-   "games": 6,
+   "team": "BKN",
+   "allowed": 125.8,
+   "games": 5,
    "rank": 28
   },
   {
    "team": "NO",
-   "allowed": 125.2,
-   "games": 8,
+   "allowed": 127.0,
+   "games": 7,
    "rank": 29
   },
   {
    "team": "WSH",
-   "allowed": 129.5,
-   "games": 8,
+   "allowed": 130.9,
+   "games": 7,
    "rank": 30
   }
  ],
@@ -668,9 +666,8 @@
    "player": "Luka Doncic",
    "team": "LAL",
    "avg": 40.0,
-   "games": 5,
+   "games": 4,
    "last": [
-    40,
     53,
     32,
     32,
@@ -679,8 +676,8 @@
    "next": {
     "team": "UTAH",
     "date": "2026-11-19T03:00Z",
-    "rank": 20,
-    "allowed": 115.9,
+    "rank": 17,
+    "allowed": 115.3,
     "home": true
    }
   },
@@ -698,65 +695,8 @@
     "team": "NO",
     "date": "2026-11-19T01:00Z",
     "rank": 29,
-    "allowed": 125.2,
+    "allowed": 127.0,
     "home": false
-   }
-  },
-  {
-   "player": "Bam Adebayo",
-   "team": "MIA",
-   "avg": 36.0,
-   "games": 2,
-   "last": [
-    35,
-    37
-   ],
-   "next": {
-    "team": "MIL",
-    "date": "2026-11-19T00:00Z",
-    "rank": 18,
-    "allowed": 115.3,
-    "home": true
-   }
-  },
-  {
-   "player": "Victor Wembanyama",
-   "team": "SA",
-   "avg": 34.7,
-   "games": 6,
-   "last": [
-    30,
-    29,
-    40,
-    32,
-    25
-   ],
-   "next": {
-    "team": "LAC",
-    "date": "2026-11-20T01:00Z",
-    "rank": 26,
-    "allowed": 120.3,
-    "home": true
-   }
-  },
-  {
-   "player": "Shai Gilgeous-Alexander",
-   "team": "OKC",
-   "avg": 34.3,
-   "games": 6,
-   "last": [
-    30,
-    26,
-    31,
-    40,
-    37
-   ],
-   "next": {
-    "team": "ATL",
-    "date": "2026-11-19T01:00Z",
-    "rank": 24,
-    "allowed": 118.8,
-    "home": true
    }
   },
   {
@@ -773,8 +713,8 @@
    "next": {
     "team": "PHI",
     "date": "2026-11-19T00:00Z",
-    "rank": 23,
-    "allowed": 118.3,
+    "rank": 24,
+    "allowed": 120.3,
     "home": true
    }
   },
@@ -790,7 +730,7 @@
    "next": {
     "team": "GS",
     "date": "2026-11-19T01:00Z",
-    "rank": 7,
+    "rank": 8,
     "allowed": 109.8,
     "home": true
    }
@@ -808,8 +748,25 @@
     "team": "BOS",
     "date": "2026-11-19T02:30Z",
     "rank": 1,
-    "allowed": 97.4,
+    "allowed": 96.7,
     "home": true
+   }
+  },
+  {
+   "player": "Anthony Davis",
+   "team": "WSH",
+   "avg": 33.5,
+   "games": 2,
+   "last": [
+    44,
+    23
+   ],
+   "next": {
+    "team": "TOR",
+    "date": "2026-11-19T00:30Z",
+    "rank": 11,
+    "allowed": 111.5,
+    "home": false
    }
   },
   {
@@ -824,9 +781,29 @@
    "next": {
     "team": "IND",
     "date": "2026-11-19T00:00Z",
-    "rank": 12,
-    "allowed": 113.0,
+    "rank": 16,
+    "allowed": 115.0,
     "home": false
+   }
+  },
+  {
+   "player": "Shai Gilgeous-Alexander",
+   "team": "OKC",
+   "avg": 32.8,
+   "games": 5,
+   "last": [
+    30,
+    26,
+    31,
+    40,
+    37
+   ],
+   "next": {
+    "team": "ATL",
+    "date": "2026-11-19T01:00Z",
+    "rank": 27,
+    "allowed": 121.6,
+    "home": true
    }
   },
   {
@@ -843,7 +820,24 @@
     "team": "DAL",
     "date": "2026-11-19T01:00Z",
     "rank": 21,
-    "allowed": 116.9,
+    "allowed": 117.7,
+    "home": false
+   }
+  },
+  {
+   "player": "Paul George",
+   "team": "BOS",
+   "avg": 31.5,
+   "games": 2,
+   "last": [
+    27,
+    36
+   ],
+   "next": {
+    "team": "DEN",
+    "date": "2026-11-19T02:30Z",
+    "rank": 9,
+    "allowed": 111.0,
     "home": false
    }
   }
@@ -1105,13 +1099,6 @@
    "date": "2026-11-08T22:26Z"
   },
   {
-   "player": "Patrick Williams",
-   "team": "Chicago Bulls",
-   "status": "Day-To-Day",
-   "note": "Williams (finger) is listed as probable for Wednesday's game against Brooklyn.",
-   "date": "2026-11-17T21:04Z"
-  },
-  {
    "player": "Tobe Awaka",
    "team": "Chicago Bulls",
    "status": "Out",
@@ -1128,9 +1115,9 @@
   {
    "player": "Peyton Watson",
    "team": "Cleveland Cavaliers",
-   "status": "Day-To-Day",
-   "note": "Watson (back) is doubtful for Wednesday's game versus Memphis.",
-   "date": "2026-11-18T18:24Z"
+   "status": "Out",
+   "note": "Watson (back) is out for Wednesday's game versus Memphis.",
+   "date": "2026-11-18T23:17Z"
   },
   {
    "player": "Jaylon Tyson",
@@ -1147,18 +1134,18 @@
    "date": "2026-11-17T22:18Z"
   },
   {
-   "player": "Sam Merrill",
-   "team": "Cleveland Cavaliers",
-   "status": "Out",
-   "note": "Merrill (elbow) is questionable to face the Grizzlies on Wednesday.",
-   "date": "2026-11-17T22:15Z"
-  },
-  {
    "player": "Evan Mobley",
    "team": "Cleveland Cavaliers",
    "status": "Out",
    "note": "Mobley will receive treatment and participate in rehab after the team confirmed a diagnosis of a right great toe sprain, and he'll be re-evaluated in the next 7-to-10 days.",
    "date": "2026-11-16T22:06Z"
+  },
+  {
+   "player": "Tobi Lawal",
+   "team": "Dallas Mavericks",
+   "status": "Out",
+   "note": "Lawal is out for Wednesday's game against the Warriors due to tightness in his right groin.",
+   "date": "2026-11-18T23:59Z"
   },
   {
    "player": "Sergio de Larrea",
@@ -1168,24 +1155,10 @@
    "date": "2026-11-17T22:53Z"
   },
   {
-   "player": "Walter Clayton Jr.",
-   "team": "Dallas Mavericks",
-   "status": "Day-To-Day",
-   "note": "Clayton (ankle) is listed as probable for Wednesday's game against the Warriors.",
-   "date": "2026-11-17T22:47Z"
-  },
-  {
    "player": "Dereck Lively II",
    "team": "Dallas Mavericks",
    "status": "Out",
    "note": "Lively (foot) is out for Wednesday's game against the Warriors.",
-   "date": "2026-11-17T22:45Z"
-  },
-  {
-   "player": "Tobi Lawal",
-   "team": "Dallas Mavericks",
-   "status": "Day-To-Day",
-   "note": "Lawal is doubtful for Wednesday's game against the Warriors due to tightness in his right groin.",
    "date": "2026-11-17T22:45Z"
   },
   {
@@ -1194,20 +1167,6 @@
    "status": "Out",
    "note": "Biberovic (heel) is out for Wednesday's game against the Warriors.",
    "date": "2026-11-17T22:42Z"
-  },
-  {
-   "player": "Max Christie",
-   "team": "Dallas Mavericks",
-   "status": "Day-To-Day",
-   "note": "Christie (ankle) is questionable for Wednesday's game against the Warriors.",
-   "date": "2026-11-17T22:38Z"
-  },
-  {
-   "player": "Santi Aldama",
-   "team": "Dallas Mavericks",
-   "status": "Day-To-Day",
-   "note": "Aldama (ankle) is probable for Wednesday's game against the Warriors.",
-   "date": "2026-11-17T22:36Z"
   },
   {
    "player": "Julian Strawther",
@@ -1219,16 +1178,9 @@
   {
    "player": "Cade Cunningham",
    "team": "Detroit Pistons",
-   "status": "Day-To-Day",
-   "note": "Cunningham is questionable for Wednesday's game against the Pelicans due to right knee soreness",
-   "date": "2026-11-18T19:09Z"
-  },
-  {
-   "player": "Isaiah Joe",
-   "team": "Detroit Pistons",
    "status": "Out",
-   "note": "Joe (hip) is listed as questionable for Wednesday's game against the Pelicans.",
-   "date": "2026-11-18T19:08Z"
+   "note": "Cunningham (knee) won't play in Wednesday's game against New Orleans.",
+   "date": "2026-11-19T00:37Z"
   },
   {
    "player": "Taurean Prince",
@@ -1259,25 +1211,18 @@
    "date": "2026-11-08T16:05Z"
   },
   {
+   "player": "Al Horford",
+   "team": "Golden State Warriors",
+   "status": "Out",
+   "note": "Horford (back) is out for Wednesday's game against the Mavericks, but will play Thursday against the Grizzlies, Nick Friedell of The Athletic reports.",
+   "date": "2026-11-18T23:38Z"
+  },
+  {
    "player": "Brandon Williams",
    "team": "Golden State Warriors",
    "status": "Out",
    "note": "Williams (hamstring) has progressed to on-court activities and will be re-evaluated Saturday.",
    "date": "2026-11-18T17:12Z"
-  },
-  {
-   "player": "Draymond Green",
-   "team": "Golden State Warriors",
-   "status": "Day-To-Day",
-   "note": "Green is questionable for Wednesday's game in Dallas due to inflammation in his right elbow.",
-   "date": "2026-11-18T05:49Z"
-  },
-  {
-   "player": "Al Horford",
-   "team": "Golden State Warriors",
-   "status": "Day-To-Day",
-   "note": "Horford (back) is questionable for Wednesday's game against Dallas.",
-   "date": "2026-11-17T22:21Z"
   },
   {
    "player": "Stephen Curry",
@@ -1315,25 +1260,11 @@
    "date": "2026-11-17T20:58Z"
   },
   {
-   "player": "Amen Thompson",
-   "team": "Houston Rockets",
-   "status": "Day-To-Day",
-   "note": "Thompson (knee) is questionable for Wednesday's game against the Pacers.",
-   "date": "2026-11-17T20:49Z"
-  },
-  {
-   "player": "T.J. McConnell",
-   "team": "Indiana Pacers",
-   "status": "Day-To-Day",
-   "note": "McConnell (hamstring) is probable to play Wednesday against the Rockets.",
-   "date": "2026-11-17T22:24Z"
-  },
-  {
    "player": "Andrew Nembhard",
    "team": "Indiana Pacers",
-   "status": "Day-To-Day",
-   "note": "Nembhard (hip) is questionable for Wednesday's game against Houston.",
-   "date": "2026-11-17T22:19Z"
+   "status": "Out",
+   "note": "Nembhard (hip) won't play in Wednesday's game against the Rockets, Tony East of Forbes.com reports.",
+   "date": "2026-11-18T22:27Z"
   },
   {
    "player": "Tyrese Haliburton",
@@ -1357,18 +1288,11 @@
    "date": "2026-10-28T21:41Z"
   },
   {
-   "player": "Yanic Konan Niederhauser",
-   "team": "LA Clippers",
-   "status": "Out",
-   "note": "Niederhauser (foot) has been ruled out for Tuesday's game against the Jazz.",
-   "date": "2026-11-17T01:07Z"
-  },
-  {
    "player": "Brandon Ingram",
    "team": "LA Clippers",
    "status": "Out",
-   "note": "Ingram (Achilles) won't play in Friday's game against the Thunder, per Law Murray of The Athletic.",
-   "date": "2026-11-12T21:05Z"
+   "note": "Ingram (heel/Achilles) will remain on the inactive list for Thursday's game in San Antonio.",
+   "date": "2026-11-18T23:11Z"
   },
   {
    "player": "Bradley Beal",
@@ -1451,15 +1375,15 @@
    "player": "Zyon Pullin",
    "team": "Minnesota Timberwolves",
    "status": "Day-To-Day",
-   "note": "Pullin (quadriceps) has been ruled out for Tuesday's game against Portland.",
-   "date": "2026-11-18T15:04Z"
+   "note": "Pullin (quadriceps) is listed as questionable for Thursday's game against the Knicks.",
+   "date": "2026-11-18T23:11Z"
   },
   {
    "player": "Jonathan Kuminga",
    "team": "Minnesota Timberwolves",
    "status": "Day-To-Day",
-   "note": "Kuminga (shoulder) is out for Tuesday's game against Portland.",
-   "date": "2026-11-18T15:04Z"
+   "note": "Kuminga (shoulder) is questionable for Thursday's game against the Knicks, Charlie Walton of ZoneCoverage.com reports.",
+   "date": "2026-11-18T23:04Z"
   },
   {
    "player": "Jaylen Clark",
@@ -1525,13 +1449,6 @@
    "date": "2026-11-18T00:01Z"
   },
   {
-   "player": "Jaylin Williams",
-   "team": "Oklahoma City Thunder",
-   "status": "Out",
-   "note": "Williams (back) is listed as questionable for Wednesday's game against the Hawks, Clemente Almanza of USA Today reports.",
-   "date": "2026-11-17T23:08Z"
-  },
-  {
    "player": "Cason Wallace",
    "team": "Oklahoma City Thunder",
    "status": "Out",
@@ -1581,11 +1498,25 @@
    "date": "2026-10-24T16:47Z"
   },
   {
+   "player": "Tyrese Maxey",
+   "team": "Philadelphia 76ers",
+   "status": "Out",
+   "note": "Maxey (foot) is out for Wednesday's game in Orlando, Ky Carlin of USA Today reports.",
+   "date": "2026-11-18T23:33Z"
+  },
+  {
    "player": "Dean Wade",
    "team": "Philadelphia 76ers",
-   "status": "Day-To-Day",
-   "note": "Wade (hamstring) has been downgraded to questionable for Wednesday's game against the Magic.",
-   "date": "2026-11-18T18:06Z"
+   "status": "Out",
+   "note": "Wade (hamstring) is out for Wednesday's game in Orlando.",
+   "date": "2026-11-18T23:19Z"
+  },
+  {
+   "player": "Jaylen Brown",
+   "team": "Philadelphia 76ers",
+   "status": "Out",
+   "note": "Brown (hamstring) will be re-evaluated at some point this weekend, per Kris Rihm of ESPN.com.",
+   "date": "2026-11-18T22:21Z"
   },
   {
    "player": "Dominick Barlow",
@@ -1593,13 +1524,6 @@
    "status": "Out",
    "note": "Barlow (back) is out for Wednesday's game against Orlando.",
    "date": "2026-11-17T22:12Z"
-  },
-  {
-   "player": "Jaylen Brown",
-   "team": "Philadelphia 76ers",
-   "status": "Out",
-   "note": "Brown is out for Wednesday's game against the Magic with a left hamstring strain.",
-   "date": "2026-11-17T22:08Z"
   },
   {
    "player": "Adem Bona",
@@ -1623,11 +1547,25 @@
    "date": "2026-09-11T16:03Z"
   },
   {
+   "player": "Robert Williams III",
+   "team": "Portland Trail Blazers",
+   "status": "Out",
+   "note": "Williams (rest) is listed as out for Thursday's game versus the Bucks.",
+   "date": "2026-11-18T22:58Z"
+  },
+  {
    "player": "Deni Avdija",
    "team": "Portland Trail Blazers",
    "status": "Day-To-Day",
-   "note": "Avdija (foot) won't play Tuesday versus Minnesota.",
-   "date": "2026-11-18T15:04Z"
+   "note": "Avdija (foot) is listed as questionable ahead of Thursday's game against Milwaukee.",
+   "date": "2026-11-18T22:54Z"
+  },
+  {
+   "player": "Toumani Camara",
+   "team": "Portland Trail Blazers",
+   "status": "Day-To-Day",
+   "note": "Camara is questionable to play Thursday against the Bucks due to general soreness.",
+   "date": "2026-11-18T22:53Z"
   },
   {
    "player": "Chris Youngblood",
@@ -1674,9 +1612,9 @@
   {
    "player": "Dylan Harper",
    "team": "San Antonio Spurs",
-   "status": "Day-To-Day",
-   "note": "Harper left Tuesday's game against the Spurs due to an undisclosed injury after an awkward fall, Chris Mannix reports.",
-   "date": "2026-11-18T05:07Z"
+   "status": "Out",
+   "note": "Harper (hip) won't play in Thursday's game against the Clippers, Jeff McDonald of the San Antonio Express-News reports.",
+   "date": "2026-11-18T23:05Z"
   },
   {
    "player": "Tobias Harris",
@@ -1695,9 +1633,9 @@
   {
    "player": "RJ Barrett",
    "team": "Toronto Raptors",
-   "status": "Day-To-Day",
-   "note": "Barrett is questionable for Wednesday's game against the Wizards due to hamstring tightness, Esfandiar Baraheni of The Athletic reports.",
-   "date": "2026-11-18T17:49Z"
+   "status": "Out",
+   "note": "Barrett (hamstring) is out for Wednesday's game against the Wizards, Michael Grange of Sportsnet.ca reports.",
+   "date": "2026-11-18T22:55Z"
   },
   {
    "player": "Scottie Barnes",
@@ -1786,26 +1724,68 @@
  ],
  "changes": [
   {
+   "player": "Peyton Watson",
+   "team": "Cleveland Cavaliers",
+   "from": "Day-To-Day",
+   "to": "Out"
+  },
+  {
+   "player": "Tobi Lawal",
+   "team": "Dallas Mavericks",
+   "from": "Day-To-Day",
+   "to": "Out"
+  },
+  {
    "player": "Cade Cunningham",
    "team": "Detroit Pistons",
+   "from": "Day-To-Day",
+   "to": "Out"
+  },
+  {
+   "player": "Al Horford",
+   "team": "Golden State Warriors",
+   "from": "Day-To-Day",
+   "to": "Out"
+  },
+  {
+   "player": "Andrew Nembhard",
+   "team": "Indiana Pacers",
+   "from": "Day-To-Day",
+   "to": "Out"
+  },
+  {
+   "player": "Tyrese Maxey",
+   "team": "Philadelphia 76ers",
+   "from": "nuovo",
+   "to": "Out"
+  },
+  {
+   "player": "Dean Wade",
+   "team": "Philadelphia 76ers",
+   "from": "Day-To-Day",
+   "to": "Out"
+  },
+  {
+   "player": "Robert Williams III",
+   "team": "Portland Trail Blazers",
+   "from": "nuovo",
+   "to": "Out"
+  },
+  {
+   "player": "Toumani Camara",
+   "team": "Portland Trail Blazers",
    "from": "nuovo",
    "to": "Day-To-Day"
   },
   {
-   "player": "Taurean Prince",
-   "team": "Detroit Pistons",
+   "player": "Dylan Harper",
+   "team": "San Antonio Spurs",
    "from": "Day-To-Day",
    "to": "Out"
   },
   {
-   "player": "Ronald Holland II",
-   "team": "Detroit Pistons",
-   "from": "Day-To-Day",
-   "to": "Out"
-  },
-  {
-   "player": "Austin Reaves",
-   "team": "Los Angeles Lakers",
+   "player": "RJ Barrett",
+   "team": "Toronto Raptors",
    "from": "Day-To-Day",
    "to": "Out"
   }
