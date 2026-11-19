@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T13:05:44.425267Z",
+ "updated": "2026-11-19T15:54:42.627135Z",
  "finished": [
   {
    "date": "2026-11-19T03:00Z",
@@ -307,10 +307,10 @@
    "awayName": "Toronto Raptors",
    "hs": 0,
    "as": 0,
-   "pHome": 80.6,
+   "pHome": 81.8,
    "why": [
-    "Cade Cunningham (Out, DET)",
-    "RJ Barrett (Out, TOR)"
+    "Cade Cunningham (Day-To-Day, DET)",
+    "RJ Barrett (Day-To-Day, TOR)"
    ]
   },
   {
@@ -384,9 +384,9 @@
    "awayName": "Milwaukee Bucks",
    "hs": 0,
    "as": 0,
-   "pHome": 91.1,
+   "pHome": 91.9,
    "why": [
-    "Tyrese Maxey (Out, PHI)",
+    "Tyrese Maxey (Day-To-Day, PHI)",
     "Jaylen Brown (Out, PHI)"
    ]
   },
@@ -467,10 +467,10 @@
    "awayName": "Detroit Pistons",
    "hs": 0,
    "as": 0,
-   "pHome": 52.8,
+   "pHome": 48.3,
    "why": [
     "CJ McCollum (Out, ATL)",
-    "Cade Cunningham (Out, DET)"
+    "Cade Cunningham (Day-To-Day, DET)"
    ]
   }
  ],
@@ -1039,16 +1039,16 @@
   {
    "player": "Jock Landale",
    "team": "Atlanta Hawks",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Landale (hip) won't play Wednesday in Oklahoma City.",
-   "date": "2026-11-17T23:07Z"
+   "date": "2026-11-19T14:50Z"
   },
   {
    "player": "Kingston Flemings",
    "team": "Atlanta Hawks",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Flemings (back) is out for Wednesday's game against the Thunder.",
-   "date": "2026-11-17T23:06Z"
+   "date": "2026-11-19T14:50Z"
   },
   {
    "player": "Asa Newell",
@@ -1077,6 +1077,13 @@
    "status": "Out",
    "note": "Veesaar was diagnosed with a torn right ACL and is expected to miss the 2026-27 season, the Hawks announced Monday.",
    "date": "2026-09-21T19:50Z"
+  },
+  {
+   "player": "Grant Nelson",
+   "team": "Brooklyn Nets",
+   "status": "Day-To-Day",
+   "note": "Nelson signed a two-way contract with the Nets on Friday, Michael Scotto of HoopsHype.com reports.",
+   "date": "2026-11-19T15:45Z"
   },
   {
    "player": "Grayson Allen",
@@ -1114,18 +1121,18 @@
    "date": "2026-11-12T21:35Z"
   },
   {
-   "player": "Peyton Watson",
-   "team": "Cleveland Cavaliers",
-   "status": "Out",
-   "note": "Watson (back) is out for Wednesday's game versus Memphis.",
-   "date": "2026-11-18T23:17Z"
-  },
-  {
    "player": "Jaylon Tyson",
    "team": "Cleveland Cavaliers",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Tyson (ankle) has been ruled out for Wednesday's game against Memphis.",
-   "date": "2026-11-18T18:21Z"
+   "date": "2026-11-19T14:45Z"
+  },
+  {
+   "player": "Peyton Watson",
+   "team": "Cleveland Cavaliers",
+   "status": "Day-To-Day",
+   "note": "Watson (back) is out for Wednesday's game versus Memphis.",
+   "date": "2026-11-19T14:44Z"
   },
   {
    "player": "Nae'Qwan Tomlin",
@@ -1144,9 +1151,9 @@
   {
    "player": "Tobi Lawal",
    "team": "Dallas Mavericks",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Lawal is out for Wednesday's game against the Warriors due to tightness in his right groin.",
-   "date": "2026-11-18T23:59Z"
+   "date": "2026-11-19T14:51Z"
   },
   {
    "player": "Sergio de Larrea",
@@ -1177,25 +1184,25 @@
    "date": "2026-10-17T00:52Z"
   },
   {
-   "player": "Cade Cunningham",
-   "team": "Detroit Pistons",
-   "status": "Out",
-   "note": "Cunningham (knee) won't play in Wednesday's game against New Orleans.",
-   "date": "2026-11-19T00:37Z"
-  },
-  {
    "player": "Taurean Prince",
    "team": "Detroit Pistons",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Prince (knee) is out for Wednesday's game against the Pelicans.",
-   "date": "2026-11-18T19:05Z"
+   "date": "2026-11-19T14:49Z"
   },
   {
    "player": "Ronald Holland II",
    "team": "Detroit Pistons",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Holland (knee) is out for Wednesday's game against the Pelicans.",
-   "date": "2026-11-18T19:04Z"
+   "date": "2026-11-19T14:49Z"
+  },
+  {
+   "player": "Cade Cunningham",
+   "team": "Detroit Pistons",
+   "status": "Day-To-Day",
+   "note": "Cunningham (knee) won't play in Wednesday's game against New Orleans.",
+   "date": "2026-11-19T14:49Z"
   },
   {
    "player": "Duncan Robinson",
@@ -1212,11 +1219,18 @@
    "date": "2026-11-08T16:05Z"
   },
   {
+   "player": "Draymond Green",
+   "team": "Golden State Warriors",
+   "status": "Day-To-Day",
+   "note": "Green (elbow) is available for Wednesday's game against the Mavericks.",
+   "date": "2026-11-19T14:59Z"
+  },
+  {
    "player": "Al Horford",
    "team": "Golden State Warriors",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Horford (back) is out for Wednesday's game against the Mavericks, but will play Thursday against the Grizzlies, Nick Friedell of The Athletic reports.",
-   "date": "2026-11-18T23:38Z"
+   "date": "2026-11-19T14:51Z"
   },
   {
    "player": "Brandon Williams",
@@ -1268,18 +1282,18 @@
    "date": "2026-11-17T20:58Z"
   },
   {
+   "player": "Andrew Nembhard",
+   "team": "Indiana Pacers",
+   "status": "Day-To-Day",
+   "note": "Nembhard (hip) won't play in Wednesday's game against the Rockets, Tony East of Forbes.com reports.",
+   "date": "2026-11-19T14:45Z"
+  },
+  {
    "player": "Braden Smith",
    "team": "Indiana Pacers",
    "status": "Day-To-Day",
    "note": "Smith suffered a right ankle sprain during Wednesday's game against the Wizards, Tony East of Forbes.com reports.",
    "date": "2026-11-19T02:52Z"
-  },
-  {
-   "player": "Andrew Nembhard",
-   "team": "Indiana Pacers",
-   "status": "Out",
-   "note": "Nembhard (hip) won't play in Wednesday's game against the Rockets, Tony East of Forbes.com reports.",
-   "date": "2026-11-18T22:27Z"
   },
   {
    "player": "Tyrese Haliburton",
@@ -1331,18 +1345,18 @@
    "date": "2026-11-19T01:38Z"
   },
   {
+   "player": "Isaiah Stewart",
+   "team": "Memphis Grizzlies",
+   "status": "Day-To-Day",
+   "note": "Stewart (illness) won't play Wednesday against the Cavs.",
+   "date": "2026-11-19T14:44Z"
+  },
+  {
    "player": "GG Jackson",
    "team": "Memphis Grizzlies",
    "status": "Out",
    "note": "Jackson underwent a procedure Wednesday to repair a broken fifth metatarsal in his left foot. He is expected to recover fully and will be re-evaluated in approximately three months.",
    "date": "2026-11-17T23:18Z"
-  },
-  {
-   "player": "Isaiah Stewart",
-   "team": "Memphis Grizzlies",
-   "status": "Out",
-   "note": "Stewart (illness) won't play Wednesday against the Cavs.",
-   "date": "2026-11-17T22:10Z"
   },
   {
    "player": "Ty Jerome",
@@ -1368,16 +1382,16 @@
   {
    "player": "Myron Gardner",
    "team": "Miami Heat",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Gardner (hamstring) is out for Wednesday's game against the Bucks.",
-   "date": "2026-11-18T18:09Z"
+   "date": "2026-11-19T14:45Z"
   },
   {
    "player": "Ryan Rollins",
    "team": "Milwaukee Bucks",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Rollins (illness) has been ruled out for Wednesday's game at Miami.",
-   "date": "2026-11-18T18:10Z"
+   "date": "2026-11-19T14:45Z"
   },
   {
    "player": "Ousmane Dieng",
@@ -1459,9 +1473,9 @@
   {
    "player": "Alex Caruso",
    "team": "Oklahoma City Thunder",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Caruso won't return to Wednesday's game against the Hawks due to right hip soreness, Clemente Almanza of USA Today reports.",
-   "date": "2026-11-19T03:13Z"
+   "date": "2026-11-19T14:50Z"
   },
   {
    "player": "Thomas Sorber",
@@ -1520,18 +1534,18 @@
    "date": "2026-10-24T16:47Z"
   },
   {
-   "player": "Tyrese Maxey",
-   "team": "Philadelphia 76ers",
-   "status": "Out",
-   "note": "Maxey (foot) is out for Wednesday's game in Orlando, Ky Carlin of USA Today reports.",
-   "date": "2026-11-18T23:33Z"
-  },
-  {
    "player": "Dean Wade",
    "team": "Philadelphia 76ers",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Wade (hamstring) is out for Wednesday's game in Orlando.",
-   "date": "2026-11-18T23:19Z"
+   "date": "2026-11-19T14:47Z"
+  },
+  {
+   "player": "Tyrese Maxey",
+   "team": "Philadelphia 76ers",
+   "status": "Day-To-Day",
+   "note": "Maxey (foot) is out for Wednesday's game in Orlando, Ky Carlin of USA Today reports.",
+   "date": "2026-11-19T14:46Z"
   },
   {
    "player": "Jaylen Brown",
@@ -1569,6 +1583,13 @@
    "date": "2026-09-11T16:03Z"
   },
   {
+   "player": "Chris Youngblood",
+   "team": "Portland Trail Blazers",
+   "status": "Out",
+   "note": "Youngblood (heel) has been ruled out for Thursday's game against the Bucks.",
+   "date": "2026-11-19T15:06Z"
+  },
+  {
    "player": "Robert Williams III",
    "team": "Portland Trail Blazers",
    "status": "Out",
@@ -1588,13 +1609,6 @@
    "status": "Day-To-Day",
    "note": "Camara is questionable to play Thursday against the Bucks due to general soreness.",
    "date": "2026-11-18T22:53Z"
-  },
-  {
-   "player": "Chris Youngblood",
-   "team": "Portland Trail Blazers",
-   "status": "Out",
-   "note": "Youngblood (heel) has been ruled out for Tuesday's game at Minnesota.",
-   "date": "2026-11-17T19:19Z"
   },
   {
    "player": "Vit Krejci",
@@ -1653,25 +1667,25 @@
    "date": "2026-10-05T21:43Z"
   },
   {
+   "player": "RJ Barrett",
+   "team": "Toronto Raptors",
+   "status": "Day-To-Day",
+   "note": "Barrett (hamstring) is out for Wednesday's game against the Wizards, Michael Grange of Sportsnet.ca reports.",
+   "date": "2026-11-19T14:48Z"
+  },
+  {
+   "player": "Scottie Barnes",
+   "team": "Toronto Raptors",
+   "status": "Day-To-Day",
+   "note": "Barnes (injury management) has been ruled out for Wednesday's game against Washington, Esfandiar Baraheni of The Athletic reports.",
+   "date": "2026-11-19T14:48Z"
+  },
+  {
    "player": "Collin Murray-Boyles",
    "team": "Toronto Raptors",
    "status": "Day-To-Day",
    "note": "Murray-Boyles will not return to Wednesday's game against the Wizards due to an illness, Blake Murphy of Sportsnet.ca reports.",
    "date": "2026-11-19T01:34Z"
-  },
-  {
-   "player": "RJ Barrett",
-   "team": "Toronto Raptors",
-   "status": "Out",
-   "note": "Barrett (hamstring) is out for Wednesday's game against the Wizards, Michael Grange of Sportsnet.ca reports.",
-   "date": "2026-11-18T22:55Z"
-  },
-  {
-   "player": "Scottie Barnes",
-   "team": "Toronto Raptors",
-   "status": "Out",
-   "note": "Barnes (injury management) has been ruled out for Wednesday's game against Washington, Esfandiar Baraheni of The Athletic reports.",
-   "date": "2026-11-18T17:46Z"
   },
   {
    "player": "Kawhi Leonard",
@@ -1744,5 +1758,126 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "changes": []
+ "changes": [
+  {
+   "player": "Jock Landale",
+   "team": "Atlanta Hawks",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Kingston Flemings",
+   "team": "Atlanta Hawks",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Grant Nelson",
+   "team": "Brooklyn Nets",
+   "from": "nuovo",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Jaylon Tyson",
+   "team": "Cleveland Cavaliers",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Peyton Watson",
+   "team": "Cleveland Cavaliers",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Tobi Lawal",
+   "team": "Dallas Mavericks",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Taurean Prince",
+   "team": "Detroit Pistons",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Ronald Holland II",
+   "team": "Detroit Pistons",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Cade Cunningham",
+   "team": "Detroit Pistons",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Draymond Green",
+   "team": "Golden State Warriors",
+   "from": "nuovo",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Al Horford",
+   "team": "Golden State Warriors",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Andrew Nembhard",
+   "team": "Indiana Pacers",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Isaiah Stewart",
+   "team": "Memphis Grizzlies",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Myron Gardner",
+   "team": "Miami Heat",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Ryan Rollins",
+   "team": "Milwaukee Bucks",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Alex Caruso",
+   "team": "Oklahoma City Thunder",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Dean Wade",
+   "team": "Philadelphia 76ers",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Tyrese Maxey",
+   "team": "Philadelphia 76ers",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "RJ Barrett",
+   "team": "Toronto Raptors",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Scottie Barnes",
+   "team": "Toronto Raptors",
+   "from": "Out",
+   "to": "Day-To-Day"
+  }
+ ]
 }
