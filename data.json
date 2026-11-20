@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T18:54:54.481252Z",
+ "updated": "2026-11-20T21:43:56.713283Z",
  "finished": [
   {
    "date": "2026-11-20T01:00Z",
@@ -332,11 +332,10 @@
    "awayName": "Milwaukee Bucks",
    "hs": 0,
    "as": 0,
-   "pHome": 91.7,
+   "pHome": 91.3,
    "why": [
     "Tyrese Maxey (Day-To-Day, PHI)",
-    "Jaylen Brown (Out, PHI)",
-    "Kyle Kuzma (Day-To-Day, MIL)"
+    "Jaylen Brown (Out, PHI)"
    ]
   },
   {
@@ -1171,6 +1170,13 @@
    "date": "2026-11-16T22:06Z"
   },
   {
+   "player": "Dereck Lively II",
+   "team": "Dallas Mavericks",
+   "status": "Out",
+   "note": "Head coach Dusty May said Friday that Lively (foot) is moving well and progressing in his recovery, and the big man told May he's \"close\" to returning, Mike Curtis of The Dallas Morning News reports.",
+   "date": "2026-11-20T19:31Z"
+  },
+  {
    "player": "Tobi Lawal",
    "team": "Dallas Mavericks",
    "status": "Day-To-Day",
@@ -1183,13 +1189,6 @@
    "status": "Out",
    "note": "De Larrea (knee) is listed as out for Wednesday's game against the Warriors.",
    "date": "2026-11-17T22:53Z"
-  },
-  {
-   "player": "Dereck Lively II",
-   "team": "Dallas Mavericks",
-   "status": "Out",
-   "note": "Lively (foot) is out for Wednesday's game against the Warriors.",
-   "date": "2026-11-17T22:45Z"
   },
   {
    "player": "Tarik Biberovic",
@@ -1318,6 +1317,13 @@
    "date": "2026-11-19T23:17Z"
   },
   {
+   "player": "Tyrese Haliburton",
+   "team": "Indiana Pacers",
+   "status": "Out",
+   "note": "Haliburton (hamstring) is expected to miss at least two more weeks, Shams Charania of ESPN reports.",
+   "date": "2026-11-20T20:41Z"
+  },
+  {
    "player": "T.J. McConnell",
    "team": "Indiana Pacers",
    "status": "Day-To-Day",
@@ -1339,13 +1345,6 @@
    "date": "2026-11-19T22:05Z"
   },
   {
-   "player": "Tyrese Haliburton",
-   "team": "Indiana Pacers",
-   "status": "Out",
-   "note": "Head coach Rick Carlisle said Tuesday that Haliburton (hamstring) is \"getting there,\" but there's still no definitive timetable for his return to game action, Dustin Dopirak of The Indianapolis Star reports.",
-   "date": "2026-11-17T18:46Z"
-  },
-  {
    "player": "Johnny Furphy",
    "team": "Indiana Pacers",
    "status": "Out",
@@ -1363,8 +1362,8 @@
    "player": "Brandon Ingram",
    "team": "LA Clippers",
    "status": "Out",
-   "note": "Ingram (heel/Achilles) will remain on the inactive list for Thursday's game in San Antonio.",
-   "date": "2026-11-18T23:11Z"
+   "note": "Ingram (Achilles) is expected to make his season and team debut Monday against the Rockets, per Shams Charania of ESPN.",
+   "date": "2026-11-20T20:20Z"
   },
   {
    "player": "Bradley Beal",
@@ -1435,20 +1434,6 @@
    "status": "Day-To-Day",
    "note": "Gardner (hamstring) is out for Wednesday's game against the Bucks.",
    "date": "2026-11-19T14:45Z"
-  },
-  {
-   "player": "Myles Turner",
-   "team": "Milwaukee Bucks",
-   "status": "Day-To-Day",
-   "note": "Turner (shoulder) has been ruled out for Thursday's game against Portland due to a left shoulder contusion,",
-   "date": "2026-11-20T03:55Z"
-  },
-  {
-   "player": "Kyle Kuzma",
-   "team": "Milwaukee Bucks",
-   "status": "Day-To-Day",
-   "note": "Kuzma (shoulder) has been ruled out for Thursday's game against Portland due to a right shoulder contusion.",
-   "date": "2026-11-20T03:55Z"
   },
   {
    "player": "Ousmane Dieng",
@@ -1670,9 +1655,9 @@
   {
    "player": "Precious Achiuwa",
    "team": "Sacramento Kings",
-   "status": "Day-To-Day",
-   "note": "Achiuwa is doubtful for Friday's game against the Lakers due to a left lower leg bruise.",
-   "date": "2026-11-20T01:22Z"
+   "status": "Out",
+   "note": "Achiuwa (lower leg) has been ruled out for Friday's game against the Lakers.",
+   "date": "2026-11-20T21:21Z"
   },
   {
    "player": "De'Andre Hunter",
@@ -1717,6 +1702,13 @@
    "date": "2026-10-05T21:43Z"
   },
   {
+   "player": "Kawhi Leonard",
+   "team": "Toronto Raptors",
+   "status": "Out",
+   "note": "Leonard (knee) could return in the next few weeks, per Shams Charania of ESPN.",
+   "date": "2026-11-20T20:42Z"
+  },
+  {
    "player": "Collin Murray-Boyles",
    "team": "Toronto Raptors",
    "status": "Out",
@@ -1729,13 +1721,6 @@
    "status": "Out",
    "note": "Barrett has been diagnosed with a right hamstring strain and will be re-evaluated in two weeks, Brett Siegel of ClutchPoints.com reports.",
    "date": "2026-11-19T21:13Z"
-  },
-  {
-   "player": "Kawhi Leonard",
-   "team": "Toronto Raptors",
-   "status": "Out",
-   "note": "Leonard (knee) has progressed in his strength and conditioning program but will miss at least one more week, Michael Scotto of HoopsHype.com reports.",
-   "date": "2026-11-17T22:25Z"
   },
   {
    "player": "Nate Bittle",
@@ -1803,21 +1788,9 @@
  ],
  "changes": [
   {
-   "player": "Jalen Smith",
-   "team": "Chicago Bulls",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Ronald Holland II",
-   "team": "Detroit Pistons",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Nikola Topic",
-   "team": "Oklahoma City Thunder",
-   "from": "nuovo",
+   "player": "Precious Achiuwa",
+   "team": "Sacramento Kings",
+   "from": "Day-To-Day",
    "to": "Out"
   }
  ]
