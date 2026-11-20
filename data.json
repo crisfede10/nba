@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T15:53:51.139276Z",
+ "updated": "2026-11-20T18:54:54.481252Z",
  "finished": [
   {
    "date": "2026-11-20T01:00Z",
@@ -266,8 +266,10 @@
    "awayName": "Washington Wizards",
    "hs": 0,
    "as": 0,
-   "pHome": 68.6,
-   "why": []
+   "pHome": 67.7,
+   "why": [
+    "Jalen Smith (Day-To-Day, CHI)"
+   ]
   },
   {
    "date": "2026-11-21T01:00Z",
@@ -454,8 +456,10 @@
    "awayName": "Denver Nuggets",
    "hs": 0,
    "as": 0,
-   "pHome": 44.4,
-   "why": []
+   "pHome": 43.4,
+   "why": [
+    "Jalen Smith (Day-To-Day, CHI)"
+   ]
   },
   {
    "date": "2026-11-23T00:00Z",
@@ -1111,6 +1115,13 @@
    "date": "2026-11-08T22:26Z"
   },
   {
+   "player": "Jalen Smith",
+   "team": "Chicago Bulls",
+   "status": "Day-To-Day",
+   "note": "Smith (illness) has been downgraded to questionable for Friday's game against the Wizards.",
+   "date": "2026-11-20T17:41Z"
+  },
+  {
    "player": "Noa Essengue",
    "team": "Chicago Bulls",
    "status": "Day-To-Day",
@@ -1195,6 +1206,13 @@
    "date": "2026-10-17T00:52Z"
   },
   {
+   "player": "Ronald Holland II",
+   "team": "Detroit Pistons",
+   "status": "Day-To-Day",
+   "note": "Holland (knee) has been upgraded to doubtful for Friday's game against Toronto, Hunter Patterson of The Athletic reports.",
+   "date": "2026-11-20T17:46Z"
+  },
+  {
    "player": "Taurean Prince",
    "team": "Detroit Pistons",
    "status": "Out",
@@ -1207,13 +1225,6 @@
    "status": "Out",
    "note": "Okorie (oblique) has been ruled out for Friday's game against Toronto.",
    "date": "2026-11-19T21:43Z"
-  },
-  {
-   "player": "Ronald Holland II",
-   "team": "Detroit Pistons",
-   "status": "Out",
-   "note": "Holland (knee) won't play in Friday's game against the Raptors, Blake Murphy of Sportsnet.ca reports.",
-   "date": "2026-11-19T21:41Z"
   },
   {
    "player": "Cade Cunningham",
@@ -1503,6 +1514,13 @@
    "date": "2026-11-13T20:19Z"
   },
   {
+   "player": "Nikola Topic",
+   "team": "Oklahoma City Thunder",
+   "status": "Out",
+   "note": "Topic (hip) is out for Friday's game against New Orleans.",
+   "date": "2026-11-20T17:02Z"
+  },
+  {
    "player": "Alex Caruso",
    "team": "Oklahoma City Thunder",
    "status": "Day-To-Day",
@@ -1566,39 +1584,32 @@
    "date": "2026-10-24T16:47Z"
   },
   {
-   "player": "Dean Wade",
+   "player": "Adem Bona",
    "team": "Philadelphia 76ers",
-   "status": "Day-To-Day",
-   "note": "Wade (hamstring) is out for Wednesday's game in Orlando.",
-   "date": "2026-11-19T14:47Z"
+   "status": "Out",
+   "note": "Bona (back) participated in Friday's practice, though he still needs to go through a full practice with contact before being cleared to return to game action, Adam Aaronson of PhillyVoice.com reports.",
+   "date": "2026-11-20T17:33Z"
   },
   {
    "player": "Tyrese Maxey",
    "team": "Philadelphia 76ers",
    "status": "Day-To-Day",
-   "note": "Maxey (foot) is out for Wednesday's game in Orlando, Ky Carlin of USA Today reports.",
-   "date": "2026-11-19T14:46Z"
+   "note": "Maxey (foot) was a full participant in Friday's practice, Tony Jones of The Athletic reports.",
+   "date": "2026-11-20T17:28Z"
   },
   {
    "player": "Jaylen Brown",
    "team": "Philadelphia 76ers",
    "status": "Out",
-   "note": "Brown (hamstring) will be re-evaluated at some point this weekend, per Kris Rihm of ESPN.com.",
-   "date": "2026-11-18T22:21Z"
+   "note": "Brown (hamstring) went through individual work during Friday's practice, Tony Jones of The Athletic reports.",
+   "date": "2026-11-20T17:26Z"
   },
   {
    "player": "Dominick Barlow",
    "team": "Philadelphia 76ers",
    "status": "Out",
-   "note": "Barlow (back) is out for Wednesday's game against Orlando.",
-   "date": "2026-11-17T22:12Z"
-  },
-  {
-   "player": "Adem Bona",
-   "team": "Philadelphia 76ers",
-   "status": "Out",
-   "note": "Bona (back) will be re-evaluated in approximately one week after seeing a specialist, Ky Carlin of USA Today reports.",
-   "date": "2026-11-12T16:36Z"
+   "note": "Barlow (back) is trending toward making his season debut in Saturday's game against the Bucks, Tony Jones of The Athletic reports.",
+   "date": "2026-11-20T17:20Z"
   },
   {
    "player": "Ariel Hukporti",
@@ -1790,5 +1801,24 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "changes": []
+ "changes": [
+  {
+   "player": "Jalen Smith",
+   "team": "Chicago Bulls",
+   "from": "nuovo",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Ronald Holland II",
+   "team": "Detroit Pistons",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Nikola Topic",
+   "team": "Oklahoma City Thunder",
+   "from": "nuovo",
+   "to": "Out"
+  }
+ ]
 }
