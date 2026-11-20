@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T07:07:20.117975Z",
+ "updated": "2026-11-20T09:56:28.278719Z",
  "finished": [
   {
    "date": "2026-11-20T01:00Z",
@@ -1790,42 +1790,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "changes": [
-  {
-   "player": "Draymond Green",
-   "team": "Golden State Warriors",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Zach Edey",
-   "team": "Memphis Grizzlies",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Myles Turner",
-   "team": "Milwaukee Bucks",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Kyle Kuzma",
-   "team": "Milwaukee Bucks",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Robert Williams III",
-   "team": "Portland Trail Blazers",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Deni Avdija",
-   "team": "Portland Trail Blazers",
-   "from": "Out",
-   "to": "Day-To-Day"
-  }
- ]
+ "changes": []
 }
