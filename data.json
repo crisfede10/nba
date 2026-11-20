@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T03:49:58.251353Z",
+ "updated": "2026-11-20T07:07:20.117975Z",
  "finished": [
   {
    "date": "2026-11-20T01:00Z",
@@ -330,11 +330,11 @@
    "awayName": "Milwaukee Bucks",
    "hs": 0,
    "as": 0,
-   "pHome": 92.4,
+   "pHome": 91.7,
    "why": [
     "Tyrese Maxey (Day-To-Day, PHI)",
     "Jaylen Brown (Out, PHI)",
-    "Kyle Kuzma (Out, MIL)"
+    "Kyle Kuzma (Day-To-Day, MIL)"
    ]
   },
   {
@@ -346,9 +346,9 @@
    "awayName": "Portland Trail Blazers",
    "hs": 0,
    "as": 0,
-   "pHome": 60.4,
+   "pHome": 54.9,
    "why": [
-    "Deni Avdija (Out, POR)"
+    "Deni Avdija (Day-To-Day, POR)"
    ]
   },
   {
@@ -1246,9 +1246,9 @@
   {
    "player": "Draymond Green",
    "team": "Golden State Warriors",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Green (elbow) is out for Thursday's game against the Grizzlies.",
-   "date": "2026-11-19T18:51Z"
+   "date": "2026-11-20T03:53Z"
   },
   {
    "player": "Brandon Williams",
@@ -1377,18 +1377,18 @@
    "date": "2026-11-20T01:05Z"
   },
   {
+   "player": "Zach Edey",
+   "team": "Memphis Grizzlies",
+   "status": "Day-To-Day",
+   "note": "Edey (hip) has been ruled out for Thursday's game against the Warriors.",
+   "date": "2026-11-20T03:53Z"
+  },
+  {
    "player": "Jerami Grant",
    "team": "Memphis Grizzlies",
    "status": "Day-To-Day",
    "note": "Grant won't return to Thursday's game against the Warriors due to a left calf injury. He'll finish with three points (1-2 FG, 1-1 3Pt) across five minutes.",
    "date": "2026-11-20T02:08Z"
-  },
-  {
-   "player": "Zach Edey",
-   "team": "Memphis Grizzlies",
-   "status": "Out",
-   "note": "Edey (hip) has been ruled out for Thursday's game against the Warriors.",
-   "date": "2026-11-19T19:09Z"
   },
   {
    "player": "Ty Jerome",
@@ -1426,18 +1426,18 @@
    "date": "2026-11-19T14:45Z"
   },
   {
-   "player": "Kyle Kuzma",
-   "team": "Milwaukee Bucks",
-   "status": "Out",
-   "note": "Kuzma (shoulder) has been ruled out for Thursday's game against Portland due to a right shoulder contusion.",
-   "date": "2026-11-19T19:20Z"
-  },
-  {
    "player": "Myles Turner",
    "team": "Milwaukee Bucks",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Turner (shoulder) has been ruled out for Thursday's game against Portland due to a left shoulder contusion,",
-   "date": "2026-11-19T19:15Z"
+   "date": "2026-11-20T03:55Z"
+  },
+  {
+   "player": "Kyle Kuzma",
+   "team": "Milwaukee Bucks",
+   "status": "Day-To-Day",
+   "note": "Kuzma (shoulder) has been ruled out for Thursday's game against Portland due to a right shoulder contusion.",
+   "date": "2026-11-20T03:55Z"
   },
   {
    "player": "Ousmane Dieng",
@@ -1615,11 +1615,18 @@
    "date": "2026-09-11T16:03Z"
   },
   {
+   "player": "Robert Williams III",
+   "team": "Portland Trail Blazers",
+   "status": "Day-To-Day",
+   "note": "Williams (rest) is listed as out for Thursday's game versus the Bucks.",
+   "date": "2026-11-20T03:55Z"
+  },
+  {
    "player": "Deni Avdija",
    "team": "Portland Trail Blazers",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Avdija (foot) is listed as out for Thursday's game against the Bucks.",
-   "date": "2026-11-20T00:21Z"
+   "date": "2026-11-20T03:55Z"
   },
   {
    "player": "Chris Youngblood",
@@ -1627,13 +1634,6 @@
    "status": "Out",
    "note": "Youngblood (heel) has been ruled out for Thursday's game against the Bucks.",
    "date": "2026-11-19T15:06Z"
-  },
-  {
-   "player": "Robert Williams III",
-   "team": "Portland Trail Blazers",
-   "status": "Out",
-   "note": "Williams (rest) is listed as out for Thursday's game versus the Bucks.",
-   "date": "2026-11-18T22:58Z"
   },
   {
    "player": "Vit Krejci",
@@ -1792,21 +1792,39 @@
  ],
  "changes": [
   {
-   "player": "Jerami Grant",
+   "player": "Draymond Green",
+   "team": "Golden State Warriors",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Zach Edey",
    "team": "Memphis Grizzlies",
-   "from": "nuovo",
+   "from": "Out",
    "to": "Day-To-Day"
   },
   {
-   "player": "Precious Achiuwa",
-   "team": "Sacramento Kings",
-   "from": "nuovo",
+   "player": "Myles Turner",
+   "team": "Milwaukee Bucks",
+   "from": "Out",
    "to": "Day-To-Day"
   },
   {
-   "player": "De'Andre Hunter",
-   "team": "Sacramento Kings",
-   "from": "nuovo",
+   "player": "Kyle Kuzma",
+   "team": "Milwaukee Bucks",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Robert Williams III",
+   "team": "Portland Trail Blazers",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Deni Avdija",
+   "team": "Portland Trail Blazers",
+   "from": "Out",
    "to": "Day-To-Day"
   }
  ]
