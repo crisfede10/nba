@@ -1,6 +1,16 @@
 {
- "updated": "2026-11-21T18:41:24.738300Z",
+ "updated": "2026-11-21T21:36:47.602610Z",
  "finished": [
+  {
+   "date": "2026-11-21T18:00Z",
+   "state": "post",
+   "home": "PHI",
+   "away": "MIL",
+   "homeName": "Philadelphia 76ers",
+   "awayName": "Milwaukee Bucks",
+   "hs": 132,
+   "as": 129
+  },
   {
    "date": "2026-11-21T03:00Z",
    "state": "post",
@@ -190,33 +200,9 @@
    "awayName": "Detroit Pistons",
    "hs": 109,
    "as": 122
-  },
-  {
-   "date": "2026-11-19T00:30Z",
-   "state": "post",
-   "home": "TOR",
-   "away": "WSH",
-   "homeName": "Toronto Raptors",
-   "awayName": "Washington Wizards",
-   "hs": 99,
-   "as": 103
   }
  ],
  "upcoming": [
-  {
-   "date": "2026-11-21T18:00Z",
-   "state": "in",
-   "home": "PHI",
-   "away": "MIL",
-   "homeName": "Philadelphia 76ers",
-   "awayName": "Milwaukee Bucks",
-   "hs": 35,
-   "as": 41,
-   "pHome": 92.2,
-   "why": [
-    "Jaylen Brown (Out, PHI)"
-   ]
-  },
   {
    "date": "2026-11-22T00:30Z",
    "state": "pre",
@@ -253,10 +239,8 @@
    "awayName": "Memphis Grizzlies",
    "hs": 0,
    "as": 0,
-   "pHome": 48.7,
-   "why": [
-    "Ty Jerome (Out, MEM)"
-   ]
+   "pHome": 44.4,
+   "why": []
   },
   {
    "date": "2026-11-22T01:00Z",
@@ -281,10 +265,10 @@
    "awayName": "Boston Celtics",
    "hs": 0,
    "as": 0,
-   "pHome": 11.9,
+   "pHome": 14.7,
    "why": [
     "Back-to-back: SAC",
-    "Jayson Tatum (Day-To-Day, BOS)"
+    "Jayson Tatum (Out, BOS)"
    ]
   },
   {
@@ -310,8 +294,10 @@
    "awayName": "Oklahoma City Thunder",
    "hs": 0,
    "as": 0,
-   "pHome": 63.6,
-   "why": []
+   "pHome": 58.8,
+   "why": [
+    "Giannis Antetokounmpo (Day-To-Day, MIA)"
+   ]
   },
   {
    "date": "2026-11-23T00:00Z",
@@ -375,11 +361,11 @@
    "awayName": "Boston Celtics",
    "hs": 0,
    "as": 0,
-   "pHome": 37.4,
+   "pHome": 43.1,
    "why": [
     "Stephen Curry (Out, GS)",
     "Back-to-back: BOS",
-    "Jayson Tatum (Day-To-Day, BOS)"
+    "Jayson Tatum (Out, BOS)"
    ]
   },
   {
@@ -391,10 +377,9 @@
    "awayName": "Memphis Grizzlies",
    "hs": 0,
    "as": 0,
-   "pHome": 22.0,
+   "pHome": 19.2,
    "why": [
-    "Grayson Allen (Day-To-Day, CHA)",
-    "Ty Jerome (Out, MEM)"
+    "Grayson Allen (Day-To-Day, CHA)"
    ]
   },
   {
@@ -406,7 +391,7 @@
    "awayName": "Portland Trail Blazers",
    "hs": 0,
    "as": 0,
-   "pHome": 64.5,
+   "pHome": 69.6,
    "why": [
     "Jaylen Brown (Out, PHI)",
     "Deni Avdija (Day-To-Day, POR)"
@@ -436,7 +421,7 @@
    "awayName": "Milwaukee Bucks",
    "hs": 0,
    "as": 0,
-   "pHome": 78.9,
+   "pHome": 79.0,
    "why": []
   },
   {
@@ -475,6 +460,18 @@
    "hs": 0,
    "as": 0,
    "pHome": 32.0,
+   "why": []
+  },
+  {
+   "date": "2026-11-24T01:30Z",
+   "state": "pre",
+   "home": "HOU",
+   "away": "LAC",
+   "homeName": "Houston Rockets",
+   "awayName": "LA Clippers",
+   "hs": 0,
+   "as": 0,
+   "pHome": 85.9,
    "why": []
   }
  ],
@@ -624,19 +621,19 @@
    "rank": 24
   },
   {
-   "team": "MIL",
-   "allowed": 119.7,
+   "team": "PHI",
+   "allowed": 121.1,
    "games": 7,
    "rank": 25
   },
   {
-   "team": "PHI",
-   "allowed": 119.8,
-   "games": 6,
+   "team": "WSH",
+   "allowed": 121.2,
+   "games": 8,
    "rank": 26
   },
   {
-   "team": "WSH",
+   "team": "MIL",
    "allowed": 121.2,
    "games": 8,
    "rank": 27
@@ -803,7 +800,7 @@
    "next": {
     "team": "WSH",
     "date": "2026-11-23T00:00Z",
-    "rank": 27,
+    "rank": 26,
     "allowed": 121.2,
     "home": false
    }
@@ -855,7 +852,7 @@
     {
      "team": "Philadelphia 76ers",
      "abbr": "PHI",
-     "w": 13,
+     "w": 14,
      "l": 3
     },
     {
@@ -940,7 +937,7 @@
      "team": "Milwaukee Bucks",
      "abbr": "MIL",
      "w": 1,
-     "l": 15
+     "l": 16
     }
    ]
   },
@@ -1084,18 +1081,25 @@
    "date": "2026-09-21T19:50Z"
   },
   {
-   "player": "Jayson Tatum",
+   "player": "Mitchell Robinson",
    "team": "Boston Celtics",
-   "status": "Day-To-Day",
-   "note": "Tatum (rest) is listed as questionable for Saturday's game against Sacramento.",
-   "date": "2026-11-21T01:07Z"
+   "status": "Out",
+   "note": "Robinson (illness) has been ruled out for Saturday's game against the Kings, Keith Smith of Spotrac.com reports.",
+   "date": "2026-11-21T20:55Z"
   },
   {
    "player": "Derrick White",
    "team": "Boston Celtics",
-   "status": "Day-To-Day",
-   "note": "White (shoulder) is questionable to play in Saturday's game against Sacramento.",
-   "date": "2026-11-21T01:00Z"
+   "status": "Out",
+   "note": "White (shoulder) has been ruled out for Saturday's game against Sacramento.",
+   "date": "2026-11-21T20:53Z"
+  },
+  {
+   "player": "Jayson Tatum",
+   "team": "Boston Celtics",
+   "status": "Out",
+   "note": "Tatum (rest) has been ruled out for Saturday's game against the Kings.",
+   "date": "2026-11-21T20:51Z"
   },
   {
    "player": "Nolan Traore",
@@ -1182,18 +1186,18 @@
    "date": "2026-11-16T22:06Z"
   },
   {
+   "player": "P.J. Washington",
+   "team": "Dallas Mavericks",
+   "status": "Day-To-Day",
+   "note": "Washington (illness/shoulder) has been downgraded from questionable to doubtful ahead of Saturday's game against the Clippers.",
+   "date": "2026-11-21T19:22Z"
+  },
+  {
    "player": "Tobi Lawal",
    "team": "Dallas Mavericks",
    "status": "Out",
    "note": "Lawal (groin) is out for Saturday's game against the Clippers.",
    "date": "2026-11-21T15:08Z"
-  },
-  {
-   "player": "P.J. Washington",
-   "team": "Dallas Mavericks",
-   "status": "Day-To-Day",
-   "note": "Washington (shoulder) is listed as questionable for Saturday's game versus the Clippers.",
-   "date": "2026-11-20T22:40Z"
   },
   {
    "player": "Walter Clayton Jr.",
@@ -1399,13 +1403,6 @@
    "date": "2026-11-20T23:12Z"
   },
   {
-   "player": "Ty Jerome",
-   "team": "Memphis Grizzlies",
-   "status": "Out",
-   "note": "Jerome (hip) is probable for Saturday's game in Minnesota.",
-   "date": "2026-11-20T23:11Z"
-  },
-  {
    "player": "GG Jackson",
    "team": "Memphis Grizzlies",
    "status": "Out",
@@ -1430,8 +1427,15 @@
    "player": "Myron Gardner",
    "team": "Miami Heat",
    "status": "Day-To-Day",
-   "note": "Gardner (hamstring) is out for Wednesday's game against the Bucks.",
-   "date": "2026-11-19T14:45Z"
+   "note": "Gardner (hamstring) is probable for Sunday's game against the Thunder.",
+   "date": "2026-11-21T20:35Z"
+  },
+  {
+   "player": "Giannis Antetokounmpo",
+   "team": "Miami Heat",
+   "status": "Day-To-Day",
+   "note": "Antetokounmpo (groin) is listed as questionable for Sunday's game against Oklahoma City, Ira Winderman of the South Florida Sun Sentinel reports.",
+   "date": "2026-11-21T20:33Z"
   },
   {
    "player": "Ousmane Dieng",
@@ -1560,18 +1564,18 @@
    "date": "2026-10-28T23:41Z"
   },
   {
+   "player": "Jonathan Isaac",
+   "team": "Orlando Magic",
+   "status": "Out",
+   "note": "Isaac (knee) is out for Sunday's game against the Wizards.",
+   "date": "2026-11-21T21:09Z"
+  },
+  {
    "player": "Izaiyah Nelson",
    "team": "Orlando Magic",
    "status": "Out",
    "note": "Head coach Sean Sweeney said Wednesday that Nelson (ankle) has been doing \"some on-court stuff,\" though Sweeney added that the work has been \"minimal,\" Jason Beede of the Orlando Sentinel reports.",
    "date": "2026-11-18T17:25Z"
-  },
-  {
-   "player": "Jonathan Isaac",
-   "team": "Orlando Magic",
-   "status": "Out",
-   "note": "Isaac (knee) has been ruled out for Monday's game against the Celtics.",
-   "date": "2026-11-15T18:22Z"
   },
   {
    "player": "Noah Penda",
@@ -1668,8 +1672,8 @@
    "player": "Precious Achiuwa",
    "team": "Sacramento Kings",
    "status": "Day-To-Day",
-   "note": "Achiuwa (lower leg) has been ruled out for Friday's game against the Lakers.",
-   "date": "2026-11-21T14:55Z"
+   "note": "Achiuwa (lower leg) is questionable for Saturday's game against the Celtics.",
+   "date": "2026-11-21T21:19Z"
   },
   {
    "player": "Maxime Raynaud",
@@ -1786,14 +1790,26 @@
  ],
  "changes": [
   {
-   "player": "Trey Murphy III",
-   "team": "New Orleans Pelicans",
+   "player": "Mitchell Robinson",
+   "team": "Boston Celtics",
    "from": "nuovo",
    "to": "Out"
   },
   {
-   "player": "Karl-Anthony Towns",
-   "team": "New York Knicks",
+   "player": "Derrick White",
+   "team": "Boston Celtics",
+   "from": "Day-To-Day",
+   "to": "Out"
+  },
+  {
+   "player": "Jayson Tatum",
+   "team": "Boston Celtics",
+   "from": "Day-To-Day",
+   "to": "Out"
+  },
+  {
+   "player": "Giannis Antetokounmpo",
+   "team": "Miami Heat",
    "from": "nuovo",
    "to": "Day-To-Day"
   }
