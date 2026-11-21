@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T06:59:39.198986Z",
+ "updated": "2026-11-21T09:45:33.020011Z",
  "finished": [
   {
    "date": "2026-11-21T03:00Z",
@@ -1378,6 +1378,13 @@
    "date": "2026-11-21T01:26Z"
   },
   {
+   "player": "Jerami Grant",
+   "team": "Memphis Grizzlies",
+   "status": "Out",
+   "note": "Grant (calf) is out for Saturday's game against the Timberwolves.",
+   "date": "2026-11-21T08:08Z"
+  },
+  {
    "player": "Javon Small",
    "team": "Memphis Grizzlies",
    "status": "Out",
@@ -1397,13 +1404,6 @@
    "status": "Out",
    "note": "Jerome (hip) is probable for Saturday's game in Minnesota.",
    "date": "2026-11-20T23:11Z"
-  },
-  {
-   "player": "Jerami Grant",
-   "team": "Memphis Grizzlies",
-   "status": "Day-To-Day",
-   "note": "Grant won't return to Thursday's game against the Warriors due to a left calf injury. He'll finish with three points (1-2 FG, 1-1 3Pt) across five minutes.",
-   "date": "2026-11-20T02:08Z"
   },
   {
    "player": "GG Jackson",
@@ -1793,15 +1793,9 @@
  ],
  "changes": [
   {
-   "player": "T.J. McConnell",
-   "team": "Indiana Pacers",
-   "from": "nuovo",
-   "to": "Out"
-  },
-  {
-   "player": "Ryan Dunn",
-   "team": "Phoenix Suns",
-   "from": "nuovo",
+   "player": "Jerami Grant",
+   "team": "Memphis Grizzlies",
+   "from": "Day-To-Day",
    "to": "Out"
   }
  ]
