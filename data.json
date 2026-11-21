@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T09:45:33.020011Z",
+ "updated": "2026-11-21T12:49:48.108895Z",
  "finished": [
   {
    "date": "2026-11-21T03:00Z",
@@ -1791,12 +1791,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "changes": [
-  {
-   "player": "Jerami Grant",
-   "team": "Memphis Grizzlies",
-   "from": "Day-To-Day",
-   "to": "Out"
-  }
- ]
+ "changes": []
 }
