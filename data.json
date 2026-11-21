@@ -1,6 +1,36 @@
 {
- "updated": "2026-11-21T03:48:33.911372Z",
+ "updated": "2026-11-21T06:59:39.198986Z",
  "finished": [
+  {
+   "date": "2026-11-21T03:00Z",
+   "state": "post",
+   "home": "LAL",
+   "away": "SAC",
+   "homeName": "Los Angeles Lakers",
+   "awayName": "Sacramento Kings",
+   "hs": 106,
+   "as": 104
+  },
+  {
+   "date": "2026-11-21T03:00Z",
+   "state": "post",
+   "home": "DEN",
+   "away": "HOU",
+   "homeName": "Denver Nuggets",
+   "awayName": "Houston Rockets",
+   "hs": 133,
+   "as": 124
+  },
+  {
+   "date": "2026-11-21T02:30Z",
+   "state": "post",
+   "home": "UTAH",
+   "away": "PHX",
+   "homeName": "Utah Jazz",
+   "awayName": "Phoenix Suns",
+   "hs": 101,
+   "as": 111
+  },
   {
    "date": "2026-11-21T01:00Z",
    "state": "post",
@@ -170,77 +200,9 @@
    "awayName": "Washington Wizards",
    "hs": 99,
    "as": 103
-  },
-  {
-   "date": "2026-11-19T00:30Z",
-   "state": "post",
-   "home": "BKN",
-   "away": "CHI",
-   "homeName": "Brooklyn Nets",
-   "awayName": "Chicago Bulls",
-   "hs": 107,
-   "as": 137
-  },
-  {
-   "date": "2026-11-19T00:00Z",
-   "state": "post",
-   "home": "ORL",
-   "away": "PHI",
-   "homeName": "Orlando Magic",
-   "awayName": "Philadelphia 76ers",
-   "hs": 116,
-   "as": 121
-  },
-  {
-   "date": "2026-11-19T00:00Z",
-   "state": "post",
-   "home": "MIA",
-   "away": "MIL",
-   "homeName": "Miami Heat",
-   "awayName": "Milwaukee Bucks",
-   "hs": 137,
-   "as": 130
   }
  ],
  "upcoming": [
-  {
-   "date": "2026-11-21T02:30Z",
-   "state": "in",
-   "home": "UTAH",
-   "away": "PHX",
-   "homeName": "Utah Jazz",
-   "awayName": "Phoenix Suns",
-   "hs": 49,
-   "as": 61,
-   "pHome": 31.7,
-   "why": []
-  },
-  {
-   "date": "2026-11-21T03:00Z",
-   "state": "in",
-   "home": "DEN",
-   "away": "HOU",
-   "homeName": "Denver Nuggets",
-   "awayName": "Houston Rockets",
-   "hs": 41,
-   "as": 42,
-   "pHome": 42.1,
-   "why": []
-  },
-  {
-   "date": "2026-11-21T03:00Z",
-   "state": "in",
-   "home": "LAL",
-   "away": "SAC",
-   "homeName": "Los Angeles Lakers",
-   "awayName": "Sacramento Kings",
-   "hs": 34,
-   "as": 35,
-   "pHome": 93.3,
-   "why": [
-    "Austin Reaves (Out, LAL)"
-   ]
-  },
   {
    "date": "2026-11-21T18:00Z",
    "state": "pre",
@@ -319,7 +281,7 @@
    "awayName": "Boston Celtics",
    "hs": 0,
    "as": 0,
-   "pHome": 12.5,
+   "pHome": 11.9,
    "why": [
     "Back-to-back: SAC",
     "Jayson Tatum (Day-To-Day, BOS)"
@@ -372,7 +334,7 @@
    "awayName": "Denver Nuggets",
    "hs": 0,
    "as": 0,
-   "pHome": 43.0,
+   "pHome": 38.4,
    "why": []
   },
   {
@@ -384,7 +346,7 @@
    "awayName": "Dallas Mavericks",
    "hs": 0,
    "as": 0,
-   "pHome": 52.2,
+   "pHome": 51.6,
    "why": [
     "Back-to-back: DAL"
    ]
@@ -476,6 +438,44 @@
    "as": 0,
    "pHome": 78.9,
    "why": []
+  },
+  {
+   "date": "2026-11-24T00:30Z",
+   "state": "pre",
+   "home": "MIN",
+   "away": "BKN",
+   "homeName": "Minnesota Timberwolves",
+   "awayName": "Brooklyn Nets",
+   "hs": 0,
+   "as": 0,
+   "pHome": 87.2,
+   "why": []
+  },
+  {
+   "date": "2026-11-24T01:00Z",
+   "state": "pre",
+   "home": "CHI",
+   "away": "CLE",
+   "homeName": "Chicago Bulls",
+   "awayName": "Cleveland Cavaliers",
+   "hs": 0,
+   "as": 0,
+   "pHome": 38.6,
+   "why": [
+    "Back-to-back: CHI"
+   ]
+  },
+  {
+   "date": "2026-11-24T01:00Z",
+   "state": "pre",
+   "home": "NO",
+   "away": "PHX",
+   "homeName": "New Orleans Pelicans",
+   "awayName": "Phoenix Suns",
+   "hs": 0,
+   "as": 0,
+   "pHome": 32.0,
+   "why": []
   }
  ],
  "defense": [
@@ -504,9 +504,9 @@
    "rank": 4
   },
   {
-   "team": "DEN",
-   "allowed": 109.3,
-   "games": 6,
+   "team": "PHX",
+   "allowed": 108.9,
+   "games": 8,
    "rank": 5
   },
   {
@@ -534,51 +534,51 @@
    "rank": 9
   },
   {
-   "team": "PHX",
-   "allowed": 110.0,
-   "games": 7,
-   "rank": 10
-  },
-  {
    "team": "CHA",
    "allowed": 111.0,
    "games": 5,
-   "rank": 11
+   "rank": 10
   },
   {
-   "team": "HOU",
-   "allowed": 111.3,
+   "team": "DEN",
+   "allowed": 111.4,
    "games": 7,
-   "rank": 12
+   "rank": 11
   },
   {
    "team": "MEM",
    "allowed": 112.1,
    "games": 7,
-   "rank": 13
+   "rank": 12
   },
   {
    "team": "UTAH",
+   "allowed": 112.9,
+   "games": 8,
+   "rank": 13
+  },
+  {
+   "team": "LAL",
    "allowed": 113.1,
    "games": 7,
    "rank": 14
   },
   {
+   "team": "HOU",
+   "allowed": 114.0,
+   "games": 8,
+   "rank": 15
+  },
+  {
    "team": "ATL",
    "allowed": 114.2,
    "games": 6,
-   "rank": 15
+   "rank": 16
   },
   {
    "team": "GS",
    "allowed": 114.4,
    "games": 7,
-   "rank": 16
-  },
-  {
-   "team": "LAL",
-   "allowed": 114.7,
-   "games": 6,
    "rank": 17
   },
   {
@@ -606,21 +606,21 @@
    "rank": 21
   },
   {
+   "team": "SAC",
+   "allowed": 116.7,
+   "games": 6,
+   "rank": 22
+  },
+  {
    "team": "IND",
    "allowed": 117.4,
    "games": 7,
-   "rank": 22
+   "rank": 23
   },
   {
    "team": "CLE",
    "allowed": 118.5,
    "games": 8,
-   "rank": 23
-  },
-  {
-   "team": "SAC",
-   "allowed": 118.8,
-   "games": 5,
    "rank": 24
   },
   {
@@ -699,25 +699,6 @@
    }
   },
   {
-   "player": "Luka Doncic",
-   "team": "LAL",
-   "avg": 34.0,
-   "games": 4,
-   "last": [
-    32,
-    32,
-    43,
-    29
-   ],
-   "next": {
-    "team": "SAC",
-    "date": "2026-11-21T03:00Z",
-    "rank": 24,
-    "allowed": 118.8,
-    "home": true
-   }
-  },
-  {
    "player": "Jamal Murray",
    "team": "DEN",
    "avg": 34.0,
@@ -727,11 +708,11 @@
     30
    ],
    "next": {
-    "team": "HOU",
-    "date": "2026-11-21T03:00Z",
-    "rank": 12,
-    "allowed": 111.3,
-    "home": true
+    "team": "CHI",
+    "date": "2026-11-23T00:00Z",
+    "rank": 18,
+    "allowed": 115.0,
+    "home": false
    }
   },
   {
@@ -767,7 +748,7 @@
    "next": {
     "team": "ATL",
     "date": "2026-11-22T20:30Z",
-    "rank": 15,
+    "rank": 16,
     "allowed": 114.2,
     "home": false
    }
@@ -828,20 +809,42 @@
    }
   },
   {
-   "player": "Alperen Sengun",
-   "team": "HOU",
-   "avg": 33.0,
-   "games": 2,
+   "player": "Luka Doncic",
+   "team": "LAL",
+   "avg": 32.2,
+   "games": 5,
    "last": [
+    32,
+    32,
     43,
-    23
+    29,
+    25
    ],
    "next": {
-    "team": "DEN",
-    "date": "2026-11-21T03:00Z",
-    "rank": 5,
-    "allowed": 109.3,
-    "home": false
+    "team": "UTAH",
+    "date": "2026-11-24T03:00Z",
+    "rank": 13,
+    "allowed": 112.9,
+    "home": true
+   }
+  },
+  {
+   "player": "Anthony Davis",
+   "team": "WSH",
+   "avg": 32.0,
+   "games": 4,
+   "last": [
+    44,
+    23,
+    25,
+    36
+   ],
+   "next": {
+    "team": "ORL",
+    "date": "2026-11-23T00:00Z",
+    "rank": 9,
+    "allowed": 110.0,
+    "home": true
    }
   }
  ],
@@ -945,28 +948,28 @@
    "conf": "Western Conference",
    "rows": [
     {
+     "team": "Los Angeles Lakers",
+     "abbr": "LAL",
+     "w": 14,
+     "l": 3
+    },
+    {
      "team": "San Antonio Spurs",
      "abbr": "SA",
      "w": 13,
      "l": 3
     },
     {
-     "team": "Los Angeles Lakers",
-     "abbr": "LAL",
-     "w": 13,
-     "l": 3
+     "team": "Memphis Grizzlies",
+     "abbr": "MEM",
+     "w": 12,
+     "l": 4
     },
     {
      "team": "Houston Rockets",
      "abbr": "HOU",
      "w": 12,
-     "l": 4
-    },
-    {
-     "team": "Memphis Grizzlies",
-     "abbr": "MEM",
-     "w": 12,
-     "l": 4
+     "l": 5
     },
     {
      "team": "Minnesota Timberwolves",
@@ -981,16 +984,22 @@
      "l": 5
     },
     {
+     "team": "Denver Nuggets",
+     "abbr": "DEN",
+     "w": 9,
+     "l": 5
+    },
+    {
      "team": "Oklahoma City Thunder",
      "abbr": "OKC",
      "w": 10,
      "l": 6
     },
     {
-     "team": "Denver Nuggets",
-     "abbr": "DEN",
+     "team": "Phoenix Suns",
+     "abbr": "PHX",
      "w": 8,
-     "l": 5
+     "l": 7
     },
     {
      "team": "Dallas Mavericks",
@@ -1003,12 +1012,6 @@
      "abbr": "GS",
      "w": 8,
      "l": 8
-    },
-    {
-     "team": "Phoenix Suns",
-     "abbr": "PHX",
-     "w": 7,
-     "l": 7
     },
     {
      "team": "New Orleans Pelicans",
@@ -1026,13 +1029,13 @@
      "team": "Utah Jazz",
      "abbr": "UTAH",
      "w": 3,
-     "l": 13
+     "l": 14
     },
     {
      "team": "Sacramento Kings",
      "abbr": "SAC",
      "w": 1,
-     "l": 13
+     "l": 14
     }
    ]
   }
@@ -1317,6 +1320,13 @@
    "status": "Out",
    "note": "Capela (ankle) is out for Friday's game against Denver.",
    "date": "2026-11-19T23:19Z"
+  },
+  {
+   "player": "T.J. McConnell",
+   "team": "Indiana Pacers",
+   "status": "Out",
+   "note": "Rick Carlisle revealed during his postgame interview that McConnell exited Friday's 128-119 loss with a left hamstring issue, Tony East of Forbes.com reports.",
+   "date": "2026-11-21T04:58Z"
   },
   {
    "player": "Tyrese Haliburton",
@@ -1606,6 +1616,13 @@
    "date": "2026-10-06T19:17Z"
   },
   {
+   "player": "Ryan Dunn",
+   "team": "Phoenix Suns",
+   "status": "Out",
+   "note": "Dunn won't return to Friday's game against the Jazz due to a right quad injury, Amanda Pflugrad of 3TV Phoenix reports.",
+   "date": "2026-11-21T04:06Z"
+  },
+  {
    "player": "Mark Williams",
    "team": "Phoenix Suns",
    "status": "Out",
@@ -1776,20 +1793,14 @@
  ],
  "changes": [
   {
-   "player": "Jayson Tatum",
-   "team": "Boston Celtics",
+   "player": "T.J. McConnell",
+   "team": "Indiana Pacers",
    "from": "nuovo",
-   "to": "Day-To-Day"
+   "to": "Out"
   },
   {
-   "player": "Derrick White",
-   "team": "Boston Celtics",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Nolan Traore",
-   "team": "Brooklyn Nets",
+   "player": "Ryan Dunn",
+   "team": "Phoenix Suns",
    "from": "nuovo",
    "to": "Out"
   }
