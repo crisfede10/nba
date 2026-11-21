@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T12:49:48.108895Z",
+ "updated": "2026-11-21T15:41:15.278181Z",
  "finished": [
   {
    "date": "2026-11-21T03:00Z",
@@ -390,9 +390,9 @@
    "awayName": "Memphis Grizzlies",
    "hs": 0,
    "as": 0,
-   "pHome": 20.8,
+   "pHome": 22.0,
    "why": [
-    "Grayson Allen (Out, CHA)",
+    "Grayson Allen (Day-To-Day, CHA)",
     "Ty Jerome (Out, MEM)"
    ]
   },
@@ -1100,30 +1100,30 @@
   {
    "player": "Nolan Traore",
    "team": "Brooklyn Nets",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Traore (hamstring) won't return to Friday's game against Orlando, Meghan Triplett of YES Network reports. He finished with four points (2-6 FG, 0-2 3Pt) and two assists over 18 minutes.",
-   "date": "2026-11-21T02:25Z"
+   "date": "2026-11-21T14:51Z"
   },
   {
    "player": "Grant Nelson",
    "team": "Brooklyn Nets",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Nelson (ankle) has been ruled out for Friday's game against Orlando.",
-   "date": "2026-11-19T21:18Z"
+   "date": "2026-11-21T14:51Z"
   },
   {
    "player": "Grant Williams",
    "team": "Charlotte Hornets",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Williams (hamstring) is listed as out for Friday's game versus the Hawks.",
-   "date": "2026-11-19T22:21Z"
+   "date": "2026-11-21T14:49Z"
   },
   {
    "player": "Grayson Allen",
    "team": "Charlotte Hornets",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Allen (concussion) has been ruled out for Friday's game against Atlanta.",
-   "date": "2026-11-19T22:02Z"
+   "date": "2026-11-21T14:49Z"
   },
   {
    "player": "Kon Knueppel",
@@ -1142,9 +1142,9 @@
   {
    "player": "Jalen Smith",
    "team": "Chicago Bulls",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Smith (illness) is out for Friday's game against the Wizards, Joel Lorenzi of The Athletic reports.",
-   "date": "2026-11-20T23:19Z"
+   "date": "2026-11-21T14:54Z"
   },
   {
    "player": "Tobe Awaka",
@@ -1182,6 +1182,13 @@
    "date": "2026-11-16T22:06Z"
   },
   {
+   "player": "Tobi Lawal",
+   "team": "Dallas Mavericks",
+   "status": "Out",
+   "note": "Lawal (groin) is out for Saturday's game against the Clippers.",
+   "date": "2026-11-21T15:08Z"
+  },
+  {
    "player": "P.J. Washington",
    "team": "Dallas Mavericks",
    "status": "Day-To-Day",
@@ -1201,13 +1208,6 @@
    "status": "Out",
    "note": "Head coach Dusty May said Friday that Lively (foot) is moving well and progressing in his recovery, and the big man told May he's \"close\" to returning, Mike Curtis of The Dallas Morning News reports.",
    "date": "2026-11-20T19:31Z"
-  },
-  {
-   "player": "Tobi Lawal",
-   "team": "Dallas Mavericks",
-   "status": "Day-To-Day",
-   "note": "Lawal is out for Wednesday's game against the Warriors due to tightness in his right groin.",
-   "date": "2026-11-19T14:51Z"
   },
   {
    "player": "Sergio de Larrea",
@@ -1231,6 +1231,13 @@
    "date": "2026-10-17T00:52Z"
   },
   {
+   "player": "Ebuka Okorie",
+   "team": "Detroit Pistons",
+   "status": "Day-To-Day",
+   "note": "Okorie (oblique) has been ruled out for Friday's game against Toronto.",
+   "date": "2026-11-21T14:53Z"
+  },
+  {
    "player": "Ronald Holland II",
    "team": "Detroit Pistons",
    "status": "Out",
@@ -1243,13 +1250,6 @@
    "status": "Out",
    "note": "Prince (knee) underwent surgery to address lingering issues and has no timeline for a return, Hunter Patterson of The Athletic reports.",
    "date": "2026-11-20T23:02Z"
-  },
-  {
-   "player": "Ebuka Okorie",
-   "team": "Detroit Pistons",
-   "status": "Out",
-   "note": "Okorie (oblique) has been ruled out for Friday's game against Toronto.",
-   "date": "2026-11-19T21:43Z"
   },
   {
    "player": "Ugonna Onyenso",
@@ -1324,9 +1324,9 @@
   {
    "player": "T.J. McConnell",
    "team": "Indiana Pacers",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Rick Carlisle revealed during his postgame interview that McConnell exited Friday's 128-119 loss with a left hamstring issue, Tony East of Forbes.com reports.",
-   "date": "2026-11-21T04:58Z"
+   "date": "2026-11-21T14:51Z"
   },
   {
    "player": "Tyrese Haliburton",
@@ -1504,18 +1504,18 @@
    "date": "2026-11-20T22:10Z"
   },
   {
-   "player": "Alex Caruso",
-   "team": "Oklahoma City Thunder",
-   "status": "Out",
-   "note": "Caruso (hip) is listed as out for Friday's game against the Pelicans.",
-   "date": "2026-11-20T23:24Z"
-  },
-  {
    "player": "Nikola Topic",
    "team": "Oklahoma City Thunder",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Topic (hip) is out for Friday's game against New Orleans.",
-   "date": "2026-11-20T17:02Z"
+   "date": "2026-11-21T14:54Z"
+  },
+  {
+   "player": "Alex Caruso",
+   "team": "Oklahoma City Thunder",
+   "status": "Day-To-Day",
+   "note": "Caruso (hip) is listed as out for Friday's game against the Pelicans.",
+   "date": "2026-11-21T14:54Z"
   },
   {
    "player": "Thomas Sorber",
@@ -1618,9 +1618,9 @@
   {
    "player": "Ryan Dunn",
    "team": "Phoenix Suns",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Dunn won't return to Friday's game against the Jazz due to a right quad injury, Amanda Pflugrad of 3TV Phoenix reports.",
-   "date": "2026-11-21T04:06Z"
+   "date": "2026-11-21T14:55Z"
   },
   {
    "player": "Mark Williams",
@@ -1667,9 +1667,9 @@
   {
    "player": "Precious Achiuwa",
    "team": "Sacramento Kings",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Achiuwa (lower leg) has been ruled out for Friday's game against the Lakers.",
-   "date": "2026-11-20T21:21Z"
+   "date": "2026-11-21T14:55Z"
   },
   {
    "player": "Maxime Raynaud",
@@ -1707,18 +1707,18 @@
    "date": "2026-10-05T21:43Z"
   },
   {
+   "player": "Collin Murray-Boyles",
+   "team": "Toronto Raptors",
+   "status": "Day-To-Day",
+   "note": "Murray-Boyles (concussion) has been ruled out for Friday's game against the Pistons.",
+   "date": "2026-11-21T14:52Z"
+  },
+  {
    "player": "Kawhi Leonard",
    "team": "Toronto Raptors",
    "status": "Out",
    "note": "Leonard (knee) could return in the next few weeks, per Shams Charania of ESPN.",
    "date": "2026-11-20T20:42Z"
-  },
-  {
-   "player": "Collin Murray-Boyles",
-   "team": "Toronto Raptors",
-   "status": "Out",
-   "note": "Murray-Boyles (concussion) has been ruled out for Friday's game against the Pistons.",
-   "date": "2026-11-19T21:41Z"
   },
   {
    "player": "RJ Barrett",
@@ -1758,9 +1758,9 @@
   {
    "player": "Felix Okpara",
    "team": "Washington Wizards",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Okpara (illness) is available for Friday's game against Toronto.",
-   "date": "2026-11-21T00:43Z"
+   "date": "2026-11-21T14:54Z"
   },
   {
    "player": "Tristan Vukcevic",
@@ -1791,5 +1791,90 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "changes": []
+ "changes": [
+  {
+   "player": "Nolan Traore",
+   "team": "Brooklyn Nets",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Grant Nelson",
+   "team": "Brooklyn Nets",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Grant Williams",
+   "team": "Charlotte Hornets",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Grayson Allen",
+   "team": "Charlotte Hornets",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Jalen Smith",
+   "team": "Chicago Bulls",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Tobi Lawal",
+   "team": "Dallas Mavericks",
+   "from": "Day-To-Day",
+   "to": "Out"
+  },
+  {
+   "player": "Ebuka Okorie",
+   "team": "Detroit Pistons",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "T.J. McConnell",
+   "team": "Indiana Pacers",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Nikola Topic",
+   "team": "Oklahoma City Thunder",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Alex Caruso",
+   "team": "Oklahoma City Thunder",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Ryan Dunn",
+   "team": "Phoenix Suns",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Precious Achiuwa",
+   "team": "Sacramento Kings",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Collin Murray-Boyles",
+   "team": "Toronto Raptors",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Felix Okpara",
+   "team": "Washington Wizards",
+   "from": "Out",
+   "to": "Day-To-Day"
+  }
+ ]
 }
