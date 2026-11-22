@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T06:59:30.742275Z",
+ "updated": "2026-11-22T09:44:34.793900Z",
  "finished": [
   {
    "date": "2026-11-22T03:00Z",
@@ -1818,12 +1818,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "changes": [
-  {
-   "player": "Patrick Williams",
-   "team": "Chicago Bulls",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  }
- ]
+ "changes": []
 }
