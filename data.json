@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T15:41:18.980729Z",
+ "updated": "2026-11-22T18:41:44.000797Z",
  "finished": [
   {
    "date": "2026-11-22T03:00Z",
@@ -1153,6 +1153,20 @@
    "date": "2026-11-08T22:26Z"
   },
   {
+   "player": "Nic Claxton",
+   "team": "Chicago Bulls",
+   "status": "Day-To-Day",
+   "note": "Claxton (illness) is questionable to play in Sunday's game against the Nuggets.",
+   "date": "2026-11-22T17:24Z"
+  },
+  {
+   "player": "Jalen Smith",
+   "team": "Chicago Bulls",
+   "status": "Day-To-Day",
+   "note": "Smith (illness) has been upgraded to probable for Sunday's game against the Nuggets.",
+   "date": "2026-11-22T17:22Z"
+  },
+  {
    "player": "Norman Powell",
    "team": "Chicago Bulls",
    "status": "Out",
@@ -1165,20 +1179,6 @@
    "status": "Day-To-Day",
    "note": "Williams is probable for Sunday's game against the Nuggets due to a left thumb sprain.",
    "date": "2026-11-22T06:06Z"
-  },
-  {
-   "player": "Jalen Smith",
-   "team": "Chicago Bulls",
-   "status": "Day-To-Day",
-   "note": "Smith (illness) is out for Friday's game against the Wizards, Joel Lorenzi of The Athletic reports.",
-   "date": "2026-11-21T14:54Z"
-  },
-  {
-   "player": "Tobe Awaka",
-   "team": "Chicago Bulls",
-   "status": "Out",
-   "note": "Awaka (back) has been ruled out for Wednesday's game against the Nets.",
-   "date": "2026-11-17T20:53Z"
   },
   {
    "player": "Caleb Wilson",
@@ -1277,13 +1277,6 @@
    "status": "Out",
    "note": "Prince (knee) underwent surgery to address lingering issues and has no timeline for a return, Hunter Patterson of The Athletic reports.",
    "date": "2026-11-20T23:02Z"
-  },
-  {
-   "player": "Ugonna Onyenso",
-   "team": "Detroit Pistons",
-   "status": "Day-To-Day",
-   "note": "Onyenso agreed to a two-way contract with the Pistons on Thursday.",
-   "date": "2026-11-19T16:15Z"
   },
   {
    "player": "Duncan Robinson",
@@ -1531,25 +1524,25 @@
    "date": "2026-11-13T20:19Z"
   },
   {
+   "player": "OG Anunoby",
+   "team": "New York Knicks",
+   "status": "Out",
+   "note": "Anunoby (calf) won't play Sunday against the Pacers.",
+   "date": "2026-11-22T18:13Z"
+  },
+  {
    "player": "Karl-Anthony Towns",
    "team": "New York Knicks",
    "status": "Day-To-Day",
-   "note": "Towns (illness) won't play in Saturday's game versus the Trail Blazers.",
-   "date": "2026-11-22T03:05Z"
+   "note": "Towns (illness) is questionable to play in Sunday's game against the Pacers.",
+   "date": "2026-11-22T18:09Z"
   },
   {
    "player": "Jordan Clarkson",
    "team": "New York Knicks",
-   "status": "Day-To-Day",
-   "note": "Clarkson (foot) won't play in Saturday's game against Portland.",
-   "date": "2026-11-22T03:05Z"
-  },
-  {
-   "player": "OG Anunoby",
-   "team": "New York Knicks",
-   "status": "Day-To-Day",
-   "note": "Anunoby (calf) has been ruled out for Saturday's game against the Trail Blazers.",
-   "date": "2026-11-22T03:04Z"
+   "status": "Out",
+   "note": "Clarkson (foot) has been ruled out for Sunday's game against Indiana.",
+   "date": "2026-11-22T18:05Z"
   },
   {
    "player": "Shai Gilgeous-Alexander",
@@ -1744,8 +1737,8 @@
    "player": "Collin Murray-Boyles",
    "team": "Toronto Raptors",
    "status": "Day-To-Day",
-   "note": "Murray-Boyles (concussion) has been ruled out for Friday's game against the Pistons.",
-   "date": "2026-11-21T14:52Z"
+   "note": "Murray-Boyles (concussion) participated in Sunday's practice, Michael Grange of Sportsnet.ca reports.",
+   "date": "2026-11-22T17:10Z"
   },
   {
    "player": "Kawhi Leonard",
@@ -1790,6 +1783,20 @@
    "date": "2026-10-27T19:25Z"
   },
   {
+   "player": "Bub Carrington",
+   "team": "Washington Wizards",
+   "status": "Day-To-Day",
+   "note": "Carrington (illness) has been downgraded to questionable for Sunday's game against the Magic.",
+   "date": "2026-11-22T18:21Z"
+  },
+  {
+   "player": "Deandre Ayton",
+   "team": "Washington Wizards",
+   "status": "Day-To-Day",
+   "note": "Ayton (illness) is questionable to play in Sunday's game against Orlando.",
+   "date": "2026-11-22T17:28Z"
+  },
+  {
    "player": "Tristan Vukcevic",
    "team": "Washington Wizards",
    "status": "Out",
@@ -1820,81 +1827,33 @@
  ],
  "changes": [
   {
-   "player": "Derrick White",
-   "team": "Boston Celtics",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Mitchell Robinson",
-   "team": "Boston Celtics",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Jayson Tatum",
-   "team": "Boston Celtics",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Norman Powell",
+   "player": "Nic Claxton",
    "team": "Chicago Bulls",
+   "from": "nuovo",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "OG Anunoby",
+   "team": "New York Knicks",
    "from": "Day-To-Day",
    "to": "Out"
   },
   {
-   "player": "P.J. Washington",
-   "team": "Dallas Mavericks",
-   "from": "Out",
+   "player": "Jordan Clarkson",
+   "team": "New York Knicks",
+   "from": "Day-To-Day",
+   "to": "Out"
+  },
+  {
+   "player": "Bub Carrington",
+   "team": "Washington Wizards",
+   "from": "nuovo",
    "to": "Day-To-Day"
   },
   {
-   "player": "Tobi Lawal",
-   "team": "Dallas Mavericks",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Javon Small",
-   "team": "Memphis Grizzlies",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Cameron Boozer",
-   "team": "Memphis Grizzlies",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Jerami Grant",
-   "team": "Memphis Grizzlies",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Zion Williamson",
-   "team": "New Orleans Pelicans",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Trey Murphy III",
-   "team": "New Orleans Pelicans",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Dean Wade",
-   "team": "Philadelphia 76ers",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Jaylen Brown",
-   "team": "Philadelphia 76ers",
-   "from": "Out",
+   "player": "Deandre Ayton",
+   "team": "Washington Wizards",
+   "from": "nuovo",
    "to": "Day-To-Day"
   }
  ]
