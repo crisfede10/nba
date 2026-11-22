@@ -1,6 +1,16 @@
 {
- "updated": "2026-11-22T03:50:43.490806Z",
+ "updated": "2026-11-22T06:59:30.742275Z",
  "finished": [
+  {
+   "date": "2026-11-22T03:00Z",
+   "state": "post",
+   "home": "SAC",
+   "away": "BOS",
+   "homeName": "Sacramento Kings",
+   "awayName": "Boston Celtics",
+   "hs": 97,
+   "as": 96
+  },
   {
    "date": "2026-11-22T01:00Z",
    "state": "post",
@@ -190,34 +200,9 @@
    "awayName": "Phoenix Suns",
    "hs": 107,
    "as": 128
-  },
-  {
-   "date": "2026-11-19T03:00Z",
-   "state": "post",
-   "home": "LAL",
-   "away": "UTAH",
-   "homeName": "Los Angeles Lakers",
-   "awayName": "Utah Jazz",
-   "hs": 97,
-   "as": 109
   }
  ],
  "upcoming": [
-  {
-   "date": "2026-11-22T03:00Z",
-   "state": "in",
-   "home": "SAC",
-   "away": "BOS",
-   "homeName": "Sacramento Kings",
-   "awayName": "Boston Celtics",
-   "hs": 34,
-   "as": 37,
-   "pHome": 14.7,
-   "why": [
-    "Back-to-back: SAC",
-    "Jayson Tatum (Out, BOS)"
-   ]
-  },
   {
    "date": "2026-11-22T20:30Z",
    "state": "pre",
@@ -313,7 +298,7 @@
    "awayName": "Boston Celtics",
    "hs": 0,
    "as": 0,
-   "pHome": 44.9,
+   "pHome": 46.1,
    "why": [
     "Stephen Curry (Out, GS)",
     "Back-to-back: BOS",
@@ -453,7 +438,7 @@
    "awayName": "San Antonio Spurs",
    "hs": 0,
    "as": 0,
-   "pHome": 10.0,
+   "pHome": 11.5,
    "why": []
   },
   {
@@ -479,17 +464,29 @@
    "awayName": "Boston Celtics",
    "hs": 0,
    "as": 0,
-   "pHome": 32.5,
+   "pHome": 35.8,
    "why": [
     "Jayson Tatum (Out, BOS)"
    ]
+  },
+  {
+   "date": "2026-11-25T03:00Z",
+   "state": "pre",
+   "home": "DEN",
+   "away": "DAL",
+   "homeName": "Denver Nuggets",
+   "awayName": "Dallas Mavericks",
+   "hs": 0,
+   "as": 0,
+   "pHome": 71.3,
+   "why": []
   }
  ],
  "defense": [
   {
    "team": "BOS",
-   "allowed": 100.8,
-   "games": 6,
+   "allowed": 100.3,
+   "games": 7,
    "rank": 1
   },
   {
@@ -571,51 +568,51 @@
    "rank": 14
   },
   {
+   "team": "SAC",
+   "allowed": 113.7,
+   "games": 7,
+   "rank": 15
+  },
+  {
    "team": "GS",
    "allowed": 113.7,
    "games": 6,
-   "rank": 15
+   "rank": 16
   },
   {
    "team": "DAL",
    "allowed": 114.3,
    "games": 7,
-   "rank": 16
+   "rank": 17
   },
   {
    "team": "CHI",
    "allowed": 115.0,
    "games": 7,
-   "rank": 17
+   "rank": 18
   },
   {
    "team": "HOU",
    "allowed": 115.7,
    "games": 7,
-   "rank": 18
+   "rank": 19
   },
   {
    "team": "OKC",
    "allowed": 115.7,
    "games": 6,
-   "rank": 19
+   "rank": 20
   },
   {
    "team": "MIA",
    "allowed": 115.8,
    "games": 6,
-   "rank": 20
+   "rank": 21
   },
   {
    "team": "DET",
    "allowed": 116.6,
    "games": 7,
-   "rank": 21
-  },
-  {
-   "team": "SAC",
-   "allowed": 116.7,
-   "games": 6,
    "rank": 22
   },
   {
@@ -680,7 +677,7 @@
    "next": {
     "team": "CHI",
     "date": "2026-11-24T01:00Z",
-    "rank": 17,
+    "rank": 18,
     "allowed": 115.0,
     "home": false
    }
@@ -700,8 +697,8 @@
    "next": {
     "team": "SAC",
     "date": "2026-11-24T03:00Z",
-    "rank": 22,
-    "allowed": 116.7,
+    "rank": 15,
+    "allowed": 113.7,
     "home": false
    }
   },
@@ -720,7 +717,7 @@
    "next": {
     "team": "MIA",
     "date": "2026-11-22T23:00Z",
-    "rank": 20,
+    "rank": 21,
     "allowed": 115.8,
     "home": false
    }
@@ -737,7 +734,7 @@
    "next": {
     "team": "CHI",
     "date": "2026-11-23T00:00Z",
-    "rank": 17,
+    "rank": 18,
     "allowed": 115.0,
     "home": false
    }
@@ -812,7 +809,7 @@
    "next": {
     "team": "CHI",
     "date": "2026-11-24T01:00Z",
-    "rank": 17,
+    "rank": 18,
     "allowed": 115.0,
     "home": false
    }
@@ -871,7 +868,7 @@
      "team": "Boston Celtics",
      "abbr": "BOS",
      "w": 11,
-     "l": 4
+     "l": 5
     },
     {
      "team": "Detroit Pistons",
@@ -1043,7 +1040,7 @@
     {
      "team": "Sacramento Kings",
      "abbr": "SAC",
-     "w": 1,
+     "w": 2,
      "l": 14
     }
    ]
@@ -1154,6 +1151,13 @@
    "status": "Out",
    "note": "Schroder has been diagnosed with a left hamstring strain and will be reevaluated in two weeks, Michael Scotto of HoopsHype.com reports.",
    "date": "2026-11-08T22:26Z"
+  },
+  {
+   "player": "Patrick Williams",
+   "team": "Chicago Bulls",
+   "status": "Day-To-Day",
+   "note": "Williams is probable for Sunday's game against the Nuggets due to a left thumb sprain.",
+   "date": "2026-11-22T06:06Z"
   },
   {
    "player": "Norman Powell",
@@ -1296,18 +1300,11 @@
    "date": "2026-11-08T16:05Z"
   },
   {
-   "player": "Draymond Green",
-   "team": "Golden State Warriors",
-   "status": "Day-To-Day",
-   "note": "Green (elbow) is out for Thursday's game against the Grizzlies.",
-   "date": "2026-11-20T03:53Z"
-  },
-  {
    "player": "Brandon Williams",
    "team": "Golden State Warriors",
    "status": "Out",
-   "note": "Williams (hamstring) has progressed to on-court activities and will be re-evaluated Saturday.",
-   "date": "2026-11-18T17:12Z"
+   "note": "Williams (hamstring) is out for Sunday's game against the Celtics.",
+   "date": "2026-11-22T06:10Z"
   },
   {
    "player": "Stephen Curry",
@@ -1823,21 +1820,9 @@
  ],
  "changes": [
   {
-   "player": "Karl-Anthony Towns",
-   "team": "New York Knicks",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Jordan Clarkson",
-   "team": "New York Knicks",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "OG Anunoby",
-   "team": "New York Knicks",
-   "from": "Out",
+   "player": "Patrick Williams",
+   "team": "Chicago Bulls",
+   "from": "nuovo",
    "to": "Day-To-Day"
   }
  ]
