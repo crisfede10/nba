@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T07:26:18.525984Z",
+ "updated": "2026-11-23T10:09:04.784516Z",
  "finished": [
   {
    "date": "2026-11-23T01:30Z",
@@ -1768,18 +1768,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "changes": [
-  {
-   "player": "Jerami Grant",
-   "team": "Memphis Grizzlies",
-   "from": "Day-To-Day",
-   "to": "Out"
-  },
-  {
-   "player": "Victor Wembanyama",
-   "team": "San Antonio Spurs",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  }
- ]
+ "changes": []
 }
