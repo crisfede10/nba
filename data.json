@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T13:09:25.234056Z",
+ "updated": "2026-11-23T15:59:20.789750Z",
  "finished": [
   {
    "date": "2026-11-23T01:30Z",
@@ -241,11 +241,11 @@
    "awayName": "Oklahoma City Thunder",
    "hs": 0,
    "as": 0,
-   "pHome": 44.8,
+   "pHome": 37.4,
    "why": [
     "Back-to-back: IND",
     "Back-to-back: OKC",
-    "Shai Gilgeous-Alexander (Out, OKC)"
+    "Shai Gilgeous-Alexander (Day-To-Day, OKC)"
    ]
   },
   {
@@ -362,9 +362,9 @@
    "awayName": "Boston Celtics",
    "hs": 0,
    "as": 0,
-   "pHome": 40.3,
+   "pHome": 37.9,
    "why": [
-    "Paul George (Out, BOS)"
+    "Paul George (Day-To-Day, BOS)"
    ]
   },
   {
@@ -388,10 +388,10 @@
    "awayName": "Miami Heat",
    "hs": 0,
    "as": 0,
-   "pHome": 74.3,
+   "pHome": 69.4,
    "why": [
     "Jaylen Brown (Day-To-Day, PHI)",
-    "Giannis Antetokounmpo (Out, MIA)"
+    "Giannis Antetokounmpo (Day-To-Day, MIA)"
    ]
   },
   {
@@ -431,9 +431,9 @@
    "awayName": "Minnesota Timberwolves",
    "hs": 0,
    "as": 0,
-   "pHome": 38.8,
+   "pHome": 46.4,
    "why": [
-    "Shai Gilgeous-Alexander (Out, OKC)"
+    "Shai Gilgeous-Alexander (Day-To-Day, OKC)"
    ]
   },
   {
@@ -1075,6 +1075,13 @@
    "date": "2026-09-21T19:50Z"
   },
   {
+   "player": "Paul George",
+   "team": "Boston Celtics",
+   "status": "Day-To-Day",
+   "note": "George (rest) has been ruled out for Sunday's game against Golden State, Justin Turpin of WEEI.com reports.",
+   "date": "2026-11-23T15:07Z"
+  },
+  {
    "player": "Mitchell Robinson",
    "team": "Boston Celtics",
    "status": "Out",
@@ -1082,11 +1089,11 @@
    "date": "2026-11-22T20:58Z"
   },
   {
-   "player": "Paul George",
-   "team": "Boston Celtics",
+   "player": "Nolan Traore",
+   "team": "Brooklyn Nets",
    "status": "Out",
-   "note": "George (rest) has been ruled out for Sunday's game against Golden State, Justin Turpin of WEEI.com reports.",
-   "date": "2026-11-22T20:56Z"
+   "note": "Traore will be re-evaluated in approximately 8-10 weeks due to a right hamstring strain, Michael Scotto of HoopsHype.com reports.",
+   "date": "2026-11-23T15:22Z"
   },
   {
    "player": "Grant Nelson",
@@ -1094,13 +1101,6 @@
    "status": "Day-To-Day",
    "note": "Nelson (ankle) is probable for Monday's game against the Timberwolves.",
    "date": "2026-11-22T20:39Z"
-  },
-  {
-   "player": "Nolan Traore",
-   "team": "Brooklyn Nets",
-   "status": "Out",
-   "note": "Traore (hamstring) has been ruled out for Monday's game against the Timberwolves.",
-   "date": "2026-11-22T20:37Z"
   },
   {
    "player": "Grayson Allen",
@@ -1140,9 +1140,9 @@
   {
    "player": "Nic Claxton",
    "team": "Chicago Bulls",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Claxton (illness) won't play in Sunday's game against the Nuggets.",
-   "date": "2026-11-22T20:22Z"
+   "date": "2026-11-23T15:06Z"
   },
   {
    "player": "Norman Powell",
@@ -1182,9 +1182,9 @@
   {
    "player": "P.J. Washington",
    "team": "Dallas Mavericks",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Washington (illness) has been ruled out for Sunday's game against the Jazz.",
-   "date": "2026-11-22T22:24Z"
+   "date": "2026-11-23T15:05Z"
   },
   {
    "player": "Tobi Lawal",
@@ -1287,9 +1287,9 @@
   {
    "player": "T.J. McConnell",
    "team": "Indiana Pacers",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "McConnell (hamstring) is listed as out for Sunday's game in New York.",
-   "date": "2026-11-21T22:29Z"
+   "date": "2026-11-23T15:06Z"
   },
   {
    "player": "Tyrese Haliburton",
@@ -1371,9 +1371,9 @@
   {
    "player": "Giannis Antetokounmpo",
    "team": "Miami Heat",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Antetokounmpo (groin) won't play in Sunday's game against Oklahoma City, Clemente Almanza of USA Today reports.",
-   "date": "2026-11-22T22:09Z"
+   "date": "2026-11-23T15:04Z"
   },
   {
    "player": "Ousmane Dieng",
@@ -1448,16 +1448,16 @@
   {
    "player": "Miles McBride",
    "team": "New York Knicks",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "McBride (abdomen) has been ruled out for Sunday's game against the Pacers.",
-   "date": "2026-11-23T00:04Z"
+   "date": "2026-11-23T15:07Z"
   },
   {
    "player": "OG Anunoby",
    "team": "New York Knicks",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Anunoby (calf) won't play Sunday against the Pacers.",
-   "date": "2026-11-22T18:13Z"
+   "date": "2026-11-23T15:07Z"
   },
   {
    "player": "Jordan Clarkson",
@@ -1469,37 +1469,37 @@
   {
    "player": "Aday Mara",
    "team": "Oklahoma City Thunder",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Mara (shin) is listed as out for Sunday's game versus Miami.",
-   "date": "2026-11-22T22:35Z"
-  },
-  {
-   "player": "Shai Gilgeous-Alexander",
-   "team": "Oklahoma City Thunder",
-   "status": "Out",
-   "note": "Gilgeous-Alexander (back/neck) is listed as out for Sunday's game against the Heat.",
-   "date": "2026-11-22T21:35Z"
-  },
-  {
-   "player": "Nikola Topic",
-   "team": "Oklahoma City Thunder",
-   "status": "Out",
-   "note": "Topic (hip) is listed as out for Sunday's game versus the Heat.",
-   "date": "2026-11-21T22:39Z"
+   "date": "2026-11-23T15:04Z"
   },
   {
    "player": "Jaylin Williams",
    "team": "Oklahoma City Thunder",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Williams (back) is listed as out for Sunday's game against Miami.",
-   "date": "2026-11-21T22:34Z"
+   "date": "2026-11-23T15:03Z"
+  },
+  {
+   "player": "Nikola Topic",
+   "team": "Oklahoma City Thunder",
+   "status": "Day-To-Day",
+   "note": "Topic (hip) is listed as out for Sunday's game versus the Heat.",
+   "date": "2026-11-23T15:03Z"
+  },
+  {
+   "player": "Shai Gilgeous-Alexander",
+   "team": "Oklahoma City Thunder",
+   "status": "Day-To-Day",
+   "note": "Gilgeous-Alexander (back/neck) is listed as out for Sunday's game against the Heat.",
+   "date": "2026-11-23T15:03Z"
   },
   {
    "player": "Alex Caruso",
    "team": "Oklahoma City Thunder",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Caruso (hip) won't play Sunday against the Heat.",
-   "date": "2026-11-21T22:29Z"
+   "date": "2026-11-23T15:03Z"
   },
   {
    "player": "Thomas Sorber",
@@ -1714,9 +1714,9 @@
   {
    "player": "Jaxson Hayes",
    "team": "Utah Jazz",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Hayes (knee) has been ruled out for the remainder of Sunday's game against the Mavericks, Grant Afseth of DallasHoopsJournal.com reports.",
-   "date": "2026-11-23T01:16Z"
+   "date": "2026-11-23T15:06Z"
   },
   {
    "player": "Jusuf Nurkic",
@@ -1768,5 +1768,84 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "changes": []
+ "changes": [
+  {
+   "player": "Paul George",
+   "team": "Boston Celtics",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Nic Claxton",
+   "team": "Chicago Bulls",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "P.J. Washington",
+   "team": "Dallas Mavericks",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "T.J. McConnell",
+   "team": "Indiana Pacers",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Giannis Antetokounmpo",
+   "team": "Miami Heat",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Miles McBride",
+   "team": "New York Knicks",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "OG Anunoby",
+   "team": "New York Knicks",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Aday Mara",
+   "team": "Oklahoma City Thunder",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Jaylin Williams",
+   "team": "Oklahoma City Thunder",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Nikola Topic",
+   "team": "Oklahoma City Thunder",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Shai Gilgeous-Alexander",
+   "team": "Oklahoma City Thunder",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Alex Caruso",
+   "team": "Oklahoma City Thunder",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Jaxson Hayes",
+   "team": "Utah Jazz",
+   "from": "Out",
+   "to": "Day-To-Day"
+  }
+ ]
 }
