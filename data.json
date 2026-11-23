@@ -1,6 +1,16 @@
 {
- "updated": "2026-11-23T03:58:59.535671Z",
+ "updated": "2026-11-23T07:26:18.525984Z",
  "finished": [
+  {
+   "date": "2026-11-23T01:30Z",
+   "state": "post",
+   "home": "GS",
+   "away": "BOS",
+   "homeName": "Golden State Warriors",
+   "awayName": "Boston Celtics",
+   "hs": 88,
+   "as": 87
+  },
   {
    "date": "2026-11-23T01:00Z",
    "state": "post",
@@ -190,35 +200,9 @@
    "awayName": "Indiana Pacers",
    "hs": 128,
    "as": 119
-  },
-  {
-   "date": "2026-11-21T00:30Z",
-   "state": "post",
-   "home": "BKN",
-   "away": "ORL",
-   "homeName": "Brooklyn Nets",
-   "awayName": "Orlando Magic",
-   "hs": 111,
-   "as": 113
   }
  ],
  "upcoming": [
-  {
-   "date": "2026-11-23T01:30Z",
-   "state": "in",
-   "home": "GS",
-   "away": "BOS",
-   "homeName": "Golden State Warriors",
-   "awayName": "Boston Celtics",
-   "hs": 88,
-   "as": 87,
-   "pHome": 42.6,
-   "why": [
-    "Stephen Curry (Out, GS)",
-    "Back-to-back: BOS",
-    "Paul George (Out, BOS)"
-   ]
-  },
   {
    "date": "2026-11-24T00:00Z",
    "state": "pre",
@@ -352,8 +336,10 @@
    "awayName": "San Antonio Spurs",
    "hs": 0,
    "as": 0,
-   "pHome": 11.5,
-   "why": []
+   "pHome": 13.3,
+   "why": [
+    "Victor Wembanyama (Day-To-Day, SA)"
+   ]
   },
   {
    "date": "2026-11-25T00:00Z",
@@ -376,7 +362,7 @@
    "awayName": "Boston Celtics",
    "hs": 0,
    "as": 0,
-   "pHome": 37.9,
+   "pHome": 40.3,
    "why": [
     "Paul George (Out, BOS)"
    ]
@@ -473,13 +459,25 @@
    "as": 0,
    "pHome": 44.6,
    "why": []
+  },
+  {
+   "date": "2026-11-26T01:30Z",
+   "state": "pre",
+   "home": "HOU",
+   "away": "PHX",
+   "homeName": "Houston Rockets",
+   "awayName": "Phoenix Suns",
+   "hs": 0,
+   "as": 0,
+   "pHome": 66.1,
+   "why": []
   }
  ],
  "defense": [
   {
    "team": "BOS",
-   "allowed": 100.8,
-   "games": 6,
+   "allowed": 99.0,
+   "games": 7,
    "rank": 1
   },
   {
@@ -519,45 +517,45 @@
    "rank": 7
   },
   {
+   "team": "GS",
+   "allowed": 109.9,
+   "games": 7,
+   "rank": 8
+  },
+  {
    "team": "ATL",
    "allowed": 110.2,
    "games": 6,
-   "rank": 8
+   "rank": 9
   },
   {
    "team": "PHX",
    "allowed": 110.3,
    "games": 7,
-   "rank": 9
+   "rank": 10
   },
   {
    "team": "CHA",
    "allowed": 111.0,
    "games": 5,
-   "rank": 10
+   "rank": 11
   },
   {
    "team": "MEM",
    "allowed": 111.1,
    "games": 8,
-   "rank": 11
+   "rank": 12
   },
   {
    "team": "LAL",
    "allowed": 112.7,
    "games": 6,
-   "rank": 12
+   "rank": 13
   },
   {
    "team": "UTAH",
    "allowed": 113.0,
    "games": 8,
-   "rank": 13
-  },
-  {
-   "team": "GS",
-   "allowed": 113.7,
-   "games": 6,
    "rank": 14
   },
   {
@@ -823,7 +821,7 @@
    "next": {
     "team": "UTAH",
     "date": "2026-11-24T03:00Z",
-    "rank": 13,
+    "rank": 14,
     "allowed": 113.0,
     "home": true
    }
@@ -843,7 +841,7 @@
     "team": "BOS",
     "date": "2026-11-25T01:00Z",
     "rank": 1,
-    "allowed": 100.8,
+    "allowed": 99.0,
     "home": true
    }
   }
@@ -859,14 +857,14 @@
      "l": 3
     },
     {
-     "team": "Boston Celtics",
-     "abbr": "BOS",
-     "w": 11,
-     "l": 5
-    },
-    {
      "team": "Atlanta Hawks",
      "abbr": "ATL",
+     "w": 11,
+     "l": 6
+    },
+    {
+     "team": "Boston Celtics",
+     "abbr": "BOS",
      "w": 11,
      "l": 6
     },
@@ -1010,7 +1008,7 @@
     {
      "team": "Golden State Warriors",
      "abbr": "GS",
-     "w": 8,
+     "w": 9,
      "l": 8
     },
     {
@@ -1338,9 +1336,9 @@
   {
    "player": "Jerami Grant",
    "team": "Memphis Grizzlies",
-   "status": "Day-To-Day",
+   "status": "Out",
    "note": "Grant was diagnosed with a grade 1 left calf strain and will be re-evaluated in two weeks.",
-   "date": "2026-11-23T01:14Z"
+   "date": "2026-11-23T04:04Z"
   },
   {
    "player": "Cameron Boozer",
@@ -1644,6 +1642,13 @@
    "date": "2026-10-21T04:22Z"
   },
   {
+   "player": "Victor Wembanyama",
+   "team": "San Antonio Spurs",
+   "status": "Day-To-Day",
+   "note": "Wembanyama (back) is questionable for Monday's game against the Kings, Jared Weiss of The Athletic reports.",
+   "date": "2026-11-23T04:52Z"
+  },
+  {
    "player": "De'Aaron Fox",
    "team": "San Antonio Spurs",
    "status": "Day-To-Day",
@@ -1765,22 +1770,16 @@
  ],
  "changes": [
   {
-   "player": "De'Aaron Fox",
-   "team": "San Antonio Spurs",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Jordan McLaughlin",
-   "team": "San Antonio Spurs",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Jaxson Hayes",
-   "team": "Utah Jazz",
-   "from": "nuovo",
+   "player": "Jerami Grant",
+   "team": "Memphis Grizzlies",
+   "from": "Day-To-Day",
    "to": "Out"
+  },
+  {
+   "player": "Victor Wembanyama",
+   "team": "San Antonio Spurs",
+   "from": "nuovo",
+   "to": "Day-To-Day"
   }
  ]
 }
