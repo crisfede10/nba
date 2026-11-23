@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T15:59:20.789750Z",
+ "updated": "2026-11-23T18:55:09.688380Z",
  "finished": [
   {
    "date": "2026-11-23T01:30Z",
@@ -227,8 +227,9 @@
    "awayName": "Portland Trail Blazers",
    "hs": 0,
    "as": 0,
-   "pHome": 72.8,
+   "pHome": 70.4,
    "why": [
+    "Joel Embiid (Day-To-Day, PHI)",
     "Jaylen Brown (Day-To-Day, PHI)"
    ]
   },
@@ -241,11 +242,11 @@
    "awayName": "Oklahoma City Thunder",
    "hs": 0,
    "as": 0,
-   "pHome": 37.4,
+   "pHome": 28.3,
    "why": [
     "Back-to-back: IND",
-    "Back-to-back: OKC",
-    "Shai Gilgeous-Alexander (Day-To-Day, OKC)"
+    "Pascal Siakam (Day-To-Day, IND)",
+    "Back-to-back: OKC"
    ]
   },
   {
@@ -388,8 +389,9 @@
    "awayName": "Miami Heat",
    "hs": 0,
    "as": 0,
-   "pHome": 69.4,
+   "pHome": 66.8,
    "why": [
+    "Joel Embiid (Day-To-Day, PHI)",
     "Jaylen Brown (Day-To-Day, PHI)",
     "Giannis Antetokounmpo (Day-To-Day, MIA)"
    ]
@@ -431,10 +433,8 @@
    "awayName": "Minnesota Timberwolves",
    "hs": 0,
    "as": 0,
-   "pHome": 46.4,
-   "why": [
-    "Shai Gilgeous-Alexander (Day-To-Day, OKC)"
-   ]
+   "pHome": 51.5,
+   "why": []
   },
   {
    "date": "2026-11-26T01:00Z",
@@ -1096,13 +1096,6 @@
    "date": "2026-11-23T15:22Z"
   },
   {
-   "player": "Grant Nelson",
-   "team": "Brooklyn Nets",
-   "status": "Day-To-Day",
-   "note": "Nelson (ankle) is probable for Monday's game against the Timberwolves.",
-   "date": "2026-11-22T20:39Z"
-  },
-  {
    "player": "Grayson Allen",
    "team": "Charlotte Hornets",
    "status": "Out",
@@ -1138,11 +1131,18 @@
    "date": "2026-11-08T22:26Z"
   },
   {
+   "player": "Jalen Smith",
+   "team": "Chicago Bulls",
+   "status": "Day-To-Day",
+   "note": "Smith (illness) is probable for Monday's game against Cleveland.",
+   "date": "2026-11-23T18:40Z"
+  },
+  {
    "player": "Nic Claxton",
    "team": "Chicago Bulls",
    "status": "Day-To-Day",
-   "note": "Claxton (illness) won't play in Sunday's game against the Nuggets.",
-   "date": "2026-11-23T15:06Z"
+   "note": "Claxton (illness) is questionable for Monday's game against Cleveland.",
+   "date": "2026-11-23T18:35Z"
   },
   {
    "player": "Norman Powell",
@@ -1287,9 +1287,23 @@
   {
    "player": "T.J. McConnell",
    "team": "Indiana Pacers",
+   "status": "Out",
+   "note": "McConnell is out for Monday's game against the Thunder due to left hamstring soreness.",
+   "date": "2026-11-23T18:25Z"
+  },
+  {
+   "player": "Aaron Nesmith",
+   "team": "Indiana Pacers",
+   "status": "Out",
+   "note": "Nesmith is out for Monday's game against the Thunder due to right foot soreness.",
+   "date": "2026-11-23T18:22Z"
+  },
+  {
+   "player": "Pascal Siakam",
+   "team": "Indiana Pacers",
    "status": "Day-To-Day",
-   "note": "McConnell (hamstring) is listed as out for Sunday's game in New York.",
-   "date": "2026-11-23T15:06Z"
+   "note": "Siakam is questionable for Monday's game against Oklahoma City due to left hip injury management, according to the NBA's injury report.",
+   "date": "2026-11-23T18:22Z"
   },
   {
    "player": "Tyrese Haliburton",
@@ -1376,13 +1390,6 @@
    "date": "2026-11-23T15:04Z"
   },
   {
-   "player": "Ousmane Dieng",
-   "team": "Milwaukee Bucks",
-   "status": "Out",
-   "note": "Dieng (finger) is questionable for Monday's game against the Raptors.",
-   "date": "2026-11-22T21:37Z"
-  },
-  {
    "player": "Jaylen Clark",
    "team": "Minnesota Timberwolves",
    "status": "Out",
@@ -1402,20 +1409,6 @@
    "status": "Out",
    "note": "DiVincenzo (Achilles) remains confident that he'll return during the 2026-27 season, Jon Krawczynski of The Athletic reports.",
    "date": "2026-10-05T20:53Z"
-  },
-  {
-   "player": "Trey Murphy III",
-   "team": "New Orleans Pelicans",
-   "status": "Day-To-Day",
-   "note": "Murphy (knees) is listed as probable for Monday's game against the Suns.",
-   "date": "2026-11-22T21:02Z"
-  },
-  {
-   "player": "Bryce McGowens",
-   "team": "New Orleans Pelicans",
-   "status": "Out",
-   "note": "McGowens (elbow) is listed as probable for Monday's game against Phoenix.",
-   "date": "2026-11-22T20:53Z"
   },
   {
    "player": "Zion Williamson",
@@ -1467,11 +1460,18 @@
    "date": "2026-11-22T18:05Z"
   },
   {
+   "player": "Alex Caruso",
+   "team": "Oklahoma City Thunder",
+   "status": "Out",
+   "note": "Caruso (hip) has been ruled out for Monday's game against the Pacers, according to the NBA's official injury report.",
+   "date": "2026-11-23T18:38Z"
+  },
+  {
    "player": "Aday Mara",
    "team": "Oklahoma City Thunder",
-   "status": "Day-To-Day",
+   "status": "Out",
    "note": "Mara (shin) is listed as out for Sunday's game versus Miami.",
-   "date": "2026-11-23T15:04Z"
+   "date": "2026-11-23T18:34Z"
   },
   {
    "player": "Jaylin Williams",
@@ -1485,20 +1485,6 @@
    "team": "Oklahoma City Thunder",
    "status": "Day-To-Day",
    "note": "Topic (hip) is listed as out for Sunday's game versus the Heat.",
-   "date": "2026-11-23T15:03Z"
-  },
-  {
-   "player": "Shai Gilgeous-Alexander",
-   "team": "Oklahoma City Thunder",
-   "status": "Day-To-Day",
-   "note": "Gilgeous-Alexander (back/neck) is listed as out for Sunday's game against the Heat.",
-   "date": "2026-11-23T15:03Z"
-  },
-  {
-   "player": "Alex Caruso",
-   "team": "Oklahoma City Thunder",
-   "status": "Day-To-Day",
-   "note": "Caruso (hip) won't play Sunday against the Heat.",
    "date": "2026-11-23T15:03Z"
   },
   {
@@ -1556,6 +1542,13 @@
    "status": "Out",
    "note": "Banchero is expected to be sidelined for the next four-to-six weeks due to a right high-ankle sprain, Shams Charania of ESPN reports.",
    "date": "2026-10-24T16:47Z"
+  },
+  {
+   "player": "Joel Embiid",
+   "team": "Philadelphia 76ers",
+   "status": "Day-To-Day",
+   "note": "Embiid (knee) has been downgraded to questionable for Monday's game against Portland.",
+   "date": "2026-11-23T16:49Z"
   },
   {
    "player": "Adem Bona",
@@ -1684,6 +1677,13 @@
    "date": "2026-10-05T21:43Z"
   },
   {
+   "player": "Jaden Bradley",
+   "team": "Toronto Raptors",
+   "status": "Day-To-Day",
+   "note": "Bradley is questionable for Monday's game against the Bucks due to an ankle sprain, Blake Murphy of Sportsnet.ca reports.",
+   "date": "2026-11-23T17:37Z"
+  },
+  {
    "player": "Collin Murray-Boyles",
    "team": "Toronto Raptors",
    "status": "Day-To-Day",
@@ -1770,81 +1770,51 @@
  ],
  "changes": [
   {
-   "player": "Paul George",
-   "team": "Boston Celtics",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Nic Claxton",
+   "player": "Jalen Smith",
    "team": "Chicago Bulls",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "P.J. Washington",
-   "team": "Dallas Mavericks",
-   "from": "Out",
+   "from": "nuovo",
    "to": "Day-To-Day"
   },
   {
    "player": "T.J. McConnell",
    "team": "Indiana Pacers",
-   "from": "Out",
-   "to": "Day-To-Day"
+   "from": "Day-To-Day",
+   "to": "Out"
   },
   {
-   "player": "Giannis Antetokounmpo",
-   "team": "Miami Heat",
-   "from": "Out",
-   "to": "Day-To-Day"
+   "player": "Aaron Nesmith",
+   "team": "Indiana Pacers",
+   "from": "nuovo",
+   "to": "Out"
   },
   {
-   "player": "Miles McBride",
-   "team": "New York Knicks",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "OG Anunoby",
-   "team": "New York Knicks",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Aday Mara",
-   "team": "Oklahoma City Thunder",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Jaylin Williams",
-   "team": "Oklahoma City Thunder",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Nikola Topic",
-   "team": "Oklahoma City Thunder",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Shai Gilgeous-Alexander",
-   "team": "Oklahoma City Thunder",
-   "from": "Out",
+   "player": "Pascal Siakam",
+   "team": "Indiana Pacers",
+   "from": "nuovo",
    "to": "Day-To-Day"
   },
   {
    "player": "Alex Caruso",
    "team": "Oklahoma City Thunder",
-   "from": "Out",
+   "from": "Day-To-Day",
+   "to": "Out"
+  },
+  {
+   "player": "Aday Mara",
+   "team": "Oklahoma City Thunder",
+   "from": "Day-To-Day",
+   "to": "Out"
+  },
+  {
+   "player": "Joel Embiid",
+   "team": "Philadelphia 76ers",
+   "from": "nuovo",
    "to": "Day-To-Day"
   },
   {
-   "player": "Jaxson Hayes",
-   "team": "Utah Jazz",
-   "from": "Out",
+   "player": "Jaden Bradley",
+   "team": "Toronto Raptors",
+   "from": "nuovo",
    "to": "Day-To-Day"
   }
  ]
