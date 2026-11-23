@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23T18:55:09.688380Z",
+ "updated": "2026-11-23T21:48:39.983752Z",
  "finished": [
   {
    "date": "2026-11-23T01:30Z",
@@ -363,10 +363,8 @@
    "awayName": "Boston Celtics",
    "hs": 0,
    "as": 0,
-   "pHome": 37.9,
-   "why": [
-    "Paul George (Day-To-Day, BOS)"
-   ]
+   "pHome": 36.3,
+   "why": []
   },
   {
    "date": "2026-11-25T03:00Z",
@@ -1075,18 +1073,11 @@
    "date": "2026-09-21T19:50Z"
   },
   {
-   "player": "Paul George",
-   "team": "Boston Celtics",
-   "status": "Day-To-Day",
-   "note": "George (rest) has been ruled out for Sunday's game against Golden State, Justin Turpin of WEEI.com reports.",
-   "date": "2026-11-23T15:07Z"
-  },
-  {
    "player": "Mitchell Robinson",
    "team": "Boston Celtics",
    "status": "Out",
-   "note": "Robinson (illness) has been ruled out for Sunday's game against Golden State, Justin Turpin of WEEI.com reports.",
-   "date": "2026-11-22T20:58Z"
+   "note": "Robinson (illness) is out for Tuesday's game against Washington, Taylor Snow of the Celtics' official site reports.",
+   "date": "2026-11-23T21:09Z"
   },
   {
    "player": "Nolan Traore",
@@ -1253,8 +1244,8 @@
    "player": "Brandon Williams",
    "team": "Golden State Warriors",
    "status": "Out",
-   "note": "Williams (hamstring) is out for Sunday's game against the Celtics.",
-   "date": "2026-11-22T06:10Z"
+   "note": "Head coach Steve Kerr said Monday that Williams (hamstring) is on track to return Wednesday against the Kings, Kenzo Fukuda of ClutchPoints.com reports.",
+   "date": "2026-11-23T20:52Z"
   },
   {
    "player": "Stephen Curry",
@@ -1460,32 +1451,39 @@
    "date": "2026-11-22T18:05Z"
   },
   {
-   "player": "Alex Caruso",
+   "player": "Jaylin Williams",
    "team": "Oklahoma City Thunder",
    "status": "Out",
-   "note": "Caruso (hip) has been ruled out for Monday's game against the Pacers, according to the NBA's official injury report.",
-   "date": "2026-11-23T18:38Z"
+   "note": "Williams (back) has been ruled out for Monday's game against the Pacers",
+   "date": "2026-11-23T19:09Z"
+  },
+  {
+   "player": "Nikola Topic",
+   "team": "Oklahoma City Thunder",
+   "status": "Out",
+   "note": "Topic (hip) has been ruled out for Monday's game against the Pacers, according to the NBA's official injury report.",
+   "date": "2026-11-23T18:49Z"
   },
   {
    "player": "Aday Mara",
    "team": "Oklahoma City Thunder",
    "status": "Out",
-   "note": "Mara (shin) is listed as out for Sunday's game versus Miami.",
-   "date": "2026-11-23T18:34Z"
+   "note": "Mara (shin) has been ruled out for Monday's game against the Pacers.",
+   "date": "2026-11-23T18:45Z"
   },
   {
-   "player": "Jaylin Williams",
+   "player": "Jalen Williams",
    "team": "Oklahoma City Thunder",
-   "status": "Day-To-Day",
-   "note": "Williams (back) is listed as out for Sunday's game against Miami.",
-   "date": "2026-11-23T15:03Z"
+   "status": "Out",
+   "note": "Williams (ankle) has been ruled out for Monday's game against the Pacers, according to the NBA's official injury report.",
+   "date": "2026-11-23T18:43Z"
   },
   {
-   "player": "Nikola Topic",
+   "player": "Alex Caruso",
    "team": "Oklahoma City Thunder",
-   "status": "Day-To-Day",
-   "note": "Topic (hip) is listed as out for Sunday's game versus the Heat.",
-   "date": "2026-11-23T15:03Z"
+   "status": "Out",
+   "note": "Caruso (hip) has been ruled out for Monday's game against the Pacers, according to the NBA's official injury report.",
+   "date": "2026-11-23T18:38Z"
   },
   {
    "player": "Thomas Sorber",
@@ -1507,13 +1505,6 @@
    "status": "Out",
    "note": "Holmgren underwent a biological treatment Friday to address a small patellar tendon tear and will miss at least 8-10 weeks, Nick Crain of Slam reports.",
    "date": "2026-10-31T01:02Z"
-  },
-  {
-   "player": "Jalen Williams",
-   "team": "Oklahoma City Thunder",
-   "status": "Out",
-   "note": "Williams (leg) underwent successful surgery Wednesday to \"address a fractured left fibula and reconstruction of ankle ligaments following a fracture and dislocation.\" He will be re-evaluated before the end of the regular season, Tim MacMahon of ESPN.com reports.",
-   "date": "2026-10-28T23:41Z"
   },
   {
    "player": "Jonathan Isaac",
@@ -1577,13 +1568,6 @@
    "status": "Out",
    "note": "Hukporti has sustained a season-ending ruptured right Achilles tendon, per Shams Charania of ESPN.",
    "date": "2026-10-06T19:17Z"
-  },
-  {
-   "player": "Ryan Dunn",
-   "team": "Phoenix Suns",
-   "status": "Day-To-Day",
-   "note": "Dunn (quadriceps) is listed as questionable for Monday's game against the Pelicans.",
-   "date": "2026-11-22T23:24Z"
   },
   {
    "player": "Mark Williams",
@@ -1714,9 +1698,9 @@
   {
    "player": "Jaxson Hayes",
    "team": "Utah Jazz",
-   "status": "Day-To-Day",
-   "note": "Hayes (knee) has been ruled out for the remainder of Sunday's game against the Mavericks, Grant Afseth of DallasHoopsJournal.com reports.",
-   "date": "2026-11-23T15:06Z"
+   "status": "Out",
+   "note": "Hayes (knee) has been ruled out for Monday's game against the Lakers.",
+   "date": "2026-11-23T21:04Z"
   },
   {
    "player": "Jusuf Nurkic",
@@ -1770,52 +1754,22 @@
  ],
  "changes": [
   {
-   "player": "Jalen Smith",
-   "team": "Chicago Bulls",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "T.J. McConnell",
-   "team": "Indiana Pacers",
-   "from": "Day-To-Day",
-   "to": "Out"
-  },
-  {
-   "player": "Aaron Nesmith",
-   "team": "Indiana Pacers",
-   "from": "nuovo",
-   "to": "Out"
-  },
-  {
-   "player": "Pascal Siakam",
-   "team": "Indiana Pacers",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Alex Caruso",
+   "player": "Jaylin Williams",
    "team": "Oklahoma City Thunder",
    "from": "Day-To-Day",
    "to": "Out"
   },
   {
-   "player": "Aday Mara",
+   "player": "Nikola Topic",
    "team": "Oklahoma City Thunder",
    "from": "Day-To-Day",
    "to": "Out"
   },
   {
-   "player": "Joel Embiid",
-   "team": "Philadelphia 76ers",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Jaden Bradley",
-   "team": "Toronto Raptors",
-   "from": "nuovo",
-   "to": "Day-To-Day"
+   "player": "Jaxson Hayes",
+   "team": "Utah Jazz",
+   "from": "Day-To-Day",
+   "to": "Out"
   }
  ]
 }
