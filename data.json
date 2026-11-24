@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T16:02:08.015900Z",
+ "updated": "2026-11-24T18:54:37.972150Z",
  "finished": [
   {
    "date": "2026-11-24T03:00Z",
@@ -1111,6 +1111,13 @@
    "date": "2026-11-08T22:26Z"
   },
   {
+   "player": "Jalen Smith",
+   "team": "Chicago Bulls",
+   "status": "Day-To-Day",
+   "note": "Smith (illness) is listed as questionable for Wednesday's game against the Hornets.",
+   "date": "2026-11-24T18:21Z"
+  },
+  {
    "player": "Norman Powell",
    "team": "Chicago Bulls",
    "status": "Out",
@@ -1177,15 +1184,29 @@
    "player": "Ebuka Okorie",
    "team": "Detroit Pistons",
    "status": "Out",
-   "note": "Okorie (oblique) won't play Tuesday in Orlando.",
-   "date": "2026-11-23T22:10Z"
+   "note": "The Pistons announced Tuesday that Okorie (oblique) will miss at least two weeks, per Eric Vincent of ClutchPoints.com.",
+   "date": "2026-11-24T18:37Z"
+  },
+  {
+   "player": "Taurean Prince",
+   "team": "Detroit Pistons",
+   "status": "Out",
+   "note": "Prince underwent arthroscopic right knee surgery Nov. 18 and will be re-evaluated in four weeks, Eric Vincent of ClutchPoints.com reports.",
+   "date": "2026-11-24T18:33Z"
+  },
+  {
+   "player": "Duncan Robinson",
+   "team": "Detroit Pistons",
+   "status": "Out",
+   "note": "Robinson (quadriceps) is considered day-to-day as he progresses in his rehab, Eric Vincent of ClutchPoints.com reports.",
+   "date": "2026-11-24T18:30Z"
   },
   {
    "player": "Jalen Duren",
    "team": "Detroit Pistons",
    "status": "Out",
-   "note": "Duren (hamstring) has been ruled out for Tuesday's game against the Magic.",
-   "date": "2026-11-23T22:08Z"
+   "note": "Duren (hamstring) is being assigned to the Motor City Cruise on Wednesday for practice as he ramps up for a return, Eric Vincent of ClutchPoints.com reports.",
+   "date": "2026-11-24T18:27Z"
   },
   {
    "player": "Cade Cunningham",
@@ -1193,20 +1214,6 @@
    "status": "Day-To-Day",
    "note": "Cunningham (knee) is probable for Tuesday's game against the Orlando.",
    "date": "2026-11-23T22:07Z"
-  },
-  {
-   "player": "Taurean Prince",
-   "team": "Detroit Pistons",
-   "status": "Out",
-   "note": "Prince (knee) underwent surgery to address lingering issues and has no timeline for a return, Hunter Patterson of The Athletic reports.",
-   "date": "2026-11-20T23:02Z"
-  },
-  {
-   "player": "Duncan Robinson",
-   "team": "Detroit Pistons",
-   "status": "Out",
-   "note": "Robinson will be re-evaluated in one week due to a left quadriceps strain, Coty M. Davis of The Detroit News reports.",
-   "date": "2026-11-17T16:25Z"
   },
   {
    "player": "Brandon Williams",
@@ -1244,17 +1251,24 @@
    "date": "2026-10-16T16:11Z"
   },
   {
+   "player": "T.J. McConnell",
+   "team": "Indiana Pacers",
+   "status": "Day-To-Day",
+   "note": "McConnell (hamstring) was assigned to the G League's Noblesville Boom on Tuesday.",
+   "date": "2026-11-24T16:02Z"
+  },
+  {
+   "player": "Tyrese Haliburton",
+   "team": "Indiana Pacers",
+   "status": "Out",
+   "note": "Haliburton (hamstring) was assigned to the G League's Noblesville Boom on Tuesday.",
+   "date": "2026-11-24T15:57Z"
+  },
+  {
    "player": "Aaron Nesmith",
    "team": "Indiana Pacers",
    "status": "Day-To-Day",
    "note": "Nesmith is out for Monday's game against the Thunder due to right foot soreness.",
-   "date": "2026-11-24T04:40Z"
-  },
-  {
-   "player": "T.J. McConnell",
-   "team": "Indiana Pacers",
-   "status": "Day-To-Day",
-   "note": "McConnell is out for Monday's game against the Thunder due to left hamstring soreness.",
    "date": "2026-11-24T04:40Z"
   },
   {
@@ -1263,20 +1277,6 @@
    "status": "Day-To-Day",
    "note": "Nance exited Monday's game against the Thunder due to a sore right ankle and he will not return, Tony East of Forbes.com reports.",
    "date": "2026-11-24T02:00Z"
-  },
-  {
-   "player": "Tyrese Haliburton",
-   "team": "Indiana Pacers",
-   "status": "Out",
-   "note": "Haliburton (hamstring) is expected to miss at least two more weeks, Shams Charania of ESPN reports.",
-   "date": "2026-11-20T20:41Z"
-  },
-  {
-   "player": "Johnny Furphy",
-   "team": "Indiana Pacers",
-   "status": "Out",
-   "note": "Furphy (knee) is practicing with the G League's Noblesville Boom, per Alex Golden of SI.com.",
-   "date": "2026-10-30T19:06Z"
   },
   {
    "player": "Ben Sheppard",
@@ -1349,6 +1349,13 @@
    "date": "2026-11-23T15:04Z"
   },
   {
+   "player": "Donte DiVincenzo",
+   "team": "Minnesota Timberwolves",
+   "status": "Out",
+   "note": "DiVincenzo (Achilles) has been cleared for team basketball activities and is targeting a return to game action in January, Jon Krawczynski of The Athletic reports.",
+   "date": "2026-11-24T17:10Z"
+  },
+  {
    "player": "Jaylen Clark",
    "team": "Minnesota Timberwolves",
    "status": "Out",
@@ -1361,13 +1368,6 @@
    "status": "Out",
    "note": "Edwards underwent a successful arthroscopic procedure on his right knee Thursday, the Timberwolves announced.",
    "date": "2026-10-29T18:33Z"
-  },
-  {
-   "player": "Donte DiVincenzo",
-   "team": "Minnesota Timberwolves",
-   "status": "Out",
-   "note": "DiVincenzo (Achilles) remains confident that he'll return during the 2026-27 season, Jon Krawczynski of The Athletic reports.",
-   "date": "2026-10-05T20:53Z"
   },
   {
    "player": "Trendon Watford",
@@ -1391,25 +1391,25 @@
    "date": "2026-11-13T20:19Z"
   },
   {
-   "player": "Miles McBride",
+   "player": "Jordan Clarkson",
    "team": "New York Knicks",
-   "status": "Day-To-Day",
-   "note": "McBride (abdomen) has been ruled out for Sunday's game against the Pacers.",
-   "date": "2026-11-23T15:07Z"
+   "status": "Out",
+   "note": "Clarkson (foot) didn't participate in Tuesday's practice, Jared Schwartz of the New York Post reports.",
+   "date": "2026-11-24T18:48Z"
   },
   {
    "player": "OG Anunoby",
    "team": "New York Knicks",
    "status": "Day-To-Day",
-   "note": "Anunoby (calf) won't play Sunday against the Pacers.",
-   "date": "2026-11-23T15:07Z"
+   "note": "Anunoby (calf) did not participate in Tuesday's practice, Jared Schwartz of the New York Post reports.",
+   "date": "2026-11-24T18:42Z"
   },
   {
-   "player": "Jordan Clarkson",
+   "player": "Miles McBride",
    "team": "New York Knicks",
-   "status": "Out",
-   "note": "Clarkson (foot) has been ruled out for Sunday's game against Indiana.",
-   "date": "2026-11-22T18:05Z"
+   "status": "Day-To-Day",
+   "note": "McBride (groin) practiced Tuesday, per Jared Schwartz of the New York Post.",
+   "date": "2026-11-24T18:40Z"
   },
   {
    "player": "Jaylin Williams",
@@ -1643,6 +1643,13 @@
    "date": "2026-10-27T19:25Z"
   },
   {
+   "player": "Tre Mann",
+   "team": "Washington Wizards",
+   "status": "Day-To-Day",
+   "note": "Mann (illness) has been downgraded to questionable for Tuesday's game against Boston.",
+   "date": "2026-11-24T16:47Z"
+  },
+  {
    "player": "Tristan Vukcevic",
    "team": "Washington Wizards",
    "status": "Out",
@@ -1671,5 +1678,18 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "changes": []
+ "changes": [
+  {
+   "player": "Jalen Smith",
+   "team": "Chicago Bulls",
+   "from": "nuovo",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Tre Mann",
+   "team": "Washington Wizards",
+   "from": "nuovo",
+   "to": "Day-To-Day"
+  }
+ ]
 }
