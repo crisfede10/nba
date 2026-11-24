@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T07:06:57.597722Z",
+ "updated": "2026-11-24T10:04:06.712817Z",
  "finished": [
   {
    "date": "2026-11-24T03:00Z",
@@ -1671,60 +1671,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "changes": [
-  {
-   "player": "Grant Williams",
-   "team": "Charlotte Hornets",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Aaron Nesmith",
-   "team": "Indiana Pacers",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "T.J. McConnell",
-   "team": "Indiana Pacers",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Jaylin Williams",
-   "team": "Oklahoma City Thunder",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Aday Mara",
-   "team": "Oklahoma City Thunder",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Joel Embiid",
-   "team": "Philadelphia 76ers",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Victor Wembanyama",
-   "team": "San Antonio Spurs",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "De'Aaron Fox",
-   "team": "San Antonio Spurs",
-   "from": "Out",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Jaxson Hayes",
-   "team": "Utah Jazz",
-   "from": "Out",
-   "to": "Day-To-Day"
-  }
- ]
+ "changes": []
 }
