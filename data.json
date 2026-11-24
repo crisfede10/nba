@@ -1,6 +1,26 @@
 {
- "updated": "2026-11-24T03:55:52.669601Z",
+ "updated": "2026-11-24T07:06:57.597722Z",
  "finished": [
+  {
+   "date": "2026-11-24T03:00Z",
+   "state": "post",
+   "home": "SAC",
+   "away": "SA",
+   "homeName": "Sacramento Kings",
+   "awayName": "San Antonio Spurs",
+   "hs": 107,
+   "as": 123
+  },
+  {
+   "date": "2026-11-24T03:00Z",
+   "state": "post",
+   "home": "LAL",
+   "away": "UTAH",
+   "homeName": "Los Angeles Lakers",
+   "awayName": "Utah Jazz",
+   "hs": 109,
+   "as": 94
+  },
   {
    "date": "2026-11-24T01:30Z",
    "state": "post",
@@ -180,58 +200,9 @@
    "awayName": "Memphis Grizzlies",
    "hs": 104,
    "as": 95
-  },
-  {
-   "date": "2026-11-22T01:00Z",
-   "state": "post",
-   "home": "DAL",
-   "away": "LAC",
-   "homeName": "Dallas Mavericks",
-   "awayName": "LA Clippers",
-   "hs": 110,
-   "as": 100
-  },
-  {
-   "date": "2026-11-22T00:30Z",
-   "state": "post",
-   "home": "NY",
-   "away": "POR",
-   "homeName": "New York Knicks",
-   "awayName": "Portland Trail Blazers",
-   "hs": 97,
-   "as": 96
   }
  ],
  "upcoming": [
-  {
-   "date": "2026-11-24T03:00Z",
-   "state": "in",
-   "home": "LAL",
-   "away": "UTAH",
-   "homeName": "Los Angeles Lakers",
-   "awayName": "Utah Jazz",
-   "hs": 36,
-   "as": 28,
-   "pHome": 91.1,
-   "why": [
-    "Back-to-back: UTAH"
-   ]
-  },
-  {
-   "date": "2026-11-24T03:00Z",
-   "state": "in",
-   "home": "SAC",
-   "away": "SA",
-   "homeName": "Sacramento Kings",
-   "awayName": "San Antonio Spurs",
-   "hs": 41,
-   "as": 44,
-   "pHome": 17.6,
-   "why": [
-    "Victor Wembanyama (Out, SA)",
-    "Dylan Harper (Out, SA)"
-   ]
-  },
   {
    "date": "2026-11-25T00:00Z",
    "state": "pre",
@@ -279,9 +250,9 @@
    "awayName": "Miami Heat",
    "hs": 0,
    "as": 0,
-   "pHome": 57.9,
+   "pHome": 61.6,
    "why": [
-    "Joel Embiid (Out, PHI)",
+    "Joel Embiid (Day-To-Day, PHI)",
     "Giannis Antetokounmpo (Day-To-Day, MIA)"
    ]
   },
@@ -368,7 +339,7 @@
    "awayName": "Sacramento Kings",
    "hs": 0,
    "as": 0,
-   "pHome": 74.8,
+   "pHome": 76.1,
    "why": []
   },
   {
@@ -380,10 +351,9 @@
    "awayName": "San Antonio Spurs",
    "hs": 0,
    "as": 0,
-   "pHome": 50.4,
+   "pHome": 43.4,
    "why": [
-    "Victor Wembanyama (Out, SA)",
-    "Dylan Harper (Out, SA)"
+    "Victor Wembanyama (Day-To-Day, SA)"
    ]
   },
   {
@@ -423,9 +393,9 @@
    "awayName": "Philadelphia 76ers",
    "hs": 0,
    "as": 0,
-   "pHome": 29.7,
+   "pHome": 26.5,
    "why": [
-    "Joel Embiid (Out, PHI)"
+    "Joel Embiid (Day-To-Day, PHI)"
    ]
   },
   {
@@ -463,6 +433,32 @@
    "as": 0,
    "pHome": 57.5,
    "why": []
+  },
+  {
+   "date": "2026-11-28T02:00Z",
+   "state": "pre",
+   "home": "PHX",
+   "away": "DAL",
+   "homeName": "Phoenix Suns",
+   "awayName": "Dallas Mavericks",
+   "hs": 0,
+   "as": 0,
+   "pHome": 63.7,
+   "why": []
+  },
+  {
+   "date": "2026-11-28T02:30Z",
+   "state": "pre",
+   "home": "SA",
+   "away": "LAL",
+   "homeName": "San Antonio Spurs",
+   "awayName": "Los Angeles Lakers",
+   "hs": 0,
+   "as": 0,
+   "pHome": 59.0,
+   "why": [
+    "Victor Wembanyama (Day-To-Day, SA)"
+   ]
   }
  ],
  "defense": [
@@ -480,8 +476,8 @@
   },
   {
    "team": "SA",
-   "allowed": 102.3,
-   "games": 6,
+   "allowed": 103.0,
+   "games": 7,
    "rank": 3
   },
   {
@@ -515,45 +511,45 @@
    "rank": 8
   },
   {
+   "team": "LAL",
+   "allowed": 109.3,
+   "games": 6,
+   "rank": 9
+  },
+  {
    "team": "PHX",
    "allowed": 109.9,
    "games": 7,
-   "rank": 9
+   "rank": 10
   },
   {
    "team": "CHA",
    "allowed": 112.0,
    "games": 5,
-   "rank": 10
+   "rank": 11
   },
   {
    "team": "MEM",
    "allowed": 112.2,
    "games": 8,
-   "rank": 11
-  },
-  {
-   "team": "LAL",
-   "allowed": 112.4,
-   "games": 5,
    "rank": 12
   },
   {
    "team": "UTAH",
-   "allowed": 113.0,
-   "games": 8,
+   "allowed": 112.6,
+   "games": 9,
    "rank": 13
-  },
-  {
-   "team": "SAC",
-   "allowed": 113.7,
-   "games": 6,
-   "rank": 14
   },
   {
    "team": "GS",
    "allowed": 113.7,
    "games": 6,
+   "rank": 14
+  },
+  {
+   "team": "SAC",
+   "allowed": 115.0,
+   "games": 7,
    "rank": 15
   },
   {
@@ -714,10 +710,10 @@
     50
    ],
    "next": {
-    "team": "SAC",
-    "date": "2026-11-24T03:00Z",
-    "rank": 14,
-    "allowed": 113.7,
+    "team": "POR",
+    "date": "2026-11-26T03:00Z",
+    "rank": 5,
+    "allowed": 106.5,
     "home": false
    }
   },
@@ -761,25 +757,6 @@
    }
   },
   {
-   "player": "Luka Doncic",
-   "team": "LAL",
-   "avg": 32.2,
-   "games": 4,
-   "last": [
-    32,
-    43,
-    29,
-    25
-   ],
-   "next": {
-    "team": "UTAH",
-    "date": "2026-11-24T03:00Z",
-    "rank": 13,
-    "allowed": 113.0,
-    "home": true
-   }
-  },
-  {
    "player": "Tyler Herro",
    "team": "MIL",
    "avg": 32.0,
@@ -818,6 +795,26 @@
    }
   },
   {
+   "player": "Luka Doncic",
+   "team": "LAL",
+   "avg": 31.4,
+   "games": 5,
+   "last": [
+    32,
+    43,
+    29,
+    25,
+    28
+   ],
+   "next": {
+    "team": "SA",
+    "date": "2026-11-28T02:30Z",
+    "rank": 3,
+    "allowed": 103.0,
+    "home": false
+   }
+  },
+  {
    "player": "Alperen Sengun",
    "team": "HOU",
    "avg": 31.3,
@@ -830,7 +827,7 @@
    "next": {
     "team": "PHX",
     "date": "2026-11-26T01:30Z",
-    "rank": 9,
+    "rank": 10,
     "allowed": 109.9,
     "home": true
    }
@@ -938,13 +935,13 @@
     {
      "team": "San Antonio Spurs",
      "abbr": "SA",
-     "w": 14,
+     "w": 15,
      "l": 3
     },
     {
      "team": "Los Angeles Lakers",
      "abbr": "LAL",
-     "w": 14,
+     "w": 15,
      "l": 3
     },
     {
@@ -1017,13 +1014,13 @@
      "team": "Utah Jazz",
      "abbr": "UTAH",
      "w": 3,
-     "l": 15
+     "l": 16
     },
     {
      "team": "Sacramento Kings",
      "abbr": "SAC",
      "w": 2,
-     "l": 14
+     "l": 15
     }
    ]
   }
@@ -1079,6 +1076,13 @@
    "date": "2026-11-23T15:22Z"
   },
   {
+   "player": "Grant Williams",
+   "team": "Charlotte Hornets",
+   "status": "Day-To-Day",
+   "note": "Williams (hamstring) won't play Monday's game against the Grizzlies.",
+   "date": "2026-11-24T04:32Z"
+  },
+  {
    "player": "Ryan Kalkbrenner",
    "team": "Charlotte Hornets",
    "status": "Day-To-Day",
@@ -1091,13 +1095,6 @@
    "status": "Out",
    "note": "Allen (concussion) has been ruled out for Monday's game against the Grizzlies.",
    "date": "2026-11-22T22:08Z"
-  },
-  {
-   "player": "Grant Williams",
-   "team": "Charlotte Hornets",
-   "status": "Out",
-   "note": "Williams (hamstring) won't play Monday's game against the Grizzlies.",
-   "date": "2026-11-22T22:05Z"
   },
   {
    "player": "Kon Knueppel",
@@ -1247,25 +1244,25 @@
    "date": "2026-10-16T16:11Z"
   },
   {
+   "player": "Aaron Nesmith",
+   "team": "Indiana Pacers",
+   "status": "Day-To-Day",
+   "note": "Nesmith is out for Monday's game against the Thunder due to right foot soreness.",
+   "date": "2026-11-24T04:40Z"
+  },
+  {
+   "player": "T.J. McConnell",
+   "team": "Indiana Pacers",
+   "status": "Day-To-Day",
+   "note": "McConnell is out for Monday's game against the Thunder due to left hamstring soreness.",
+   "date": "2026-11-24T04:40Z"
+  },
+  {
    "player": "Larry Nance Jr.",
    "team": "Indiana Pacers",
    "status": "Day-To-Day",
    "note": "Nance exited Monday's game against the Thunder due to a sore right ankle and he will not return, Tony East of Forbes.com reports.",
    "date": "2026-11-24T02:00Z"
-  },
-  {
-   "player": "T.J. McConnell",
-   "team": "Indiana Pacers",
-   "status": "Out",
-   "note": "McConnell is out for Monday's game against the Thunder due to left hamstring soreness.",
-   "date": "2026-11-23T18:25Z"
-  },
-  {
-   "player": "Aaron Nesmith",
-   "team": "Indiana Pacers",
-   "status": "Out",
-   "note": "Nesmith is out for Monday's game against the Thunder due to right foot soreness.",
-   "date": "2026-11-23T18:22Z"
   },
   {
    "player": "Tyrese Haliburton",
@@ -1417,9 +1414,16 @@
   {
    "player": "Jaylin Williams",
    "team": "Oklahoma City Thunder",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Williams (back) has been ruled out for Monday's game against the Pacers",
-   "date": "2026-11-23T19:09Z"
+   "date": "2026-11-24T04:36Z"
+  },
+  {
+   "player": "Aday Mara",
+   "team": "Oklahoma City Thunder",
+   "status": "Day-To-Day",
+   "note": "Mara (shin) has been ruled out for Monday's game against the Pacers.",
+   "date": "2026-11-24T04:36Z"
   },
   {
    "player": "Nikola Topic",
@@ -1427,13 +1431,6 @@
    "status": "Out",
    "note": "Topic (hip) has been ruled out for Monday's game against the Pacers, according to the NBA's official injury report.",
    "date": "2026-11-23T18:49Z"
-  },
-  {
-   "player": "Aday Mara",
-   "team": "Oklahoma City Thunder",
-   "status": "Out",
-   "note": "Mara (shin) has been ruled out for Monday's game against the Pacers.",
-   "date": "2026-11-23T18:45Z"
   },
   {
    "player": "Jalen Williams",
@@ -1501,9 +1498,9 @@
   {
    "player": "Joel Embiid",
    "team": "Philadelphia 76ers",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Embiid (illness) is out for Monday's game against Portland, Austin Krell of OnPattison.com reports.",
-   "date": "2026-11-23T22:49Z"
+   "date": "2026-11-24T04:33Z"
   },
   {
    "player": "Ariel Hukporti",
@@ -1511,13 +1508,6 @@
    "status": "Out",
    "note": "Hukporti has sustained a season-ending ruptured right Achilles tendon, per Shams Charania of ESPN.",
    "date": "2026-10-06T19:17Z"
-  },
-  {
-   "player": "Collin Gillespie",
-   "team": "Phoenix Suns",
-   "status": "Day-To-Day",
-   "note": "Gillespie went to the locker room during the third quarter of Monday's game against the Pelicans due to an undisclosed injury, Duane Rankin of The Arizona Republic reports.",
-   "date": "2026-11-24T02:48Z"
   },
   {
    "player": "Mark Williams",
@@ -1569,18 +1559,18 @@
    "date": "2026-10-21T04:22Z"
   },
   {
-   "player": "De'Aaron Fox",
-   "team": "San Antonio Spurs",
-   "status": "Out",
-   "note": "Fox (shin) has been ruled out for Monday's game against the Kings, Jeff McDonald of the San Antonio Express-News reports.",
-   "date": "2026-11-24T01:24Z"
-  },
-  {
    "player": "Victor Wembanyama",
    "team": "San Antonio Spurs",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Wembanyama (back) won't play Monday against the Kings, Jeff McDonald of the San Antonio Express-News reports.",
-   "date": "2026-11-24T01:24Z"
+   "date": "2026-11-24T06:06Z"
+  },
+  {
+   "player": "De'Aaron Fox",
+   "team": "San Antonio Spurs",
+   "status": "Day-To-Day",
+   "note": "Fox (shin) has been ruled out for Monday's game against the Kings, Jeff McDonald of the San Antonio Express-News reports.",
+   "date": "2026-11-24T06:06Z"
   },
   {
    "player": "Dylan Harper",
@@ -1627,9 +1617,9 @@
   {
    "player": "Jaxson Hayes",
    "team": "Utah Jazz",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Hayes (knee) has been ruled out for Monday's game against the Lakers.",
-   "date": "2026-11-23T21:04Z"
+   "date": "2026-11-24T06:07Z"
   },
   {
    "player": "Jusuf Nurkic",
@@ -1683,34 +1673,58 @@
  ],
  "changes": [
   {
-   "player": "Ryan Kalkbrenner",
+   "player": "Grant Williams",
    "team": "Charlotte Hornets",
-   "from": "nuovo",
+   "from": "Out",
    "to": "Day-To-Day"
   },
   {
-   "player": "Larry Nance Jr.",
+   "player": "Aaron Nesmith",
    "team": "Indiana Pacers",
-   "from": "nuovo",
+   "from": "Out",
    "to": "Day-To-Day"
   },
   {
-   "player": "Collin Gillespie",
-   "team": "Phoenix Suns",
-   "from": "nuovo",
+   "player": "T.J. McConnell",
+   "team": "Indiana Pacers",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Jaylin Williams",
+   "team": "Oklahoma City Thunder",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Aday Mara",
+   "team": "Oklahoma City Thunder",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Joel Embiid",
+   "team": "Philadelphia 76ers",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Victor Wembanyama",
+   "team": "San Antonio Spurs",
+   "from": "Out",
    "to": "Day-To-Day"
   },
   {
    "player": "De'Aaron Fox",
    "team": "San Antonio Spurs",
-   "from": "Day-To-Day",
-   "to": "Out"
+   "from": "Out",
+   "to": "Day-To-Day"
   },
   {
-   "player": "Victor Wembanyama",
-   "team": "San Antonio Spurs",
-   "from": "Day-To-Day",
-   "to": "Out"
+   "player": "Jaxson Hayes",
+   "team": "Utah Jazz",
+   "from": "Out",
+   "to": "Day-To-Day"
   }
  ]
 }
