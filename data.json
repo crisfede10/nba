@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T18:54:37.972150Z",
+ "updated": "2026-11-24T21:53:30.792799Z",
  "finished": [
   {
    "date": "2026-11-24T03:00Z",
@@ -1219,8 +1219,8 @@
    "player": "Brandon Williams",
    "team": "Golden State Warriors",
    "status": "Out",
-   "note": "Head coach Steve Kerr said Monday that Williams (hamstring) is on track to return Wednesday against the Kings, Kenzo Fukuda of ClutchPoints.com reports.",
-   "date": "2026-11-23T20:52Z"
+   "note": "Head coach Steve Kerr said Tuesday that Williams (hamstring) is questionable to play Wednesday against the Kings, per Dalton Johnson of NBC Sports Bay Area.",
+   "date": "2026-11-24T20:58Z"
   },
   {
    "player": "Stephen Curry",
@@ -1254,15 +1254,15 @@
    "player": "T.J. McConnell",
    "team": "Indiana Pacers",
    "status": "Day-To-Day",
-   "note": "McConnell (hamstring) was assigned to the G League's Noblesville Boom on Tuesday.",
-   "date": "2026-11-24T16:02Z"
+   "note": "McConnell (hamstring) was recalled from the G League's Noblesville Boom on Tuesday, Shams Charania of ESPN reports.",
+   "date": "2026-11-24T19:43Z"
   },
   {
    "player": "Tyrese Haliburton",
    "team": "Indiana Pacers",
    "status": "Out",
-   "note": "Haliburton (hamstring) was assigned to the G League's Noblesville Boom on Tuesday.",
-   "date": "2026-11-24T15:57Z"
+   "note": "Haliburton (hamstring) was recalled from the G League's Noblesville Boom on Tuesday, Tony East of Forbes.com reports.",
+   "date": "2026-11-24T19:41Z"
   },
   {
    "player": "Aaron Nesmith",
@@ -1345,8 +1345,8 @@
    "player": "Giannis Antetokounmpo",
    "team": "Miami Heat",
    "status": "Day-To-Day",
-   "note": "Antetokounmpo (groin) won't play in Sunday's game against Oklahoma City, Clemente Almanza of USA Today reports.",
-   "date": "2026-11-23T15:04Z"
+   "note": "Antetokounmpo (groin) participated in most of Tuesday's practice, Zachary Weinberger of ClutchPoints.com reports.",
+   "date": "2026-11-24T18:56Z"
   },
   {
    "player": "Donte DiVincenzo",
@@ -1594,18 +1594,18 @@
    "date": "2026-10-05T21:43Z"
   },
   {
+   "player": "Kawhi Leonard",
+   "team": "Toronto Raptors",
+   "status": "Out",
+   "note": "Leonard has begun individual on-court workouts following treatment to address swelling in his left knee, and he will be re-evaluated in one week, Marc J. Spears of ESPN.com reports.",
+   "date": "2026-11-24T21:15Z"
+  },
+  {
    "player": "Nate Bittle",
    "team": "Toronto Raptors",
    "status": "Out",
    "note": "Bittle (foot) has been ruled out for Monday's game against the Bucks, Blake Murphy of Sportsnet.ca reports.",
    "date": "2026-11-22T21:13Z"
-  },
-  {
-   "player": "Kawhi Leonard",
-   "team": "Toronto Raptors",
-   "status": "Out",
-   "note": "Leonard (knee) could return in the next few weeks, per Shams Charania of ESPN.",
-   "date": "2026-11-20T20:42Z"
   },
   {
    "player": "RJ Barrett",
@@ -1678,18 +1678,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "changes": [
-  {
-   "player": "Jalen Smith",
-   "team": "Chicago Bulls",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Tre Mann",
-   "team": "Washington Wizards",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  }
- ]
+ "changes": []
 }
