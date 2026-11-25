@@ -1,6 +1,16 @@
 {
- "updated": "2026-11-25T03:58:12.628897Z",
+ "updated": "2026-11-25T07:10:59.664558Z",
  "finished": [
+  {
+   "date": "2026-11-25T03:00Z",
+   "state": "post",
+   "home": "DEN",
+   "away": "DAL",
+   "homeName": "Denver Nuggets",
+   "awayName": "Dallas Mavericks",
+   "hs": 101,
+   "as": 120
+  },
   {
    "date": "2026-11-25T01:00Z",
    "state": "post",
@@ -190,31 +200,9 @@
    "awayName": "Detroit Pistons",
    "hs": 107,
    "as": 97
-  },
-  {
-   "date": "2026-11-22T03:00Z",
-   "state": "post",
-   "home": "SAC",
-   "away": "BOS",
-   "homeName": "Sacramento Kings",
-   "awayName": "Boston Celtics",
-   "hs": 97,
-   "as": 96
   }
  ],
  "upcoming": [
-  {
-   "date": "2026-11-25T03:00Z",
-   "state": "in",
-   "home": "DEN",
-   "away": "DAL",
-   "homeName": "Denver Nuggets",
-   "awayName": "Dallas Mavericks",
-   "hs": 30,
-   "as": 41,
-   "pHome": 66.2,
-   "why": []
-  },
   {
    "date": "2026-11-25T22:00Z",
    "state": "pre",
@@ -422,7 +410,7 @@
    "awayName": "Dallas Mavericks",
    "hs": 0,
    "as": 0,
-   "pHome": 63.7,
+   "pHome": 58.0,
    "why": []
   },
   {
@@ -448,7 +436,7 @@
    "awayName": "Denver Nuggets",
    "hs": 0,
    "as": 0,
-   "pHome": 25.3,
+   "pHome": 30.5,
    "why": []
   },
   {
@@ -462,6 +450,20 @@
    "as": 0,
    "pHome": 54.2,
    "why": []
+  },
+  {
+   "date": "2026-11-28T02:30Z",
+   "state": "pre",
+   "home": "POR",
+   "away": "GS",
+   "homeName": "Portland Trail Blazers",
+   "awayName": "Golden State Warriors",
+   "hs": 0,
+   "as": 0,
+   "pHome": 76.9,
+   "why": [
+    "Yaxel Lendeborg (Day-To-Day, GS)"
+   ]
   }
  ],
  "defense": [
@@ -556,20 +558,20 @@
    "rank": 15
   },
   {
-   "team": "HOU",
-   "allowed": 116.3,
+   "team": "DAL",
+   "allowed": 114.3,
    "games": 7,
    "rank": 16
   },
   {
-   "team": "SAC",
+   "team": "HOU",
    "allowed": 116.3,
-   "games": 6,
+   "games": 7,
    "rank": 17
   },
   {
-   "team": "DAL",
-   "allowed": 116.5,
+   "team": "SAC",
+   "allowed": 116.3,
    "games": 6,
    "rank": 18
   },
@@ -605,8 +607,8 @@
   },
   {
    "team": "DEN",
-   "allowed": 118.8,
-   "games": 6,
+   "allowed": 119.0,
+   "games": 7,
    "rank": 24
   },
   {
@@ -662,23 +664,6 @@
     "rank": 4,
     "allowed": 104.6,
     "home": false
-   }
-  },
-  {
-   "player": "Jamal Murray",
-   "team": "DEN",
-   "avg": 37.5,
-   "games": 2,
-   "last": [
-    30,
-    45
-   ],
-   "next": {
-    "team": "DAL",
-    "date": "2026-11-25T03:00Z",
-    "rank": 18,
-    "allowed": 116.5,
-    "home": true
    }
   },
   {
@@ -775,6 +760,24 @@
     "rank": 30,
     "allowed": 127.8,
     "home": true
+   }
+  },
+  {
+   "player": "Jamal Murray",
+   "team": "DEN",
+   "avg": 31.7,
+   "games": 3,
+   "last": [
+    30,
+    45,
+    20
+   ],
+   "next": {
+    "team": "UTAH",
+    "date": "2026-11-28T02:30Z",
+    "rank": 14,
+    "allowed": 112.2,
+    "home": false
    }
   },
   {
@@ -965,21 +968,21 @@
      "l": 5
     },
     {
-     "team": "Denver Nuggets",
-     "abbr": "DEN",
-     "w": 10,
-     "l": 5
-    },
-    {
      "team": "Portland Trail Blazers",
      "abbr": "POR",
      "w": 11,
      "l": 6
     },
     {
+     "team": "Denver Nuggets",
+     "abbr": "DEN",
+     "w": 10,
+     "l": 6
+    },
+    {
      "team": "Dallas Mavericks",
      "abbr": "DAL",
-     "w": 10,
+     "w": 11,
      "l": 7
     },
     {
@@ -1557,8 +1560,8 @@
    "player": "Maxime Raynaud",
    "team": "Sacramento Kings",
    "status": "Out",
-   "note": "Raynaud (knee) will remain on the inactive list for Wednesday's game against the Suns.",
-   "date": "2026-11-18T05:54Z"
+   "note": "Raynaud (knee) is out for Wednesday's game against the Warriors.",
+   "date": "2026-11-25T04:21Z"
   },
   {
    "player": "Ben Simmons",
