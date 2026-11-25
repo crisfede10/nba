@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T18:48:57.372393Z",
+ "updated": "2026-11-25T21:54:40.264569Z",
  "finished": [
   {
    "date": "2026-11-25T03:00Z",
@@ -212,10 +212,9 @@
    "awayName": "Miami Heat",
    "hs": 0,
    "as": 0,
-   "pHome": 60.8,
+   "pHome": 52.9,
    "why": [
-    "Joel Embiid (Day-To-Day, PHI)",
-    "Giannis Antetokounmpo (Day-To-Day, MIA)"
+    "Joel Embiid (Out, PHI)"
    ]
   },
   {
@@ -243,8 +242,8 @@
    "as": 0,
    "pHome": 62.7,
    "why": [
-    "Karl-Anthony Towns (Day-To-Day, NY)",
-    "Jalen Brunson (Day-To-Day, NY)"
+    "Jalen Brunson (Day-To-Day, NY)",
+    "Karl-Anthony Towns (Day-To-Day, NY)"
    ]
   },
   {
@@ -332,11 +331,10 @@
    "awayName": "Miami Heat",
    "hs": 0,
    "as": 0,
-   "pHome": 50.8,
+   "pHome": 47.2,
    "why": [
-    "Karl-Anthony Towns (Day-To-Day, NY)",
     "Jalen Brunson (Day-To-Day, NY)",
-    "Giannis Antetokounmpo (Day-To-Day, MIA)"
+    "Karl-Anthony Towns (Day-To-Day, NY)"
    ]
   },
   {
@@ -348,9 +346,9 @@
    "awayName": "Milwaukee Bucks",
    "hs": 0,
    "as": 0,
-   "pHome": 85.4,
+   "pHome": 87.7,
    "why": [
-    "Cade Cunningham (Out, DET)"
+    "Cade Cunningham (Day-To-Day, DET)"
    ]
   },
   {
@@ -362,9 +360,9 @@
    "awayName": "Philadelphia 76ers",
    "hs": 0,
    "as": 0,
-   "pHome": 26.9,
+   "pHome": 30.6,
    "why": [
-    "Joel Embiid (Day-To-Day, PHI)"
+    "Joel Embiid (Out, PHI)"
    ]
   },
   {
@@ -1183,9 +1181,9 @@
   {
    "player": "Cade Cunningham",
    "team": "Detroit Pistons",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Cunningham (knee) is listed as out for Tuesday's game against Orlando.",
-   "date": "2026-11-24T23:36Z"
+   "date": "2026-11-25T19:00Z"
   },
   {
    "player": "Ebuka Okorie",
@@ -1310,8 +1308,8 @@
    "player": "Austin Reaves",
    "team": "Los Angeles Lakers",
    "status": "Out",
-   "note": "Coach JJ Redick stated Monday that the team is optimistic Reaves (heel) will return for Friday's game against San Antonio, Daniel Starkand of LakersNation.com reports.",
-   "date": "2026-11-24T01:31Z"
+   "note": "Reaves (heel) was a full participant in Wednesday's practice, Daniel Starkand of LakersNation.com reports.",
+   "date": "2026-11-25T20:33Z"
   },
   {
    "player": "Scotty Pippen Jr.",
@@ -1347,13 +1345,6 @@
    "status": "Out",
    "note": "Saunders signed a two-way contract with the Grizzlies on Saturday, Shams Charania of ESPN reports.",
    "date": "2026-11-07T17:24Z"
-  },
-  {
-   "player": "Giannis Antetokounmpo",
-   "team": "Miami Heat",
-   "status": "Day-To-Day",
-   "note": "Antetokounmpo (groin) is questionable for Wednesday's game in Philadelphia.",
-   "date": "2026-11-24T22:07Z"
   },
   {
    "player": "Donte DiVincenzo",
@@ -1405,6 +1396,13 @@
    "date": "2026-11-13T20:19Z"
   },
   {
+   "player": "Jalen Brunson",
+   "team": "New York Knicks",
+   "status": "Day-To-Day",
+   "note": "Brunson (illness) is probable for Wednesday's game against Cleveland.",
+   "date": "2026-11-25T21:35Z"
+  },
+  {
    "player": "Josh Hart",
    "team": "New York Knicks",
    "status": "Day-To-Day",
@@ -1424,13 +1422,6 @@
    "status": "Day-To-Day",
    "note": "Towns (knee) is probable for Wednesday's game against Cleveland.",
    "date": "2026-11-25T17:54Z"
-  },
-  {
-   "player": "Jalen Brunson",
-   "team": "New York Knicks",
-   "status": "Day-To-Day",
-   "note": "Brunson (illness) has been downgraded to questionable for Wednesday's game against the Cavaliers.",
-   "date": "2026-11-25T17:53Z"
   },
   {
    "player": "Jordan Clarkson",
@@ -1526,9 +1517,9 @@
   {
    "player": "Joel Embiid",
    "team": "Philadelphia 76ers",
-   "status": "Day-To-Day",
-   "note": "Embiid (illness) is listed as doubtful for Wednesday's game versus Miami.",
-   "date": "2026-11-24T22:09Z"
+   "status": "Out",
+   "note": "Embiid (illness) is out for Wednesday's game against Miami, Ira Winderman of the South Florida Sun Sentinel reports.",
+   "date": "2026-11-25T20:07Z"
   },
   {
    "player": "Ariel Hukporti",
@@ -1576,8 +1567,15 @@
    "player": "Maxime Raynaud",
    "team": "Sacramento Kings",
    "status": "Out",
-   "note": "Raynaud (knee) was assigned to the G League's Stockton Kings on Wednesday, James Ham of ESPN 1320 Sacramento reports.",
-   "date": "2026-11-25T16:25Z"
+   "note": "Raynaud (knee) was recalled from the G League's Stockton Kings on Wednesday, Marc J. Spears of ESPN.com reports.",
+   "date": "2026-11-25T21:38Z"
+  },
+  {
+   "player": "Zach LaVine",
+   "team": "Sacramento Kings",
+   "status": "Day-To-Day",
+   "note": "LaVine (knee) has been downgraded to questionable for Wednesday's game against Golden State.",
+   "date": "2026-11-25T20:49Z"
   },
   {
    "player": "Ben Simmons",
@@ -1701,26 +1699,20 @@
  ],
  "changes": [
   {
-   "player": "Ryan Kalkbrenner",
-   "team": "Charlotte Hornets",
-   "from": "Day-To-Day",
-   "to": "Out"
-  },
-  {
-   "player": "Julian Reese",
-   "team": "New Orleans Pelicans",
-   "from": "nuovo",
+   "player": "Cade Cunningham",
+   "team": "Detroit Pistons",
+   "from": "Out",
    "to": "Day-To-Day"
   },
   {
-   "player": "Miles McBride",
-   "team": "New York Knicks",
+   "player": "Joel Embiid",
+   "team": "Philadelphia 76ers",
    "from": "Day-To-Day",
    "to": "Out"
   },
   {
-   "player": "Jalen Brunson",
-   "team": "New York Knicks",
+   "player": "Zach LaVine",
+   "team": "Sacramento Kings",
    "from": "nuovo",
    "to": "Day-To-Day"
   }
