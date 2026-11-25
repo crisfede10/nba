@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T15:59:41.749458Z",
+ "updated": "2026-11-25T18:48:57.372393Z",
  "finished": [
   {
    "date": "2026-11-25T03:00Z",
@@ -241,9 +241,10 @@
    "awayName": "Cleveland Cavaliers",
    "hs": 0,
    "as": 0,
-   "pHome": 65.9,
+   "pHome": 62.7,
    "why": [
-    "Karl-Anthony Towns (Day-To-Day, NY)"
+    "Karl-Anthony Towns (Day-To-Day, NY)",
+    "Jalen Brunson (Day-To-Day, NY)"
    ]
   },
   {
@@ -331,9 +332,10 @@
    "awayName": "Miami Heat",
    "hs": 0,
    "as": 0,
-   "pHome": 54.2,
+   "pHome": 50.8,
    "why": [
     "Karl-Anthony Towns (Day-To-Day, NY)",
+    "Jalen Brunson (Day-To-Day, NY)",
     "Giannis Antetokounmpo (Day-To-Day, MIA)"
    ]
   },
@@ -1083,9 +1085,16 @@
   {
    "player": "Ryan Kalkbrenner",
    "team": "Charlotte Hornets",
-   "status": "Day-To-Day",
-   "note": "Kalkbrenner (hip) is doubtful to play Wednesday against the Bulls.",
-   "date": "2026-11-24T22:33Z"
+   "status": "Out",
+   "note": "Kalkbrenner (hip) has been ruled out for Wednesday's matchup with Chicago.",
+   "date": "2026-11-25T17:41Z"
+  },
+  {
+   "player": "Grayson Allen",
+   "team": "Charlotte Hornets",
+   "status": "Out",
+   "note": "Allen (concussion) has been ruled out for Wednesday's game against Chicago.",
+   "date": "2026-11-25T17:39Z"
   },
   {
    "player": "Dennis Schroder",
@@ -1100,13 +1109,6 @@
    "status": "Day-To-Day",
    "note": "James is probable for Wednesday's game against the Bulls due to general soreness.",
    "date": "2026-11-24T22:30Z"
-  },
-  {
-   "player": "Grayson Allen",
-   "team": "Charlotte Hornets",
-   "status": "Out",
-   "note": "Allen (concussion) is listed as questionable for Wednesday's game versus Chicago.",
-   "date": "2026-11-24T22:29Z"
   },
   {
    "player": "Kon Knueppel",
@@ -1375,6 +1377,13 @@
    "date": "2026-10-29T18:33Z"
   },
   {
+   "player": "Julian Reese",
+   "team": "New Orleans Pelicans",
+   "status": "Day-To-Day",
+   "note": "The Pelicans transferred Reese from the G League's Laketown Squadron, and he will be available for New Orleans' game against the Warriors on Monday.",
+   "date": "2026-11-25T16:11Z"
+  },
+  {
    "player": "Trendon Watford",
    "team": "New Orleans Pelicans",
    "status": "Out",
@@ -1396,11 +1405,32 @@
    "date": "2026-11-13T20:19Z"
   },
   {
-   "player": "Miles McBride",
+   "player": "Josh Hart",
    "team": "New York Knicks",
    "status": "Day-To-Day",
-   "note": "McBride (adductor) is listed as questionable for Wednesday's game versus Cleveland.",
-   "date": "2026-11-24T21:56Z"
+   "note": "Hart (shoulder) has been upgraded to probable for Wednesday's game against the Cavaliers.",
+   "date": "2026-11-25T17:57Z"
+  },
+  {
+   "player": "Miles McBride",
+   "team": "New York Knicks",
+   "status": "Out",
+   "note": "McBride (adductor) has been ruled out for Wednesday's game against the Cavaliers.",
+   "date": "2026-11-25T17:57Z"
+  },
+  {
+   "player": "Karl-Anthony Towns",
+   "team": "New York Knicks",
+   "status": "Day-To-Day",
+   "note": "Towns (knee) is probable for Wednesday's game against Cleveland.",
+   "date": "2026-11-25T17:54Z"
+  },
+  {
+   "player": "Jalen Brunson",
+   "team": "New York Knicks",
+   "status": "Day-To-Day",
+   "note": "Brunson (illness) has been downgraded to questionable for Wednesday's game against the Cavaliers.",
+   "date": "2026-11-25T17:53Z"
   },
   {
    "player": "Jordan Clarkson",
@@ -1410,25 +1440,11 @@
    "date": "2026-11-24T21:56Z"
   },
   {
-   "player": "Josh Hart",
-   "team": "New York Knicks",
-   "status": "Day-To-Day",
-   "note": "Hart (shoulder) is listed as questionable for Wednesday's game against Cleveland.",
-   "date": "2026-11-24T21:54Z"
-  },
-  {
    "player": "OG Anunoby",
    "team": "New York Knicks",
    "status": "Out",
    "note": "Anunoby (calf) is out for Wednesday's game against Cleveland.",
    "date": "2026-11-24T21:53Z"
-  },
-  {
-   "player": "Karl-Anthony Towns",
-   "team": "New York Knicks",
-   "status": "Day-To-Day",
-   "note": "Towns (knee) is questionable for Wednesday's game against Cleveland.",
-   "date": "2026-11-24T21:50Z"
   },
   {
    "player": "Nikola Topic",
@@ -1560,8 +1576,8 @@
    "player": "Maxime Raynaud",
    "team": "Sacramento Kings",
    "status": "Out",
-   "note": "Raynaud (knee) is out for Wednesday's game against the Warriors.",
-   "date": "2026-11-25T04:21Z"
+   "note": "Raynaud (knee) was assigned to the G League's Stockton Kings on Wednesday, James Ham of ESPN 1320 Sacramento reports.",
+   "date": "2026-11-25T16:25Z"
   },
   {
    "player": "Ben Simmons",
@@ -1683,5 +1699,30 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "changes": []
+ "changes": [
+  {
+   "player": "Ryan Kalkbrenner",
+   "team": "Charlotte Hornets",
+   "from": "Day-To-Day",
+   "to": "Out"
+  },
+  {
+   "player": "Julian Reese",
+   "team": "New Orleans Pelicans",
+   "from": "nuovo",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Miles McBride",
+   "team": "New York Knicks",
+   "from": "Day-To-Day",
+   "to": "Out"
+  },
+  {
+   "player": "Jalen Brunson",
+   "team": "New York Knicks",
+   "from": "nuovo",
+   "to": "Day-To-Day"
+  }
+ ]
 }
