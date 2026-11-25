@@ -1,6 +1,26 @@
 {
- "updated": "2026-11-25T01:02:47.948993Z",
+ "updated": "2026-11-25T03:58:12.628897Z",
  "finished": [
+  {
+   "date": "2026-11-25T01:00Z",
+   "state": "post",
+   "home": "WSH",
+   "away": "BOS",
+   "homeName": "Washington Wizards",
+   "awayName": "Boston Celtics",
+   "hs": 116,
+   "as": 131
+  },
+  {
+   "date": "2026-11-25T00:00Z",
+   "state": "post",
+   "home": "ORL",
+   "away": "DET",
+   "homeName": "Orlando Magic",
+   "awayName": "Detroit Pistons",
+   "hs": 86,
+   "as": 104
+  },
   {
    "date": "2026-11-24T03:00Z",
    "state": "post",
@@ -180,64 +200,18 @@
    "awayName": "Boston Celtics",
    "hs": 97,
    "as": 96
-  },
-  {
-   "date": "2026-11-22T01:00Z",
-   "state": "post",
-   "home": "SA",
-   "away": "NO",
-   "homeName": "San Antonio Spurs",
-   "awayName": "New Orleans Pelicans",
-   "hs": 114,
-   "as": 91
-  },
-  {
-   "date": "2026-11-22T01:00Z",
-   "state": "post",
-   "home": "MIN",
-   "away": "MEM",
-   "homeName": "Minnesota Timberwolves",
-   "awayName": "Memphis Grizzlies",
-   "hs": 104,
-   "as": 95
   }
  ],
  "upcoming": [
   {
-   "date": "2026-11-25T00:00Z",
-   "state": "in",
-   "home": "ORL",
-   "away": "DET",
-   "homeName": "Orlando Magic",
-   "awayName": "Detroit Pistons",
-   "hs": 32,
-   "as": 43,
-   "pHome": 56.8,
-   "why": [
-    "Cade Cunningham (Out, DET)"
-   ]
-  },
-  {
-   "date": "2026-11-25T01:00Z",
-   "state": "pre",
-   "home": "WSH",
-   "away": "BOS",
-   "homeName": "Washington Wizards",
-   "awayName": "Boston Celtics",
-   "hs": 0,
-   "as": 0,
-   "pHome": 36.3,
-   "why": []
-  },
-  {
    "date": "2026-11-25T03:00Z",
-   "state": "pre",
+   "state": "in",
    "home": "DEN",
    "away": "DAL",
    "homeName": "Denver Nuggets",
    "awayName": "Dallas Mavericks",
-   "hs": 0,
-   "as": 0,
+   "hs": 30,
+   "as": 41,
    "pHome": 66.2,
    "why": []
   },
@@ -384,7 +358,7 @@
    "awayName": "Milwaukee Bucks",
    "hs": 0,
    "as": 0,
-   "pHome": 80.4,
+   "pHome": 85.4,
    "why": [
     "Cade Cunningham (Out, DET)"
    ]
@@ -424,7 +398,7 @@
    "awayName": "Atlanta Hawks",
    "hs": 0,
    "as": 0,
-   "pHome": 56.9,
+   "pHome": 55.1,
    "why": []
   },
   {
@@ -464,13 +438,37 @@
    "why": [
     "Victor Wembanyama (Day-To-Day, SA)"
    ]
+  },
+  {
+   "date": "2026-11-28T02:30Z",
+   "state": "pre",
+   "home": "UTAH",
+   "away": "DEN",
+   "homeName": "Utah Jazz",
+   "awayName": "Denver Nuggets",
+   "hs": 0,
+   "as": 0,
+   "pHome": 25.3,
+   "why": []
+  },
+  {
+   "date": "2026-11-28T02:30Z",
+   "state": "pre",
+   "home": "LAC",
+   "away": "NO",
+   "homeName": "LA Clippers",
+   "awayName": "New Orleans Pelicans",
+   "hs": 0,
+   "as": 0,
+   "pHome": 54.2,
+   "why": []
   }
  ],
  "defense": [
   {
    "team": "BOS",
-   "allowed": 98.7,
-   "games": 6,
+   "allowed": 101.1,
+   "games": 7,
    "rank": 1
   },
   {
@@ -504,56 +502,56 @@
    "rank": 6
   },
   {
+   "team": "ORL",
+   "allowed": 109.1,
+   "games": 7,
+   "rank": 7
+  },
+  {
    "team": "TOR",
    "allowed": 109.3,
    "games": 7,
-   "rank": 7
+   "rank": 8
   },
   {
    "team": "LAL",
    "allowed": 109.3,
    "games": 6,
-   "rank": 8
+   "rank": 9
   },
   {
    "team": "PHX",
    "allowed": 109.8,
    "games": 6,
-   "rank": 9
+   "rank": 10
   },
   {
-   "team": "ORL",
-   "allowed": 110.0,
-   "games": 6,
-   "rank": 10
+   "team": "DET",
+   "allowed": 111.0,
+   "games": 7,
+   "rank": 11
   },
   {
    "team": "CHA",
    "allowed": 112.0,
    "games": 5,
-   "rank": 11
+   "rank": 12
   },
   {
    "team": "MEM",
    "allowed": 112.2,
    "games": 8,
-   "rank": 12
+   "rank": 13
   },
   {
    "team": "UTAH",
    "allowed": 112.2,
    "games": 8,
-   "rank": 13
+   "rank": 14
   },
   {
    "team": "GS",
    "allowed": 113.7,
-   "games": 6,
-   "rank": 14
-  },
-  {
-   "team": "DET",
-   "allowed": 115.2,
    "games": 6,
    "rank": 15
   },
@@ -606,21 +604,21 @@
    "rank": 23
   },
   {
-   "team": "WSH",
-   "allowed": 118.6,
-   "games": 7,
-   "rank": 24
-  },
-  {
    "team": "DEN",
    "allowed": 118.8,
    "games": 6,
-   "rank": 25
+   "rank": 24
   },
   {
    "team": "CLE",
    "allowed": 119.6,
    "games": 7,
+   "rank": 25
+  },
+  {
+   "team": "WSH",
+   "allowed": 120.1,
+   "games": 8,
    "rank": 26
   },
   {
@@ -734,11 +732,11 @@
     35
    ],
    "next": {
-    "team": "DET",
-    "date": "2026-11-25T00:00Z",
-    "rank": 15,
-    "allowed": 115.2,
-    "home": true
+    "team": "WSH",
+    "date": "2026-11-28T22:00Z",
+    "rank": 26,
+    "allowed": 120.1,
+    "home": false
    }
   },
   {
@@ -753,11 +751,11 @@
     23
    ],
    "next": {
-    "team": "ORL",
-    "date": "2026-11-25T00:00Z",
-    "rank": 10,
-    "allowed": 110.0,
-    "home": false
+    "team": "MIL",
+    "date": "2026-11-28T00:30Z",
+    "rank": 27,
+    "allowed": 121.0,
+    "home": true
    }
   },
   {
@@ -831,7 +829,7 @@
    "next": {
     "team": "PHX",
     "date": "2026-11-26T01:30Z",
-    "rank": 9,
+    "rank": 10,
     "allowed": 109.8,
     "home": true
    }
@@ -848,14 +846,20 @@
      "l": 4
     },
     {
+     "team": "Boston Celtics",
+     "abbr": "BOS",
+     "w": 12,
+     "l": 6
+    },
+    {
      "team": "Atlanta Hawks",
      "abbr": "ATL",
      "w": 11,
      "l": 6
     },
     {
-     "team": "Boston Celtics",
-     "abbr": "BOS",
+     "team": "Detroit Pistons",
+     "abbr": "DET",
      "w": 11,
      "l": 6
     },
@@ -863,12 +867,6 @@
      "team": "New York Knicks",
      "abbr": "NY",
      "w": 11,
-     "l": 6
-    },
-    {
-     "team": "Detroit Pistons",
-     "abbr": "DET",
-     "w": 10,
      "l": 6
     },
     {
@@ -887,13 +885,13 @@
      "team": "Orlando Magic",
      "abbr": "ORL",
      "w": 7,
-     "l": 9
+     "l": 10
     },
     {
      "team": "Washington Wizards",
      "abbr": "WSH",
      "w": 7,
-     "l": 11
+     "l": 12
     },
     {
      "team": "Toronto Raptors",
@@ -1155,13 +1153,6 @@
    "status": "Out",
    "note": "Lawal (groin) is out for Tuesday's game against Denver.",
    "date": "2026-11-23T23:25Z"
-  },
-  {
-   "player": "P.J. Washington",
-   "team": "Dallas Mavericks",
-   "status": "Day-To-Day",
-   "note": "Washington (illness) is questionable for Tuesday's game against the Nuggets.",
-   "date": "2026-11-23T23:21Z"
   },
   {
    "player": "Dereck Lively II",
@@ -1577,18 +1568,18 @@
    "date": "2026-10-21T04:22Z"
   },
   {
-   "player": "Victor Wembanyama",
-   "team": "San Antonio Spurs",
-   "status": "Day-To-Day",
-   "note": "Wembanyama (back) won't play Monday against the Kings, Jeff McDonald of the San Antonio Express-News reports.",
-   "date": "2026-11-24T06:06Z"
-  },
-  {
    "player": "De'Aaron Fox",
    "team": "San Antonio Spurs",
    "status": "Day-To-Day",
-   "note": "Fox (shin) has been ruled out for Monday's game against the Kings, Jeff McDonald of the San Antonio Express-News reports.",
-   "date": "2026-11-24T06:06Z"
+   "note": "Fox (shin) is questionable to play Wednesday's game against the Trail Blazers.",
+   "date": "2026-11-25T01:27Z"
+  },
+  {
+   "player": "Victor Wembanyama",
+   "team": "San Antonio Spurs",
+   "status": "Day-To-Day",
+   "note": "Wembanyama (back) is questionable for Wednesday's game in Portland.",
+   "date": "2026-11-25T01:23Z"
   },
   {
    "player": "Dylan Harper",
@@ -1689,54 +1680,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "changes": [
-  {
-   "player": "Sion James",
-   "team": "Charlotte Hornets",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Cade Cunningham",
-   "team": "Detroit Pistons",
-   "from": "Day-To-Day",
-   "to": "Out"
-  },
-  {
-   "player": "Yaxel Lendeborg",
-   "team": "Golden State Warriors",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Josh Hart",
-   "team": "New York Knicks",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "OG Anunoby",
-   "team": "New York Knicks",
-   "from": "Day-To-Day",
-   "to": "Out"
-  },
-  {
-   "player": "Karl-Anthony Towns",
-   "team": "New York Knicks",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Jaylin Williams",
-   "team": "Oklahoma City Thunder",
-   "from": "Day-To-Day",
-   "to": "Out"
-  },
-  {
-   "player": "Aday Mara",
-   "team": "Oklahoma City Thunder",
-   "from": "Day-To-Day",
-   "to": "Out"
-  }
- ]
+ "changes": []
 }
