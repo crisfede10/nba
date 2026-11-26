@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T13:11:22.144128Z",
+ "updated": "2026-11-26T15:57:40.987540Z",
  "finished": [
   {
    "date": "2026-11-26T03:00Z",
@@ -1171,6 +1171,13 @@
    "date": "2026-11-17T22:42Z"
   },
   {
+   "player": "Jalen Duren",
+   "team": "Detroit Pistons",
+   "status": "Out",
+   "note": "Detroit recalled Duren (hamstring) from the G League's Motor City Cruise on Wednesday.",
+   "date": "2026-11-26T15:31Z"
+  },
+  {
    "player": "Cade Cunningham",
    "team": "Detroit Pistons",
    "status": "Day-To-Day",
@@ -1197,13 +1204,6 @@
    "status": "Out",
    "note": "Robinson (quadriceps) is considered day-to-day as he progresses in his rehab, Eric Vincent of ClutchPoints.com reports.",
    "date": "2026-11-24T18:30Z"
-  },
-  {
-   "player": "Jalen Duren",
-   "team": "Detroit Pistons",
-   "status": "Out",
-   "note": "Duren (hamstring) is being assigned to the Motor City Cruise on Wednesday for practice as he ramps up for a return, Eric Vincent of ClutchPoints.com reports.",
-   "date": "2026-11-24T18:27Z"
   },
   {
    "player": "Stephen Curry",
