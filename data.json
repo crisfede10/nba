@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T18:53:13.574978Z",
+ "updated": "2026-11-27T21:52:27.733641Z",
  "finished": [
   {
    "date": "2026-11-26T03:00Z",
@@ -292,8 +292,10 @@
    "awayName": "Dallas Mavericks",
    "hs": 0,
    "as": 0,
-   "pHome": 55.5,
-   "why": []
+   "pHome": 57.5,
+   "why": [
+    "Kyrie Irving (Day-To-Day, DAL)"
+   ]
   },
   {
    "date": "2026-11-28T02:30Z",
@@ -1115,6 +1117,13 @@
    "date": "2026-11-08T22:31Z"
   },
   {
+   "player": "Noa Essengue",
+   "team": "Chicago Bulls",
+   "status": "Day-To-Day",
+   "note": "Essengue (thumb) is probable to play Saturday against the Pacers.",
+   "date": "2026-11-27T19:06Z"
+  },
+  {
    "player": "Jalen Smith",
    "team": "Chicago Bulls",
    "status": "Day-To-Day",
@@ -1148,6 +1157,13 @@
    "status": "Out",
    "note": "Mobley will receive treatment and participate in rehab after the team confirmed a diagnosis of a right great toe sprain, and he'll be re-evaluated in the next 7-to-10 days.",
    "date": "2026-11-16T22:06Z"
+  },
+  {
+   "player": "Kyrie Irving",
+   "team": "Dallas Mavericks",
+   "status": "Day-To-Day",
+   "note": "Irving (knee) is listed as questionable for Friday's game against the Suns due to left knee injury management.",
+   "date": "2026-11-27T19:07Z"
   },
   {
    "player": "Tobi Lawal",
@@ -1290,13 +1306,6 @@
    "date": "2026-08-26T20:04Z"
   },
   {
-   "player": "Austin Reaves",
-   "team": "Los Angeles Lakers",
-   "status": "Out",
-   "note": "Reaves (heel) is questionable for Friday's game against the Spurs.",
-   "date": "2026-11-26T23:21Z"
-  },
-  {
    "player": "Isaiah Stewart",
    "team": "Memphis Grizzlies",
    "status": "Day-To-Day",
@@ -1363,8 +1372,8 @@
    "player": "LaMelo Ball",
    "team": "Minnesota Timberwolves",
    "status": "Out",
-   "note": "Ball (ankle) wasn't present at shootaround Friday, Jon Krawczynski of The Athletic reports.",
-   "date": "2026-11-27T18:49Z"
+   "note": "Ball (ankle) has been ruled out for Friday's game against the Grizzlies. The guard was previously questionable after spraining his left ankle during Wednesday's win over Oklahoma City.",
+   "date": "2026-11-27T18:52Z"
   },
   {
    "player": "Donte DiVincenzo",
@@ -1500,6 +1509,20 @@
    "date": "2026-10-31T01:02Z"
   },
   {
+   "player": "Kevin Porter Jr.",
+   "team": "Orlando Magic",
+   "status": "Out",
+   "note": "Porter won't play Saturday against the Wizards as he's still in the process of getting up to speed on his conditioning.",
+   "date": "2026-11-27T21:08Z"
+  },
+  {
+   "player": "Anthony Black",
+   "team": "Orlando Magic",
+   "status": "Day-To-Day",
+   "note": "Black (back) is questionable for Saturday's game against the Wizards.",
+   "date": "2026-11-27T21:05Z"
+  },
+  {
    "player": "Colin Castleton",
    "team": "Orlando Magic",
    "status": "Day-To-Day",
@@ -1622,8 +1645,8 @@
    "player": "Dylan Harper",
    "team": "San Antonio Spurs",
    "status": "Out",
-   "note": "Harper (hip) is questionable for Friday's game against the Lakers.",
-   "date": "2026-11-26T23:41Z"
+   "note": "Harper (hip) participated in Friday's morning shootaround, per Matt Guzman of SI.com.",
+   "date": "2026-11-27T18:51Z"
   },
   {
    "player": "De'Aaron Fox",
@@ -1740,38 +1763,26 @@
  ],
  "changes": [
   {
-   "player": "Kasparas Jakucionis",
-   "team": "Milwaukee Bucks",
-   "from": "nuovo",
-   "to": "Out"
-  },
-  {
-   "player": "LaMelo Ball",
-   "team": "Minnesota Timberwolves",
-   "from": "Day-To-Day",
-   "to": "Out"
-  },
-  {
-   "player": "Miles McBride",
-   "team": "New York Knicks",
-   "from": "Day-To-Day",
-   "to": "Out"
-  },
-  {
-   "player": "Karl-Anthony Towns",
-   "team": "New York Knicks",
+   "player": "Noa Essengue",
+   "team": "Chicago Bulls",
    "from": "nuovo",
    "to": "Day-To-Day"
   },
   {
-   "player": "Damian Lillard",
-   "team": "Portland Trail Blazers",
+   "player": "Kyrie Irving",
+   "team": "Dallas Mavericks",
+   "from": "nuovo",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Kevin Porter Jr.",
+   "team": "Orlando Magic",
    "from": "nuovo",
    "to": "Out"
   },
   {
-   "player": "Mo Bamba",
-   "team": "Utah Jazz",
+   "player": "Anthony Black",
+   "team": "Orlando Magic",
    "from": "nuovo",
    "to": "Day-To-Day"
   }
