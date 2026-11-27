@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T13:07:38.691840Z",
+ "updated": "2026-11-27T15:56:14.870293Z",
  "finished": [
   {
    "date": "2026-11-26T03:00Z",
@@ -1413,6 +1413,13 @@
    "date": "2026-11-13T20:19Z"
   },
   {
+   "player": "Andre Drummond",
+   "team": "New York Knicks",
+   "status": "Out",
+   "note": "Drummond (concussion) has been ruled out for Friday's game against the Heat.",
+   "date": "2026-11-27T15:36Z"
+  },
+  {
    "player": "Miles McBride",
    "team": "New York Knicks",
    "status": "Day-To-Day",
@@ -1432,13 +1439,6 @@
    "status": "Out",
    "note": "Anunoby (calf) is doubtful for Friday's game against the Heat.",
    "date": "2026-11-26T21:57Z"
-  },
-  {
-   "player": "Andre Drummond",
-   "team": "New York Knicks",
-   "status": "Day-To-Day",
-   "note": "Drummond (head) is questionable for Friday's game against the Heat.",
-   "date": "2026-11-26T21:51Z"
   },
   {
    "player": "Nikola Topic",
@@ -1714,5 +1714,12 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "changes": []
+ "changes": [
+  {
+   "player": "Andre Drummond",
+   "team": "New York Knicks",
+   "from": "Day-To-Day",
+   "to": "Out"
+  }
+ ]
 }
