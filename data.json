@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T01:08:40.253377Z",
+ "updated": "2026-11-27T03:57:12.311274Z",
  "finished": [
   {
    "date": "2026-11-26T03:00Z",
@@ -1556,8 +1556,8 @@
    "player": "Chris Youngblood",
    "team": "Portland Trail Blazers",
    "status": "Out",
-   "note": "Youngblood (heel) has been ruled out for Saturday's game against the Knicks.",
-   "date": "2026-11-20T22:18Z"
+   "note": "Youngblood (heel) is out for Friday's game against the Warriors.",
+   "date": "2026-11-27T00:56Z"
   },
   {
    "player": "Vit Krejci",
@@ -1714,30 +1714,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "changes": [
-  {
-   "player": "Cade Cunningham",
-   "team": "Detroit Pistons",
-   "from": "Day-To-Day",
-   "to": "Out"
-  },
-  {
-   "player": "Kelly Oubre Jr.",
-   "team": "Indiana Pacers",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Isaiah Stewart",
-   "team": "Memphis Grizzlies",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Jaylen Brown",
-   "team": "Philadelphia 76ers",
-   "from": "Day-To-Day",
-   "to": "Out"
-  }
- ]
+ "changes": []
 }
