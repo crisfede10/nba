@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T07:03:52.242000Z",
+ "updated": "2026-11-28T09:49:25.212615Z",
  "finished": [
   {
    "date": "2026-11-28T02:30Z",
@@ -1735,36 +1735,5 @@
    "date": "2026-07-30T20:11Z"
   }
  ],
- "changes": [
-  {
-   "player": "Caleb Martin",
-   "team": "Dallas Mavericks",
-   "from": "nuovo",
-   "to": "Day-To-Day"
-  },
-  {
-   "player": "Gui Santos",
-   "team": "Golden State Warriors",
-   "from": "nuovo",
-   "to": "Out"
-  },
-  {
-   "player": "Yanic Konan Niederhauser",
-   "team": "LA Clippers",
-   "from": "nuovo",
-   "to": "Out"
-  },
-  {
-   "player": "Joel Embiid",
-   "team": "Philadelphia 76ers",
-   "from": "nuovo",
-   "to": "Out"
-  },
-  {
-   "player": "LeBron James",
-   "team": "Philadelphia 76ers",
-   "from": "nuovo",
-   "to": "Out"
-  }
- ]
+ "changes": []
 }
