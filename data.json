@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T15:43:04.674036Z",
+ "updated": "2026-11-28T18:43:51.202632Z",
  "finished": [
   {
    "date": "2026-11-28T02:30Z",
@@ -331,9 +331,9 @@
    "awayName": "Orlando Magic",
    "hs": 0,
    "as": 0,
-   "pHome": 79.5,
+   "pHome": 81.9,
    "why": [
-    "Cade Cunningham (Out, DET)",
+    "Cade Cunningham (Day-To-Day, DET)",
     "Back-to-back: ORL"
    ]
   },
@@ -372,9 +372,9 @@
    "awayName": "New Orleans Pelicans",
    "hs": 0,
    "as": 0,
-   "pHome": 84.4,
+   "pHome": 85.7,
    "why": [
-    "Damian Lillard (Out, POR)"
+    "Damian Lillard (Day-To-Day, POR)"
    ]
   },
   {
@@ -422,10 +422,10 @@
    "awayName": "Denver Nuggets",
    "hs": 0,
    "as": 0,
-   "pHome": 56.1,
+   "pHome": 59.8,
    "why": [
     "Back-to-back: DET",
-    "Cade Cunningham (Out, DET)",
+    "Cade Cunningham (Day-To-Day, DET)",
     "Back-to-back: DEN"
    ]
   },
@@ -1079,9 +1079,9 @@
   {
    "player": "Moritz Wagner",
    "team": "Brooklyn Nets",
-   "status": "Day-To-Day",
-   "note": "Wagner (knee) won't be available for Friday's game against Toronto.",
-   "date": "2026-11-28T13:58Z"
+   "status": "Out",
+   "note": "Wagner (knee) won't play against the Hornets on Saturday, Erik Slater of ClutchPoints.com reports.",
+   "date": "2026-11-28T18:05Z"
   },
   {
    "player": "Nolan Traore",
@@ -1094,15 +1094,15 @@
    "player": "Grayson Allen",
    "team": "Charlotte Hornets",
    "status": "Out",
-   "note": "Allen (concussion) is questionable for Saturday's game against the Nets.",
-   "date": "2026-11-27T22:17Z"
+   "note": "Allen (concussion) has been upgraded to probable for Saturday's game against the Nets.",
+   "date": "2026-11-28T18:08Z"
   },
   {
-   "player": "Ryan Kalkbrenner",
+   "player": "Michael Ajayi",
    "team": "Charlotte Hornets",
    "status": "Day-To-Day",
-   "note": "Kalkbrenner (hip) is probable for Saturday's matchup with Brooklyn.",
-   "date": "2026-11-27T22:04Z"
+   "note": "Charlotte transferred Ajayi to the G League on Tuesday.",
+   "date": "2026-11-28T15:46Z"
   },
   {
    "player": "Dennis Schroder",
@@ -1117,6 +1117,13 @@
    "status": "Out",
    "note": "Knueppel (hamstring) was diagnosed with a left hamstring strain Sunday and will be re-evaluated in four weeks.",
    "date": "2026-11-08T22:31Z"
+  },
+  {
+   "player": "Josh Giddey",
+   "team": "Chicago Bulls",
+   "status": "Day-To-Day",
+   "note": "Giddey is listed as questionable for Saturday's game against the Pacers due to right ankle soreness, Joel Lorenzi of The Athletic reports.",
+   "date": "2026-11-28T18:23Z"
   },
   {
    "player": "Norman Powell",
@@ -1203,18 +1210,18 @@
    "date": "2026-11-26T23:53Z"
   },
   {
+   "player": "Cade Cunningham",
+   "team": "Detroit Pistons",
+   "status": "Day-To-Day",
+   "note": "Cunningham (knee) is out for Friday's game against the Bucks.",
+   "date": "2026-11-28T16:14Z"
+  },
+  {
    "player": "Duncan Robinson",
    "team": "Detroit Pistons",
    "status": "Out",
    "note": "Robinson (quadriceps) is out for Friday's game against the Bucks.",
    "date": "2026-11-26T22:26Z"
-  },
-  {
-   "player": "Cade Cunningham",
-   "team": "Detroit Pistons",
-   "status": "Out",
-   "note": "Cunningham (knee) is out for Friday's game against the Bucks.",
-   "date": "2026-11-26T22:25Z"
   },
   {
    "player": "Jalen Duren",
@@ -1240,9 +1247,9 @@
   {
    "player": "Gui Santos",
    "team": "Golden State Warriors",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Santos exited Friday's game against the Trail Blazers with a knee injury in the second half and won't return.",
-   "date": "2026-11-28T04:19Z"
+   "date": "2026-11-28T16:15Z"
   },
   {
    "player": "Stephen Curry",
@@ -1275,9 +1282,9 @@
   {
    "player": "Steven Adams",
    "team": "Houston Rockets",
-   "status": "Day-To-Day",
-   "note": "Adams (knee) is questionable for Saturday's game against the 76ers.",
-   "date": "2026-11-27T22:06Z"
+   "status": "Out",
+   "note": "Adams (knee) has been ruled out for Saturday's game against the 76ers.",
+   "date": "2026-11-28T17:41Z"
   },
   {
    "player": "Tyrese Haliburton",
@@ -1324,9 +1331,9 @@
   {
    "player": "Isaiah Stewart",
    "team": "Memphis Grizzlies",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Stewart (hip) is out for Friday's game against the Timberwolves, Jon Krawczynski of The Athletic reports.",
-   "date": "2026-11-28T00:26Z"
+   "date": "2026-11-28T16:11Z"
   },
   {
    "player": "Scotty Pippen Jr.",
@@ -1373,9 +1380,9 @@
   {
    "player": "LaMelo Ball",
    "team": "Minnesota Timberwolves",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Ball (ankle) has been ruled out for Friday's game against the Grizzlies. The guard was previously questionable after spraining his left ankle during Wednesday's win over Oklahoma City.",
-   "date": "2026-11-27T18:52Z"
+   "date": "2026-11-28T16:15Z"
   },
   {
    "player": "Donte DiVincenzo",
@@ -1497,13 +1504,6 @@
    "date": "2026-10-31T01:02Z"
   },
   {
-   "player": "Colin Castleton",
-   "team": "Orlando Magic",
-   "status": "Out",
-   "note": "Castleton totaled five points (2-4 FG, 1-1 3Pt) and four rebounds in seven minutes during Tuesday's 132-116 preseason win over the Cavaliers.",
-   "date": "2026-11-28T01:53Z"
-  },
-  {
    "player": "Kevin Porter Jr.",
    "team": "Orlando Magic",
    "status": "Out",
@@ -1546,18 +1546,18 @@
    "date": "2026-10-24T16:47Z"
   },
   {
+   "player": "Joel Embiid",
+   "team": "Philadelphia 76ers",
+   "status": "Out",
+   "note": "Embiid (foot) chipped in 14 points (5-14 FG, 1-3 3Pt, 3-4 FT), 11 rebounds, three assists and three steals in 28 minutes during Friday's 111-87 victory over the Pacers.",
+   "date": "2026-11-28T17:33Z"
+  },
+  {
    "player": "Dean Wade",
    "team": "Philadelphia 76ers",
    "status": "Day-To-Day",
    "note": "Wade (hamstring) is out for Friday's game against the Pacers, Austin Krell of Vertical 76 reports.",
    "date": "2026-11-28T13:58Z"
-  },
-  {
-   "player": "Joel Embiid",
-   "team": "Philadelphia 76ers",
-   "status": "Out",
-   "note": "Embiid has been ruled out for Saturday's game against the Rockets due to right foot plantar fasciitis management, Kris Rhim of ESPN.com reports.",
-   "date": "2026-11-28T05:48Z"
   },
   {
    "player": "LeBron James",
@@ -1590,9 +1590,9 @@
   {
    "player": "Damian Lillard",
    "team": "Portland Trail Blazers",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Lillard (calf) has been ruled out for Friday's game against the Warriors. The veteran guard is dealing with right calf tightness and soreness.",
-   "date": "2026-11-27T18:38Z"
+   "date": "2026-11-28T16:13Z"
   },
   {
    "player": "Chris Youngblood",
@@ -1672,13 +1672,6 @@
    "date": "2026-11-24T21:15Z"
   },
   {
-   "player": "Nate Bittle",
-   "team": "Toronto Raptors",
-   "status": "Out",
-   "note": "Bittle (foot) has been ruled out for Monday's game against the Bucks, Blake Murphy of Sportsnet.ca reports.",
-   "date": "2026-11-22T21:13Z"
-  },
-  {
    "player": "RJ Barrett",
    "team": "Toronto Raptors",
    "status": "Out",
@@ -1688,9 +1681,9 @@
   {
    "player": "Mo Bamba",
    "team": "Utah Jazz",
-   "status": "Out",
+   "status": "Day-To-Day",
    "note": "Bamba (illness) has been ruled out for Friday's game against the Nuggets.",
-   "date": "2026-11-28T01:37Z"
+   "date": "2026-11-28T16:11Z"
   },
   {
    "player": "Lauri Markkanen",
@@ -1739,30 +1732,60 @@
   {
    "player": "Moritz Wagner",
    "team": "Brooklyn Nets",
+   "from": "Day-To-Day",
+   "to": "Out"
+  },
+  {
+   "player": "Michael Ajayi",
+   "team": "Charlotte Hornets",
+   "from": "nuovo",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Josh Giddey",
+   "team": "Chicago Bulls",
+   "from": "nuovo",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Cade Cunningham",
+   "team": "Detroit Pistons",
    "from": "Out",
    "to": "Day-To-Day"
   },
   {
-   "player": "Yanic Konan Niederhauser",
-   "team": "LA Clippers",
+   "player": "Gui Santos",
+   "team": "Golden State Warriors",
    "from": "Out",
    "to": "Day-To-Day"
   },
   {
-   "player": "Kasparas Jakucionis",
-   "team": "Milwaukee Bucks",
+   "player": "Steven Adams",
+   "team": "Houston Rockets",
+   "from": "Day-To-Day",
+   "to": "Out"
+  },
+  {
+   "player": "Isaiah Stewart",
+   "team": "Memphis Grizzlies",
    "from": "Out",
    "to": "Day-To-Day"
   },
   {
-   "player": "Dean Wade",
-   "team": "Philadelphia 76ers",
+   "player": "LaMelo Ball",
+   "team": "Minnesota Timberwolves",
    "from": "Out",
    "to": "Day-To-Day"
   },
   {
-   "player": "Ja'Kobe Walter",
-   "team": "Toronto Raptors",
+   "player": "Damian Lillard",
+   "team": "Portland Trail Blazers",
+   "from": "Out",
+   "to": "Day-To-Day"
+  },
+  {
+   "player": "Mo Bamba",
+   "team": "Utah Jazz",
    "from": "Out",
    "to": "Day-To-Day"
   }
