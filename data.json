@@ -1,6 +1,66 @@
 {
- "updated": "2026-11-28T03:52:09.695520Z",
+ "updated": "2026-11-28T07:03:52.242000Z",
  "finished": [
+  {
+   "date": "2026-11-28T02:30Z",
+   "state": "post",
+   "home": "POR",
+   "away": "GS",
+   "homeName": "Portland Trail Blazers",
+   "awayName": "Golden State Warriors",
+   "hs": 116,
+   "as": 94
+  },
+  {
+   "date": "2026-11-28T02:30Z",
+   "state": "post",
+   "home": "LAC",
+   "away": "NO",
+   "homeName": "LA Clippers",
+   "awayName": "New Orleans Pelicans",
+   "hs": 104,
+   "as": 105
+  },
+  {
+   "date": "2026-11-28T02:30Z",
+   "state": "post",
+   "home": "UTAH",
+   "away": "DEN",
+   "homeName": "Utah Jazz",
+   "awayName": "Denver Nuggets",
+   "hs": 107,
+   "as": 120
+  },
+  {
+   "date": "2026-11-28T02:30Z",
+   "state": "post",
+   "home": "SA",
+   "away": "LAL",
+   "homeName": "San Antonio Spurs",
+   "awayName": "Los Angeles Lakers",
+   "hs": 99,
+   "as": 96
+  },
+  {
+   "date": "2026-11-28T02:00Z",
+   "state": "post",
+   "home": "PHX",
+   "away": "DAL",
+   "homeName": "Phoenix Suns",
+   "awayName": "Dallas Mavericks",
+   "hs": 109,
+   "as": 113
+  },
+  {
+   "date": "2026-11-28T01:30Z",
+   "state": "post",
+   "home": "MIN",
+   "away": "MEM",
+   "homeName": "Minnesota Timberwolves",
+   "awayName": "Memphis Grizzlies",
+   "hs": 109,
+   "as": 114
+  },
   {
    "date": "2026-11-28T01:00Z",
    "state": "post",
@@ -140,147 +200,9 @@
    "awayName": "Miami Heat",
    "hs": 111,
    "as": 104
-  },
-  {
-   "date": "2026-11-25T03:00Z",
-   "state": "post",
-   "home": "DEN",
-   "away": "DAL",
-   "homeName": "Denver Nuggets",
-   "awayName": "Dallas Mavericks",
-   "hs": 101,
-   "as": 120
-  },
-  {
-   "date": "2026-11-25T01:00Z",
-   "state": "post",
-   "home": "WSH",
-   "away": "BOS",
-   "homeName": "Washington Wizards",
-   "awayName": "Boston Celtics",
-   "hs": 116,
-   "as": 131
-  },
-  {
-   "date": "2026-11-25T00:00Z",
-   "state": "post",
-   "home": "ORL",
-   "away": "DET",
-   "homeName": "Orlando Magic",
-   "awayName": "Detroit Pistons",
-   "hs": 86,
-   "as": 104
-  },
-  {
-   "date": "2026-11-24T03:00Z",
-   "state": "post",
-   "home": "SAC",
-   "away": "SA",
-   "homeName": "Sacramento Kings",
-   "awayName": "San Antonio Spurs",
-   "hs": 107,
-   "as": 123
-  },
-  {
-   "date": "2026-11-24T03:00Z",
-   "state": "post",
-   "home": "LAL",
-   "away": "UTAH",
-   "homeName": "Los Angeles Lakers",
-   "awayName": "Utah Jazz",
-   "hs": 109,
-   "as": 94
-  },
-  {
-   "date": "2026-11-24T01:30Z",
-   "state": "post",
-   "home": "HOU",
-   "away": "LAC",
-   "homeName": "Houston Rockets",
-   "awayName": "LA Clippers",
-   "hs": 116,
-   "as": 104
   }
  ],
  "upcoming": [
-  {
-   "date": "2026-11-28T01:30Z",
-   "state": "in",
-   "home": "MIN",
-   "away": "MEM",
-   "homeName": "Minnesota Timberwolves",
-   "awayName": "Memphis Grizzlies",
-   "hs": 109,
-   "as": 114,
-   "pHome": 57.1,
-   "why": []
-  },
-  {
-   "date": "2026-11-28T02:00Z",
-   "state": "in",
-   "home": "PHX",
-   "away": "DAL",
-   "homeName": "Phoenix Suns",
-   "awayName": "Dallas Mavericks",
-   "hs": 92,
-   "as": 76,
-   "pHome": 60.4,
-   "why": [
-    "Kyrie Irving (Out, DAL)"
-   ]
-  },
-  {
-   "date": "2026-11-28T02:30Z",
-   "state": "in",
-   "home": "SA",
-   "away": "LAL",
-   "homeName": "San Antonio Spurs",
-   "awayName": "Los Angeles Lakers",
-   "hs": 38,
-   "as": 54,
-   "pHome": 57.5,
-   "why": []
-  },
-  {
-   "date": "2026-11-28T02:30Z",
-   "state": "in",
-   "home": "UTAH",
-   "away": "DEN",
-   "homeName": "Utah Jazz",
-   "awayName": "Denver Nuggets",
-   "hs": 64,
-   "as": 60,
-   "pHome": 28.4,
-   "why": [
-    "Mo Bamba (Out, UTAH)"
-   ]
-  },
-  {
-   "date": "2026-11-28T02:30Z",
-   "state": "in",
-   "home": "LAC",
-   "away": "NO",
-   "homeName": "LA Clippers",
-   "awayName": "New Orleans Pelicans",
-   "hs": 50,
-   "as": 54,
-   "pHome": 48.9,
-   "why": []
-  },
-  {
-   "date": "2026-11-28T02:30Z",
-   "state": "in",
-   "home": "POR",
-   "away": "GS",
-   "homeName": "Portland Trail Blazers",
-   "awayName": "Golden State Warriors",
-   "hs": 67,
-   "as": 44,
-   "pHome": 71.1,
-   "why": [
-    "Damian Lillard (Out, POR)"
-   ]
-  },
   {
    "date": "2026-11-28T22:00Z",
    "state": "pre",
@@ -345,9 +267,11 @@
    "awayName": "Philadelphia 76ers",
    "hs": 0,
    "as": 0,
-   "pHome": 57.6,
+   "pHome": 67.5,
    "why": [
-    "Back-to-back: PHI"
+    "Back-to-back: PHI",
+    "Joel Embiid (Out, PHI)",
+    "LeBron James (Out, PHI)"
    ]
   },
   {
@@ -371,7 +295,7 @@
    "awayName": "Los Angeles Lakers",
    "hs": 0,
    "as": 0,
-   "pHome": 55.5,
+   "pHome": 61.5,
    "why": []
   },
   {
@@ -383,7 +307,7 @@
    "awayName": "Boston Celtics",
    "hs": 0,
    "as": 0,
-   "pHome": 71.6,
+   "pHome": 74.4,
    "why": []
   },
   {
@@ -395,10 +319,8 @@
    "awayName": "Phoenix Suns",
    "hs": 0,
    "as": 0,
-   "pHome": 27.5,
-   "why": [
-    "Mo Bamba (Out, UTAH)"
-   ]
+   "pHome": 27.4,
+   "why": []
   },
   {
    "date": "2026-11-29T23:00Z",
@@ -436,7 +358,7 @@
    "awayName": "Denver Nuggets",
    "hs": 0,
    "as": 0,
-   "pHome": 43.7,
+   "pHome": 38.5,
    "why": [
     "Ja'Kobe Walter (Out, TOR)"
    ]
@@ -450,7 +372,7 @@
    "awayName": "New Orleans Pelicans",
    "hs": 0,
    "as": 0,
-   "pHome": 82.2,
+   "pHome": 84.4,
    "why": [
     "Damian Lillard (Out, POR)"
    ]
@@ -464,8 +386,89 @@
    "awayName": "LA Clippers",
    "hs": 0,
    "as": 0,
-   "pHome": 78.8,
+   "pHome": 75.8,
    "why": []
+  },
+  {
+   "date": "2026-11-30T02:00Z",
+   "state": "pre",
+   "home": "SAC",
+   "away": "MIN",
+   "homeName": "Sacramento Kings",
+   "awayName": "Minnesota Timberwolves",
+   "hs": 0,
+   "as": 0,
+   "pHome": 13.9,
+   "why": []
+  },
+  {
+   "date": "2026-12-01T00:00Z",
+   "state": "pre",
+   "home": "CHA",
+   "away": "WSH",
+   "homeName": "Charlotte Hornets",
+   "awayName": "Washington Wizards",
+   "hs": 0,
+   "as": 0,
+   "pHome": 44.7,
+   "why": []
+  },
+  {
+   "date": "2026-12-01T00:00Z",
+   "state": "pre",
+   "home": "DET",
+   "away": "DEN",
+   "homeName": "Detroit Pistons",
+   "awayName": "Denver Nuggets",
+   "hs": 0,
+   "as": 0,
+   "pHome": 56.1,
+   "why": [
+    "Back-to-back: DET",
+    "Cade Cunningham (Out, DET)",
+    "Back-to-back: DEN"
+   ]
+  },
+  {
+   "date": "2026-12-01T00:30Z",
+   "state": "pre",
+   "home": "BKN",
+   "away": "OKC",
+   "homeName": "Brooklyn Nets",
+   "awayName": "Oklahoma City Thunder",
+   "hs": 0,
+   "as": 0,
+   "pHome": 30.6,
+   "why": []
+  },
+  {
+   "date": "2026-12-01T00:30Z",
+   "state": "pre",
+   "home": "HOU",
+   "away": "LAL",
+   "homeName": "Houston Rockets",
+   "awayName": "Los Angeles Lakers",
+   "hs": 0,
+   "as": 0,
+   "pHome": 61.0,
+   "why": [
+    "Back-to-back: LAL"
+   ]
+  },
+  {
+   "date": "2026-12-01T01:00Z",
+   "state": "pre",
+   "home": "DAL",
+   "away": "BOS",
+   "homeName": "Dallas Mavericks",
+   "awayName": "Boston Celtics",
+   "hs": 0,
+   "as": 0,
+   "pHome": 66.7,
+   "why": [
+    "Kyrie Irving (Out, DAL)",
+    "Back-to-back: BOS"
+   ]
   }
  ],
  "defense": [
@@ -488,75 +491,75 @@
    "rank": 3
   },
   {
-   "team": "DET",
-   "allowed": 105.0,
+   "team": "SA",
+   "allowed": 104.1,
    "games": 7,
    "rank": 4
   },
   {
-   "team": "SA",
-   "allowed": 105.5,
-   "games": 6,
+   "team": "DET",
+   "allowed": 105.0,
+   "games": 7,
    "rank": 5
   },
   {
-   "team": "MIN",
+   "team": "POR",
    "allowed": 105.6,
    "games": 7,
    "rank": 6
   },
   {
-   "team": "TOR",
-   "allowed": 107.3,
-   "games": 6,
+   "team": "MIN",
+   "allowed": 106.6,
+   "games": 8,
    "rank": 7
   },
   {
-   "team": "POR",
-   "allowed": 107.5,
+   "team": "LAL",
+   "allowed": 107.2,
    "games": 6,
    "rank": 8
   },
   {
-   "team": "UTAH",
-   "allowed": 108.3,
+   "team": "TOR",
+   "allowed": 107.3,
    "games": 6,
    "rank": 9
   },
   {
    "team": "MEM",
-   "allowed": 108.7,
-   "games": 7,
+   "allowed": 108.8,
+   "games": 8,
    "rank": 10
   },
   {
-   "team": "LAL",
-   "allowed": 108.8,
-   "games": 5,
+   "team": "UTAH",
+   "allowed": 110.0,
+   "games": 7,
    "rank": 11
   },
   {
-   "team": "GS",
-   "allowed": 110.8,
-   "games": 5,
-   "rank": 12
-  },
-  {
    "team": "DAL",
-   "allowed": 111.2,
-   "games": 6,
-   "rank": 13
+   "allowed": 110.9,
+   "games": 7,
+   "rank": 12
   },
   {
    "team": "ORL",
    "allowed": 111.4,
    "games": 5,
+   "rank": 13
+  },
+  {
+   "team": "GS",
+   "allowed": 111.7,
+   "games": 6,
    "rank": 14
   },
   {
    "team": "PHX",
-   "allowed": 113.2,
-   "games": 6,
+   "allowed": 113.1,
+   "games": 7,
    "rank": 15
   },
   {
@@ -566,44 +569,44 @@
    "rank": 16
   },
   {
+   "team": "NO",
+   "allowed": 114.1,
+   "games": 7,
+   "rank": 17
+  },
+  {
    "team": "MIA",
    "allowed": 114.3,
    "games": 6,
-   "rank": 17
+   "rank": 18
   },
   {
    "team": "CHI",
    "allowed": 114.4,
    "games": 7,
-   "rank": 18
+   "rank": 19
+  },
+  {
+   "team": "LAC",
+   "allowed": 115.3,
+   "games": 7,
+   "rank": 20
   },
   {
    "team": "HOU",
    "allowed": 115.3,
    "games": 6,
-   "rank": 19
-  },
-  {
-   "team": "NO",
-   "allowed": 115.8,
-   "games": 6,
-   "rank": 20
+   "rank": 21
   },
   {
    "team": "PHI",
    "allowed": 115.9,
    "games": 7,
-   "rank": 21
+   "rank": 22
   },
   {
    "team": "OKC",
    "allowed": 116.8,
-   "games": 6,
-   "rank": 22
-  },
-  {
-   "team": "LAC",
-   "allowed": 117.0,
    "games": 6,
    "rank": 23
   },
@@ -614,21 +617,21 @@
    "rank": 24
   },
   {
+   "team": "DEN",
+   "allowed": 117.4,
+   "games": 7,
+   "rank": 25
+  },
+  {
    "team": "SAC",
    "allowed": 117.8,
    "games": 6,
-   "rank": 25
+   "rank": 26
   },
   {
    "team": "MIL",
    "allowed": 119.1,
    "games": 7,
-   "rank": 26
-  },
-  {
-   "team": "DEN",
-   "allowed": 119.2,
-   "games": 6,
    "rank": 27
   },
   {
@@ -663,10 +666,10 @@
     44
    ],
    "next": {
-    "team": "LAL",
-    "date": "2026-11-28T02:30Z",
-    "rank": 11,
-    "allowed": 108.8,
+    "team": "BOS",
+    "date": "2026-11-29T21:00Z",
+    "rank": 2,
+    "allowed": 100.3,
     "home": true
    }
   },
@@ -685,8 +688,26 @@
    "next": {
     "team": "MIL",
     "date": "2026-11-29T01:00Z",
-    "rank": 26,
+    "rank": 27,
     "allowed": 119.1,
+    "home": false
+   }
+  },
+  {
+   "player": "Jamal Murray",
+   "team": "DEN",
+   "avg": 33.7,
+   "games": 3,
+   "last": [
+    45,
+    20,
+    36
+   ],
+   "next": {
+    "team": "TOR",
+    "date": "2026-11-29T23:00Z",
+    "rank": 9,
+    "allowed": 107.3,
     "home": false
    }
   },
@@ -704,26 +725,9 @@
    "next": {
     "team": "MIA",
     "date": "2026-11-29T20:30Z",
-    "rank": 17,
+    "rank": 18,
     "allowed": 114.3,
     "home": true
-   }
-  },
-  {
-   "player": "Jamal Murray",
-   "team": "DEN",
-   "avg": 32.5,
-   "games": 2,
-   "last": [
-    45,
-    20
-   ],
-   "next": {
-    "team": "UTAH",
-    "date": "2026-11-28T02:30Z",
-    "rank": 9,
-    "allowed": 108.3,
-    "home": false
    }
   },
   {
@@ -740,7 +744,7 @@
    "next": {
     "team": "OKC",
     "date": "2026-11-29T01:00Z",
-    "rank": 22,
+    "rank": 23,
     "allowed": 116.8,
     "home": true
    }
@@ -766,18 +770,19 @@
    "player": "Luka Doncic",
    "team": "LAL",
    "avg": 31.2,
-   "games": 4,
+   "games": 5,
    "last": [
     43,
     29,
     25,
-    28
+    28,
+    31
    ],
    "next": {
-    "team": "SA",
-    "date": "2026-11-28T02:30Z",
-    "rank": 5,
-    "allowed": 105.5,
+    "team": "MEM",
+    "date": "2026-11-29T21:00Z",
+    "rank": 10,
+    "allowed": 108.8,
     "home": false
    }
   },
@@ -795,8 +800,8 @@
    "next": {
     "team": "DEN",
     "date": "2026-11-29T23:00Z",
-    "rank": 27,
-    "allowed": 119.2,
+    "rank": 25,
+    "allowed": 117.4,
     "home": true
    }
   },
@@ -818,21 +823,21 @@
    }
   },
   {
-   "player": "Deni Avdija",
-   "team": "POR",
+   "player": "Jaden McDaniels",
+   "team": "MIN",
    "avg": 30.3,
    "games": 3,
    "last": [
-    27,
-    31,
-    33
+    25,
+    34,
+    32
    ],
    "next": {
-    "team": "GS",
-    "date": "2026-11-28T02:30Z",
-    "rank": 12,
-    "allowed": 110.8,
-    "home": true
+    "team": "SAC",
+    "date": "2026-11-30T02:00Z",
+    "rank": 26,
+    "allowed": 117.8,
+    "home": false
    }
   }
  ],
@@ -936,21 +941,21 @@
    "conf": "Western Conference",
    "rows": [
     {
-     "team": "Los Angeles Lakers",
-     "abbr": "LAL",
-     "w": 15,
-     "l": 3
-    },
-    {
      "team": "San Antonio Spurs",
      "abbr": "SA",
+     "w": 16,
+     "l": 4
+    },
+    {
+     "team": "Los Angeles Lakers",
+     "abbr": "LAL",
      "w": 15,
      "l": 4
     },
     {
-     "team": "Minnesota Timberwolves",
-     "abbr": "MIN",
-     "w": 14,
+     "team": "Memphis Grizzlies",
+     "abbr": "MEM",
+     "w": 15,
      "l": 5
     },
     {
@@ -960,40 +965,28 @@
      "l": 5
     },
     {
-     "team": "Memphis Grizzlies",
-     "abbr": "MEM",
+     "team": "Minnesota Timberwolves",
+     "abbr": "MIN",
      "w": 14,
-     "l": 5
+     "l": 6
     },
     {
      "team": "Portland Trail Blazers",
      "abbr": "POR",
-     "w": 12,
+     "w": 13,
      "l": 6
     },
     {
      "team": "Denver Nuggets",
      "abbr": "DEN",
-     "w": 10,
+     "w": 11,
      "l": 6
     },
     {
      "team": "Dallas Mavericks",
      "abbr": "DAL",
-     "w": 11,
+     "w": 12,
      "l": 7
-    },
-    {
-     "team": "Golden State Warriors",
-     "abbr": "GS",
-     "w": 10,
-     "l": 8
-    },
-    {
-     "team": "Phoenix Suns",
-     "abbr": "PHX",
-     "w": 9,
-     "l": 8
     },
     {
      "team": "Oklahoma City Thunder",
@@ -1002,22 +995,34 @@
      "l": 9
     },
     {
+     "team": "Golden State Warriors",
+     "abbr": "GS",
+     "w": 10,
+     "l": 9
+    },
+    {
+     "team": "Phoenix Suns",
+     "abbr": "PHX",
+     "w": 9,
+     "l": 9
+    },
+    {
      "team": "New Orleans Pelicans",
      "abbr": "NO",
-     "w": 5,
+     "w": 6,
      "l": 14
     },
     {
      "team": "LA Clippers",
      "abbr": "LAC",
      "w": 4,
-     "l": 13
+     "l": 14
     },
     {
      "team": "Utah Jazz",
      "abbr": "UTAH",
      "w": 3,
-     "l": 16
+     "l": 17
     },
     {
      "team": "Sacramento Kings",
@@ -1156,6 +1161,13 @@
    "date": "2026-11-16T22:06Z"
   },
   {
+   "player": "Caleb Martin",
+   "team": "Dallas Mavericks",
+   "status": "Day-To-Day",
+   "note": "Martin didn't return for the second half of Friday's win over the Suns due to a left ankle sprain, Grant Afseth of DallasHoopsJournal.com reports.",
+   "date": "2026-11-28T05:35Z"
+  },
+  {
    "player": "Kyrie Irving",
    "team": "Dallas Mavericks",
    "status": "Out",
@@ -1226,6 +1238,13 @@
    "date": "2026-11-24T18:33Z"
   },
   {
+   "player": "Gui Santos",
+   "team": "Golden State Warriors",
+   "status": "Out",
+   "note": "Santos exited Friday's game against the Trail Blazers with a knee injury in the second half and won't return.",
+   "date": "2026-11-28T04:19Z"
+  },
+  {
    "player": "Stephen Curry",
    "team": "Golden State Warriors",
    "status": "Out",
@@ -1280,6 +1299,13 @@
    "status": "Out",
    "note": "Head coach Rick Carlise confirmed Sheppard will miss \"months\" after undergoing surgery to repair a torn meniscus in his left knee, Tony East of Forbes.com reports.",
    "date": "2026-10-28T21:41Z"
+  },
+  {
+   "player": "Yanic Konan Niederhauser",
+   "team": "LA Clippers",
+   "status": "Out",
+   "note": "Niederhauser suffered a right toe injury during Friday's game against the Pelicans and won't return, Joey Linn of SI.com reports.",
+   "date": "2026-11-28T04:17Z"
   },
   {
    "player": "Bradley Beal",
@@ -1520,6 +1546,20 @@
    "date": "2026-10-24T16:47Z"
   },
   {
+   "player": "Joel Embiid",
+   "team": "Philadelphia 76ers",
+   "status": "Out",
+   "note": "Embiid has been ruled out for Saturday's game against the Rockets due to right foot plantar fasciitis management, Kris Rhim of ESPN.com reports.",
+   "date": "2026-11-28T05:48Z"
+  },
+  {
+   "player": "LeBron James",
+   "team": "Philadelphia 76ers",
+   "status": "Out",
+   "note": "James (back injury management) won't be available for Saturday's game against the Rockets, according to Kris Rhim of ESPN.",
+   "date": "2026-11-28T05:46Z"
+  },
+  {
    "player": "Dean Wade",
    "team": "Philadelphia 76ers",
    "status": "Out",
@@ -1697,21 +1737,33 @@
  ],
  "changes": [
   {
-   "player": "Colin Castleton",
-   "team": "Orlando Magic",
-   "from": "Day-To-Day",
-   "to": "Out"
+   "player": "Caleb Martin",
+   "team": "Dallas Mavericks",
+   "from": "nuovo",
+   "to": "Day-To-Day"
   },
   {
-   "player": "Ja'Kobe Walter",
-   "team": "Toronto Raptors",
+   "player": "Gui Santos",
+   "team": "Golden State Warriors",
    "from": "nuovo",
    "to": "Out"
   },
   {
-   "player": "Mo Bamba",
-   "team": "Utah Jazz",
-   "from": "Day-To-Day",
+   "player": "Yanic Konan Niederhauser",
+   "team": "LA Clippers",
+   "from": "nuovo",
+   "to": "Out"
+  },
+  {
+   "player": "Joel Embiid",
+   "team": "Philadelphia 76ers",
+   "from": "nuovo",
+   "to": "Out"
+  },
+  {
+   "player": "LeBron James",
+   "team": "Philadelphia 76ers",
+   "from": "nuovo",
    "to": "Out"
   }
  ]
